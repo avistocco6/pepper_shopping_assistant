@@ -1,0 +1,510 @@
+version: "2.0"
+nlu:
+- intent: affirm
+  examples: |
+    - yes{"entity": "yes_no_answer", "value": "confirm"}
+    - yes{"entity": "yes_no_answer", "value": "confirm"} sure
+    - absolutely{"entity": "yes_no_answer", "value": "confirm"}
+    - for sure{"entity": "yes_no_answer", "value": "confirm"}
+    - yes{"entity": "yes_no_answer", "value": "confirm"} yes{"entity": "yes_no_answer", "value": "confirm"} yes{"entity": "yes_no_answer", "value": "confirm"}
+    - definitely{"entity": "yes_no_answer", "value": "confirm"}
+    - yeah{"entity": "yes_no_answer", "value": "confirm"}
+    - ok{"entity": "yes_no_answer", "value": "confirm"}
+    - okay{"entity": "yes_no_answer", "value": "confirm"}
+- intent: deny
+  examples: |
+    - no{"entity": "yes_no_answer", "value": "deny"}
+    - not today
+    - no{"entity": "yes_no_answer", "value": "deny"} thanks
+    - no{"entity": "yes_no_answer", "value": "deny"} thank you
+    - uh no{"entity": "yes_no_answer", "value": "deny"}
+    - nope{"entity": "yes_no_answer", "value": "deny"}
+    - do you have something else
+    - no{"entity": "yes_no_answer", "value": "deny"} this does not work for me
+- intent: goodbye
+  examples: |
+    - bye
+    - bye!
+    - goodbye
+    - see you later
+    - bye bot
+    - goodbye friend
+    - bye
+    - bye for now
+    - catch you later
+    - gotta go
+    - see you
+    - goodnight
+    - have a nice day
+    - i'm off
+    - see you later alligator
+    - we'll speak soon
+- intent: greet
+  examples: |
+    - hi
+    - hey
+    - hi bot
+    - hey bot
+    - hello
+    - good morning
+    - hi again
+    - hi folks
+    - hi Mister
+    - hi pal!
+    - hi there
+    - greetings
+    - hello everybody
+    - hello is anybody there
+    - hello robot
+- intent: inform
+  examples: |
+    - [confirm](yes_no_answer)
+    - [deny](yes_no_answer)
+    - [yes](yes_no_answer)
+    - [no](yes_no_answer)
+    - [milk](item)
+    - [apple](item)
+    - [pasta](item)
+    - [egg](item)
+    - [eggplant](item)
+    - [salad](item)
+    - [onion](item)
+    - [tomato](item)
+    - [tuna](item)
+    - [crab](item)
+    - [lobster](item)
+    - [mussels](item)
+    - [prawns](item)
+    - [squid](item)
+    - [salmon](item)
+    - [chicken](item)
+    - [beef](item)
+    - [duck](item)
+    - [lamb](item)
+    - [pork](item)
+    - [prosciutto](item)
+    - [ham](item)
+    - [bacon](item)
+    - [pepperoni](item)
+    - [paprika](item)
+    - [curry](item)
+    - [cinnamon](item)
+    - [hamburger](item)
+    - [bread](item)
+    - [nuts](item)
+    - [salt](item)
+    - [pepper](item)
+    - [red pepper](item)
+    - [basil](item)
+    - [cheese](item)
+    - [butter](item)
+    - [jam](item)
+    - [tea](item)
+    - [peanut butter](item)
+    - [yogurt](item)
+    - [beans](item)
+    - [grapes](item)
+    - [green beans](item)
+    - [cherries](item)
+    - [honey](item)
+    - [wine](item)
+    - [water](item)
+    - [sugar](item)
+    - [garlic](item)
+    - [biscuits](item)
+    - [cereal](item)
+    - [pear](item)
+    - [banana](item)
+    - [rice](item)
+    - [avocado](item)
+    - [beetroot](item)
+    - [cabbage](item)
+    - [zucchini](item)
+    - [cucumber](item)
+    - [lemon](item)
+    - [oranges](item)
+    - [orange juice](item)
+    - [mango](item)
+    - [raisins](item)
+    - [melon](item)
+    - [watermelon](item)
+    - [peach](item)
+    - [raspberries](item)
+    - [bell pepper](item)
+    - [lentils](item)
+    - [papaya](item)
+    - [mayonnaise](item)
+    - [ketchup](item)
+    - [pickles](item)
+    - [ice cream](item)
+    - [mustard](item)
+    - [barbeque sauce](item)
+    - [salsa](item)
+    - [extra virgin olive oil](item)
+    - [soup](item)
+    - [pumpkin](item)
+    - [chips](item)
+    - [potatoes](item)
+    - [beer](item)
+    - [french fries](item)
+    - [pizza](item)
+    - [flour](item)
+    - [yeast](item)
+    - [baking soda](item)
+    - [baking powder](item)
+    - [dish soap](item)
+    - [stain remover](item)
+    - [dishwasher detergent tabs](item)
+    - [glass cleaner](item)
+    - [disinfectant cleaner](item)
+    - [paper towels](item)
+    - [toilet paper](item)
+    - [hand soap](item)
+    - [toothpicks](item)
+    - [toothpaste](item)
+    - [dental floss](item)
+    - [mouthwash](item)
+    - [shampoo](item)
+    - [deodorant](item)
+    - [cake](item)
+    - [cupcakes](item)
+    - [meat pie](item)
+    - [apple pie](item)
+    - [crackers](item)
+    - [donuts](item)
+    - [brownies](item)
+    - [whipped cream](item)
+    - [cream cheese](item)
+    - [pizza](item)
+    - [coke](item)
+    - [one](quantity)
+    - [two](quantity)
+    - [three](quantity)
+    - [four](quantity)
+    - [five](quantity)
+    - [six](quantity)
+    - [seven](quantity)
+    - [eight](quantity)
+    - [nine](quantity)
+    - [ten](quantity)
+    - [eleven](quantity)
+    - [twelve](quantity)
+    - a [quarter](quantity)
+    - [half](quantity)
+    - [pint](uom)
+    - [kilogram](uom)
+    - [gram](uom)
+    - [ounce](uom)
+    - [litre](uom)
+    - [pack](uom)
+    - [bottle](uom)
+    - [can](uom)
+    - [jar](uom)
+- intent: insert
+  examples: |
+    - i need [one](quantity) [bottle](uom) of [wine](item)
+    - i need [1]{"entity": "quantity", "value": "one"} [bottles]{"entity": "uom", "value": "bottle"} of [wine](item)
+    - i need [two](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [milk](item)
+    - i need [2]{"entity": "quantity", "value": "two"} [bottles]{"entity": "uom", "value": "bottle"} of [milk](item)
+    - i need [a]{"entity": "quantity", "value": "one"} [pizza](item)
+    - i need [three](quantity) [kilogram](uom) [potatoes](item)
+    - i need [6]{"entity": "quantity", "value": "six"} [bottles]{"entity": "uom", "value": "bottle"} of [water](item)
+    - i need [1]{"entity": "quantity", "value": "one"} [pack](uom) of [dental floss](item)
+    - i need [2]{"entity": "quantity", "value": "two"} [bottles]{"entity": "uom", "value": "bottle"} of [milk](item)
+    - add [10]{"entity": "quantity", "value": "ten"} [cupcakes](item)
+    - add [a]{"entity": "quantity", "value": "one"} [meat pie](item) 
+    - add [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [crackers](item)
+    - add [2]{"entity": "quantity", "value": "two"} [packs]{"entity": "uom", "value": "pack"} of [napkins](item)  
+    - add [a dozen]{"entity": "quantity", "value": "twelve"} [aubergine]{"entity": "item", "value": "eggplant"}
+    - add [11]{"entity": "quantity", "value": "eleven"} [jalapeno](item)  
+    - add [12]{"entity": "quantity", "value": "twelve"} [cupcakes](item) 
+    - add [a]{"entity": "quantity", "value": "one"} [bottle](uom) [mouthwash](item) 
+    - add [two](quantity) [liters]{"entity": "uom", "value": "litre"} of [orange juice](item) 
+    - add [six](quantity) [donuts](item)  
+    - add [4]{"entity": "quantity", "value": "four"} [brownies](item)  
+    - add [a]{"entity": "quantity", "value": "one"} [can](uom) of [tuna](item)  
+    - add [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [whipped cream](item)  
+    - add [couple]{"entity": "quantity", "value": "two"} [deodorant](item) 
+    - add [a couple]{"entity": "quantity", "value": "two"} of [apple pie](item) 
+    - add [two](quantity) [cream cheese](item) 
+    - add [1]{"entity": "quantity", "value": "one"} [jar](uom) of beetroot(item) 
+    - add [donuts](item)
+    - add [marmellade]{"entity": "item", "value": "jam"} [jar](uom)
+    - insert [sugar](item)
+    - insert [cookies]{"entity": "item", "value": "biscuits"}
+    - write down [two](quantity) [apple pie](item)
+    - write down [half dozen]{"entity": "quantity", "value": "six"} [courgette]{"entity": "item", "value": "zucchini"}
+    - write down [one](quantity) [marmellade]{"entity": "item", "value": "jam"} [jar](uom)
+    - write down [2]{"entity": "quantity", "value": "two"} [jars]{"entity": "uom", "value": "jar"} of [red beet]{"entity": "item", "value": "beetroot"}
+    - write down [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [toilet paper](item)
+    - write down [4]{"entity": "quantity", "value": "four"} [packs]{"entity": "uom", "value": "pack"} of [flour](item)
+    - write down [0.25]{"entity": "quantity", "value": "quarter"} [kg]{"entity": "uom", "value": "kilogram"} of [yeast](item)
+    - write down [1/4]{"entity": "quantity", "value": "quarter"} [kilos]{"entity": "uom", "value": "kilogram"} of [baking soda](item)
+    - write down [three](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [dish soap](item)
+    - write down [one](quantity) [pack](uom) of [dishwasher detergent tabs](item)
+    - insert [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [tissues](item)  
+    - insert [twelve](quantity) [oz]{"entity": "uom", "value": "ounce"} of [cake](item)  
+    - insert [five](quantity) [ounce](uom) of [baking powder](item)  
+    - insert [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [stain remover](item)  
+    - insert [two](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [bleach](item)  
+    - insert [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [paper towels](item)  
+    - insert [3]{"entity": "quantity", "value": "three"} [bottle](uom) of [toilet gel](item)  
+    - insert [one](quantity) [carpet cleaner](item)  
+    - can you add [nine](quantity) [coke](item)?
+    - can you add [ten](quantity) [bisquits]{"entity": "item", "value": "biscuits"}?
+    - can you add [a]{"entity": "quantity", "value": "one"} [disinfectant cleaner](item)?
+    - can you please add [a]{"entity": "quantity", "value": "one"} [pack](uom) of [trash bags](item)?
+    - can you please add [one](quantity) [body scrub](item)
+    - can you please add [1]{"entity": "quantity", "value": "one"} [pack](uom) of [beard trimmer](item)
+    - can u add [3]{"entity": "quantity", "value": "three"} [bottle](uom) of [glass cleaner](item)?
+    - can u add [one](quantity) [bottle](uom) of [body scrub](item)?
+    - can u add [a dozen]{"entity": "quantity", "value": "twelve"} [egg](item)
+    - can you pls add [2]{"entity": "quantity", "value": "two"} [pack](uom) of [crackers](item)?
+    - can you pls add [one](quantity) [kg]{"entity": "uom", "value": "kilogram"} of [cookies]{"entity": "item", "value": "biscuits"}?
+    - can you pls add [1/2]{"entity": "quantity", "value": "half"} [watermelon](item)  
+    - can u pls add [one](quantity) [melon](item)?
+    - can u pls add [3]{"entity": "quantity", "value": "three"} [kilos]{"entity": "uom", "value": "kilogram"} of [peach](item)?
+    - can u pls add [two] [disinfectant cleaner](item)  
+    - add [one](quantity) [pack](uom) [raspberries](item)
+    - add [1]{"entity": "quantity", "value": "one"} [papaya](item)
+    - add [6]{"entity": "quantity", "value": "six"} [cans]{"entity": "uom", "value": "can"} of [lentils](item)
+    - add [7]{"entity": "quantity", "value": "seven"} [bell pepper](item)
+    - mark down [two](quantity) [banana](item)
+    - mark down [2]{"entity": "quantity", "value": "two"} [banana](item)
+    - mark [two]{"entity": "quantity", "value": "two"} [banana](item)
+    - mark down [five]{"entity": "quantity", "value": "five"} [biscuits](item) [packs]{"entity": "uom", "value": "pack"}
+    - mark [five]{"entity": "quantity", "value": "five"} [biscuits](item) [packs]{"entity": "uom", "value": "pack"}
+    - mark down [half]{"entity": "quantity", "value": "half"} [kilogram]{"entity": "uom", "value": "kilogram"} of [bread](item)
+    - mark [half]{"entity": "quantity", "value": "half"} [kilogram]{"entity": "uom", "value": "kilogram"} of [bread](item)
+    - [two]{"entity": "quantity", "value": "two"} [egg](item)
+    - [two]{"entity": "quantity", "value": "two"} [packs]{"entity": "uom", "value": "pack"} of [salt](item)
+    - [three]{"entity": "quantity", "value": "three"} [packs]{"entity": "uom", "value": "pack"} of [cereal](item)
+    - [four]{"entity": "quantity", "value": "four"} [packs]{"entity": "uom", "value": "pack"} of [rice](item)
+    - [two]{"entity": "quantity", "value": "two"} [bottle](uom) of [extra virgin olive oil]{"entity": "item", "value": "extra virgin olive oil"}
+- intent: remove
+  examples: |
+    - remove [wine](item)
+    - remove [floss]{"entity": "item", "value": "dental floss"} 
+    - remove [sugar](item)
+    - remove the [water](item)
+    - remove the [chocolate]{"entity": "item", "value": "dental floss"} 
+    - remove the [spinach](item)
+    - can you please remove [courgette]{"entity": "item", "value": "zucchini"}?
+    - can you please remove [chips](item)?
+    - can you please remove [pepper](item)? 
+    - delete [mayo]{"entity": "item", "value": "mayonnaise"} 
+    - delete [jalapeno]{"entity": "item", "value": "red pepper"} 
+    - delete [salt](item)
+    - delete the [bread](item) 
+    - delete the [meat]](item)
+    - delete the [mango](item)
+    - can you delete [french fries](item)?
+    - can you delete [ketchup](item)?
+    - can you delete [tomatoes](item)?
+    - can you delete the [apple](item)?
+    - can you delete the [cherry](item)?
+    - can you delete the [strawberry](item)?
+    - can you please delete [raisins](item)?
+    - can you please delete [curry](item)?
+    - can you please delete the [pineapple](item)?
+    - can you please delete the [hamburger](item)?
+- intent: show
+  examples: |
+    - let me see what you listed
+    - let me check
+    - let's check
+    - lets check it
+    - lets check
+    - show me
+    - show
+    - please show me
+    - open sesame
+    - revelio
+- intent: empty
+  examples: |
+    - empty the list
+    - empty my list
+    - empty list
+    - empty
+    - please empty my list
+    - please empty the list
+    - please empty list
+    - pls empty list
+    - pls empty the list
+    - can you empty my list?
+    - can you please empty the list? 
+- intent: thankyou
+  examples: |
+    - thanks
+    - thank you
+    - thank you so much
+    - thanks bot
+    - thanks for that
+    - cheers
+    - cheers bro
+    - ok thanks!
+    - perfect thank you
+    - thanks a bunch for everything
+    - thanks for the help
+    - thanks a lot
+    - amazing, thanks
+    - cool, thanks
+    - cool thank you
+    - perfect
+    - good
+
+- synonym: extra virgin olive oil 
+  examples: |
+    - olive oil
+    - virgin olive oil  
+- synonym: eggplant 
+  examples: |
+    - aubergine
+- synonym: zucchini 
+  examples: |
+    - courgette
+- synonym: red pepper 
+  examples: |
+    - chili 
+    - chili pepper
+    - hot pepper 
+    - jalapeno
+- synonym: mayonnaise 
+  examples: |
+    - mayo
+- synonym: beetroot 
+  examples: |
+    - red beet
+    - beet
+    - table beet
+- synonym: jam 
+  examples: |
+    - conserve
+    - marmalade
+- synonym: pepper
+  examples: |
+    - black pepper
+- synonym: dental floss
+  examples: |
+    - floss
+- synonym: biscuits
+  examples: |
+    - cookies
+    - pastries
+    - cooky
+    - bisquits
+- synonym: ice cream
+  examples: |
+    - icecream
+    - ice-cream
+    - sundae
+    - gelato 
+- synonym: kilogram 
+  examples: |
+    - kilograms
+    - kg
+    - kilos
+    - kilo
+- synonym: gram  
+  examples: |
+    - grams
+    - g
+- synonym: ounce
+  examples: |
+    - ounces
+    - oz
+- synonym: litre
+  examples: |
+    - litres
+    - l
+    - liter
+    - liters
+- synonym: pack
+  examples: |
+    - packs
+- synonym: bottle
+  examples: |
+    - bottles
+- synonym: can
+  examples: |
+    - cans
+- synonym: jar
+  examples: |
+    - jars
+- synonym: one
+  examples: |
+    - 1
+    - a
+    - an
+- synonym: two
+  examples: |
+    - 2
+    - couple
+    - a couple
+- synonym: three
+  examples: |
+    - 3
+- synonym: four
+  examples: |
+    - 4
+- synonym: five
+  examples: |
+    - 5
+- synonym: six
+  examples: |
+    - 6
+    - half dozen
+- synonym: seven
+  examples: |
+    - 7
+- synonym: eight
+  examples: |
+    - 8
+- synonym: nine
+  examples: |
+    - 9
+- synonym: ten
+  examples: |
+    - 10
+- synonym: eleven
+  examples: |
+    - 11
+- synonym: twelve
+  examples: |
+    - 12
+    - dozen
+    - a dozen
+- synonym: half
+  examples: |
+    - 1/2
+    - 0.5
+- synonym: quarter
+  examples: |
+    - 1/4
+    - 0.25
+- synonym: confirm
+  examples: |
+    - yes
+    - yup
+    - yep
+    - do it
+    - sure
+    - as you want
+    - do
+    - ya
+    - si
+    - y
+    - ok
+    - okay
+- synonym: deny
+  examples: |
+    - no
+    - nope
+    - i don't want
+    - noo
+    - never
+    - don't do it
+    - nah
+    - n
+
+    

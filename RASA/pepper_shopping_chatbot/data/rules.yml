@@ -1,0 +1,104 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Reply every time the user says thankyou
+  steps:
+  - intent: thankyou
+  - action: utter_noworries
+
+- rule: Ask the user to rephrase in case of low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
+
+# ------------------ FORMS ------------------------------
+
+# START - Add to listcondition:
+- rule: Activate form
+  steps:
+  - intent: insert
+  - action: insert_form
+  - active_loop: insert_form
+
+- rule: Submit form
+  condition:
+  - active_loop: insert_form
+  steps:
+  - action: insert_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_submit_insert
+# END - Add to list
+
+# START - Remove to list
+- rule: Activate form
+  steps:
+  - intent: remove
+  - action: remove_form
+  - active_loop: remove_form
+
+- rule: Submit form
+  condition:
+  - active_loop: remove_form
+  steps:
+  - action: remove_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_submit_remove
+# END - Remove to list
+
+# START - Show list
+- rule: Activate form
+  steps:
+  - intent: show
+  - action: show_form
+  - active_loop: show_form
+
+- rule: Submit form
+  condition:
+  - active_loop: show_form
+  steps:
+  - action: show_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_submit_show
+# END - Show list
+
+# START - Empty list
+- rule: Activate form
+  steps:
+  - intent: empty
+  - action: empty_form
+  - active_loop: empty_form
+
+- rule: Submit form
+  condition:
+  - active_loop: empty_form
+  steps:
+  - action: empty_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_submit_empty
+# END - Empty list
+
+# START - yes/no answer
+- rule: Submit form
+  condition:
+  - active_loop: enforce_yes_no_form
+  steps:
+  - action: enforce_yes_no_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_submit_yes_no
+# END - yes/no answer
