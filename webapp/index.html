@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+
+<body>
+    <div class="list-container">
+        <div class="header">
+            <h3 class="heading">Shopping List</h3>
+            <h5 class="action">Remove all</h5>
+        </div>
+
+        <table class="list">
+            <thead>
+                <template>
+                    <tr class="list-item-template">
+                        <td class="item">
+                            <h1 class="name">{Name}</h1>
+                            <h3 class="uom">{UOM}</h3>
+                        </td>
+                        <td class="counter">
+                            <div class="btn, plus">+</div>
+                            <div class="quantity">{Quantity}</div>
+                            <div class="btn, minus">-</div>
+                        </td>
+                        <td class="remove">
+                            <u>Remove</u>
+                        </td>
+                    </tr>
+                </template>
+            </thead>
+            <tbody>
+                <tr class="list-item">
+                    <td class="item">
+                        <h1 class="name">Apple Juice</h1>
+                        <h3 class="uom">250ml</h3>
+                    </td>
+                    <td class="counter">
+                        <div class="plus">+</div>
+                        <div class="quantity">2</div>
+                        <div class="minus">-</div>
+                    </td>
+                    <td class="remove">
+                        <u>Remove</u>
+                    </td>
+                </tr>
+                <tr class="list-item">
+                    <td class="item">
+                        <h1 class="name">Banana</h1>
+                        <h3 class="uom"></h3>
+                    </td>
+                    <td class="counter">
+                        <div class="plus">+</div>
+                        <div class="quantity">3</div>
+                        <div class="minus">-</div>
+                    </td>
+                    <td class="remove">
+                        <u>Remove</u>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
