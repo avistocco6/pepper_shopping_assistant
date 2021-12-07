@@ -1,0 +1,6 @@
+devel_space: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel
+install: false
+install_space: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/install
+profile: default
+source_space: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src
+workspace: /home/alfonso/Desktop/pepper_shopping_assistant/ROS

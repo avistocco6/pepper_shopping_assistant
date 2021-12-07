@@ -1,0 +1,8 @@
+prefix=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install
+
+Name: audio_recording
+Description: Description of audio_recording
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

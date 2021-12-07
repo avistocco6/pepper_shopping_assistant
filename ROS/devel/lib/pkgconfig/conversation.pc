@@ -1,0 +1,1 @@
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/lib/pkgconfig/conversation.pc

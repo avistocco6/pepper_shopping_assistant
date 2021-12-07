@@ -1,0 +1,5 @@
+pepper_interface
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/cmake.lock /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/./cmake.lock
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/share/pepper_interface/cmake/pepper_interfaceConfig.cmake /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/pepper_interface/cmake/pepper_interfaceConfig.cmake
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/share/pepper_interface/cmake/pepper_interfaceConfig-version.cmake /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/pepper_interface/cmake/pepper_interfaceConfig-version.cmake
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/lib/pkgconfig/pepper_interface.pc /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/pepper_interface.pc

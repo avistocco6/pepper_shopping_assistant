@@ -1,0 +1,8 @@
+prefix=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install
+
+Name: speech
+Description: Description of speech
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
