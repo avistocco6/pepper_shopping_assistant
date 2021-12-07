@@ -1,12 +1,18 @@
 #!/usr/bin/python
-from srv import *
-import rospy
 from std_msgs.msg import String
+from srv import *
+
+import threading
+import rospy
+import ctypes
+import time
 
 class PepperController:
 
     def __init__(self):
-        pass
+        self.stop_rest_thread = True
+        self.pepper_waked_up = False
+        self.running_rest_thread = None
 
     def pepper_wake_up():
         """Invokes wakeup service"""
@@ -64,11 +70,26 @@ class PepperController:
         request = splitted[0]
         parameter = splitted[1]
 
-        if request == 1:
+        # Wake up pepper if not yet waked up
+        if not self.pepper_waked_up:
             result = self.pepper_wake_up()
-        elif request == 2:
-            result = self.pepper_rest()
-        elif request == 3:
+            if result != "ACK":
+                # Error
+                return result
+            self.pepper_waked_up = True
+
+        # Check if there are running threads
+        if self.running_rest_thread is not None:
+            self.stop_rest_thread = True
+            self.running_rest_thread.join()
+
+        # Rest pepper if he doesn't receive a request for 1 min
+        self.stop_rest_thread = False
+        self.running_rest_thread = threading.Thread(target = rest_after_60sec,
+                            args = (lambda: self.stop_rest, time.time()))
+        self.running_rest_thread.start()
+
+        if request == 3:
             result = self.pepper_text2speech(parameter)
         elif request == 4:
             result = self.pepper_load_url(parameter)
@@ -85,6 +106,18 @@ class PepperController:
         rospy.spin()
         
 
+def rest_after_60sec(stop, start_time):
+    while True:
+        time.sleep(1)
+
+        actual_time = time.time()
+
+        if stop() or actual_time-start_time >= 60:
+            break
+
 if __name__ == "__main__":
-    node = PepperController()
-    node.start()
+    try:
+        node = PepperController()
+        node.start()
+    except rospy.ROSInterruptException:
+        pass
