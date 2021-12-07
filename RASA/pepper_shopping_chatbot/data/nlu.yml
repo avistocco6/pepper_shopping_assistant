@@ -202,85 +202,85 @@ nlu:
     - [jar](uom)
 - intent: insert
   examples: |
-    - i need [one](quantity) [bottle](uom) of [wine](item)
-    - i need [1]{"entity": "quantity", "value": "one"} [bottles]{"entity": "uom", "value": "bottle"} of [wine](item)
-    - i need [two](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [milk](item)
-    - i need [2]{"entity": "quantity", "value": "two"} [bottles]{"entity": "uom", "value": "bottle"} of [milk](item)
-    - i need [a]{"entity": "quantity", "value": "one"} [pizza](item)
-    - i need [three](quantity) [kilogram](uom) [potatoes](item)
-    - i need [6]{"entity": "quantity", "value": "six"} [bottles]{"entity": "uom", "value": "bottle"} of [water](item)
-    - i need [1]{"entity": "quantity", "value": "one"} [pack](uom) of [dental floss](item)
-    - i need [2]{"entity": "quantity", "value": "two"} [bottles]{"entity": "uom", "value": "bottle"} of [milk](item)
-    - add [10]{"entity": "quantity", "value": "ten"} [cupcakes](item)
-    - add [a]{"entity": "quantity", "value": "one"} [meat pie](item) 
-    - add [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [crackers](item)
-    - add [2]{"entity": "quantity", "value": "two"} [packs]{"entity": "uom", "value": "pack"} of [napkins](item)  
-    - add [a dozen]{"entity": "quantity", "value": "twelve"} [aubergine]{"entity": "item", "value": "eggplant"}
-    - add [11]{"entity": "quantity", "value": "eleven"} [jalapeno](item)  
-    - add [12]{"entity": "quantity", "value": "twelve"} [cupcakes](item) 
-    - add [a]{"entity": "quantity", "value": "one"} [bottle](uom) [mouthwash](item) 
-    - add [two](quantity) [liters]{"entity": "uom", "value": "litre"} of [orange juice](item) 
-    - add [six](quantity) [donuts](item)  
-    - add [4]{"entity": "quantity", "value": "four"} [brownies](item)  
-    - add [a]{"entity": "quantity", "value": "one"} [can](uom) of [tuna](item)  
-    - add [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [whipped cream](item)  
-    - add [couple]{"entity": "quantity", "value": "two"} [deodorant](item) 
-    - add [a couple]{"entity": "quantity", "value": "two"} of [apple pie](item) 
-    - add [two](quantity) [cream cheese](item) 
-    - add [1]{"entity": "quantity", "value": "one"} [jar](uom) of beetroot(item) 
+    - i need [1](quantity) [bottle](uom) of [wine](item)
+    - i need [one]{"entity": "quantity", "value": "1"} [bottles]{"entity": "uom", "value": "bottle"} of [wine](item)
+    - i need [2](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [milk](item)
+    - i need [two]{"entity": "quantity", "value": "2"} [bottles]{"entity": "uom", "value": "bottle"} of [milk](item)
+    - i need [a]{"entity": "quantity", "value": "1"} [pizza](item)
+    - i need [3](quantity) [kilogram](uom) [potatoes](item)
+    - i need [6](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [water](item)
+    - i need [one]{"entity": "quantity", "value": "1"} [pack](uom) of [dental floss](item)
+    - i need [two]{"entity": "quantity", "value": "2"} [bottles]{"entity": "uom", "value": "bottle"} of [milk](item)
+    - add [ten]{"entity": "quantity", "value": "10"} [cupcakes](item)
+    - add [a]{"entity": "quantity", "value": "1"} [meat pie](item) 
+    - add [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [crackers](item)
+    - add [two]{"entity": "quantity", "value": "2"} [packs]{"entity": "uom", "value": "pack"} of [napkins](item)  
+    - add [a dozen]{"entity": "quantity", "value": "12"} [aubergine]{"entity": "item", "value": "eggplant"}
+    - add [eleven]{"entity": "quantity", "value": "11"} [jalapeno](item)  
+    - add [twelve]{"entity": "quantity", "value": "12"} [cupcakes](item) 
+    - add [a]{"entity": "quantity", "value": "1"} [bottle](uom) [mouthwash](item) 
+    - add [2](quantity) [liters]{"entity": "uom", "value": "litre"} of [orange juice](item) 
+    - add [6](quantity) [donuts](item)  
+    - add [four]{"entity": "quantity", "value": "4"} [brownies](item)  
+    - add [a]{"entity": "quantity", "value": "1"} [can](uom) of [tuna](item)  
+    - add [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [whipped cream](item)  
+    - add [couple]{"entity": "quantity", "value": "2"} [deodorant](item) 
+    - add [a couple]{"entity": "quantity", "value": "2"} of [apple pie](item) 
+    - add [2](quantity) [cream cheese](item) 
+    - add [one]{"entity": "quantity", "value": "1"} [jar](uom) of beetroot(item) 
     - add [donuts](item)
     - add [marmellade]{"entity": "item", "value": "jam"} [jar](uom)
     - insert [sugar](item)
     - insert [cookies]{"entity": "item", "value": "biscuits"}
-    - write down [two](quantity) [apple pie](item)
-    - write down [half dozen]{"entity": "quantity", "value": "six"} [courgette]{"entity": "item", "value": "zucchini"}
-    - write down [one](quantity) [marmellade]{"entity": "item", "value": "jam"} [jar](uom)
-    - write down [2]{"entity": "quantity", "value": "two"} [jars]{"entity": "uom", "value": "jar"} of [red beet]{"entity": "item", "value": "beetroot"}
-    - write down [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [toilet paper](item)
-    - write down [4]{"entity": "quantity", "value": "four"} [packs]{"entity": "uom", "value": "pack"} of [flour](item)
-    - write down [0.25]{"entity": "quantity", "value": "quarter"} [kg]{"entity": "uom", "value": "kilogram"} of [yeast](item)
-    - write down [1/4]{"entity": "quantity", "value": "quarter"} [kilos]{"entity": "uom", "value": "kilogram"} of [baking soda](item)
-    - write down [three](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [dish soap](item)
-    - write down [one](quantity) [pack](uom) of [dishwasher detergent tabs](item)
-    - insert [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [tissues](item)  
-    - insert [twelve](quantity) [oz]{"entity": "uom", "value": "ounce"} of [cake](item)  
-    - insert [five](quantity) [ounce](uom) of [baking powder](item)  
-    - insert [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [stain remover](item)  
-    - insert [two](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [bleach](item)  
-    - insert [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [paper towels](item)  
-    - insert [3]{"entity": "quantity", "value": "three"} [bottle](uom) of [toilet gel](item)  
-    - insert [one](quantity) [carpet cleaner](item)  
-    - can you add [nine](quantity) [coke](item)?
-    - can you add [ten](quantity) [bisquits]{"entity": "item", "value": "biscuits"}?
-    - can you add [a]{"entity": "quantity", "value": "one"} [disinfectant cleaner](item)?
-    - can you please add [a]{"entity": "quantity", "value": "one"} [pack](uom) of [trash bags](item)?
-    - can you please add [one](quantity) [body scrub](item)
-    - can you please add [1]{"entity": "quantity", "value": "one"} [pack](uom) of [beard trimmer](item)
-    - can u add [3]{"entity": "quantity", "value": "three"} [bottle](uom) of [glass cleaner](item)?
-    - can u add [one](quantity) [bottle](uom) of [body scrub](item)?
-    - can u add [a dozen]{"entity": "quantity", "value": "twelve"} [egg](item)
-    - can you pls add [2]{"entity": "quantity", "value": "two"} [pack](uom) of [crackers](item)?
-    - can you pls add [one](quantity) [kg]{"entity": "uom", "value": "kilogram"} of [cookies]{"entity": "item", "value": "biscuits"}?
-    - can you pls add [1/2]{"entity": "quantity", "value": "half"} [watermelon](item)  
-    - can u pls add [one](quantity) [melon](item)?
-    - can u pls add [3]{"entity": "quantity", "value": "three"} [kilos]{"entity": "uom", "value": "kilogram"} of [peach](item)?
-    - can u pls add [two] [disinfectant cleaner](item)  
-    - add [one](quantity) [pack](uom) [raspberries](item)
-    - add [1]{"entity": "quantity", "value": "one"} [papaya](item)
-    - add [6]{"entity": "quantity", "value": "six"} [cans]{"entity": "uom", "value": "can"} of [lentils](item)
-    - add [7]{"entity": "quantity", "value": "seven"} [bell pepper](item)
-    - mark down [two](quantity) [banana](item)
-    - mark down [2]{"entity": "quantity", "value": "two"} [banana](item)
-    - mark [two]{"entity": "quantity", "value": "two"} [banana](item)
-    - mark down [five]{"entity": "quantity", "value": "five"} [biscuits](item) [packs]{"entity": "uom", "value": "pack"}
-    - mark [five]{"entity": "quantity", "value": "five"} [biscuits](item) [packs]{"entity": "uom", "value": "pack"}
-    - mark down [half]{"entity": "quantity", "value": "half"} [kilogram]{"entity": "uom", "value": "kilogram"} of [bread](item)
-    - mark [half]{"entity": "quantity", "value": "half"} [kilogram]{"entity": "uom", "value": "kilogram"} of [bread](item)
-    - [two]{"entity": "quantity", "value": "two"} [egg](item)
-    - [two]{"entity": "quantity", "value": "two"} [packs]{"entity": "uom", "value": "pack"} of [salt](item)
-    - [three]{"entity": "quantity", "value": "three"} [packs]{"entity": "uom", "value": "pack"} of [cereal](item)
-    - [four]{"entity": "quantity", "value": "four"} [packs]{"entity": "uom", "value": "pack"} of [rice](item)
-    - [two]{"entity": "quantity", "value": "two"} [bottle](uom) of [extra virgin olive oil]{"entity": "item", "value": "extra virgin olive oil"}
+    - write down [2](quantity) [apple pie](item)
+    - write down [half dozen]{"entity": "quantity", "value": "6"} [courgette]{"entity": "item", "value": "zucchini"}
+    - write down [1](quantity) [marmellade]{"entity": "item", "value": "jam"} [jar](uom)
+    - write down [two]{"entity": "quantity", "value": "2"} [jars]{"entity": "uom", "value": "jar"} of [red beet]{"entity": "item", "value": "beetroot"}
+    - write down [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [toilet paper](item)
+    - write down [four]{"entity": "quantity", "value": "4"} [packs]{"entity": "uom", "value": "pack"} of [flour](item)
+    - write down a [quarter]{"entity": "quantity", "value": "0.25"} [kg]{"entity": "uom", "value": "kilogram"} of [yeast](item)
+    - write down [1/4]{"entity": "quantity", "value": "0.25"} [kilos]{"entity": "uom", "value": "kilogram"} of [baking soda](item)
+    - write down [3](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [dish soap](item)
+    - write down [1](quantity) [pack](uom) of [dishwasher detergent tabs](item)
+    - insert [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [tissues](item)  
+    - insert [12](quantity) [oz]{"entity": "uom", "value": "ounce"} of [cake](item)  
+    - insert [5](quantity) [ounce](uom) of [baking powder](item)  
+    - insert [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [stain remover](item)  
+    - insert [2](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [bleach](item)  
+    - insert [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [paper towels](item)  
+    - insert [three]{"entity": "quantity", "value": "3"} [bottle](uom) of [toilet gel](item)  
+    - insert [1](quantity) [carpet cleaner](item)  
+    - can you add [9](quantity) [coke](item)?
+    - can you add [10](quantity) [bisquits]{"entity": "item", "value": "biscuits"}?
+    - can you add [a]{"entity": "quantity", "value": "1"} [disinfectant cleaner](item)?
+    - can you please add [a]{"entity": "quantity", "value": "1"} [pack](uom) of [trash bags](item)?
+    - can you please add [1](quantity) [body scrub](item)
+    - can you please add [one]{"entity": "quantity", "value": "1"} [pack](uom) of [beard trimmer](item)
+    - can u add [three]{"entity": "quantity", "value": "three"} [bottle](uom) of [glass cleaner](item)?
+    - can u add [1](quantity) [bottle](uom) of [body scrub](item)?
+    - can u add [a dozen]{"entity": "quantity", "value": "12"} [egg](item)
+    - can you pls add [two]{"entity": "quantity", "value": "2"} [pack](uom) of [crackers](item)?
+    - can you pls add [1](quantity) [kg]{"entity": "uom", "value": "kilogram"} of [cookies]{"entity": "item", "value": "biscuits"}?
+    - can you pls add [1/2]{"entity": "quantity", "value": "0.5"} [watermelon](item)  
+    - can u pls add [1](quantity) [melon](item)?
+    - can u pls add [three]{"entity": "quantity", "value": "3"} [kilos]{"entity": "uom", "value": "kilogram"} of [peach](item)?
+    - can u pls add [2] [disinfectant cleaner](item)  
+    - add [1](quantity) [pack](uom) [raspberries](item)
+    - add [one]{"entity": "quantity", "value": "1"} [papaya](item)
+    - add [six]{"entity": "quantity", "value": "6"} [cans]{"entity": "uom", "value": "can"} of [lentils](item)
+    - add [seven]{"entity": "quantity", "value": "7"} [bell pepper](item)
+    - mark down [2](quantity) [banana](item)
+    - mark down [two]{"entity": "quantity", "value": "2"} [banana](item)
+    - mark [2]{"entity": "quantity", "value": "2"} [banana](item)
+    - mark down [5]{"entity": "quantity", "value": "5"} [biscuits](item) [packs]{"entity": "uom", "value": "pack"}
+    - mark [5]{"entity": "quantity", "value": "5"} [biscuits](item) [packs]{"entity": "uom", "value": "pack"}
+    - mark down [0.5]{"entity": "quantity", "value": "0.5"} [kilogram]{"entity": "uom", "value": "kilogram"} of [bread](item)
+    - mark [0.5]{"entity": "quantity", "value": "0.5"} [kilogram]{"entity": "uom", "value": "kilogram"} of [bread](item)
+    - [2]{"entity": "quantity", "value": "2"} [egg](item)
+    - [2]{"entity": "quantity", "value": "2"} [packs]{"entity": "uom", "value": "pack"} of [salt](item)
+    - [3]{"entity": "quantity", "value": "3"} [packs]{"entity": "uom", "value": "pack"} of [cereal](item)
+    - [4]{"entity": "quantity", "value": "4"} [packs]{"entity": "uom", "value": "pack"} of [rice](item)
+    - [2]{"entity": "quantity", "value": "2"} [bottle](uom) of [extra virgin olive oil]{"entity": "item", "value": "extra virgin olive oil"}
 - intent: remove
   examples: |
     - remove [wine](item)
@@ -431,57 +431,57 @@ nlu:
 - synonym: jar
   examples: |
     - jars
-- synonym: one
+- synonym: "1"
   examples: |
-    - 1
+    - one
     - a
     - an
-- synonym: two
+- synonym: "2"
   examples: |
-    - 2
+    - two
     - couple
     - a couple
-- synonym: three
+- synonym: "3"
   examples: |
-    - 3
-- synonym: four
+    - three
+- synonym: "4"
   examples: |
-    - 4
-- synonym: five
+    - four
+- synonym: "5"
   examples: |
-    - 5
-- synonym: six
+    - five
+- synonym: "6"
   examples: |
-    - 6
+    - six
     - half dozen
-- synonym: seven
+- synonym: "7"
   examples: |
-    - 7
-- synonym: eight
+    - seven
+- synonym: "8"
   examples: |
-    - 8
-- synonym: nine
+    - eight
+- synonym: "9"
   examples: |
-    - 9
-- synonym: ten
+    - nine
+- synonym: "10"
   examples: |
-    - 10
-- synonym: eleven
+    - ten
+- synonym: "11"
   examples: |
-    - 11
-- synonym: twelve
+    - eleven
+- synonym: "12"
   examples: |
-    - 12
+    - twelve
     - dozen
     - a dozen
-- synonym: half
+- synonym: "0.5"
   examples: |
+    - half
     - 1/2
-    - 0.5
-- synonym: quarter
+- synonym: "0.25"
   examples: |
     - 1/4
-    - 0.25
+    - quarter
 - synonym: confirm
   examples: |
     - yes
