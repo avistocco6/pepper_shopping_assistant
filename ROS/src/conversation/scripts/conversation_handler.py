@@ -18,15 +18,14 @@ class ChatbotInterface:
     def handle_answer(self, answer):
         """
         Handles the answer of the bot
-        data: the answer
+        answer: the answer
         """
-        pepper_request = str() + "~" + str()
         self.send_pepper_request(str(answer.request), str(answer.text))
 
 
     def callback(self, data):    
-        rospy.wait_for_service('chatbot/dialogue_service')
-        dialogue_service = rospy.ServiceProxy('chatbot/dialogue_service', Dialogue)
+        rospy.wait_for_service('dialogue')
+        dialogue = rospy.ServiceProxy('dialogue', Dialogue)
 
         while not rospy.is_shutdown():
             # Unpacking user and message information according to the protocol
@@ -37,7 +36,7 @@ class ChatbotInterface:
             if message == 'exit': 
                 break
             try:
-                answer = dialogue_service(self.current_user, message)
+                answer = dialogue(self.current_user, message)
             except rospy.ServiceException as e:
                 print("Service call failed: %s"%e)
 

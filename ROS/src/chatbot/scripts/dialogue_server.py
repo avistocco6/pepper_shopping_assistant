@@ -39,8 +39,7 @@ def main():
     rospy.init_node('dialogue_server')
 
     # Service Initialization
-    s = rospy.Service('dialogue_server',
-                        Dialogue, handle_service)
+    s = rospy.Service('dialogue', Dialogue, handle_service)
 
     # Start of the work
     rospy.logdebug('Dialogue server READY.')
