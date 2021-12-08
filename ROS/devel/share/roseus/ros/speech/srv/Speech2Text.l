@@ -1,0 +1,1 @@
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l

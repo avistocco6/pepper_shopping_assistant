@@ -1,0 +1,12 @@
+[31m[1mCMake Error[0m at /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/cmake/speech-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv'
+  depends on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [Int16MultiArray]: unknown package [speech] on search
+  path [{{'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg']}}]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:71 (generate_messages)
+
+
