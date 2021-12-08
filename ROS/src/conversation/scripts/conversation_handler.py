@@ -29,12 +29,15 @@ class ChatbotInterface:
         dialogue_service = rospy.ServiceProxy('chatbot/dialogue_service', Dialogue)
 
         while not rospy.is_shutdown():
-            message = data.data
+            # Unpacking user and message information according to the protocol
+            self.current_user = data.data.split("~")[0]
+            message = data.data.split("~")[1]
 
+            # Service request
             if message == 'exit': 
                 break
             try:
-                answer = dialogue_service(message)
+                answer = dialogue_service(self.current_user, message)
             except rospy.ServiceException as e:
                 print("Service call failed: %s"%e)
 
