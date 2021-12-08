@@ -11,6 +11,7 @@ nlu:
     - yeah{"entity": "yes_no_answer", "value": "confirm"}
     - ok{"entity": "yes_no_answer", "value": "confirm"}
     - okay{"entity": "yes_no_answer", "value": "confirm"}
+    - y{"entity": "yes_no_answer", "value": "confirm"}
 - intent: deny
   examples: |
     - no{"entity": "yes_no_answer", "value": "deny"}
@@ -20,7 +21,8 @@ nlu:
     - uh no{"entity": "yes_no_answer", "value": "deny"}
     - nope{"entity": "yes_no_answer", "value": "deny"}
     - do you have something else
-    - no{"entity": "yes_no_answer", "value": "deny"} this does not work for me
+    - no{"entity": "yes_no_answer", "value": "deny"} this does not work for me	
+    - n{"entity": "yes_no_answer", "value": "deny"}
 - intent: goodbye
   examples: |
     - bye
