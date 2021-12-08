@@ -60,34 +60,164 @@ CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatb
 CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot
 
 #=============================================================================
-# Target rules for target CMakeFiles/clean_test_results.dir
+# Target rules for target CMakeFiles/chatbot_genpy.dir
 
 # All Build rule for target.
-CMakeFiles/clean_test_results.dir/all:
-	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/depend
-	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num= "Built target clean_test_results"
-.PHONY : CMakeFiles/clean_test_results.dir/all
+CMakeFiles/chatbot_genpy.dir/all: CMakeFiles/chatbot_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/chatbot_genpy.dir/build.make CMakeFiles/chatbot_genpy.dir/depend
+	$(MAKE) -f CMakeFiles/chatbot_genpy.dir/build.make CMakeFiles/chatbot_genpy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num= "Built target chatbot_genpy"
+.PHONY : CMakeFiles/chatbot_genpy.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/clean_test_results.dir/rule: cmake_check_build_system
+CMakeFiles/chatbot_genpy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chatbot_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
-.PHONY : CMakeFiles/clean_test_results.dir/rule
+.PHONY : CMakeFiles/chatbot_genpy.dir/rule
 
 # Convenience name for target.
-clean_test_results: CMakeFiles/clean_test_results.dir/rule
+chatbot_genpy: CMakeFiles/chatbot_genpy.dir/rule
 
-.PHONY : clean_test_results
-
-# clean rule for target.
-CMakeFiles/clean_test_results.dir/clean:
-	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/clean
-.PHONY : CMakeFiles/clean_test_results.dir/clean
+.PHONY : chatbot_genpy
 
 # clean rule for target.
-clean: CMakeFiles/clean_test_results.dir/clean
+CMakeFiles/chatbot_genpy.dir/clean:
+	$(MAKE) -f CMakeFiles/chatbot_genpy.dir/build.make CMakeFiles/chatbot_genpy.dir/clean
+.PHONY : CMakeFiles/chatbot_genpy.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chatbot_genpy.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/chatbot_generate_messages_py.dir
+
+# All Build rule for target.
+CMakeFiles/chatbot_generate_messages_py.dir/all: CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/all
+CMakeFiles/chatbot_generate_messages_py.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_py.dir/build.make CMakeFiles/chatbot_generate_messages_py.dir/depend
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_py.dir/build.make CMakeFiles/chatbot_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=6,7 "Built target chatbot_generate_messages_py"
+.PHONY : CMakeFiles/chatbot_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/chatbot_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chatbot_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+.PHONY : CMakeFiles/chatbot_generate_messages_py.dir/rule
+
+# Convenience name for target.
+chatbot_generate_messages_py: CMakeFiles/chatbot_generate_messages_py.dir/rule
+
+.PHONY : chatbot_generate_messages_py
+
+# clean rule for target.
+CMakeFiles/chatbot_generate_messages_py.dir/clean:
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_py.dir/build.make CMakeFiles/chatbot_generate_messages_py.dir/clean
+.PHONY : CMakeFiles/chatbot_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chatbot_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/chatbot_gennodejs.dir
+
+# All Build rule for target.
+CMakeFiles/chatbot_gennodejs.dir/all: CMakeFiles/chatbot_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/chatbot_gennodejs.dir/build.make CMakeFiles/chatbot_gennodejs.dir/depend
+	$(MAKE) -f CMakeFiles/chatbot_gennodejs.dir/build.make CMakeFiles/chatbot_gennodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num= "Built target chatbot_gennodejs"
+.PHONY : CMakeFiles/chatbot_gennodejs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/chatbot_gennodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chatbot_gennodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+.PHONY : CMakeFiles/chatbot_gennodejs.dir/rule
+
+# Convenience name for target.
+chatbot_gennodejs: CMakeFiles/chatbot_gennodejs.dir/rule
+
+.PHONY : chatbot_gennodejs
+
+# clean rule for target.
+CMakeFiles/chatbot_gennodejs.dir/clean:
+	$(MAKE) -f CMakeFiles/chatbot_gennodejs.dir/build.make CMakeFiles/chatbot_gennodejs.dir/clean
+.PHONY : CMakeFiles/chatbot_gennodejs.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chatbot_gennodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/chatbot_generate_messages_nodejs.dir
+
+# All Build rule for target.
+CMakeFiles/chatbot_generate_messages_nodejs.dir/all: CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/all
+CMakeFiles/chatbot_generate_messages_nodejs.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_nodejs.dir/build.make CMakeFiles/chatbot_generate_messages_nodejs.dir/depend
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_nodejs.dir/build.make CMakeFiles/chatbot_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=5 "Built target chatbot_generate_messages_nodejs"
+.PHONY : CMakeFiles/chatbot_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/chatbot_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chatbot_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+.PHONY : CMakeFiles/chatbot_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+chatbot_generate_messages_nodejs: CMakeFiles/chatbot_generate_messages_nodejs.dir/rule
+
+.PHONY : chatbot_generate_messages_nodejs
+
+# clean rule for target.
+CMakeFiles/chatbot_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_nodejs.dir/build.make CMakeFiles/chatbot_generate_messages_nodejs.dir/clean
+.PHONY : CMakeFiles/chatbot_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chatbot_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/doxygen.dir
+
+# All Build rule for target.
+CMakeFiles/doxygen.dir/all:
+	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
+	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num= "Built target doxygen"
+.PHONY : CMakeFiles/doxygen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/doxygen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+.PHONY : CMakeFiles/doxygen.dir/rule
+
+# Convenience name for target.
+doxygen: CMakeFiles/doxygen.dir/rule
+
+.PHONY : doxygen
+
+# clean rule for target.
+CMakeFiles/doxygen.dir/clean:
+	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/clean
+.PHONY : CMakeFiles/doxygen.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/doxygen.dir/clean
 
 .PHONY : clean
 
@@ -188,34 +318,35 @@ clean: CMakeFiles/download_extra_data.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/std_msgs_generate_messages_eus.dir
+# Target rules for target CMakeFiles/chatbot_generate_messages_eus.dir
 
 # All Build rule for target.
-CMakeFiles/std_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
-.PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/all
+CMakeFiles/chatbot_generate_messages_eus.dir/all: CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/all
+CMakeFiles/chatbot_generate_messages_eus.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_eus.dir/build.make CMakeFiles/chatbot_generate_messages_eus.dir/depend
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_eus.dir/build.make CMakeFiles/chatbot_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=2,3 "Built target chatbot_generate_messages_eus"
+.PHONY : CMakeFiles/chatbot_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+CMakeFiles/chatbot_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chatbot_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
-.PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+.PHONY : CMakeFiles/chatbot_generate_messages_eus.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_eus: CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+chatbot_generate_messages_eus: CMakeFiles/chatbot_generate_messages_eus.dir/rule
 
-.PHONY : std_msgs_generate_messages_eus
-
-# clean rule for target.
-CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-.PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+.PHONY : chatbot_generate_messages_eus
 
 # clean rule for target.
-clean: CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+CMakeFiles/chatbot_generate_messages_eus.dir/clean:
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_eus.dir/build.make CMakeFiles/chatbot_generate_messages_eus.dir/clean
+.PHONY : CMakeFiles/chatbot_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chatbot_generate_messages_eus.dir/clean
 
 .PHONY : clean
 
@@ -252,6 +383,38 @@ clean: CMakeFiles/tests.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/chatbot_geneus.dir
+
+# All Build rule for target.
+CMakeFiles/chatbot_geneus.dir/all: CMakeFiles/chatbot_generate_messages_eus.dir/all
+	$(MAKE) -f CMakeFiles/chatbot_geneus.dir/build.make CMakeFiles/chatbot_geneus.dir/depend
+	$(MAKE) -f CMakeFiles/chatbot_geneus.dir/build.make CMakeFiles/chatbot_geneus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num= "Built target chatbot_geneus"
+.PHONY : CMakeFiles/chatbot_geneus.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/chatbot_geneus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chatbot_geneus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+.PHONY : CMakeFiles/chatbot_geneus.dir/rule
+
+# Convenience name for target.
+chatbot_geneus: CMakeFiles/chatbot_geneus.dir/rule
+
+.PHONY : chatbot_geneus
+
+# clean rule for target.
+CMakeFiles/chatbot_geneus.dir/clean:
+	$(MAKE) -f CMakeFiles/chatbot_geneus.dir/build.make CMakeFiles/chatbot_geneus.dir/clean
+.PHONY : CMakeFiles/chatbot_geneus.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chatbot_geneus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/std_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
@@ -280,6 +443,207 @@ CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/clean_test_results.dir
+
+# All Build rule for target.
+CMakeFiles/clean_test_results.dir/all:
+	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/depend
+	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num= "Built target clean_test_results"
+.PHONY : CMakeFiles/clean_test_results.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/clean_test_results.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+.PHONY : CMakeFiles/clean_test_results.dir/rule
+
+# Convenience name for target.
+clean_test_results: CMakeFiles/clean_test_results.dir/rule
+
+.PHONY : clean_test_results
+
+# clean rule for target.
+CMakeFiles/clean_test_results.dir/clean:
+	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/clean
+.PHONY : CMakeFiles/clean_test_results.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/clean_test_results.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/chatbot_generate_messages.dir
+
+# All Build rule for target.
+CMakeFiles/chatbot_generate_messages.dir/all: CMakeFiles/chatbot_generate_messages_py.dir/all
+CMakeFiles/chatbot_generate_messages.dir/all: CMakeFiles/chatbot_generate_messages_nodejs.dir/all
+CMakeFiles/chatbot_generate_messages.dir/all: CMakeFiles/chatbot_generate_messages_eus.dir/all
+CMakeFiles/chatbot_generate_messages.dir/all: CMakeFiles/chatbot_generate_messages_lisp.dir/all
+CMakeFiles/chatbot_generate_messages.dir/all: CMakeFiles/chatbot_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages.dir/build.make CMakeFiles/chatbot_generate_messages.dir/depend
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages.dir/build.make CMakeFiles/chatbot_generate_messages.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num= "Built target chatbot_generate_messages"
+.PHONY : CMakeFiles/chatbot_generate_messages.dir/all
+
+# Include target in all.
+all: CMakeFiles/chatbot_generate_messages.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/chatbot_generate_messages.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chatbot_generate_messages.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+.PHONY : CMakeFiles/chatbot_generate_messages.dir/rule
+
+# Convenience name for target.
+chatbot_generate_messages: CMakeFiles/chatbot_generate_messages.dir/rule
+
+.PHONY : chatbot_generate_messages
+
+# clean rule for target.
+CMakeFiles/chatbot_generate_messages.dir/clean:
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages.dir/build.make CMakeFiles/chatbot_generate_messages.dir/clean
+.PHONY : CMakeFiles/chatbot_generate_messages.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chatbot_generate_messages.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir
+
+# All Build rule for target.
+CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/all:
+	$(MAKE) -f CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/build.make CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/depend
+	$(MAKE) -f CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/build.make CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num= "Built target _chatbot_generate_messages_check_deps_Dialogue"
+.PHONY : CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+.PHONY : CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/rule
+
+# Convenience name for target.
+_chatbot_generate_messages_check_deps_Dialogue: CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/rule
+
+.PHONY : _chatbot_generate_messages_check_deps_Dialogue
+
+# clean rule for target.
+CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/clean:
+	$(MAKE) -f CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/build.make CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/clean
+.PHONY : CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/chatbot_genlisp.dir
+
+# All Build rule for target.
+CMakeFiles/chatbot_genlisp.dir/all: CMakeFiles/chatbot_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/chatbot_genlisp.dir/build.make CMakeFiles/chatbot_genlisp.dir/depend
+	$(MAKE) -f CMakeFiles/chatbot_genlisp.dir/build.make CMakeFiles/chatbot_genlisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num= "Built target chatbot_genlisp"
+.PHONY : CMakeFiles/chatbot_genlisp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/chatbot_genlisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chatbot_genlisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+.PHONY : CMakeFiles/chatbot_genlisp.dir/rule
+
+# Convenience name for target.
+chatbot_genlisp: CMakeFiles/chatbot_genlisp.dir/rule
+
+.PHONY : chatbot_genlisp
+
+# clean rule for target.
+CMakeFiles/chatbot_genlisp.dir/clean:
+	$(MAKE) -f CMakeFiles/chatbot_genlisp.dir/build.make CMakeFiles/chatbot_genlisp.dir/clean
+.PHONY : CMakeFiles/chatbot_genlisp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chatbot_genlisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/std_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+CMakeFiles/std_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+.PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+.PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_eus: CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+.PHONY : std_msgs_generate_messages_eus
+
+# clean rule for target.
+CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+.PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/chatbot_gencpp.dir
+
+# All Build rule for target.
+CMakeFiles/chatbot_gencpp.dir/all: CMakeFiles/chatbot_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/chatbot_gencpp.dir/build.make CMakeFiles/chatbot_gencpp.dir/depend
+	$(MAKE) -f CMakeFiles/chatbot_gencpp.dir/build.make CMakeFiles/chatbot_gencpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num= "Built target chatbot_gencpp"
+.PHONY : CMakeFiles/chatbot_gencpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/chatbot_gencpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chatbot_gencpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+.PHONY : CMakeFiles/chatbot_gencpp.dir/rule
+
+# Convenience name for target.
+chatbot_gencpp: CMakeFiles/chatbot_gencpp.dir/rule
+
+.PHONY : chatbot_gencpp
+
+# clean rule for target.
+CMakeFiles/chatbot_gencpp.dir/clean:
+	$(MAKE) -f CMakeFiles/chatbot_gencpp.dir/build.make CMakeFiles/chatbot_gencpp.dir/clean
+.PHONY : CMakeFiles/chatbot_gencpp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chatbot_gencpp.dir/clean
 
 .PHONY : clean
 
@@ -316,6 +680,39 @@ clean: CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/chatbot_generate_messages_lisp.dir
+
+# All Build rule for target.
+CMakeFiles/chatbot_generate_messages_lisp.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/chatbot_generate_messages_lisp.dir/all: CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/all
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_lisp.dir/build.make CMakeFiles/chatbot_generate_messages_lisp.dir/depend
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_lisp.dir/build.make CMakeFiles/chatbot_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=4 "Built target chatbot_generate_messages_lisp"
+.PHONY : CMakeFiles/chatbot_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/chatbot_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chatbot_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
+.PHONY : CMakeFiles/chatbot_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+chatbot_generate_messages_lisp: CMakeFiles/chatbot_generate_messages_lisp.dir/rule
+
+.PHONY : chatbot_generate_messages_lisp
+
+# clean rule for target.
+CMakeFiles/chatbot_generate_messages_lisp.dir/clean:
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_lisp.dir/build.make CMakeFiles/chatbot_generate_messages_lisp.dir/clean
+.PHONY : CMakeFiles/chatbot_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chatbot_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/std_msgs_generate_messages_py.dir
 
 # All Build rule for target.
@@ -348,34 +745,35 @@ clean: CMakeFiles/std_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/doxygen.dir
+# Target rules for target CMakeFiles/chatbot_generate_messages_cpp.dir
 
 # All Build rule for target.
-CMakeFiles/doxygen.dir/all:
-	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
-	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num= "Built target doxygen"
-.PHONY : CMakeFiles/doxygen.dir/all
+CMakeFiles/chatbot_generate_messages_cpp.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/chatbot_generate_messages_cpp.dir/all: CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/all
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_cpp.dir/build.make CMakeFiles/chatbot_generate_messages_cpp.dir/depend
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_cpp.dir/build.make CMakeFiles/chatbot_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=1 "Built target chatbot_generate_messages_cpp"
+.PHONY : CMakeFiles/chatbot_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/doxygen.dir/rule: cmake_check_build_system
+CMakeFiles/chatbot_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chatbot_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles 0
-.PHONY : CMakeFiles/doxygen.dir/rule
+.PHONY : CMakeFiles/chatbot_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-doxygen: CMakeFiles/doxygen.dir/rule
+chatbot_generate_messages_cpp: CMakeFiles/chatbot_generate_messages_cpp.dir/rule
 
-.PHONY : doxygen
-
-# clean rule for target.
-CMakeFiles/doxygen.dir/clean:
-	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/clean
-.PHONY : CMakeFiles/doxygen.dir/clean
+.PHONY : chatbot_generate_messages_cpp
 
 # clean rule for target.
-clean: CMakeFiles/doxygen.dir/clean
+CMakeFiles/chatbot_generate_messages_cpp.dir/clean:
+	$(MAKE) -f CMakeFiles/chatbot_generate_messages_cpp.dir/build.make CMakeFiles/chatbot_generate_messages_cpp.dir/clean
+.PHONY : CMakeFiles/chatbot_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/chatbot_generate_messages_cpp.dir/clean
 
 .PHONY : clean
 
@@ -424,7 +822,7 @@ gtest/googlemock/preinstall: gtest/googlemock/gtest/preinstall
 gtest/googlemock/CMakeFiles/gmock_main.dir/all:
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=4,5,6,7 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=11,12,13,14 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -456,7 +854,7 @@ clean: gtest/googlemock/CMakeFiles/gmock_main.dir/clean
 gtest/googlemock/CMakeFiles/gmock.dir/all:
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=1,2,3 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=8,9,10 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -507,7 +905,7 @@ gtest/googlemock/gtest/preinstall:
 gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=10,11 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=17,18 "Built target gtest_main"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -539,7 +937,7 @@ clean: gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=8,9 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=15,16 "Built target gtest"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.

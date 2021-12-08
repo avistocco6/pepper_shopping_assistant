@@ -11,5 +11,6 @@ export CMAKE_PREFIX_PATH="/home/alfonso/Desktop/pepper_shopping_assistant/ROS/de
 export LD_LIBRARY_PATH="/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot'
+export PYTHONPATH="/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot:$ROS_PACKAGE_PATH"

@@ -1,8 +1,0 @@
-prefix=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/shopping_list
-
-Name: shopping_list
-Description: Description of shopping_list
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
