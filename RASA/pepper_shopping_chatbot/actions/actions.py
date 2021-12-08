@@ -181,7 +181,7 @@ class ActionSubmitShow(Action):
 
 
 class ActionSubmitEmpty(Action):
-  
+    ERROR_MESSAGE = "I haven't emptied the list because it doesn't exist."
     def name(self) -> Text:
         # Name of the action mentioned in the domain.yml file
         return "action_submit_empty"
@@ -189,15 +189,18 @@ class ActionSubmitEmpty(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-  
-        user = tracker.get_slot("user")
-        if tracker.get_slot("user") is None:
-            user = "DEFAULT"
-        filename = PATH + user + "_shopping_list.json"
+        return_msg = ""
+        try:
+            user = tracker.get_slot("user")
+            if tracker.get_slot("user") is None:
+                user = "DEFAULT"
+            filename = PATH + user + "_shopping_list.json"
 
-        # remove the file. It will be created on next insert
-        os.remove(os.getcwd() + filename)
-        return_msg = "I emptied your list."
+            # remove the file. It will be created on next insert
+            os.remove(os.getcwd() + filename)
+            return_msg = "I emptied your list."
+        except:
+            return_msg = self.ERROR_MESSAGE
 
         dispatcher.utter_message(
             operation = "empty",
@@ -205,3 +208,13 @@ class ActionSubmitEmpty(Action):
         )
 
         return [SlotSet("item", None), SlotSet("quantity", None), SlotSet("uom", None)]
+
+class ActionSubmitYesNo(Action):
+    def name(self) -> Text:
+        return "action_submit_yes_no"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        return [ActiveLoop("insert_form")]
