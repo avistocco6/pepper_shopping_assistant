@@ -1,0 +1,53 @@
+
+version: "2.0"
+stories:
+- story: interactive_story_remove_show_empty
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: remove
+    entities:
+    - quantity: '1'
+    - item: sugar
+  - slot_was_set:
+    - item: sugar
+  - slot_was_set:
+    - quantity: '1'
+  - action: remove_form
+  - active_loop: remove_form
+  - slot_was_set:
+    - item: sugar
+  - slot_was_set:
+    - item: sugar
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_remove
+  - slot_was_set:
+    - item: null
+  - slot_was_set:
+    - quantity: null
+  - slot_was_set:
+    - uom: null
+  - slot_was_set:
+    - yes_no_answer: null
+  - intent: show
+  - action: show_form
+  - active_loop: show_form
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_show
+  - slot_was_set:
+    - item: null
+  - slot_was_set:
+    - quantity: null
+  - slot_was_set:
+    - uom: null
+  - intent: empty
+  - action: empty_form
+  - active_loop: empty_form
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_empty

@@ -1,0 +1,20 @@
+
+version: "2.0"
+stories:
+- story: interactive_story_empty_error
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: empty
+  - action: empty_form
+  - active_loop: empty_form
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_empty
+  - slot_was_set:
+    - item: null
+  - slot_was_set:
+    - quantity: null
+  - slot_was_set:
+    - uom: null

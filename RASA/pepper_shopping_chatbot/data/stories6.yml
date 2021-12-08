@@ -1,0 +1,148 @@
+
+version: "2.0"
+stories:
+- story: interactive_story_y_n_update
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: insert
+    entities:
+    - quantity: '3'
+    - uom: pack
+    - item: pasta
+  - slot_was_set:
+    - item: pasta
+  - slot_was_set:
+    - quantity: '3'
+  - slot_was_set:
+    - uom: pack
+  - action: insert_form
+  - active_loop: insert_form
+  - slot_was_set:
+    - item: pasta
+  - slot_was_set:
+    - quantity: '3'
+  - slot_was_set:
+    - item: pasta
+  - slot_was_set:
+    - quantity: '3'
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_insert
+  - active_loop: enforce_yes_no_form
+  - action: enforce_yes_no_form
+  - slot_was_set:
+    - requested_slot: yes_no_answer
+  - slot_was_set:
+    - yes_no_answer: confirm
+  - slot_was_set:
+    - yes_no_answer: confirm
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_yes_no
+  - active_loop: insert_form
+  - action: insert_form
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_insert
+  - slot_was_set:
+    - item: null
+  - slot_was_set:
+    - quantity: null
+  - slot_was_set:
+    - uom: null
+  - slot_was_set:
+    - yes_no_answer: null
+  - intent: show
+  - action: show_form
+  - active_loop: show_form
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_show
+  - slot_was_set:
+    - item: null
+  - slot_was_set:
+    - quantity: null
+  - slot_was_set:
+    - uom: null
+  - intent: insert
+    entities:
+    - quantity: '1'
+    - uom: pack
+    - item: pasta
+  - slot_was_set:
+    - item: pasta
+  - slot_was_set:
+    - quantity: '1'
+  - slot_was_set:
+    - uom: pack
+  - action: insert_form
+  - active_loop: insert_form
+  - slot_was_set:
+    - item: pasta
+  - slot_was_set:
+    - quantity: '1'
+  - slot_was_set:
+    - item: pasta
+  - slot_was_set:
+    - quantity: '1'
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_insert
+  - active_loop: enforce_yes_no_form
+  - action: enforce_yes_no_form
+  - slot_was_set:
+    - requested_slot: yes_no_answer
+  - slot_was_set:
+    - yes_no_answer: deny
+  - slot_was_set:
+    - yes_no_answer: deny
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_yes_no
+  - active_loop: insert_form
+  - action: insert_form
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_insert
+  - slot_was_set:
+    - item: null
+  - slot_was_set:
+    - quantity: null
+  - slot_was_set:
+    - uom: null
+  - slot_was_set:
+    - yes_no_answer: null
+  - intent: show
+  - action: show_form
+  - active_loop: show_form
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_show
+  - slot_was_set:
+    - item: null
+  - slot_was_set:
+    - quantity: null
+  - slot_was_set:
+    - uom: null
+  - intent: empty
+  - action: empty_form
+  - active_loop: empty_form
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_empty
+  - slot_was_set:
+    - item: null
+  - slot_was_set:
+    - quantity: null
+  - slot_was_set:
+    - uom: null
