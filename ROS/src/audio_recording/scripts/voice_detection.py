@@ -6,6 +6,8 @@ import numpy as np
 import time
 import speech_recognition as sr
 
+print("VOICE_DETECTION: Initialization...")
+
 pub = rospy.Publisher('voice_data', Int16MultiArray, queue_size=10)
 rospy.init_node('voice_detection', anonymous=True)
 
@@ -25,14 +27,14 @@ m = sr.Microphone(sample_rate=16000)
 
 # Calibration within the environment
 # we only need to calibrate once, before we start listening
-print("Calibrating...")
+print("VOICE_DETECTION: Calibrating...")
 with m as source:
     r.adjust_for_ambient_noise(source,duration=3)  
-print("Calibration finished")
+print("VOICE_DETECTION: Calibration finished")
 
 # start listening in the background
 # `stop_listening` is now a function that, when called, stops background listening
-print("Recording...")
+print("VOICE_DETECTION: Recording...")
 stop_listening = r.listen_in_background(m, callback)
 
 rospy.spin()

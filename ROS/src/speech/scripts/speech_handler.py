@@ -1,4 +1,5 @@
-
+#!/usr/bin/python3
+import numpy as np
 import rospy
 from std_msgs.msg import Int16MultiArray
 from std_msgs.msg import String
@@ -15,21 +16,20 @@ class SpeechInterface:
         text: the message        
         """
         message = str(user) + "~" + str(text)
-        self.pub.publih(message)
+        self.pub.publish(message)
 
 
     def callback(self, data):
-        audio = data.data
 
         # Wait for speech recognize user service
         rospy.wait_for_service('recognize_user')
         recognize_user = rospy.ServiceProxy('recognize_user', RecognizeUser)
-        user = recognize_user(audio)
+        user = recognize_user(data)
 
         # Wait for speech2text service
         rospy.wait_for_service('speech2text')
         speech2text = rospy.ServiceProxy('speech2text', Speech2Text)
-        message = speech2text(audio)
+        message = speech2text(data)
 
         self.send_message(user, message)
 
@@ -52,6 +52,7 @@ class SpeechInterface:
 
 def main():
     speech_interface = SpeechInterface()
+    print("SPEECH_HANDLER: Running interface")
     speech_interface.run()
 
 if __name__ == '__main__':
