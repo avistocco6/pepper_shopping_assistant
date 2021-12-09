@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/speech_generate_messages_cpp"
-  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h"
-  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h"
+  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h"
+  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h"
 )
 
 # Per-language clean rules from dependency scanning.

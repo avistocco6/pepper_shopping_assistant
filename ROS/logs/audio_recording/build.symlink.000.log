@@ -1,3 +1,13 @@
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/audio_recording.pc
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig.cmake
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig-version.cmake
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig-version.cmake
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig.cmake
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/audio_recording.pc
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/cmake.lock, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./cmake.lock)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/lib/pkgconfig/audio_recording.pc, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/audio_recording.pc)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/audio_recording/cmake/audio_recordingConfig.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig.cmake)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/audio_recording/cmake/audio_recordingConfig-version.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig-version.cmake)
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/audio_recording.pc
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig.cmake
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig-version.cmake
+Already unlinked: {}

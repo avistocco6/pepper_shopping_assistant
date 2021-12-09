@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp
+Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2454c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2454c.dir/build.make CMakeFiles/cmTC_2454c.dir/build
-make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2454c.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_2454c.dir/CheckSymbolExists.c.o   -c /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_2454c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2454c.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2454c.dir/CheckSymbolExists.c.o  -o cmTC_2454c 
-CMakeFiles/cmTC_2454c.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_20866/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20866.dir/build.make CMakeFiles/cmTC_20866.dir/build
+make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20866.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_20866.dir/CheckSymbolExists.c.o   -c /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_20866
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20866.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_20866.dir/CheckSymbolExists.c.o  -o cmTC_20866 
+CMakeFiles/cmTC_20866.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_2454c.dir/build.make:97: recipe for target 'cmTC_2454c' failed
-make[1]: *** [cmTC_2454c] Error 1
-make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_2454c/fast' failed
-make: *** [cmTC_2454c/fast] Error 2
+CMakeFiles/cmTC_20866.dir/build.make:97: recipe for target 'cmTC_20866' failed
+make[1]: *** [cmTC_20866] Error 1
+make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_20866/fast' failed
+make: *** [cmTC_20866/fast] Error 2
 
-File /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp
+Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_66c49/fast"
-/usr/bin/make -f CMakeFiles/cmTC_66c49.dir/build.make CMakeFiles/cmTC_66c49.dir/build
-make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_66c49.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_66c49.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_66c49
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66c49.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_66c49.dir/CheckFunctionExists.c.o  -o cmTC_66c49 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_448f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_448f8.dir/build.make CMakeFiles/cmTC_448f8.dir/build
+make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_448f8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_448f8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_448f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_448f8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_448f8.dir/CheckFunctionExists.c.o  -o cmTC_448f8 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_66c49.dir/build.make:97: recipe for target 'cmTC_66c49' failed
-make[1]: *** [cmTC_66c49] Error 1
-make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_66c49/fast' failed
-make: *** [cmTC_66c49/fast] Error 2
+CMakeFiles/cmTC_448f8.dir/build.make:97: recipe for target 'cmTC_448f8' failed
+make[1]: *** [cmTC_448f8] Error 1
+make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_448f8/fast' failed
+make: *** [cmTC_448f8/fast] Error 2
 
 

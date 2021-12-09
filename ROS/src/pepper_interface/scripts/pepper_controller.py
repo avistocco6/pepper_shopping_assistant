@@ -1,6 +1,6 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 from std_msgs.msg import String
-from srv import *
+from pepper_interface.srv import *
 
 import threading
 import rospy

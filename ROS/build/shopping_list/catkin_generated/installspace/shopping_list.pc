@@ -1,4 +1,4 @@
-prefix=/home/angelo/Desktop/pepper_shopping_assistant/ROS/install
+prefix=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install
 
 Name: shopping_list
 Description: Description of shopping_list

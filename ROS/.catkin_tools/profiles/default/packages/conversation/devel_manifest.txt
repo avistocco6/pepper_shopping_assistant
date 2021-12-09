@@ -1,5 +1,5 @@
 conversation
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/cmake.lock /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./cmake.lock
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/lib/pkgconfig/conversation.pc /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/conversation.pc
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/share/conversation/cmake/conversationConfig-version.cmake /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig-version.cmake
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/share/conversation/cmake/conversationConfig.cmake /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig.cmake
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/cmake.lock /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/./cmake.lock
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/share/conversation/cmake/conversationConfig-version.cmake /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig-version.cmake
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/share/conversation/cmake/conversationConfig.cmake /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig.cmake
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/lib/pkgconfig/conversation.pc /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/conversation.pc

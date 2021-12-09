@@ -1,1 +1,1 @@
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/shopping_list/lib/pkgconfig/shopping_list.pc
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/shopping_list/lib/pkgconfig/shopping_list.pc

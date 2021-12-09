@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface
+CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface
+CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface
 
 # Utility rule file for _pepper_interface_generate_messages_check_deps_WakeUp.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepp
 include CMakeFiles/_pepper_interface_generate_messages_check_deps_WakeUp.dir/progress.make
 
 CMakeFiles/_pepper_interface_generate_messages_check_deps_WakeUp:
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pepper_interface /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv 
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pepper_interface /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv 
 
 _pepper_interface_generate_messages_check_deps_WakeUp: CMakeFiles/_pepper_interface_generate_messages_check_deps_WakeUp
 _pepper_interface_generate_messages_check_deps_WakeUp: CMakeFiles/_pepper_interface_generate_messages_check_deps_WakeUp.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_pepper_interface_generate_messages_check_deps_WakeUp.dir/clean:
 .PHONY : CMakeFiles/_pepper_interface_generate_messages_check_deps_WakeUp.dir/clean
 
 CMakeFiles/_pepper_interface_generate_messages_check_deps_WakeUp.dir/depend:
-	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/_pepper_interface_generate_messages_check_deps_WakeUp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/_pepper_interface_generate_messages_check_deps_WakeUp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_pepper_interface_generate_messages_check_deps_WakeUp.dir/depend
 

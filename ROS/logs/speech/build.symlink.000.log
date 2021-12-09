@@ -1,28 +1,113 @@
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/__init__.py
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/srv/__init__.py
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/speech.pc
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/speech/manifest.l
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/speech/srv/Speech2Text.l
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/speech/srv/RecognizeUser.l
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/_index.js
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/srv/Speech2Text.js
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/srv/RecognizeUser.js
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/srv/_index.js
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/speech-srv.asd
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/RecognizeUser.lisp
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/_package_RecognizeUser.lisp
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/_package.lisp
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/Speech2Text.lisp
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/_package_Speech2Text.lisp
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speech-msg-extras.cmake
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speech-msg-paths.cmake
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speechConfig.cmake
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speechConfig-version.cmake
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/RecognizeUser.h
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/Speech2TextRequest.h
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/RecognizeUserRequest.h
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/Speech2Text.h
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/RecognizeUserResponse.h
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/Speech2TextResponse.h
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/_package_RecognizeUser.lisp
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/RecognizeUser.lisp
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/speech-srv.asd
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/Speech2Text.lisp
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/_package.lisp
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/_package_Speech2Text.lisp
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speech-msg-extras.cmake
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speech-msg-paths.cmake
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speechConfig.cmake
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speechConfig-version.cmake
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/speech/manifest.l
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/speech/srv/RecognizeUser.l
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/speech/srv/Speech2Text.l
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/_index.js
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/srv/_index.js
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/srv/Speech2Text.js
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/srv/RecognizeUser.js
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/RecognizeUserResponse.h
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/Speech2Text.h
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/Speech2TextRequest.h
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/RecognizeUser.h
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/RecognizeUserRequest.h
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/Speech2TextResponse.h
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/speech.pc
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/__init__.py
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/srv/__init__.py
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/cmake.lock, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./cmake.lock)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/__init__.py, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/__init__.py)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/__init__.py, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/srv/__init__.py)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/pkgconfig/speech.pc, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/speech.pc)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/manifest.l, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/speech/manifest.l)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/speech/srv/Speech2Text.l)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/speech/srv/RecognizeUser.l)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/gennodejs/ros/speech/_index.js, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/_index.js)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/gennodejs/ros/speech/srv/Speech2Text.js, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/srv/Speech2Text.js)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/gennodejs/ros/speech/srv/RecognizeUser.js, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/srv/RecognizeUser.js)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/gennodejs/ros/speech/srv/_index.js, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/srv/_index.js)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/speech-srv.asd, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/speech-srv.asd)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/RecognizeUser.lisp)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/_package_RecognizeUser.lisp, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/_package_RecognizeUser.lisp)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/_package.lisp, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/_package.lisp)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/Speech2Text.lisp)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/_package_Speech2Text.lisp, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/_package_Speech2Text.lisp)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/speech/cmake/speech-msg-extras.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speech-msg-extras.cmake)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/speech/cmake/speech-msg-paths.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speech-msg-paths.cmake)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/speech/cmake/speechConfig.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speechConfig.cmake)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/speech/cmake/speechConfig-version.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speechConfig-version.cmake)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/RecognizeUser.h)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2TextRequest.h, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/Speech2TextRequest.h)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUserRequest.h, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/RecognizeUserRequest.h)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/Speech2Text.h)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUserResponse.h, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/RecognizeUserResponse.h)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2TextResponse.h, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/Speech2TextResponse.h)
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/__init__.py
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/srv/__init__.py
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/speech.pc
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/speech/manifest.l
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/speech/srv/Speech2Text.l
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/speech/srv/RecognizeUser.l
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/_index.js
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/srv/Speech2Text.js
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/srv/RecognizeUser.js
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/speech/srv/_index.js
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/speech-srv.asd
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/RecognizeUser.lisp
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/_package_RecognizeUser.lisp
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/_package.lisp
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/Speech2Text.lisp
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/speech/srv/_package_Speech2Text.lisp
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speech-msg-extras.cmake
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speech-msg-paths.cmake
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speechConfig.cmake
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/speech/cmake/speechConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/RecognizeUser.h
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/Speech2TextRequest.h
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/RecognizeUserRequest.h
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/Speech2Text.h
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/RecognizeUserResponse.h
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/speech/Speech2TextResponse.h
+Already unlinked: {}

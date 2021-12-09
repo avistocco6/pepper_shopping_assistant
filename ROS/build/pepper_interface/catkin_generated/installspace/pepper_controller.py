@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 from std_msgs.msg import String
 from srv import *
 

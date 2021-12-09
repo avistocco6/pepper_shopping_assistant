@@ -43,26 +43,26 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot
+CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot
+CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot
 
 # Utility rule file for chatbot_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include CMakeFiles/chatbot_generate_messages_lisp.dir/progress.make
 
-CMakeFiles/chatbot_generate_messages_lisp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/Dialogue.lisp
+CMakeFiles/chatbot_generate_messages_lisp: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/Dialogue.lisp
 
 
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/Dialogue.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/Dialogue.lisp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot/srv/Dialogue.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from chatbot/Dialogue.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot/srv/Dialogue.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p chatbot -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/Dialogue.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/Dialogue.lisp: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot/srv/Dialogue.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from chatbot/Dialogue.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot/srv/Dialogue.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p chatbot -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv
 
 chatbot_generate_messages_lisp: CMakeFiles/chatbot_generate_messages_lisp
-chatbot_generate_messages_lisp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/Dialogue.lisp
+chatbot_generate_messages_lisp: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/Dialogue.lisp
 chatbot_generate_messages_lisp: CMakeFiles/chatbot_generate_messages_lisp.dir/build.make
 
 .PHONY : chatbot_generate_messages_lisp
@@ -77,6 +77,6 @@ CMakeFiles/chatbot_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/chatbot_generate_messages_lisp.dir/clean
 
 CMakeFiles/chatbot_generate_messages_lisp.dir/depend:
-	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles/chatbot_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles/chatbot_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/chatbot_generate_messages_lisp.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/shopping_list
+CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/shopping_list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/shopping_list
+CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/shopping_list
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/shopping_list/CMakeFiles /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/shopping_list/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/shopping_list/CMakeFiles /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/shopping_list/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/shopping_list/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/shopping_list/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

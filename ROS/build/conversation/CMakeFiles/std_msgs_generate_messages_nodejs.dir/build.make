@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/conversation
+CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/conversation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/conversation
+CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/conversation
 
 # Utility rule file for std_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/conversation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/conversation /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/conversation /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/conversation /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/conversation /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/conversation/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/conversation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/conversation /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/conversation /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/conversation /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/conversation /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/conversation/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 
