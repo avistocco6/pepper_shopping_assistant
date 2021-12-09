@@ -1,7 +1,7 @@
 
 version: "2.0"
 stories:
-- story: interactive_story_2_ask_quantity
+- story: interactive_story_complete_user
   steps:
   - intent: greet
   - action: user_form
@@ -9,39 +9,126 @@ stories:
   - slot_was_set:
     - requested_slot: user
   - slot_was_set:
-    - user: william
+    - user: emily
   - slot_was_set:
-    - user: william
+    - user: emily
   - slot_was_set:
     - requested_slot: null
   - active_loop: null
   - action: action_submit_login
-  - intent: inform
-    entities:
-    - item: potatoes
-  - slot_was_set:
-    - item: potatoes
-  - action: utter_ask_quantity
   - intent: insert
     entities:
-    - quantity: '5'
-    - item: potatoes
+    - quantity: '1'
+    - uom: pack
+    - item: toilet paper
   - slot_was_set:
-    - item: potatoes
+    - item: toilet paper
   - slot_was_set:
-    - quantity: '5'
+    - quantity: '1'
+  - slot_was_set:
+    - uom: pack
   - action: insert_form
   - active_loop: insert_form
   - slot_was_set:
-    - user: william
+    - user: emily
   - slot_was_set:
-    - item: potatoes
+    - item: toilet paper
+  - slot_was_set:
+    - quantity: '1'
+  - slot_was_set:
+    - item: toilet paper
+  - slot_was_set:
+    - quantity: '1'
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_insert
+  - slot_was_set:
+    - item: null
+  - slot_was_set:
+    - quantity: null
+  - slot_was_set:
+    - uom: null
+  - slot_was_set:
+    - yes_no_answer: null
+  - intent: insert
+    entities:
+    - item: sugar
+  - slot_was_set:
+    - item: sugar
+  - action: insert_form
+  - active_loop: insert_form
+  - slot_was_set:
+    - user: emily
+  - slot_was_set:
+    - item: sugar
+  - slot_was_set:
+    - item: sugar
+  - slot_was_set:
+    - requested_slot: quantity
+  - slot_was_set:
+    - item: sugar
+  - slot_was_set:
+    - quantity: '1'
+  - slot_was_set:
+    - uom: kilogram
+  - slot_was_set:
+    - item: sugar
+  - slot_was_set:
+    - quantity: '1'
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_insert
+  - slot_was_set:
+    - item: null
+  - slot_was_set:
+    - quantity: null
+  - slot_was_set:
+    - uom: null
+  - slot_was_set:
+    - yes_no_answer: null
+  - intent: insert
+    entities:
+    - quantity: '5'
+    - uom: pack
+    - item: toilet paper
+  - slot_was_set:
+    - item: toilet paper
   - slot_was_set:
     - quantity: '5'
   - slot_was_set:
-    - item: potatoes
+    - uom: pack
+  - action: insert_form
+  - active_loop: insert_form
+  - slot_was_set:
+    - user: emily
+  - slot_was_set:
+    - item: toilet paper
   - slot_was_set:
     - quantity: '5'
+  - slot_was_set:
+    - item: toilet paper
+  - slot_was_set:
+    - quantity: '5'
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_insert
+  - active_loop: enforce_yes_no_form
+  - action: enforce_yes_no_form
+  - slot_was_set:
+    - requested_slot: yes_no_answer
+  - slot_was_set:
+    - yes_no_answer: confirm
+  - slot_was_set:
+    - yes_no_answer: confirm
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_yes_no
+  - active_loop: insert_form
+  - action: insert_form
   - slot_was_set:
     - requested_slot: null
   - active_loop: null
@@ -58,7 +145,7 @@ stories:
   - action: show_form
   - active_loop: show_form
   - slot_was_set:
-    - user: william
+    - user: emily
   - slot_was_set:
     - requested_slot: null
   - active_loop: null
@@ -69,51 +156,19 @@ stories:
     - quantity: null
   - slot_was_set:
     - uom: null
-  - intent: insert
-    entities:
-    - quantity: '6'
-    - item: bread
-  - slot_was_set:
-    - item: bread
-  - slot_was_set:
-    - quantity: '6'
-  - action: insert_form
-  - active_loop: insert_form
-  - slot_was_set:
-    - user: william
-  - slot_was_set:
-    - item: bread
-  - slot_was_set:
-    - quantity: '6'
-  - slot_was_set:
-    - item: bread
-  - slot_was_set:
-    - quantity: '6'
-  - slot_was_set:
-    - requested_slot: null
-  - active_loop: null
-  - action: action_submit_insert
-  - slot_was_set:
-    - item: null
-  - slot_was_set:
-    - quantity: null
-  - slot_was_set:
-    - uom: null
-  - slot_was_set:
-    - yes_no_answer: null
   - intent: remove
     entities:
-    - item: bread
+    - item: milk
   - slot_was_set:
-    - item: bread
+    - item: milk
   - action: remove_form
   - active_loop: remove_form
   - slot_was_set:
-    - user: william
+    - user: emily
   - slot_was_set:
-    - item: bread
+    - item: milk
   - slot_was_set:
-    - item: bread
+    - item: milk
   - slot_was_set:
     - requested_slot: null
   - active_loop: null
@@ -130,7 +185,7 @@ stories:
   - action: show_form
   - active_loop: show_form
   - slot_was_set:
-    - user: william
+    - user: emily
   - slot_was_set:
     - requested_slot: null
   - active_loop: null
@@ -145,7 +200,7 @@ stories:
   - action: empty_form
   - active_loop: empty_form
   - slot_was_set:
-    - user: william
+    - user: emily
   - slot_was_set:
     - requested_slot: null
   - active_loop: null
@@ -156,18 +211,9 @@ stories:
     - quantity: null
   - slot_was_set:
     - uom: null
-  - intent: show
-  - action: show_form
-  - active_loop: show_form
+  - intent: goodbye
+  - action: action_submit_logout
   - slot_was_set:
-    - user: william
-  - slot_was_set:
-    - requested_slot: null
+    - user: null
   - active_loop: null
-  - action: action_submit_show
-  - slot_was_set:
-    - item: null
-  - slot_was_set:
-    - quantity: null
-  - slot_was_set:
-    - uom: null
+  - action: utter_goodbye

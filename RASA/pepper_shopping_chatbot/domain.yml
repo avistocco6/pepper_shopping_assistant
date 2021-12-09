@@ -11,30 +11,35 @@ intents:
   - show
   - inform
   - empty
+  - logout
 
 entities:
   - item
   - quantity
   - uom
   - yes_no_answer
+  - user
 
 actions:
   - action_submit_insert
   - action_submit_remove
   - action_submit_show
   - action_submit_empty
+  - action_submit_login
+  - action_submit_logout
   - action_submit_yes_no
   - utter_greet
   - utter_goodbye
   - utter_noworries
   - utter_thanks
-  - utter_ask_insert_form_item
-  - utter_ask_remove_form_item
-  - utter_ask_quantity
   - utter_empty
   - utter_please_rephrase
-  - utter_ask_yes_no_answer
   - utter_custom_message
+  - utter_ask_insert_form_item
+  - utter_ask_remove_form_item
+  - utter_ask_user
+  - utter_ask_yes_no_answer
+  - utter_ask_quantity
 
 slots:
   item:
@@ -46,10 +51,10 @@ slots:
   uom:
     type: text
     influence_conversation: false
-  yes_no_answer:
+  user:
     type: text
     influence_conversation: false
-  user:
+  yes_no_answer:
     type: text
     influence_conversation: false
     
@@ -64,6 +69,9 @@ forms:
       - type: from_entity
         entity: uom
     required_slots:
+      user:
+        - type: from_entity
+          entity: user
       item:
         - type: from_entity
           entity: item
@@ -72,19 +80,40 @@ forms:
           entity: quantity
   remove_form:
     required_slots:
+      user:
+        - type: from_entity
+          entity: user
       item:
         - type: from_entity
           entity: item
+  user_form:
+    required_slots:
+      user:
+        - type: from_entity
+          entity: user
   empty_form:
+    required_slots:
+      user:
+        - type: from_entity
+          entity: user
   show_form:
+    required_slots:
+      user:
+        - type: from_entity
+          entity: user
   
 
 responses:
   utter_greet:
-  - text: "Hi. What are you adding in you list today?"
-  - text: "Hello! What can I add to your list?"
-  - text: "Hello! What would you sign before going to the supermarket?"
+  - text: "What are you adding in you list today?"
+  - text: "What can I add to your list?"
+  - text: "What would you like to sign before going to the supermarket?"
   
+  utter_ask_user:
+  - text: "Hi, who are you?"
+  - text: "Hi, please tell me your name"
+  - text: "Hello, what's your name?"
+
   utter_goodbye:
   - text: "Until next time!"
   - text: "See you!"
@@ -96,12 +125,12 @@ responses:
   - text: "You are welcome!"
 
   utter_ask_insert_form_item:
-  - text: "Please enter ONE item to add it in your list."
+  - text: "Please enter ONE item to add in your list."
 
   utter_ask_remove_form_item:
   - text: "Please provide an item."
-  - text: "What item would you remove to the list?"
-  - text: "Please enter an item to remove it in your list."
+  - text: "What item would you like to remove from the list?"
+  - text: "Please enter an item to remove from your list."
 
   utter_empty:
   - text: "Your list has been emptied"

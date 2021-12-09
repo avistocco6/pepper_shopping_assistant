@@ -1,15 +1,24 @@
 version: "2.0"
 
 rules:
-- rule: Greet anytime the user greets
-  steps:
-  - intent: greet
-  - action: utter_greet
+# - rule: Greet anytime the user greets
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
 
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
+  - action: action_submit_logout
   - action: utter_goodbye
+
+- rule: Logout when user wants to logout
+  condition:
+  - slot_was_set:
+    - requested_slot: user
+  steps:
+  - intent: logout
+  - action: action_submit_logout
 
 - rule: Reply every time the user says thankyou
   steps:
@@ -106,3 +115,21 @@ rules:
     - requested_slot: null
   - action: action_submit_yes_no
 # END - yes/no answer
+
+# START - Login user
+- rule: Activate form
+  steps:
+  - intent: greet
+  - action: user_form
+  - active_loop: user_form
+
+- rule: Submit form
+  condition:
+  - active_loop: user_form
+  steps:
+  - action: user_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_submit_login
+# END - Login user

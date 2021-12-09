@@ -4,7 +4,18 @@ stories:
 - story: interactive_story_y_n_update
   steps:
   - intent: greet
-  - action: utter_greet
+  - action: user_form
+  - active_loop: user_form
+  - slot_was_set:
+    - requested_slot: user
+  - slot_was_set:
+    - user: thomas
+  - slot_was_set:
+    - user: thomas
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_login
   - intent: insert
     entities:
     - quantity: '3'
@@ -18,6 +29,8 @@ stories:
     - uom: pack
   - action: insert_form
   - active_loop: insert_form
+  - slot_was_set:
+    - user: thomas
   - slot_was_set:
     - item: pasta
   - slot_was_set:
@@ -43,6 +56,8 @@ stories:
   - active_loop: null
   - action: action_submit_yes_no
   - active_loop: insert_form
+  - slot_was_set:
+    - user: thomas
   - action: insert_form
   - slot_was_set:
     - requested_slot: null
@@ -59,6 +74,8 @@ stories:
   - intent: show
   - action: show_form
   - active_loop: show_form
+  - slot_was_set:
+    - user: thomas
   - slot_was_set:
     - requested_slot: null
   - active_loop: null
@@ -83,6 +100,8 @@ stories:
   - action: insert_form
   - active_loop: insert_form
   - slot_was_set:
+    - user: thomas
+  - slot_was_set:
     - item: pasta
   - slot_was_set:
     - quantity: '1'
@@ -107,6 +126,8 @@ stories:
   - active_loop: null
   - action: action_submit_yes_no
   - active_loop: insert_form
+  - slot_was_set:
+    - user: thomas
   - action: insert_form
   - slot_was_set:
     - requested_slot: null
@@ -123,6 +144,8 @@ stories:
   - intent: show
   - action: show_form
   - active_loop: show_form
+  - slot_was_set:
+    - user: thomas
   - slot_was_set:
     - requested_slot: null
   - active_loop: null
@@ -136,6 +159,8 @@ stories:
   - intent: empty
   - action: empty_form
   - active_loop: empty_form
+  - slot_was_set:
+    - user: thomas
   - slot_was_set:
     - requested_slot: null
   - active_loop: null

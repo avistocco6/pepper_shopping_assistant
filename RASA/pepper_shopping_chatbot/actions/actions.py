@@ -219,3 +219,41 @@ class ActionSubmitYesNo(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         return [ActiveLoop("insert_form")]
+
+
+class ActionSubmitLogin(Action):
+    user = None
+    
+    def name(self) -> Text:
+        return "action_submit_login"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        # if tracker.get_slot("user") is not None:
+        #     return[]
+            
+        self.user = tracker.get_slot("user")
+        login_message = "Hi, " + str(self.user) + ". How can i help you?"
+        dispatcher.utter_message(text = login_message)
+
+        # return [SlotSet("user", self.user)]
+        return []
+
+class ActionSubmitLogout(Action):
+    user = None
+    
+    def name(self) -> Text:
+        return "action_submit_logout"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        self.user = tracker.get_slot("user")
+        if self.user is not None:
+            logout_message = "Bye bye " + self.user + "!"
+            dispatcher.utter_message(text = logout_message)
+
+        return [SlotSet("user", None), ActiveLoop(None)]

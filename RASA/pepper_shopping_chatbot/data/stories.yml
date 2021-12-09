@@ -3,8 +3,23 @@ stories:
 - story: story_goodbye
   steps:
   - intent: greet
-  - action: utter_greet
+  - action: user_form
+  - active_loop: user_form
+  - slot_was_set:
+    - requested_slot: user
+  - slot_was_set:
+    - user: han
+  - slot_was_set:
+    - user: han
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_login
   - intent: goodbye
+  - action: action_submit_logout
+  - slot_was_set:
+    - user: null
+  - active_loop: null
   - action: utter_goodbye
 
 - story: story_thankyou

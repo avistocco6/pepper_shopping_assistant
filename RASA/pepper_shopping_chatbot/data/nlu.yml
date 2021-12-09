@@ -41,6 +41,15 @@ nlu:
     - i'm off
     - see you later alligator
     - we'll speak soon
+- intent: logout
+  examples: |
+    - log me out please
+    - i want to change user
+    - log me out
+    - log out
+    - logout
+    - logut
+    - logou
 - intent: greet
   examples: |
     - hi
@@ -58,6 +67,54 @@ nlu:
     - hello everybody
     - hello is anybody there
     - hello robot
+    - i'm [Alberta](user) 
+    - i'm [Martha](user) 
+    - i'm [Melody](user) 
+    - i'm [Morgan](user) 
+    - i'm [Taylor](user) 
+    - i am [Bev](user)
+    - i am [Richard](user) 
+    - i am [Ashley](user) 
+    - i am [Benjamin](user) 
+    - i am [Regina](user) 
+    - i am [Philippa](user) 
+    - i am [Derek](user) 
+    - it's [William](user)
+    - it's [Wilhelmina](user)
+    - it is [Blair](user)
+    - it is [Bobbie](user)
+    - my name is [Roberta](user)
+    - my name is [Gabriel](user) 
+    - my name is [Ernest](user) 
+    - my name is [Edna](user) 
+    - my name is [Cora](user) 
+    - my name is [Conrad](user) 
+    - my name's [Billie](user)
+    - my name's [Alberta](user) 
+    - my name's [Marilyn](user)
+    - my name's [Matilda](user) 
+    - my name's [Natasha](user)  
+    - my name's [Alexandra](user)
+    - i am [Carol](user)
+    - i am [Christopher](user)
+    - i am [Clare](user)
+    - i'm [Dennis](user)
+    - i'm [Edward](user)
+    - i'm [Emma](user)
+    - i'm [Emily](user)
+    - i'm [Ernest](user)
+    - hi, my name is [Valerie](user)
+    - hi, my name is [Alonzo](user)
+    - hi, my name's [Joanna](user)
+    - hi, my name's [Bennie](user)
+    - hi, my name's [Albert](user)
+    - hello, i'm [Normian](user)
+    - hello, it's [Olivia](user)
+    - hello, it's [Francis](user)
+    - hello, it's [Freddie](user)
+    - it's [Gerald](user)
+    - it's [Nicholas](user)
+    - it's [Glen](user) 
 - intent: inform
   examples: |
     - [confirm](yes_no_answer)
@@ -75,8 +132,8 @@ nlu:
     - [tuna](item)
     - [crab](item)
     - [lobster](item)
-    - [mussels](item)
-    - [prawns](item)
+    - [mussel](item)
+    - [prawn](item)
     - [squid](item)
     - [salmon](item)
     - [chicken](item)
@@ -93,7 +150,7 @@ nlu:
     - [cinnamon](item)
     - [hamburger](item)
     - [bread](item)
-    - [nuts](item)
+    - [nut](item)
     - [salt](item)
     - [pepper](item)
     - [red pepper](item)
@@ -107,7 +164,7 @@ nlu:
     - [beans](item)
     - [grapes](item)
     - [green beans](item)
-    - [cherries](item)
+    - [cherry](item)
     - [honey](item)
     - [wine](item)
     - [water](item)
@@ -124,14 +181,14 @@ nlu:
     - [zucchini](item)
     - [cucumber](item)
     - [lemon](item)
-    - [oranges](item)
+    - [orange](item)
     - [orange juice](item)
     - [mango](item)
     - [raisins](item)
     - [melon](item)
     - [watermelon](item)
     - [peach](item)
-    - [raspberries](item)
+    - [raspberry](item)
     - [bell pepper](item)
     - [lentils](item)
     - [papaya](item)
@@ -146,10 +203,9 @@ nlu:
     - [soup](item)
     - [pumpkin](item)
     - [chips](item)
-    - [potatoes](item)
+    - [potato](item)
     - [beer](item)
     - [french fries](item)
-    - [pizza](item)
     - [flour](item)
     - [yeast](item)
     - [baking soda](item)
@@ -169,12 +225,12 @@ nlu:
     - [shampoo](item)
     - [deodorant](item)
     - [cake](item)
-    - [cupcakes](item)
+    - [cupcake](item)
     - [meat pie](item)
     - [apple pie](item)
     - [crackers](item)
-    - [donuts](item)
-    - [brownies](item)
+    - [donut](item)
+    - [brownie](item)
     - [whipped cream](item)
     - [cream cheese](item)
     - [pizza](item)
@@ -202,6 +258,168 @@ nlu:
     - [bottle](uom)
     - [can](uom)
     - [jar](uom)
+    - [Alexandra](user)
+    - [Alexis](user)
+    - [Andrea](user)
+    - [Angel](user)
+    - [Ash](user)
+    - [Ashley](user)
+    - [Bennie](user) 
+    - [Benjamin](user)  
+    - [Benjamina](user)
+    - [Bernie](user)
+    - [Bernard](user)
+    - [Bernice](user)
+    - [Bertie](user)
+    - [Albert](user)
+    - [Gilbert](user) 
+    - [Robert](user)
+    - [Alberta](user)
+    - [Roberta](user)
+    - [Bev](user)
+    - [Billie](user)
+    - [William](user)
+    - [Wilhelmina](user)
+    - [Blair](user)
+    - [Bobbie](user)
+    - [Brett](user)
+    - [Catia](user)
+    - [Carol](user)
+    - [Casey](user)
+    - [Charlie](user)
+    - [Charles](user)
+    - [Charlotte](user)
+    - [Cis](user)
+    - [Cecil](user) 
+    - [Christopher](user)
+    - [Christine](user)
+    - [Clare](user)
+    - [Clem](user)
+    - [Connie](user)
+    - [Conrad](user)
+    - [Constance](user)
+    - [Cory](user)
+    - [Cora](user)
+    - [Courtney](user)
+    - [Dale](user)
+    - [Daniel](user)
+    - [Danielle](user)
+    - [Darcy](user)
+    - [Daryl](user)
+    - [Dennis](user)
+    - [Dorian](user)
+    - [Eddie](user)
+    - [Edward](user)
+    - [Edna](user)
+    - [Emma](user) 
+    - [Emily](user)
+    - [Ernest](user) 
+    - [Ernestine](user)
+    - [Francis](user)
+    - [Freddie](user)
+    - [Frederic](user) 
+    - [Frederica](user)
+    - [Gabby](user)
+    - [Gabriel](user)
+    - [Gabrielle](user)
+    - [Gail](user)
+    - [Eugene](user)
+    - [Eugenia](user)
+    - [Glen](user)
+    - [Hilary](user)
+    - [Izzy](user)
+    - [Isidore](user)
+    - [Isabel](user)
+    - [Jackie](user)
+    - [Jack](user)
+    - [John](user)
+    - [Jacqueline](user)
+    - [Jamie](user)
+    - [Jem](user)
+    - [Gerald](user)
+    - [Geraldine](user)
+    - [Jessica](user)
+    - [Joseph](user)
+    - [Joanna](user)
+    - [Jody](user)
+    - [Jordan](user)
+    - [Jude](user)
+    - [Judith](user)
+    - [Kelly](user)
+    - [Raquel](user)
+    - [Kim](user)
+    - [Kit](user)
+    - [Katherine](user)
+    - [Lee](user)
+    - [Leslie](user)
+    - [Lindsay](user)
+    - [Lonnie](user)
+    - [Alonzo](user)
+    - [Lona](user)
+    - [Louis](user)
+    - [Lincoln](user) 
+    - [Evelyn](user) 
+    - [Linda](user) 
+    - [Marilyn](user)
+    - [Marion](user)
+    - [Martin](user)
+    - [Martha](user) 
+    - [Matthew](user)
+    - [Matilda](user)
+    - [Maximilian](user)
+    - [Maxine](user)
+    - [Melvin](user)
+    - [Melanie](user)
+    - [Melinda](user)
+    - [Melissa](user)
+    - [Melody](user)
+    - [Michael](user)
+    - [Michelle](user)
+    - [Morgan](user)
+    - [Nathalie](user)
+    - [Natasha](user)
+    - [Nathan](user)
+    - [Nicholas](user)
+    - [Nicole](user)
+    - [Veronica](user)
+    - [Norman](user)
+    - [Norma](user)
+    - [Olivia](user)
+    - [Oliver](user)
+    - [Patricia](user) 
+    - [Patrick](user)
+    - [Payton](user) 
+    - [Philip](user)
+    - [Philippa](user)
+    - [Randolph](user)
+    - [Miranda](user)
+    - [Regina](user)
+    - [Richard](user)
+    - [Eric](user)
+    - [Derek](user)
+    - [Richard](user) 
+    - [Erika](user)
+    - [Victoria](user)
+    - [Ruby](user)
+    - [Ruben](user)
+    - [Victor](user)
+    - [Samuel](user)  
+    - [Samantha](user)
+    - [Sandy](user)
+    - [Shannon](user)
+    - [Sheldon](user)
+    - [Sydney](user)
+    - [Stacey](user) 
+    - [Stephan](user)
+    - [Stephanie](user) 
+    - [Taylor](user)
+    - [Theresa](user)
+    - [Theodore](user)
+    - [Theodora](user)
+    - [Anthony](user)
+    - [Valentine](user)
+    - [Vincent](user)
+    - [Winfield](user) 
 - intent: insert
   examples: |
     - i need [1](quantity) [bottle](uom) of [wine](item)
@@ -358,13 +576,193 @@ nlu:
 - synonym: extra virgin olive oil 
   examples: |
     - olive oil
-    - virgin olive oil  
+    - virgin olive oil 
+- synonym: apple 
+  examples: |
+    - apples 
+- synonym: egg 
+  examples: |
+    - eggs
+- synonym: salad 
+  examples: |
+    - salads
+- synonym: onion 
+  examples: |
+    - onions
+- synonym: tomato 
+  examples: |
+    - tomatoes
+- synonym: tuna 
+  examples: |
+    - tunas
+- synonym: crab 
+  examples: |
+    - crabs
+- synonym: lobster 
+  examples: |
+    - lobsters
+- synonym: mussel 
+  examples: |
+    - mussels
+- synonym: prawn 
+  examples: |
+    - prawns
+- synonym: squid 
+  examples: |
+    - squids
+- synonym: salmon 
+  examples: |
+    - salmons
+- synonym: chicken 
+  examples: |
+    - chickens
+- synonym: duck 
+  examples: |
+    - ducks
+- synonym: lamb 
+  examples: |
+    - lambs
+- synonym: pork 
+  examples: |
+    - porks
+- synonym: beef 
+  examples: |
+    - beefs
+    - beeves
+- synonym: hamburger 
+  examples: |
+    - hamburgers
+- synonym: bread 
+  examples: |
+    - breads
+- synonym: nut 
+  examples: |
+    - nuts
+- synonym: cheese 
+  examples: |
+    - cheeses
+- synonym: cherry 
+  examples: |
+    - cherries
+- synonym: garlic 
+  examples: |
+    - garlics
+- synonym: cereal 
+  examples: |
+    - cereals
+- synonym: pear 
+  examples: |
+    - pears
+- synonym: banana 
+  examples: |
+    - bananas
+- synonym: avocado 
+  examples: |
+    - avocados
+- synonym: beetroot 
+  examples: |
+    - beetroots
+- synonym: cabbage 
+  examples: |
+    - cabbages
+- synonym: cucumber 
+  examples: |
+    - cucumbers
+- synonym: lemon 
+  examples: |
+    - lemons 
+- synonym: orange 
+  examples: |
+    - oranges
+- synonym: mango 
+  examples: |
+    - mangos
+- synonym: melon 
+  examples: |
+    - melons
+- synonym: watermelon 
+  examples: |
+    - watermelons
+- synonym: peach 
+  examples: |
+    - peaches
+- synonym: raspberry 
+  examples: |
+    - raspberries
+- synonym: bell pepper 
+  examples: |
+    - bell peppers
+- synonym: papaya 
+  examples: |
+    - papayas
+- synonym: soup 
+  examples: |
+    - soups
+- synonym: pumpkin 
+  examples: |
+    - pumpkins
+- synonym: potato 
+  examples: |
+    - potatoes
+- synonym: beer 
+  examples: |
+    - beers
+- synonym: pizza 
+  examples: |
+    - pizzas
+- synonym: yeast 
+  examples: |
+    - yeasts
+- synonym: baking powder 
+  examples: |
+    - baking powders
+- synonym: stain remover 
+  examples: |
+    - stain removers
+- synonym: glass cleaner 
+  examples: |
+    - glass cleaners
+- synonym: disinfectant cleaner 
+  examples: |
+    - disinfectant cleaners
+- synonym: toothpaste 
+  examples: |
+    - toothpastes
+- synonym: mouthwash 
+  examples: |
+    - mouthwashes
+- synonym: deodorant 
+  examples: |
+    - deodorants
+- synonym: cake 
+  examples: |
+    - cakes
+- synonym: cupcake 
+  examples: |
+    - cupcakes
+- synonym: meat pie 
+  examples: |
+    - meat pies
+- synonym: apple pie 
+  examples: |
+    - apple pies
+- synonym: donut 
+  examples: |
+    - donuts
+- synonym: brownie 
+  examples: |
+    - brownies
+- synonym: coke 
+  examples: |
+    - cokes
 - synonym: eggplant 
   examples: |
     - aubergine
+    - eggplants
 - synonym: zucchini 
   examples: |
     - courgette
+    - courgettes 
 - synonym: red pepper 
   examples: |
     - chili 
@@ -389,6 +787,7 @@ nlu:
 - synonym: dental floss
   examples: |
     - floss
+    - dental flossers
 - synonym: biscuits
   examples: |
     - cookies

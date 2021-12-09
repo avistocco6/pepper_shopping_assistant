@@ -4,7 +4,18 @@ stories:
 - story: interactive_story_1_without_as_quantity
   steps:
   - intent: greet
-  - action: utter_greet
+  - action: user_form
+  - active_loop: user_form
+  - slot_was_set:
+    - requested_slot: user
+  - slot_was_set:
+    - user: emily
+  - slot_was_set:
+    - user: emily
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_submit_login
   - intent: insert
     entities:
     - quantity: '5'
@@ -15,6 +26,8 @@ stories:
     - quantity: '5'
   - action: insert_form
   - active_loop: insert_form
+  - slot_was_set:
+    - user: emily
   - slot_was_set:
     - item: prosciutto
   - slot_was_set:
@@ -45,6 +58,8 @@ stories:
     - quantity: '3'
   - action: insert_form
   - active_loop: insert_form
+  - slot_was_set:
+    - user: emily
   - slot_was_set:
     - item: prosciutto
   - slot_was_set:
@@ -70,6 +85,8 @@ stories:
   - active_loop: null
   - action: action_submit_yes_no
   - active_loop: insert_form
+  - slot_was_set:
+    - user: emily
   - action: insert_form
   - slot_was_set:
     - requested_slot: null
@@ -87,6 +104,8 @@ stories:
   - action: show_form
   - active_loop: show_form
   - slot_was_set:
+    - user: emily
+  - slot_was_set:
     - requested_slot: null
   - active_loop: null
   - action: action_submit_show
@@ -103,6 +122,8 @@ stories:
     - item: prosciutto
   - action: remove_form
   - active_loop: remove_form
+  - slot_was_set:
+    - user: emily
   - slot_was_set:
     - item: prosciutto
   - slot_was_set:
@@ -123,6 +144,8 @@ stories:
   - action: show_form
   - active_loop: show_form
   - slot_was_set:
+    - user: emily
+  - slot_was_set:
     - requested_slot: null
   - active_loop: null
   - action: action_submit_show
@@ -136,6 +159,8 @@ stories:
   - action: empty_form
   - active_loop: empty_form
   - slot_was_set:
+    - user: emily
+  - slot_was_set:
     - requested_slot: null
   - active_loop: null
   - action: action_submit_empty
@@ -148,6 +173,8 @@ stories:
   - intent: show
   - action: show_form
   - active_loop: show_form
+  - slot_was_set:
+    - user: emily
   - slot_was_set:
     - requested_slot: null
   - active_loop: null
