@@ -1,4 +1,4 @@
-prefix=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/catkin_tools_prebuild
+prefix=/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/catkin_tools_prebuild
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

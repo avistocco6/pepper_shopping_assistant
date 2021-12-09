@@ -12,6 +12,7 @@ class Text2Speech:
         self.tts = ALProxy("ALTextToSpeech", ip, port)
 
     def say(self, msg):
+        print("TALK: " + msg)
         try:
             self.tts.say(msg.text)
         except:

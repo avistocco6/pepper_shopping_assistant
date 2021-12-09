@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot
+CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot
+CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot
 
 # Utility rule file for _chatbot_generate_messages_check_deps_Dialogue.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/cha
 include CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/progress.make
 
 CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue:
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot/srv/Dialogue.srv 
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot/srv/Dialogue.srv 
 
 _chatbot_generate_messages_check_deps_Dialogue: CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue
 _chatbot_generate_messages_check_deps_Dialogue: CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/clean:
 .PHONY : CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/clean
 
 CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/depend:
-	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_chatbot_generate_messages_check_deps_Dialogue.dir/depend
 

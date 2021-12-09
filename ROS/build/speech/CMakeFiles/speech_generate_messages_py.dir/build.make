@@ -43,47 +43,47 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech
+CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech
+CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech
 
 # Utility rule file for speech_generate_messages_py.
 
 # Include the progress variables for this target.
 include CMakeFiles/speech_generate_messages_py.dir/progress.make
 
-CMakeFiles/speech_generate_messages_py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py
-CMakeFiles/speech_generate_messages_py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py
-CMakeFiles/speech_generate_messages_py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/__init__.py
+CMakeFiles/speech_generate_messages_py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py
+CMakeFiles/speech_generate_messages_py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py
+CMakeFiles/speech_generate_messages_py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/__init__.py
 
 
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV speech/RecognizeUser"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV speech/RecognizeUser"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv
 
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV speech/Speech2Text"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV speech/Speech2Text"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv
 
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/__init__.py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/__init__.py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python srv __init__.py for speech"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv --initpy
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/__init__.py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/__init__.py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python srv __init__.py for speech"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv --initpy
 
 speech_generate_messages_py: CMakeFiles/speech_generate_messages_py
-speech_generate_messages_py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py
-speech_generate_messages_py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py
-speech_generate_messages_py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/__init__.py
+speech_generate_messages_py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_RecognizeUser.py
+speech_generate_messages_py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/_Speech2Text.py
+speech_generate_messages_py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/python2.7/dist-packages/speech/srv/__init__.py
 speech_generate_messages_py: CMakeFiles/speech_generate_messages_py.dir/build.make
 
 .PHONY : speech_generate_messages_py
@@ -98,6 +98,6 @@ CMakeFiles/speech_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/speech_generate_messages_py.dir/clean
 
 CMakeFiles/speech_generate_messages_py.dir/depend:
-	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/speech_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/speech_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/speech_generate_messages_py.dir/depend
 

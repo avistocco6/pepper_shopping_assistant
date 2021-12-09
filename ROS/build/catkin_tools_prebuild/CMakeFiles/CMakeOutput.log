@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eb7a0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eb7a0.dir/build.make CMakeFiles/cmTC_eb7a0.dir/build
-make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eb7a0.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_eb7a0.dir/testCCompiler.c.o   -c /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_eb7a0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb7a0.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_eb7a0.dir/testCCompiler.c.o  -o cmTC_eb7a0 
-make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c6849/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6849.dir/build.make CMakeFiles/cmTC_c6849.dir/build
+make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6849.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c6849.dir/testCCompiler.c.o   -c /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c6849
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6849.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c6849.dir/testCCompiler.c.o  -o cmTC_c6849 
+make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e7b86/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e7b86.dir/build.make CMakeFiles/cmTC_e7b86.dir/build
-make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e7b86.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e7b86.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_e7b86
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7b86.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_e7b86.dir/CMakeCCompilerABI.c.o  -o cmTC_e7b86 
+Run Build Command:"/usr/bin/make" "cmTC_62be0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62be0.dir/build.make CMakeFiles/cmTC_62be0.dir/build
+make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62be0.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_62be0.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_62be0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62be0.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_62be0.dir/CMakeCCompilerABI.c.o  -o cmTC_62be0 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e7b86' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnYgGf0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e7b86 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_e7b86.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e7b86' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_62be0' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQbZ6jm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_62be0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_62be0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_62be0' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e7b86/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e7b86.dir/build.make CMakeFiles/cmTC_e7b86.dir/build]
-  ignore line: [make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_e7b86.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_e7b86.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_e7b86]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7b86.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_e7b86.dir/CMakeCCompilerABI.c.o  -o cmTC_e7b86 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_62be0/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_62be0.dir/build.make CMakeFiles/cmTC_62be0.dir/build]
+  ignore line: [make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_62be0.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_62be0.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_62be0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62be0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_62be0.dir/CMakeCCompilerABI.c.o  -o cmTC_62be0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e7b86' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnYgGf0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e7b86 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_e7b86.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_62be0' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQbZ6jm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_62be0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_62be0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccnYgGf0.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQbZ6jm.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e7b86] ==> ignore
+    arg [cmTC_62be0] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_e7b86.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_62be0.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -157,17 +157,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_29958/fast"
-/usr/bin/make -f CMakeFiles/cmTC_29958.dir/build.make CMakeFiles/cmTC_29958.dir/build
-make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_29958.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_29958.dir/feature_tests.c.o   -c /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/feature_tests.c
-Linking C executable cmTC_29958
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29958.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_29958.dir/feature_tests.c.o  -o cmTC_29958 
-make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2e15c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e15c.dir/build.make CMakeFiles/cmTC_2e15c.dir/build
+make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e15c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_2e15c.dir/feature_tests.c.o   -c /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2e15c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e15c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2e15c.dir/feature_tests.c.o  -o cmTC_2e15c 
+make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -177,17 +177,17 @@ make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a8c0e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a8c0e.dir/build.make CMakeFiles/cmTC_a8c0e.dir/build
-make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a8c0e.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_a8c0e.dir/feature_tests.c.o   -c /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a8c0e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8c0e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a8c0e.dir/feature_tests.c.o  -o cmTC_a8c0e 
-make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2d2ef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d2ef.dir/build.make CMakeFiles/cmTC_2d2ef.dir/build
+make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d2ef.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_2d2ef.dir/feature_tests.c.o   -c /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2d2ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d2ef.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2d2ef.dir/feature_tests.c.o  -o cmTC_2d2ef 
+make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -197,17 +197,17 @@ make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_333ad/fast"
-/usr/bin/make -f CMakeFiles/cmTC_333ad.dir/build.make CMakeFiles/cmTC_333ad.dir/build
-make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_333ad.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_333ad.dir/feature_tests.c.o   -c /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/feature_tests.c
-Linking C executable cmTC_333ad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_333ad.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_333ad.dir/feature_tests.c.o  -o cmTC_333ad 
-make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b0fcd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0fcd.dir/build.make CMakeFiles/cmTC_b0fcd.dir/build
+make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0fcd.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_b0fcd.dir/feature_tests.c.o   -c /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b0fcd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0fcd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b0fcd.dir/feature_tests.c.o  -o cmTC_b0fcd 
+make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,30 +215,30 @@ make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cacf7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cacf7.dir/build.make CMakeFiles/cmTC_cacf7.dir/build
-make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cacf7.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_cacf7.dir/testCXXCompiler.cxx.o -c /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_cacf7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cacf7.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_cacf7.dir/testCXXCompiler.cxx.o  -o cmTC_cacf7 
-make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2d50e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d50e.dir/build.make CMakeFiles/cmTC_2d50e.dir/build
+make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2d50e.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_2d50e.dir/testCXXCompiler.cxx.o -c /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_2d50e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d50e.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_2d50e.dir/testCXXCompiler.cxx.o  -o cmTC_2d50e 
+make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e12d5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e12d5.dir/build.make CMakeFiles/cmTC_e12d5.dir/build
-make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e12d5.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_e12d5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_e12d5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e12d5.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_e12d5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e12d5 
+Run Build Command:"/usr/bin/make" "cmTC_98b8c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98b8c.dir/build.make CMakeFiles/cmTC_98b8c.dir/build
+make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98b8c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_98b8c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_98b8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98b8c.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_98b8c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_98b8c 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,24 +250,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e12d5' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7COgly.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e12d5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_e12d5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e12d5' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_98b8c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRnMjdh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_98b8c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_98b8c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_98b8c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e12d5/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e12d5.dir/build.make CMakeFiles/cmTC_e12d5.dir/build]
-  ignore line: [make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_e12d5.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_e12d5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_e12d5]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e12d5.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_e12d5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e12d5 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_98b8c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_98b8c.dir/build.make CMakeFiles/cmTC_98b8c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_98b8c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_98b8c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_98b8c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98b8c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_98b8c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_98b8c ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e12d5' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7COgly.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e12d5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_e12d5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_98b8c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRnMjdh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_98b8c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_98b8c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc7COgly.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccRnMjdh.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e12d5] ==> ignore
+    arg [cmTC_98b8c] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_e12d5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_98b8c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,17 +342,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a8977/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a8977.dir/build.make CMakeFiles/cmTC_a8977.dir/build
-make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a8977.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_a8977.dir/feature_tests.cxx.o -c /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a8977
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8977.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a8977.dir/feature_tests.cxx.o  -o cmTC_a8977 
-make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8fcbd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8fcbd.dir/build.make CMakeFiles/cmTC_8fcbd.dir/build
+make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8fcbd.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_8fcbd.dir/feature_tests.cxx.o -c /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8fcbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fcbd.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8fcbd.dir/feature_tests.cxx.o  -o cmTC_8fcbd 
+make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -415,17 +415,17 @@ make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_35615/fast"
-/usr/bin/make -f CMakeFiles/cmTC_35615.dir/build.make CMakeFiles/cmTC_35615.dir/build
-make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_35615.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_35615.dir/feature_tests.cxx.o -c /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_35615
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35615.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_35615.dir/feature_tests.cxx.o  -o cmTC_35615 
-make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c4e69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4e69.dir/build.make CMakeFiles/cmTC_c4e69.dir/build
+make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4e69.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c4e69.dir/feature_tests.cxx.o -c /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c4e69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4e69.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c4e69.dir/feature_tests.cxx.o  -o cmTC_c4e69 
+make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -488,17 +488,17 @@ make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a3a50/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a3a50.dir/build.make CMakeFiles/cmTC_a3a50.dir/build
-make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a3a50.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_a3a50.dir/feature_tests.cxx.o -c /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a3a50
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3a50.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a3a50.dir/feature_tests.cxx.o  -o cmTC_a3a50 
-make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_92197/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92197.dir/build.make CMakeFiles/cmTC_92197.dir/build
+make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_92197.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_92197.dir/feature_tests.cxx.o -c /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_92197
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92197.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_92197.dir/feature_tests.cxx.o  -o cmTC_92197 
+make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -561,17 +561,17 @@ make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6a53e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6a53e.dir/build.make CMakeFiles/cmTC_6a53e.dir/build
-make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6a53e.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_6a53e.dir/feature_tests.cxx.o -c /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6a53e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a53e.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6a53e.dir/feature_tests.cxx.o  -o cmTC_6a53e 
-make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f81b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f81b7.dir/build.make CMakeFiles/cmTC_f81b7.dir/build
+make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f81b7.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_f81b7.dir/feature_tests.cxx.o -c /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f81b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f81b7.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f81b7.dir/feature_tests.cxx.o  -o cmTC_f81b7 
+make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -632,30 +632,30 @@ make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e774f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e774f.dir/build.make CMakeFiles/cmTC_e774f.dir/build
-make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e774f.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e774f.dir/CheckIncludeFile.c.o   -c /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_e774f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e774f.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e774f.dir/CheckIncludeFile.c.o  -o cmTC_e774f 
-make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ac61e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac61e.dir/build.make CMakeFiles/cmTC_ac61e.dir/build
+make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac61e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ac61e.dir/CheckIncludeFile.c.o   -c /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ac61e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac61e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ac61e.dir/CheckIncludeFile.c.o  -o cmTC_ac61e 
+make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_68f47/fast"
-/usr/bin/make -f CMakeFiles/cmTC_68f47.dir/build.make CMakeFiles/cmTC_68f47.dir/build
-make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_68f47.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_68f47.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_68f47
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68f47.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_68f47.dir/CheckFunctionExists.c.o  -o cmTC_68f47 -lpthread 
-make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f13e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f13e2.dir/build.make CMakeFiles/cmTC_f13e2.dir/build
+make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f13e2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f13e2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f13e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f13e2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f13e2.dir/CheckFunctionExists.c.o  -o cmTC_f13e2 -lpthread 
+make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
 
 

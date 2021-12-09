@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech
+CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech
+CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

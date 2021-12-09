@@ -1,1 +1,1 @@
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/share/common-lisp/ros/pepper_interface/srv/_package_Talk.lisp
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/share/common-lisp/ros/pepper_interface/srv/_package_Talk.lisp

@@ -13,6 +13,7 @@ class WakeUp:
         self.posture_proxy = ALProxy("ALRobotPosture", ip, port)
 
     def wakeup(self, *args):
+        print("WakeUP")
         try:
             self.motion_proxy.wakeUp()
             self.stand()

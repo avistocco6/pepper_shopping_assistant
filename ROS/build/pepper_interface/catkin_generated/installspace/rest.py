@@ -13,6 +13,7 @@ class Rest:
         self.posture_proxy = ALProxy("ALRobotPosture", ip, port)
 
     def rest(self, *args):
+        print("REST")
         try:
             self.motion_proxy.rest()
         except:

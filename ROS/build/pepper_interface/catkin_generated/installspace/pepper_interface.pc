@@ -1,4 +1,4 @@
-prefix=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install
+prefix=/home/angelo/Desktop/pepper_shopping_assistant/ROS/install
 
 Name: pepper_interface
 Description: Description of pepper_interface

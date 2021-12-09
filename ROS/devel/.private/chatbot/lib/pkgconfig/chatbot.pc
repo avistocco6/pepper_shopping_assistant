@@ -1,8 +1,8 @@
-prefix=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot
+prefix=/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot
 
 Name: chatbot
 Description: Description of chatbot
 Version: 0.0.0
-Cflags: -I/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/include
+Cflags: -I/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/include
 Libs: -L${prefix}/lib 
 Requires: 

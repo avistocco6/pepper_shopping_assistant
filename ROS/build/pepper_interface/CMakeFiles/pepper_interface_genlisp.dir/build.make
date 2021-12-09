@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface
+CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface
+CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface
 
 # Utility rule file for pepper_interface_genlisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/pepper_interface_genlisp.dir/clean:
 .PHONY : CMakeFiles/pepper_interface_genlisp.dir/clean
 
 CMakeFiles/pepper_interface_genlisp.dir/depend:
-	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/pepper_interface_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/pepper_interface_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pepper_interface_genlisp.dir/depend
 

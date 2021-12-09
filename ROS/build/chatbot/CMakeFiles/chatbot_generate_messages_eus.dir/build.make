@@ -43,32 +43,32 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot
+CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot
+CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot
 
 # Utility rule file for chatbot_generate_messages_eus.
 
 # Include the progress variables for this target.
 include CMakeFiles/chatbot_generate_messages_eus.dir/progress.make
 
-CMakeFiles/chatbot_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/srv/Dialogue.l
-CMakeFiles/chatbot_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/manifest.l
+CMakeFiles/chatbot_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/srv/Dialogue.l
+CMakeFiles/chatbot_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/manifest.l
 
 
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/srv/Dialogue.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/srv/Dialogue.l: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot/srv/Dialogue.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from chatbot/Dialogue.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot/srv/Dialogue.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p chatbot -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/srv
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/srv/Dialogue.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/srv/Dialogue.l: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot/srv/Dialogue.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from chatbot/Dialogue.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot/srv/Dialogue.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p chatbot -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/srv
 
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for chatbot"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot chatbot std_msgs
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for chatbot"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot chatbot std_msgs
 
 chatbot_generate_messages_eus: CMakeFiles/chatbot_generate_messages_eus
-chatbot_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/srv/Dialogue.l
-chatbot_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/manifest.l
+chatbot_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/srv/Dialogue.l
+chatbot_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/manifest.l
 chatbot_generate_messages_eus: CMakeFiles/chatbot_generate_messages_eus.dir/build.make
 
 .PHONY : chatbot_generate_messages_eus
@@ -83,6 +83,6 @@ CMakeFiles/chatbot_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/chatbot_generate_messages_eus.dir/clean
 
 CMakeFiles/chatbot_generate_messages_eus.dir/depend:
-	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles/chatbot_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles/chatbot_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/chatbot_generate_messages_eus.dir/depend
 

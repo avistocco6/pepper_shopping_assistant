@@ -48,7 +48,7 @@ class PepperController:
         """Invokes load url service"""
         rospy.wait_for_service("load_url")
         try:
-            load_url = rospy.ServiceProxy("load_url", LoadUrl)
+            load_url = rospy.ServiceProxy("load_url", LoadURL)
             resp = load_url(URL)
             return resp.ack
         except:
@@ -70,8 +70,10 @@ class PepperController:
         request = splitted[0]
         parameter = splitted[1]
 
+        print("Pepper_controller: " + data)
         # Wake up pepper if not yet waked up
         if not self.pepper_waked_up:
+            print("Waked up")
             result = self.pepper_wake_up()
             if result != "ACK":
                 # Error
@@ -80,6 +82,7 @@ class PepperController:
 
         # Check if there are running threads
         if self.running_rest_thread is not None:
+            print("Killing rest thread")
             self.stop_rest_thread = True
             self.running_rest_thread.join()
 
@@ -88,12 +91,13 @@ class PepperController:
         self.running_rest_thread = threading.Thread(target = rest_after_60sec,
                             args = (lambda: self.stop_rest, time.time()))
         self.running_rest_thread.start()
+        print("Rest thread started")
 
-        if request == 3:
+        if request == "talk":
             result = self.pepper_text2speech(parameter)
-        elif request == 4:
+        elif request == "load_url":
             result = self.pepper_load_url(parameter)
-        elif request == 5:
+        elif request == "execute_js":
             result = self.pepper_execute_js(parameter)
         else:
             result = "Invalid request"
@@ -112,7 +116,7 @@ def rest_after_60sec(stop, start_time):
 
         actual_time = time.time()
 
-        if stop() or actual_time-start_time >= 60:
+        if stop() or actual_time - start_time >= 60:
             break
 
 if __name__ == "__main__":

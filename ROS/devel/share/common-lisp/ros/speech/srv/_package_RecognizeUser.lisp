@@ -1,1 +1,1 @@
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/_package_RecognizeUser.lisp
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/_package_RecognizeUser.lisp

@@ -67,14 +67,14 @@ set(speech_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(speech_SOURCE_PREFIX /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech)
-  set(speech_DEVEL_PREFIX /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech)
+  set(speech_SOURCE_PREFIX /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech)
+  set(speech_DEVEL_PREFIX /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech)
   set(speech_INSTALL_PREFIX "")
   set(speech_PREFIX ${speech_DEVEL_PREFIX})
 else()
   set(speech_SOURCE_PREFIX "")
   set(speech_DEVEL_PREFIX "")
-  set(speech_INSTALL_PREFIX /home/alfonso/Desktop/pepper_shopping_assistant/ROS/install)
+  set(speech_INSTALL_PREFIX /home/angelo/Desktop/pepper_shopping_assistant/ROS/install)
   set(speech_PREFIX ${speech_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(speech_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include " STREQUAL " ")
+if(NOT "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include " STREQUAL " ")
   set(speech_INCLUDE_DIRS "")
-  set(_include_dirs "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include")
+  set(_include_dirs "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speec
         message(FATAL_ERROR "Project 'speech' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'speech' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'speech' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/${idir}'.  ${_report}")
     endif()
     _list_append_unique(speech_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib;/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib;/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

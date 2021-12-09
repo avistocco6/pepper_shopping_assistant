@@ -13,6 +13,8 @@ class Tablet:
         self.tablet_proxy.resetTablet()
 
     def load_url(self, msg):
+        print("LoadURL: " + msg)
+
         try:
             self.tablet_proxy.showWebview(msg.URL)
         except:
@@ -21,6 +23,8 @@ class Tablet:
         return "ACK"
 
     def execute_js(self, msg):
+        print("ExecuteJS: " + msg)
+
         try:
             self.tablet_proxy.executeJS(msg.js)
         except:
