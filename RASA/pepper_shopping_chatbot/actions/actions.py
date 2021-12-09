@@ -231,15 +231,47 @@ class ActionSubmitLogin(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        # if tracker.get_slot("user") is not None:
-        #     return[]
-            
-        self.user = tracker.get_slot("user")
-        login_message = "Hi, " + str(self.user) + ". How can i help you?"
-        dispatcher.utter_message(text = login_message)
+        filename = PATH + "users_mapping.json"
+        return_msg = ""
 
-        # return [SlotSet("user", self.user)]
+        try:
+            # Check if directory exists. If not, create it
+            if not os.path.exists(os.getcwd() + PATH):
+                os.makedirs(os.getcwd() + PATH)
+            # Check if file exist and create it otherwise
+            if not os.path.exists(os.getcwd() + filename):
+                with open(os.getcwd() + filename, "w+") as f:
+                    f.close()
+
+            with open(os.getcwd() + filename, "r+") as f:
+                # Load file content             
+                try:
+                    data = json.load(f)
+                except:
+                    data = dict()
+
+                self.user = tracker.get_slot("user")
+                #last_id = tracker.get_slot("last_id")
+                curr_id = tracker.get_slot("curr_id")
+
+                # associate last and current ids to current user
+                #if last_id is not None:
+                #    data[last_id] = self.user
+                if curr_id is not None:
+                    data[curr_id] = self.user
+
+                f.seek(0)
+                json.dump(data, f, indent=4)
+
+                return_msg = "Hi, " + str(self.user) + ". How can i help you?"
+
+        except Exception as e:
+            return_msg = str(e)
+
+        dispatcher.utter_message(text = return_msg)
+
         return []
+
 
 class ActionSubmitLogout(Action):
     user = None
@@ -257,3 +289,35 @@ class ActionSubmitLogout(Action):
             dispatcher.utter_message(text = logout_message)
 
         return [SlotSet("user", None), ActiveLoop(None)]
+
+
+class ActionMapUser(Action):
+
+    def name(self) -> Text:
+        return "action_submit_logout"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        filename = PATH + "users_mapping.json"
+
+        curr_id = tracker.get_slot("curr_id")
+        #last_id = curr_id
+        user = None
+
+        try:
+            with open(os.getcwd() + filename, "r+") as f:
+                # Load file content             
+                try:
+                    data = json.load(f)
+                    user = data[curr_id]
+                except:
+                    pass
+        except Exception as e:
+            pass
+
+        dispatcher.utter_message(text = f"Mapped user: {user} - id: {curr_id}")
+        
+        #return [SlotSet("curr_id", None), SlotSet("last_id", last_id), SlotSet("user", user)]
+        return [SlotSet("curr_id", None), SlotSet("user", user)]

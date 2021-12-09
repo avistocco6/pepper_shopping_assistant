@@ -133,3 +133,12 @@ rules:
     - requested_slot: null
   - action: action_submit_login
 # END - Login user
+
+# START - Map user
+- rule: Submit form
+  steps:
+  - action: map_user_form
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_map_user
+# END - Map user

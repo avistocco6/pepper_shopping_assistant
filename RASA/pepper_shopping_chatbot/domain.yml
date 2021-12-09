@@ -28,6 +28,7 @@ actions:
   - action_submit_login
   - action_submit_logout
   - action_submit_yes_no
+  - action_map_user
   - utter_greet
   - utter_goodbye
   - utter_noworries
@@ -57,7 +58,11 @@ slots:
   yes_no_answer:
     type: text
     influence_conversation: false
-    
+  curr_id:
+    type: text
+    influence_conversation: false
+
+
 forms:
   enforce_yes_no_form:
     required_slots:
@@ -101,7 +106,10 @@ forms:
       user:
         - type: from_entity
           entity: user
-  
+  map_user_form:
+    required_slots:
+      curr_id:
+        - type: from_text
 
 responses:
   utter_greet:
