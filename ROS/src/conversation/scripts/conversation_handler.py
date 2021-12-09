@@ -25,23 +25,24 @@ class ChatbotInterface:
 
     def callback(self, data):    
         rospy.wait_for_service('dialogue')
+        print("CALLBACK")
         dialogue = rospy.ServiceProxy('dialogue', Dialogue)
 
-        while not rospy.is_shutdown():
-            # Unpacking user and message information according to the protocol
-            self.current_user = data.data.split("~")[0]
-            message = data.data.split("~")[1]
+        # Unpacking user and message information according to the protocol
+        self.current_user = data.data.split("~")[0]
+        message = data.data.split("~")[1]
+        print("CONVERSATION_HANDLER: message received -> " + str(message) + " " + str(self.current_user))
 
-            # Service request
-            if message == 'exit': 
-                break
-            try:
-                answer = dialogue(self.current_user, message)
-            except rospy.ServiceException as e:
-                print("Service call failed: %s"%e)
+        # Service request
+        if message == 'exit': 
+            return
+        try:
+            answer = dialogue(message, self.current_user)
+        except rospy.ServiceException as e:
+            print("Service call failed: %s"%e)
 
-            # Handle the answer of the bot to run some logic
-            self.handle_answer(answer)
+        # Handle the answer of the bot to run some logic
+        self.handle_answer(answer)
 
 
     def run(self):
@@ -52,7 +53,9 @@ class ChatbotInterface:
         self.pub = rospy.Publisher('pepper_response', String, queue_size=10)
 
         # Subscribe to messages topic
-        rospy.Subscriber('messages', String, self.callback)
+        rospy.Subscriber('messages', String, self.callback ,queue_size=10)
+
+        print("CONVERSATION_HANDLER: spinning...")
 
         # spin() simply keeps python from exiting until this node is stopped
         rospy.spin()

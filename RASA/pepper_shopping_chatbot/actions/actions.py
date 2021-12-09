@@ -252,7 +252,7 @@ class ActionSubmitLogin(Action):
 
                 self.user = tracker.get_slot("user")
                 #last_id = tracker.get_slot("last_id")
-                sender_id = tracker.current_state(["sender_id"])
+                sender_id = tracker.current_state()["sender_id"]
 
                 # associate last and current ids to current user
                 #if last_id is not None:
@@ -302,7 +302,7 @@ class ActionMapUser(Action):
 
         filename = PATH + "users_mapping.json"
 
-        sender_id = tracker.current_state(["sender_id"])
+        sender_id = tracker.current_state()["sender_id"]
         #last_id = curr_id
         user = None
 

@@ -20,18 +20,19 @@ class SpeechInterface:
 
 
     def callback(self, data):
-
+ 
         # Wait for speech recognize user service
         rospy.wait_for_service('recognize_user')
         recognize_user = rospy.ServiceProxy('recognize_user', RecognizeUser)
-        user = recognize_user(data)
+        user = recognize_user(data).user
 
         # Wait for speech2text service
         rospy.wait_for_service('speech2text')
         speech2text = rospy.ServiceProxy('speech2text', Speech2Text)
-        message = speech2text(data)
-
-        self.send_message(user, message)
+        message = speech2text(data).text
+        print("SPEECH_HANDLER: message to send -> " + str(message))
+        if message != "":
+            self.send_message(user, message)
 
 
     def run(self):

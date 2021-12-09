@@ -58,16 +58,16 @@ def handle_service(req):
 
     # If the voice is unknown it adds it to the database
     if len(X) == 0 or id_label is None:
-        new_label = "ID" + str(ID) 
+        new_label = ID 
         X.append(ukn[0])
         y.append(new_label)
         ID += 1
 
         print("    SPEECH_RECOGNITION_SERVER: Added new label: " + str(new_label))  
-        return new_label
+        return str(new_label)
     
     print("    SPEECH_RECOGNITION_SERVER: Model confronted, the label is: " + str(id_label))      
-    return id_label
+    return str(id_label)
 
 def main():
     # Inizialize node

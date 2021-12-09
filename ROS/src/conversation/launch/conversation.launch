@@ -1,0 +1,4 @@
+<launch>
+    <arg name="node_start_delay" default="100.0" />  
+    <node pkg="conversation" name="conversation_handler" type="conversation_handler.py" output="screen"/>
+</launch>

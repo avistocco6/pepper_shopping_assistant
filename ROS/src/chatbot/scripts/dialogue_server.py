@@ -8,6 +8,7 @@ import requests
 def handle_service(req):
     user = req.user
     message = req.message
+    print("CONVERSATION_HANDLER: message received -> " + str(message) + " " + str(user))
 
     # Get answer and create JSON message
     answer_url = 'http://localhost:5002/webhooks/rest/webhook'
@@ -28,8 +29,10 @@ def handle_service(req):
 
     # Fill the service response
     for i in r.json():
-        response.request += str(i["request"])
+        response.request += str(i["request"]) if "request" in i else ""
         response.text    += str(i["text"])
+
+    print("CONVERSATION_HANDLER: response -> " + str(r.json()))
 
     return response
 
