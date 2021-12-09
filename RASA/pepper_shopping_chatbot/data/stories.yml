@@ -3,6 +3,7 @@ stories:
 - story: story_goodbye
   steps:
   - intent: greet
+  - action: action_map_user
   - action: user_form
   - active_loop: user_form
   - slot_was_set:
@@ -16,6 +17,7 @@ stories:
   - active_loop: null
   - action: action_submit_login
   - intent: goodbye
+  - action: action_map_user
   - action: action_submit_logout
   - slot_was_set:
     - user: null

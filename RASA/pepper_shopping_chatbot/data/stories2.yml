@@ -4,6 +4,7 @@ stories:
 - story: interactive_story_2_ask_quantity
   steps:
   - intent: greet
+  - action: action_map_user
   - action: user_form
   - active_loop: user_form
   - slot_was_set:
@@ -30,6 +31,7 @@ stories:
     - item: potatoes
   - slot_was_set:
     - quantity: '5'
+  - action: action_map_user
   - action: insert_form
   - active_loop: insert_form
   - slot_was_set:
@@ -55,6 +57,7 @@ stories:
   - slot_was_set:
     - yes_no_answer: null
   - intent: show
+  - action: action_map_user
   - action: show_form
   - active_loop: show_form
   - slot_was_set:
@@ -77,6 +80,7 @@ stories:
     - item: bread
   - slot_was_set:
     - quantity: '6'
+  - action: action_map_user
   - action: insert_form
   - active_loop: insert_form
   - slot_was_set:
@@ -106,6 +110,7 @@ stories:
     - item: bread
   - slot_was_set:
     - item: bread
+  - action: action_map_user
   - action: remove_form
   - active_loop: remove_form
   - slot_was_set:
@@ -127,6 +132,7 @@ stories:
   - slot_was_set:
     - yes_no_answer: null
   - intent: show
+  - action: action_map_user
   - action: show_form
   - active_loop: show_form
   - slot_was_set:
@@ -142,6 +148,7 @@ stories:
   - slot_was_set:
     - uom: null
   - intent: empty
+  - action: action_map_user
   - action: empty_form
   - active_loop: empty_form
   - slot_was_set:
@@ -157,6 +164,7 @@ stories:
   - slot_was_set:
     - uom: null
   - intent: show
+  - action: action_map_user
   - action: show_form
   - active_loop: show_form
   - slot_was_set:
