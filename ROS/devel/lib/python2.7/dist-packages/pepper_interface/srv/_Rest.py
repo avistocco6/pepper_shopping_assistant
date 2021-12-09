@@ -1,0 +1,1 @@
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/lib/python2.7/dist-packages/pepper_interface/srv/_Rest.py

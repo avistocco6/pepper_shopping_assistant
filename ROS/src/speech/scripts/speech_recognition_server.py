@@ -32,7 +32,9 @@ ID = 1
 TH = 0.50
 
 def handle_service(req):
-    audio_data = np.array(req.audio)
+    global ID 
+
+    audio_data = np.array(req.audio.data)
 
     # to float32
     audio_data = audio_data.astype(np.float32, order='C') / 32768.0
@@ -51,15 +53,20 @@ def handle_service(req):
         cos_dist = batch_cosine_similarity(np.array(X), emb_voice)
         
         # Matching
-        id_label = dist2id(cos_dist, y, TH, mode='avg')
-    
+        id_label = dist2id(cos_dist, y, TH, mode='avg')    
+        
+
     # If the voice is unknown it adds it to the database
     if len(X) == 0 or id_label is None:
         new_label = "ID" + str(ID) 
         X.append(ukn[0])
         y.append(new_label)
+        ID += 1
+
+        print("    SPEECH_RECOGNITION_SERVER: Added new label: " + str(new_label))  
         return new_label
-        
+    
+    print("    SPEECH_RECOGNITION_SERVER: Model confronted, the label is: " + str(id_label))      
     return id_label
 
 def main():

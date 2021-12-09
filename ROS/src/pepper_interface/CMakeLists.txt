@@ -164,11 +164,11 @@ include_directories(
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
 catkin_install_python(PROGRAMS
-  src/wake_up.py
-  src/text2speech.py
-  src/tablet.py
-  src/rest.py
-  src/pepper_controller.py
+  scripts/wake_up.py
+  scripts/text2speech.py
+  scripts/tablet.py
+  scripts/rest.py
+  scripts/pepper_controller.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

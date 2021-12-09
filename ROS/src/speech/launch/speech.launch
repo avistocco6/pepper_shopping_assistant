@@ -1,0 +1,8 @@
+<launch>
+        <node pkg="speech" type="speech_handler.py" name="speech_handler" output="screen"/>
+        <node pkg="speech" type="speech2text_server.py" name="speech2text" output="screen"/>
+        <node pkg="speech" type="speech_recognition_server.py" name="speech_recognition" output="screen"/>
+</launch>
+
+
+
