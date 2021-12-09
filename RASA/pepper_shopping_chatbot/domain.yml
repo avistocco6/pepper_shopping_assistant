@@ -128,7 +128,7 @@ responses:
 
   utter_custom_message:
   - custom:
-      operation: "{operation}"
+      request: "{request}"
       text: "{text}"
 
 session_config:
