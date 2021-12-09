@@ -252,13 +252,13 @@ class ActionSubmitLogin(Action):
 
                 self.user = tracker.get_slot("user")
                 #last_id = tracker.get_slot("last_id")
-                curr_id = tracker.get_slot("curr_id")
+                sender_id = tracker.current_state(["sender_id"])
 
                 # associate last and current ids to current user
                 #if last_id is not None:
                 #    data[last_id] = self.user
-                if curr_id is not None:
-                    data[curr_id] = self.user
+                if sender_id is not None:
+                    data[sender_id] = self.user
 
                 f.seek(0)
                 json.dump(data, f, indent=4)
@@ -302,7 +302,7 @@ class ActionMapUser(Action):
 
         filename = PATH + "users_mapping.json"
 
-        curr_id = tracker.get_slot("curr_id")
+        sender_id = tracker.current_state(["sender_id"])
         #last_id = curr_id
         user = None
 
@@ -311,13 +311,13 @@ class ActionMapUser(Action):
                 # Load file content             
                 try:
                     data = json.load(f)
-                    user = data[curr_id]
+                    user = data[sender_id]
                 except:
                     pass
         except Exception as e:
             pass
 
-        dispatcher.utter_message(text = f"Mapped user: {user} - id: {curr_id}")
+        dispatcher.utter_message(text = f"Mapped user: {user} - id: {sender_id}")
         
         #return [SlotSet("curr_id", None), SlotSet("last_id", last_id), SlotSet("user", user)]
-        return [SlotSet("curr_id", None), SlotSet("user", user)]
+        return [SlotSet("user", user)]

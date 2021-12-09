@@ -28,7 +28,6 @@ actions:
   - action_submit_login
   - action_submit_logout
   - action_submit_yes_no
-  - action_map_user
   - utter_greet
   - utter_goodbye
   - utter_noworries
@@ -106,10 +105,7 @@ forms:
       user:
         - type: from_entity
           entity: user
-  map_user_form:
-    required_slots:
-      curr_id:
-        - type: from_text
+
 
 responses:
   utter_greet:

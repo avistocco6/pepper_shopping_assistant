@@ -32,7 +32,7 @@ rules:
 
 # ------------------ FORMS ------------------------------
 
-# START - Add to listcondition:
+# START - Add to list
 - rule: Activate form
   steps:
   - intent: insert
@@ -43,6 +43,7 @@ rules:
   condition:
   - active_loop: insert_form
   steps:
+  - action: action_map_user
   - action: insert_form
   - active_loop: null
   - slot_was_set:
@@ -61,6 +62,7 @@ rules:
   condition:
   - active_loop: remove_form
   steps:
+  - action: action_map_user
   - action: remove_form
   - active_loop: null
   - slot_was_set:
@@ -79,6 +81,7 @@ rules:
   condition:
   - active_loop: show_form
   steps:
+  - action: action_map_user
   - action: show_form
   - active_loop: null
   - slot_was_set:
@@ -97,6 +100,7 @@ rules:
   condition:
   - active_loop: empty_form
   steps:
+  - action: action_map_user
   - action: empty_form
   - active_loop: null
   - slot_was_set:
@@ -133,12 +137,3 @@ rules:
     - requested_slot: null
   - action: action_submit_login
 # END - Login user
-
-# START - Map user
-- rule: Submit form
-  steps:
-  - action: map_user_form
-  - slot_was_set:
-    - requested_slot: null
-  - action: action_map_user
-# END - Map user
