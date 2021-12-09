@@ -79,8 +79,8 @@ class ActionSubmitInsert(Action):
             return_msg = str(e)
   
         dispatcher.utter_message(
-            operation = "insert",
-            text = return_msg,
+            #request = "insert",
+            text = return_msg
         )
   
         return [SlotSet("item", None), 
@@ -139,8 +139,8 @@ class ActionSubmitRemove(Action):
             return_msg = self.ERROR_MESSAGE
 
         dispatcher.utter_message(
-            operation = "remove",
-            text = return_msg,
+            #request = "remove",
+            text = return_msg
         )
 
         return [SlotSet("item", None), SlotSet("quantity", None), SlotSet("uom", None), SlotSet("yes_no_answer", None)]
@@ -173,8 +173,8 @@ class ActionSubmitShow(Action):
             return_msg = self.ERROR_MESSAGE
 
         dispatcher.utter_message(
-            operation = "show",
-            text = return_msg,
+            request = "load_url",
+            text = return_msg
         )
 
         return [SlotSet("item", None), SlotSet("quantity", None), SlotSet("uom", None)]
@@ -203,11 +203,12 @@ class ActionSubmitEmpty(Action):
             return_msg = self.ERROR_MESSAGE
 
         dispatcher.utter_message(
-            operation = "empty",
-            text = return_msg,
+            #request = "empty",
+            text = return_msg
         )
 
         return [SlotSet("item", None), SlotSet("quantity", None), SlotSet("uom", None)]
+
 
 class ActionSubmitYesNo(Action):
     def name(self) -> Text:
