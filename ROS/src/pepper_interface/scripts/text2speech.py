@@ -4,15 +4,15 @@ from optparse import OptionParser
 from pepper_interface.srv import *
 import rospy
 
-class Text2Speech:
+class Text2SpeechServer:
 
     def __init__(self, ip, port):
         self.ip = ip
         self.port = port
         self.tts = ALProxy("ALTextToSpeech", ip, port)
 
-    def say(self, msg):
-        print("TALK: " + msg)
+    def handle_service(self, msg):
+        print("TALK: " + str(msg.text))
         try:
             self.tts.say(msg.text)
         except:
@@ -22,7 +22,7 @@ class Text2Speech:
     
     def start(self):
         rospy.init_node("text2speech")
-        rospy.Service('tts', Talk, self.say)
+        rospy.Service('tts', Talk, self.handle_service)
         rospy.spin()
 
 if __name__ == "__main__":
@@ -32,7 +32,7 @@ if __name__ == "__main__":
     (options, args) = parser.parse_args()
 
     try:
-        ttsnode = Text2Speech(options.ip, int(options.port))
+        ttsnode = Text2SpeechServer(options.ip, int(options.port))
         ttsnode.start()
     except rospy.ROSInterruptException:
         pass

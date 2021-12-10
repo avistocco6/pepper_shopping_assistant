@@ -1,4 +1,4 @@
 <launch>
-    <arg name="node_start_delay" default="100.0" />  
+    <arg name="node_start_delay" default="5.0" />  
     <node pkg="audio_recording" name="voice_detection" type="voice_detection.py" output="screen"/>
 </launch>

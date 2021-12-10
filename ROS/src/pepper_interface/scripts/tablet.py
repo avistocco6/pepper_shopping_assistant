@@ -4,7 +4,7 @@ from optparse import OptionParser
 from pepper_interface.srv import *
 import rospy
 
-class Tablet:
+class TabletServer:
 
     def __init__(self, ip, port):
         self.ip = ip
@@ -13,7 +13,7 @@ class Tablet:
         self.tablet_proxy.resetTablet()
 
     def load_url(self, msg):
-        print("LoadURL: " + msg)
+        print("LoadURL: " + msg.URL)
 
         try:
             self.tablet_proxy.showWebview(msg.URL)
@@ -48,7 +48,7 @@ if __name__ == "__main__":
     (options, args) = parser.parse_args()
 
     try:
-        node = Tablet(options.ip, int(options.port))
+        node = TabletServer(options.ip, int(options.port))
         node.start()
     except rospy.ROSInterruptException:
         pass

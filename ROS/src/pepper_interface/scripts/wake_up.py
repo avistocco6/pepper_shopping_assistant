@@ -4,7 +4,7 @@ from optparse import OptionParser
 from pepper_interface.srv import *
 import rospy
 
-class WakeUp:
+class WakeUpServer:
 
     def __init__(self, ip, port):
         self.ip = ip
@@ -12,8 +12,8 @@ class WakeUp:
         self.motion_proxy = ALProxy("ALMotion", ip, port)
         self.posture_proxy = ALProxy("ALRobotPosture", ip, port)
 
-    def wakeup(self, *args):
-        print("WakeUP")
+    def handle_service(self, *args):
+        print("\n\nWakeUP\n\n")
         try:
             self.motion_proxy.wakeUp()
             self.stand()
@@ -29,9 +29,9 @@ class WakeUp:
 
     def start(self):
         rospy.init_node("wake_up")
-        self.wakeup()
-        self.stand()        
-        rospy.Service("wakeup", WakeUp, self.wakeup)
+        # self.wakeup()
+        # self.stand()        
+        rospy.Service("wakeup", WakeUp, self.handle_service)
         rospy.spin()
 
 if __name__ == "__main__":
@@ -41,7 +41,7 @@ if __name__ == "__main__":
     (options, args) = parser.parse_args()
 
     try:
-        node = WakeUp(options.ip, int(options.port))
+        node = WakeUpServer(options.ip, int(options.port))
         node.start()
     except rospy.ROSInterruptException:
         pass

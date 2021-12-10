@@ -17,13 +17,15 @@ def callback(recognizer, audio):
     data_to_send = Int16MultiArray()
     data_to_send.data = data
     
+    print("SPEECH_HANDLER: Voice detected")
     pub.publish(data_to_send)
+    print("SPEECH_HANDLER: Message sent")
 
 # Initialize a Recognizer
 r = sr.Recognizer()
 
 # Audio source
-m = sr.Microphone(sample_rate=16000)
+m = sr.Microphone(device_index=6,sample_rate=16000)
 
 # Calibration within the environment
 # we only need to calibrate once, before we start listening

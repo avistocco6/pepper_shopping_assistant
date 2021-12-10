@@ -39,7 +39,7 @@ class SpeechInterface:
         rospy.init_node('speech_handler', anonymous=True)
 
         # Publish to message topic
-        self.pub = rospy.Publisher('messages', String, queue_size=10)
+        self.pub = rospy.Publisher('messages', String, queue_size=5)
 
         # Subscribe to voice data topic
         rospy.Subscriber("voice_data",Int16MultiArray, self.callback)
