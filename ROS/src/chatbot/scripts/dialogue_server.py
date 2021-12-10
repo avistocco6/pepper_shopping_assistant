@@ -5,17 +5,32 @@ import rospy
 import requests
 
 
+def set_rasa_ID_slot(ID):
+    slot_url = 'http://localhost:5002/conversations/DEFAULT/tracker/events'
+
+    message = {
+        "event": "slot",
+        "name": "ID",
+        "value": ID
+    }
+
+    return requests.post(slot_url, json=message)
+
+
 def handle_service(req):
     user = req.user
     message = req.message
     print("CONVERSATION_HANDLER: message received -> " + str(message) + " " + str(user))
+
+    # Set rasa slot
+    set_rasa_ID_slot(user)
 
     # Get answer and create JSON message
     answer_url = 'http://localhost:5002/webhooks/rest/webhook'
 
     # Pack the message to send
     message = {
-        "sender": user,
+        "sender": "DEFAULT", #user,
         "message": message
     }
 

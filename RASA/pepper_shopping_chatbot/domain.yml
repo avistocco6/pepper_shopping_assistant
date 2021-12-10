@@ -58,10 +58,12 @@ slots:
   yes_no_answer:
     type: text
     influence_conversation: false
-  curr_id:
+  ID:
     type: text
     influence_conversation: false
-
+  last_IDs:
+    type: list
+    influence_conversation: false
 
 forms:
   enforce_yes_no_form:
@@ -114,7 +116,7 @@ responses:
   - text: "What can I add to your list?"
   - text: "What would you like to sign before going to the supermarket?"
   
-  #utter_ask_user:
+  utter_ask_user:
   - text: "Hi, who are you?"
   - text: "Hi, please tell me your name"
   - text: "Hello, what's your name?"

@@ -18,6 +18,46 @@ import os
 
 PATH = "/db/"
 
+def save_user_and_id(tracker):
+    filename = PATH + "users_mapping.json"
+    user = None
+    try:
+        # Check if directory exists. If not, create it
+        if not os.path.exists(os.getcwd() + PATH):
+            os.makedirs(os.getcwd() + PATH)
+        # Check if file exist and create it otherwise
+        if not os.path.exists(os.getcwd() + filename):
+            with open(os.getcwd() + filename, "w+") as f:
+                f.close()
+
+        with open(os.getcwd() + filename, "r+") as f:
+            # Load file content             
+            try:
+                data = json.load(f)
+            except:
+                data = dict()
+
+            user = tracker.get_slot("user")
+            last_IDs = tracker.get_slot("last_IDs")
+            sender_ID = tracker.get_slot("ID")
+
+            # associate last and current ids to current user
+            if last_IDs is not None:
+                for id in list(last_IDs):
+                    data[id] = user
+            if sender_ID is not None:
+                data[sender_ID] = user
+
+            f.seek(0)
+            json.dump(data, f, indent=4)
+
+            return_msg = "Hi, " + str(user) + ". How can i help you?"
+
+    except Exception as e:
+        return_msg = str(e)
+
+    return return_msg
+
 class ActionSubmitInsert(Action):
 
     NOP_MESSAGE = "List not updated."
@@ -29,6 +69,7 @@ class ActionSubmitInsert(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
   
+        save_user_and_id(tracker)
         return_msg = ""
         try:
             # Open file
@@ -99,6 +140,8 @@ class ActionSubmitRemove(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
+        save_user_and_id(tracker)
+
         return_msg = ""
         try:
             # Open file
@@ -156,6 +199,8 @@ class ActionSubmitShow(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
+        save_user_and_id(tracker)
+        
         return_msg = ""
         try:
             # Open file
@@ -189,6 +234,9 @@ class ActionSubmitEmpty(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        save_user_and_id(tracker)
+
         return_msg = ""
         try:
             user = tracker.get_slot("user")
@@ -231,46 +279,11 @@ class ActionSubmitLogin(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        filename = PATH + "users_mapping.json"
-        return_msg = ""
-
-        try:
-            # Check if directory exists. If not, create it
-            if not os.path.exists(os.getcwd() + PATH):
-                os.makedirs(os.getcwd() + PATH)
-            # Check if file exist and create it otherwise
-            if not os.path.exists(os.getcwd() + filename):
-                with open(os.getcwd() + filename, "w+") as f:
-                    f.close()
-
-            with open(os.getcwd() + filename, "r+") as f:
-                # Load file content             
-                try:
-                    data = json.load(f)
-                except:
-                    data = dict()
-
-                self.user = tracker.get_slot("user")
-                #last_id = tracker.get_slot("last_id")
-                sender_id = tracker.current_state()["sender_id"]
-
-                # associate last and current ids to current user
-                #if last_id is not None:
-                #    data[last_id] = self.user
-                if sender_id is not None:
-                    data[sender_id] = self.user
-
-                f.seek(0)
-                json.dump(data, f, indent=4)
-
-                return_msg = "Hi, " + str(self.user) + ". How can i help you?"
-
-        except Exception as e:
-            return_msg = str(e)
+        return_msg = save_user_and_id(tracker)
 
         dispatcher.utter_message(text = return_msg)
 
-        return []
+        return [SlotSet("last_IDs", None)]
 
 
 class ActionSubmitLogout(Action):
@@ -284,9 +297,9 @@ class ActionSubmitLogout(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         self.user = tracker.get_slot("user")
-        if self.user is not None:
-            logout_message = "Bye bye " + self.user + "!"
-            dispatcher.utter_message(text = logout_message)
+        #if self.user is not None:
+        #    logout_message = "Bye bye " + self.user + "!"
+        #    dispatcher.utter_message(text = logout_message)
 
         return [SlotSet("user", None), ActiveLoop(None)]
 
@@ -294,7 +307,7 @@ class ActionSubmitLogout(Action):
 class ActionMapUser(Action):
 
     def name(self) -> Text:
-        return "action_submit_logout"
+        return "action_map_user"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -302,8 +315,8 @@ class ActionMapUser(Action):
 
         filename = PATH + "users_mapping.json"
 
-        sender_id = tracker.current_state()["sender_id"]
-        #last_id = curr_id
+
+        sender_ID = tracker.get_slot("ID")
         user = None
 
         try:
@@ -311,13 +324,23 @@ class ActionMapUser(Action):
                 # Load file content             
                 try:
                     data = json.load(f)
-                    user = data[sender_id]
+                    user = data[sender_ID]
                 except:
                     pass
         except Exception as e:
             pass
 
-        dispatcher.utter_message(text = f"Mapped user: {user} - id: {sender_id}")
+        if user is None:
+            # Remember ids to associate them to the same person when she gives her name
+            last_IDs = tracker.get_slot("last_IDs")
+            if last_IDs is None:
+                last_IDs = list()
+            else:
+                last_IDs = list(last_IDs)
+            last_IDs.append(sender_ID)
+            SlotSet("last_IDs", last_IDs)
+
+        #dispatcher.utter_message(text = f"Mapped user: {user} - id: {sender_ID}")
         
         #return [SlotSet("curr_id", None), SlotSet("last_id", last_id), SlotSet("user", user)]
         return [SlotSet("user", user)]
