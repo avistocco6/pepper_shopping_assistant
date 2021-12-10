@@ -28,6 +28,7 @@ actions:
   - action_submit_login
   - action_submit_logout
   - action_submit_yes_no
+  - action_map_user
   - utter_greet
   - utter_goodbye
   - utter_noworries
@@ -113,7 +114,7 @@ responses:
   - text: "What can I add to your list?"
   - text: "What would you like to sign before going to the supermarket?"
   
-  utter_ask_user:
+  #utter_ask_user:
   - text: "Hi, who are you?"
   - text: "Hi, please tell me your name"
   - text: "Hello, what's your name?"

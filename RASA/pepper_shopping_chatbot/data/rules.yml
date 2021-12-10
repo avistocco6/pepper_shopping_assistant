@@ -9,6 +9,7 @@ rules:
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
+  - action: action_map_user
   - action: action_submit_logout
   - action: utter_goodbye
 
@@ -18,6 +19,7 @@ rules:
     - requested_slot: user
   steps:
   - intent: logout
+  - action: action_map_user
   - action: action_submit_logout
 
 - rule: Reply every time the user says thankyou
@@ -36,6 +38,7 @@ rules:
 - rule: Activate form
   steps:
   - intent: insert
+  - action: action_map_user
   - action: insert_form
   - active_loop: insert_form
 
@@ -43,7 +46,6 @@ rules:
   condition:
   - active_loop: insert_form
   steps:
-  - action: action_map_user
   - action: insert_form
   - active_loop: null
   - slot_was_set:
@@ -55,6 +57,7 @@ rules:
 - rule: Activate form
   steps:
   - intent: remove
+  - action: action_map_user
   - action: remove_form
   - active_loop: remove_form
 
@@ -62,7 +65,6 @@ rules:
   condition:
   - active_loop: remove_form
   steps:
-  - action: action_map_user
   - action: remove_form
   - active_loop: null
   - slot_was_set:
@@ -74,6 +76,7 @@ rules:
 - rule: Activate form
   steps:
   - intent: show
+  - action: action_map_user
   - action: show_form
   - active_loop: show_form
 
@@ -81,7 +84,6 @@ rules:
   condition:
   - active_loop: show_form
   steps:
-  - action: action_map_user
   - action: show_form
   - active_loop: null
   - slot_was_set:
@@ -93,6 +95,7 @@ rules:
 - rule: Activate form
   steps:
   - intent: empty
+  - action: action_map_user
   - action: empty_form
   - active_loop: empty_form
 
@@ -100,7 +103,6 @@ rules:
   condition:
   - active_loop: empty_form
   steps:
-  - action: action_map_user
   - action: empty_form
   - active_loop: null
   - slot_was_set:
@@ -113,7 +115,6 @@ rules:
   condition:
   - active_loop: enforce_yes_no_form
   steps:
-  - action: enforce_yes_no_form
   - active_loop: null
   - slot_was_set:
     - requested_slot: null
@@ -124,6 +125,7 @@ rules:
 - rule: Activate form
   steps:
   - intent: greet
+  - action: action_map_user
   - action: user_form
   - active_loop: user_form
 

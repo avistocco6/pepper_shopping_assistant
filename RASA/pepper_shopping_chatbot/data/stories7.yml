@@ -4,6 +4,7 @@ stories:
 - story: interactive_story_complete_user
   steps:
   - intent: greet
+  - action: action_map_user
   - action: user_form
   - active_loop: user_form
   - slot_was_set:
@@ -27,6 +28,7 @@ stories:
     - quantity: '1'
   - slot_was_set:
     - uom: pack
+  - action: action_map_user
   - action: insert_form
   - active_loop: insert_form
   - slot_was_set:
@@ -56,6 +58,7 @@ stories:
     - item: sugar
   - slot_was_set:
     - item: sugar
+  - action: action_map_user
   - action: insert_form
   - active_loop: insert_form
   - slot_was_set:
@@ -99,6 +102,7 @@ stories:
     - quantity: '5'
   - slot_was_set:
     - uom: pack
+  - action: action_map_user
   - action: insert_form
   - active_loop: insert_form
   - slot_was_set:
@@ -142,6 +146,7 @@ stories:
   - slot_was_set:
     - yes_no_answer: null
   - intent: show
+  - action: action_map_user
   - action: show_form
   - active_loop: show_form
   - slot_was_set:
@@ -161,6 +166,7 @@ stories:
     - item: milk
   - slot_was_set:
     - item: milk
+  - action: action_map_user
   - action: remove_form
   - active_loop: remove_form
   - slot_was_set:
@@ -182,6 +188,7 @@ stories:
   - slot_was_set:
     - yes_no_answer: null
   - intent: show
+  - action: action_map_user
   - action: show_form
   - active_loop: show_form
   - slot_was_set:
@@ -197,6 +204,7 @@ stories:
   - slot_was_set:
     - uom: null
   - intent: empty
+  - action: action_map_user
   - action: empty_form
   - active_loop: empty_form
   - slot_was_set:
@@ -212,6 +220,7 @@ stories:
   - slot_was_set:
     - uom: null
   - intent: goodbye
+  - action: action_map_user
   - action: action_submit_logout
   - slot_was_set:
     - user: null

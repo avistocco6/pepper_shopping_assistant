@@ -4,6 +4,7 @@ stories:
 - story: interactive_story_miss_empty
   steps:
   - intent: greet
+  - action: action_map_user
   - action: user_form
   - active_loop: user_form
   - slot_was_set:
@@ -21,6 +22,7 @@ stories:
     - item: banana
   - slot_was_set:
     - item: banana
+  - action: action_map_user
   - action: insert_form
   - active_loop: insert_form
   - slot_was_set:
@@ -59,6 +61,7 @@ stories:
     - item: eggs
   - slot_was_set:
     - quantity: '10'
+  - action: action_map_user
   - action: insert_form
   - active_loop: insert_form
   - slot_was_set:
@@ -84,6 +87,7 @@ stories:
   - slot_was_set:
     - yes_no_answer: null
   - intent: show
+  - action: action_map_user
   - action: show_form
   - active_loop: show_form
   - slot_was_set:
@@ -109,6 +113,7 @@ stories:
     - quantity: '1'
   - slot_was_set:
     - uom: pack
+  - action: action_map_user
   - action: insert_form
   - active_loop: insert_form
   - slot_was_set:
@@ -134,6 +139,7 @@ stories:
   - slot_was_set:
     - yes_no_answer: null
   - intent: show
+  - action: action_map_user
   - action: show_form
   - active_loop: show_form
   - slot_was_set:
@@ -149,6 +155,7 @@ stories:
   - slot_was_set:
     - uom: null
   - intent: remove
+  - action: action_map_user
   - action: remove_form
   - active_loop: remove_form
   - slot_was_set:
@@ -172,6 +179,7 @@ stories:
   - slot_was_set:
     - yes_no_answer: null
   - intent: show
+  - action: action_map_user
   - action: show_form
   - active_loop: show_form
   - slot_was_set:
@@ -194,6 +202,7 @@ stories:
     - item: eggs
   - slot_was_set:
     - quantity: '5'
+  - action: action_map_user
   - action: insert_form
   - active_loop: insert_form
   - slot_was_set:

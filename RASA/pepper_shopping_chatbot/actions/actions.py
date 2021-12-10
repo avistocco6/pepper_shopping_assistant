@@ -133,7 +133,7 @@ class ActionSubmitRemove(Action):
 
                         f.close()
                 else:
-                    return_msg = "The item f{item} is not in your list."
+                    return_msg = f"The item {item} is not in your list."
 
         except:
             return_msg = self.ERROR_MESSAGE
