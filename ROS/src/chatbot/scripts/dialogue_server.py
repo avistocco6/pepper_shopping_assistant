@@ -29,7 +29,7 @@ def handle_service(req):
 
     # Fill the service response
     for i in r.json():
-        response.request += str(i["request"]) if "request" in i else ""
+        response.request += str(i["request"]) if "request" in i else "talk"
         response.text    += str(i["text"])
 
     print("CONVERSATION_HANDLER: response -> " + str(r.json()))

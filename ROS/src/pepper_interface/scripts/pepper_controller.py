@@ -106,7 +106,7 @@ class PepperController:
 
     def start(self):
         rospy.init_node('pepper_controller')
-        rospy.Subscriber("pepper_response", String, self.callback)
+        rospy.Subscriber("pepper_response", String, self.callback, queue_size=1)
         rospy.spin()
         
 

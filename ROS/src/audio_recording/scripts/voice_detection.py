@@ -6,6 +6,7 @@ import numpy as np
 import time
 import speech_recognition as sr
 
+AUDIO_DEVICE = 4
 print("VOICE_DETECTION: Initialization...")
 
 pub = rospy.Publisher('voice_data', Int16MultiArray, queue_size=10)
@@ -25,7 +26,7 @@ def callback(recognizer, audio):
 r = sr.Recognizer()
 
 # Audio source
-m = sr.Microphone(device_index=6,sample_rate=16000)
+m = sr.Microphone(device_index=AUDIO_DEVICE,sample_rate=16000)
 
 # Calibration within the environment
 # we only need to calibrate once, before we start listening

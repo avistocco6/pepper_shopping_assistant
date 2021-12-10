@@ -12,6 +12,7 @@ class ChatbotInterface:
         service: the service required
         parameter: the parameter for the service
         """    
+        print("CONVERSATION_HANDLER: asking to pepper -> " + str(service) + " := " + str(parameter))
         self.pub.publish(str(service) + "~" + str(parameter))
 
 
@@ -53,7 +54,7 @@ class ChatbotInterface:
         self.pub = rospy.Publisher('pepper_response', String, queue_size=10)
 
         # Subscribe to messages topic
-        rospy.Subscriber('messages', String, self.callback ,queue_size=10)
+        rospy.Subscriber('messages', String, self.callback ,queue_size=1)
 
         print("CONVERSATION_HANDLER: spinning...")
 
