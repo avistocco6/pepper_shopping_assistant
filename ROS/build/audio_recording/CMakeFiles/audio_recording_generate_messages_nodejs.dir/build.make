@@ -43,29 +43,29 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording
+CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording
+CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording
 
 # Utility rule file for audio_recording_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include CMakeFiles/audio_recording_generate_messages_nodejs.dir/progress.make
 
-CMakeFiles/audio_recording_generate_messages_nodejs: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js
+CMakeFiles/audio_recording_generate_messages_nodejs: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js
 
 
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from audio_recording/VoiceDetection.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p audio_recording -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from audio_recording/VoiceDetection.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p audio_recording -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv
 
 audio_recording_generate_messages_nodejs: CMakeFiles/audio_recording_generate_messages_nodejs
-audio_recording_generate_messages_nodejs: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js
+audio_recording_generate_messages_nodejs: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js
 audio_recording_generate_messages_nodejs: CMakeFiles/audio_recording_generate_messages_nodejs.dir/build.make
 
 .PHONY : audio_recording_generate_messages_nodejs
@@ -80,6 +80,6 @@ CMakeFiles/audio_recording_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/audio_recording_generate_messages_nodejs.dir/clean
 
 CMakeFiles/audio_recording_generate_messages_nodejs.dir/depend:
-	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles/audio_recording_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles/audio_recording_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/audio_recording_generate_messages_nodejs.dir/depend
 

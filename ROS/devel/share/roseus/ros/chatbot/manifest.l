@@ -1,1 +1,1 @@
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/manifest.l
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/manifest.l

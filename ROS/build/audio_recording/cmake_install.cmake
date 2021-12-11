@@ -1,8 +1,8 @@
-# Install script for directory: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording
+# Install script for directory: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install")
+  set(CMAKE_INSTALL_PREFIX "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,139 +49,139 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/_setup_util.py")
+   "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install" TYPE PROGRAM FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install" TYPE PROGRAM FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/env.sh")
+   "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install" TYPE PROGRAM FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install" TYPE PROGRAM FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/setup.bash;/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/local_setup.bash")
+   "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/setup.bash;/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/setup.bash"
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/setup.bash"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/setup.sh;/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/local_setup.sh")
+   "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/setup.sh;/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/setup.sh"
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/setup.sh"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/setup.zsh;/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/local_setup.zsh")
+   "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/setup.zsh;/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/setup.zsh"
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/setup.zsh"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/.rosinstall")
+   "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/audio_recording/srv" TYPE FILE FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/audio_recording/srv" TYPE FILE FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/audio_recording/cmake" TYPE FILE FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/audio_recording-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/audio_recording/cmake" TYPE FILE FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/audio_recording-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/include/audio_recording")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/include/audio_recording")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/common-lisp/ros/audio_recording")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/common-lisp/ros/audio_recording")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/lib/python2.7/dist-packages/audio_recording")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/lib/python2.7/dist-packages/audio_recording")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/lib/python2.7/dist-packages/audio_recording")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/lib/python2.7/dist-packages/audio_recording")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/audio_recording.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/audio_recording.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/audio_recording/cmake" TYPE FILE FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/audio_recording-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/audio_recording/cmake" TYPE FILE FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/audio_recording-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/audio_recording/cmake" TYPE FILE FILES
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/audio_recordingConfig.cmake"
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/audio_recordingConfig-version.cmake"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/audio_recordingConfig.cmake"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/catkin_generated/installspace/audio_recordingConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/audio_recording" TYPE FILE FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/audio_recording" TYPE FILE FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/gtest/cmake_install.cmake")
+  include("/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/gtest/cmake_install.cmake")
 
 endif()
 
@@ -193,5 +193,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

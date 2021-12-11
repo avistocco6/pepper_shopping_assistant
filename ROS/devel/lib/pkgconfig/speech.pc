@@ -1,1 +1,1 @@
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/pkgconfig/speech.pc
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/lib/pkgconfig/speech.pc

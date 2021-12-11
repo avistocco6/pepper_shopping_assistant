@@ -1,30 +1,81 @@
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/audio_recording/__init__.py
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/audio_recording/srv/__init__.py
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/audio_recording/srv/_VoiceDetection.py
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/audio_recording.pc
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/audio_recording/manifest.l
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/audio_recording/srv/VoiceDetection.l
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig.cmake
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recording-msg-paths.cmake
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recording-msg-extras.cmake
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig-version.cmake
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/audio_recording/_index.js
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/audio_recording/srv/_index.js
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/_package.lisp
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/audio_recording-srv.asd
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/VoiceDetection.lisp
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/_package_VoiceDetection.lisp
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/audio_recording/VoiceDetectionResponse.h
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/audio_recording/VoiceDetection.h
-Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/audio_recording/VoiceDetectionRequest.h
-Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/cmake.lock, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/./cmake.lock)
-Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/audio_recording/cmake/audio_recordingConfig-version.cmake, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig-version.cmake)
-Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/audio_recording/cmake/audio_recordingConfig.cmake, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig.cmake)
-Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/lib/pkgconfig/audio_recording.pc, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/audio_recording.pc)
-Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig-version.cmake
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/_package_VoiceDetection.lisp
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/VoiceDetection.lisp
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/audio_recording-srv.asd
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/_package.lisp
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig-version.cmake
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recording-msg-paths.cmake
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig.cmake
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recording-msg-extras.cmake
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/audio_recording/manifest.l
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/audio_recording/srv/VoiceDetection.l
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/audio_recording/_index.js
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/audio_recording/srv/_index.js
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/audio_recording/VoiceDetection.h
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/audio_recording/VoiceDetectionRequest.h
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/audio_recording/VoiceDetectionResponse.h
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/audio_recording.pc
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/audio_recording/__init__.py
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/audio_recording/srv/_VoiceDetection.py
+Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/audio_recording/srv/__init__.py
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/cmake.lock, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./cmake.lock)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/lib/python2.7/dist-packages/audio_recording/__init__.py, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/audio_recording/__init__.py)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/lib/python2.7/dist-packages/audio_recording/srv/__init__.py, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/audio_recording/srv/__init__.py)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/lib/python2.7/dist-packages/audio_recording/srv/_VoiceDetection.py, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/audio_recording/srv/_VoiceDetection.py)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/lib/pkgconfig/audio_recording.pc, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/audio_recording.pc)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/manifest.l, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/audio_recording/manifest.l)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/audio_recording/srv/VoiceDetection.l)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/audio_recording/cmake/audio_recordingConfig.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig.cmake)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/audio_recording/cmake/audio_recording-msg-paths.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recording-msg-paths.cmake)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/audio_recording/cmake/audio_recording-msg-extras.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recording-msg-extras.cmake)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/audio_recording/cmake/audio_recordingConfig-version.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig-version.cmake)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/_index.js, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/audio_recording/_index.js)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/_index.js, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/audio_recording/srv/_index.js)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/common-lisp/ros/audio_recording/srv/_package.lisp, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/_package.lisp)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/common-lisp/ros/audio_recording/srv/audio_recording-srv.asd, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/audio_recording-srv.asd)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/common-lisp/ros/audio_recording/srv/VoiceDetection.lisp, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/VoiceDetection.lisp)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/common-lisp/ros/audio_recording/srv/_package_VoiceDetection.lisp, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/_package_VoiceDetection.lisp)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/include/audio_recording/VoiceDetectionResponse.h, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/audio_recording/VoiceDetectionResponse.h)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/include/audio_recording/VoiceDetection.h, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/audio_recording/VoiceDetection.h)
+Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/include/audio_recording/VoiceDetectionRequest.h, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/audio_recording/VoiceDetectionRequest.h)
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/audio_recording/__init__.py
 Already unlinked: {}
-Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig.cmake
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/audio_recording/srv/__init__.py
 Already unlinked: {}
-Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/audio_recording.pc
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/audio_recording/srv/_VoiceDetection.py
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/audio_recording.pc
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/audio_recording/manifest.l
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/audio_recording/srv/VoiceDetection.l
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig.cmake
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recording-msg-paths.cmake
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recording-msg-extras.cmake
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/audio_recording/cmake/audio_recordingConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/audio_recording/_index.js
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/audio_recording/srv/_index.js
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/_package.lisp
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/audio_recording-srv.asd
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/VoiceDetection.lisp
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/audio_recording/srv/_package_VoiceDetection.lisp
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/audio_recording/VoiceDetectionResponse.h
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/audio_recording/VoiceDetection.h
+Already unlinked: {}
+Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/audio_recording/VoiceDetectionRequest.h
 Already unlinked: {}

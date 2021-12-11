@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp
+Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cadbc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cadbc.dir/build.make CMakeFiles/cmTC_cadbc.dir/build
-make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cadbc.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_cadbc.dir/CheckSymbolExists.c.o   -c /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_cadbc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cadbc.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cadbc.dir/CheckSymbolExists.c.o  -o cmTC_cadbc 
-CMakeFiles/cmTC_cadbc.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_2ecb1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ecb1.dir/build.make CMakeFiles/cmTC_2ecb1.dir/build
+make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ecb1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2ecb1.dir/CheckSymbolExists.c.o   -c /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2ecb1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ecb1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2ecb1.dir/CheckSymbolExists.c.o  -o cmTC_2ecb1 
+CMakeFiles/cmTC_2ecb1.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_cadbc.dir/build.make:97: recipe for target 'cmTC_cadbc' failed
-make[1]: *** [cmTC_cadbc] Error 1
-make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_cadbc/fast' failed
-make: *** [cmTC_cadbc/fast] Error 2
+CMakeFiles/cmTC_2ecb1.dir/build.make:97: recipe for target 'cmTC_2ecb1' failed
+make[1]: *** [cmTC_2ecb1] Error 1
+make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2ecb1/fast' failed
+make: *** [cmTC_2ecb1/fast] Error 2
 
-File /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp
+Change Dir: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ccc57/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ccc57.dir/build.make CMakeFiles/cmTC_ccc57.dir/build
-make[1]: Entering directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ccc57.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ccc57.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ccc57
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccc57.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ccc57.dir/CheckFunctionExists.c.o  -o cmTC_ccc57 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_b61f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b61f0.dir/build.make CMakeFiles/cmTC_b61f0.dir/build
+make[1]: Entering directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b61f0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b61f0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b61f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b61f0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b61f0.dir/CheckFunctionExists.c.o  -o cmTC_b61f0 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_ccc57.dir/build.make:97: recipe for target 'cmTC_ccc57' failed
-make[1]: *** [cmTC_ccc57] Error 1
-make[1]: Leaving directory '/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_ccc57/fast' failed
-make: *** [cmTC_ccc57/fast] Error 2
+CMakeFiles/cmTC_b61f0.dir/build.make:97: recipe for target 'cmTC_b61f0' failed
+make[1]: *** [cmTC_b61f0] Error 1
+make[1]: Leaving directory '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b61f0/fast' failed
+make: *** [cmTC_b61f0/fast] Error 2
 
 

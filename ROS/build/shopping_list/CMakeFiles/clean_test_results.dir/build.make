@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/shopping_list
+CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/shopping_list
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/shopping_list
+CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/shopping_list
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/shop
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/shopping_list/test_results
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/shopping_list/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/shopping_list && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/shopping_list /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/shopping_list /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/shopping_list /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/shopping_list /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/shopping_list/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/shopping_list && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/shopping_list /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/shopping_list /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/shopping_list /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/shopping_list /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/shopping_list/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

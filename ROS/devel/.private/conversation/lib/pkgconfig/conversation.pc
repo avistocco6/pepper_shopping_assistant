@@ -1,4 +1,4 @@
-prefix=/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation
+prefix=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation
 
 Name: conversation
 Description: Description of conversation

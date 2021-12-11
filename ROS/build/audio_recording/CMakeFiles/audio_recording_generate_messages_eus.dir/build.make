@@ -43,35 +43,35 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording
+CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording
+CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording
 
 # Utility rule file for audio_recording_generate_messages_eus.
 
 # Include the progress variables for this target.
 include CMakeFiles/audio_recording_generate_messages_eus.dir/progress.make
 
-CMakeFiles/audio_recording_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l
-CMakeFiles/audio_recording_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/manifest.l
+CMakeFiles/audio_recording_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l
+CMakeFiles/audio_recording_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/manifest.l
 
 
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from audio_recording/VoiceDetection.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p audio_recording -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from audio_recording/VoiceDetection.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p audio_recording -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv
 
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for audio_recording"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording audio_recording std_msgs
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for audio_recording"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording audio_recording std_msgs
 
 audio_recording_generate_messages_eus: CMakeFiles/audio_recording_generate_messages_eus
-audio_recording_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l
-audio_recording_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/manifest.l
+audio_recording_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/srv/VoiceDetection.l
+audio_recording_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/roseus/ros/audio_recording/manifest.l
 audio_recording_generate_messages_eus: CMakeFiles/audio_recording_generate_messages_eus.dir/build.make
 
 .PHONY : audio_recording_generate_messages_eus
@@ -86,6 +86,6 @@ CMakeFiles/audio_recording_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/audio_recording_generate_messages_eus.dir/clean
 
 CMakeFiles/audio_recording_generate_messages_eus.dir/depend:
-	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles/audio_recording_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles/audio_recording_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/audio_recording_generate_messages_eus.dir/depend
 

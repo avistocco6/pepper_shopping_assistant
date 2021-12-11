@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording
+CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording
+CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording
 
 # Utility rule file for audio_recording_gennodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/audio_recording_gennodejs.dir/clean:
 .PHONY : CMakeFiles/audio_recording_gennodejs.dir/clean
 
 CMakeFiles/audio_recording_gennodejs.dir/depend:
-	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles/audio_recording_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles/audio_recording_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/audio_recording_gennodejs.dir/depend
 

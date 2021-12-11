@@ -1,8 +1,8 @@
-# Install script for directory: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface
+# Install script for directory: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install")
+  set(CMAKE_INSTALL_PREFIX "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,166 +49,166 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/_setup_util.py")
+   "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install" TYPE PROGRAM FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install" TYPE PROGRAM FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/env.sh")
+   "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install" TYPE PROGRAM FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install" TYPE PROGRAM FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/setup.bash;/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/local_setup.bash")
+   "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/setup.bash;/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/setup.bash"
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/setup.bash"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/setup.sh;/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/local_setup.sh")
+   "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/setup.sh;/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/setup.sh"
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/setup.sh"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/setup.zsh;/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/local_setup.zsh")
+   "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/setup.zsh;/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/setup.zsh"
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/setup.zsh"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install/.rosinstall")
+   "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/angelo/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install" TYPE FILE FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepper_interface/srv" TYPE FILE FILES
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv"
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv"
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv"
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv"
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv"
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepper_interface/cmake" TYPE FILE FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/pepper_interface-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepper_interface/cmake" TYPE FILE FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/pepper_interface-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/include/pepper_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/include/pepper_interface")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/share/roseus/ros/pepper_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/share/roseus/ros/pepper_interface")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/share/common-lisp/ros/pepper_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/share/common-lisp/ros/pepper_interface")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/share/gennodejs/ros/pepper_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/share/gennodejs/ros/pepper_interface")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/lib/python2.7/dist-packages/pepper_interface")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/lib/python2.7/dist-packages/pepper_interface")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/lib/python2.7/dist-packages/pepper_interface")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/lib/python2.7/dist-packages/pepper_interface")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/pepper_interface.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/pepper_interface.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepper_interface/cmake" TYPE FILE FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/pepper_interface-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepper_interface/cmake" TYPE FILE FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/pepper_interface-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepper_interface/cmake" TYPE FILE FILES
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/pepper_interfaceConfig.cmake"
-    "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/pepper_interfaceConfig-version.cmake"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/pepper_interfaceConfig.cmake"
+    "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/pepper_interfaceConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepper_interface" TYPE FILE FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pepper_interface" TYPE FILE FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pepper_interface" TYPE PROGRAM FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/wake_up.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pepper_interface" TYPE PROGRAM FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/wake_up.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pepper_interface" TYPE PROGRAM FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/text2speech.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pepper_interface" TYPE PROGRAM FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/text2speech.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pepper_interface" TYPE PROGRAM FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/tablet.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pepper_interface" TYPE PROGRAM FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/tablet.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pepper_interface" TYPE PROGRAM FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/rest.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pepper_interface" TYPE PROGRAM FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/rest.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pepper_interface" TYPE PROGRAM FILES "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/pepper_handler.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pepper_interface" TYPE PROGRAM FILES "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/catkin_generated/installspace/pepper_handler.py")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/gtest/cmake_install.cmake")
+  include("/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/gtest/cmake_install.cmake")
 
 endif()
 
@@ -220,5 +220,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

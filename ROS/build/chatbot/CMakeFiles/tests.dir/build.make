@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot
+CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot
+CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv;/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv;/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv;/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv;/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv;/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv"
+services_str = "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv;/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv;/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv;/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv;/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv;/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv"
 pkg_name = "pepper_interface"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

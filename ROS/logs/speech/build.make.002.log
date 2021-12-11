@@ -1,21 +1,14 @@
-[  0%] Built target std_msgs_generate_messages_cpp
-[  0%] Built target _speech_generate_messages_check_deps_Speech2Text
-[35m[1mScanning dependencies of target _speech_generate_messages_check_deps_SpeechRequest[0m
-[  0%] Built target _speech_generate_messages_check_deps_RecognizeUser
 [  0%] Built target _speech_generate_messages_check_deps_SpeechRequest
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _speech_generate_messages_check_deps_RecognizeUser
+[  0%] Built target _speech_generate_messages_check_deps_Speech2Text
 [  0%] Built target std_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_py
 [  0%] Built target std_msgs_generate_messages_nodejs
-[  5%] [34m[1mGenerating C++ code from speech/SpeechRequest.srv[0m
-[ 11%] [34m[1mGenerating Lisp code from speech/SpeechRequest.srv[0m
-[ 23%] Built target speech_generate_messages_lisp
-[ 29%] [34m[1mGenerating EusLisp code from speech/SpeechRequest.srv[0m
-[ 47%] Built target speech_generate_messages_eus
-[ 52%] [34m[1mGenerating Python code from SRV speech/SpeechRequest[0m
-[ 64%] Built target speech_generate_messages_cpp
-[ 70%] [34m[1mGenerating Javascript code from speech/SpeechRequest.srv[0m
-[ 82%] Built target speech_generate_messages_nodejs
-[ 88%] [34m[1mGenerating Python srv __init__.py for speech[0m
-[100%] Built target speech_generate_messages_py
+[ 17%] Built target speech_generate_messages_cpp
+[ 35%] Built target speech_generate_messages_lisp
+[ 58%] Built target speech_generate_messages_eus
+[ 82%] Built target speech_generate_messages_py
+[100%] Built target speech_generate_messages_nodejs
 [100%] Built target speech_generate_messages

@@ -43,55 +43,55 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech
+CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech
+CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech
 
 # Utility rule file for speech_generate_messages_eus.
 
 # Include the progress variables for this target.
 include CMakeFiles/speech_generate_messages_eus.dir/progress.make
 
-CMakeFiles/speech_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l
-CMakeFiles/speech_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/SpeechRequest.l
-CMakeFiles/speech_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l
-CMakeFiles/speech_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/manifest.l
+CMakeFiles/speech_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l
+CMakeFiles/speech_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/SpeechRequest.l
+CMakeFiles/speech_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l
+CMakeFiles/speech_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/manifest.l
 
 
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from speech/RecognizeUser.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from speech/RecognizeUser.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv
 
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/SpeechRequest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/SpeechRequest.l: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/SpeechRequest.l: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/SpeechRequest.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/SpeechRequest.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from speech/SpeechRequest.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/SpeechRequest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/SpeechRequest.l: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/SpeechRequest.l: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/SpeechRequest.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/SpeechRequest.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from speech/SpeechRequest.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv
 
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from speech/Speech2Text.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from speech/Speech2Text.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv
 
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for speech"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech speech std_msgs
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for speech"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech speech std_msgs
 
 speech_generate_messages_eus: CMakeFiles/speech_generate_messages_eus
-speech_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l
-speech_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/SpeechRequest.l
-speech_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l
-speech_generate_messages_eus: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/manifest.l
+speech_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/RecognizeUser.l
+speech_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/SpeechRequest.l
+speech_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/srv/Speech2Text.l
+speech_generate_messages_eus: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/roseus/ros/speech/manifest.l
 speech_generate_messages_eus: CMakeFiles/speech_generate_messages_eus.dir/build.make
 
 .PHONY : speech_generate_messages_eus
@@ -106,6 +106,6 @@ CMakeFiles/speech_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/speech_generate_messages_eus.dir/clean
 
 CMakeFiles/speech_generate_messages_eus.dir/depend:
-	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/speech_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/speech_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/speech_generate_messages_eus.dir/depend
 

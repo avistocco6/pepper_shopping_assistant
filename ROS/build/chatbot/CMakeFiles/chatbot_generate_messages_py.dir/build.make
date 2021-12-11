@@ -43,33 +43,33 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot
+CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot
+CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot
 
 # Utility rule file for chatbot_generate_messages_py.
 
 # Include the progress variables for this target.
 include CMakeFiles/chatbot_generate_messages_py.dir/progress.make
 
-CMakeFiles/chatbot_generate_messages_py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py
-CMakeFiles/chatbot_generate_messages_py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/__init__.py
+CMakeFiles/chatbot_generate_messages_py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py
+CMakeFiles/chatbot_generate_messages_py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/__init__.py
 
 
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot/srv/Dialogue.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV chatbot/Dialogue"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot/srv/Dialogue.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p chatbot -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot/srv/Dialogue.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV chatbot/Dialogue"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot/srv/Dialogue.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p chatbot -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv
 
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/__init__.py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for chatbot"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv --initpy
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/__init__.py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for chatbot"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv --initpy
 
 chatbot_generate_messages_py: CMakeFiles/chatbot_generate_messages_py
-chatbot_generate_messages_py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py
-chatbot_generate_messages_py: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/__init__.py
+chatbot_generate_messages_py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py
+chatbot_generate_messages_py: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/__init__.py
 chatbot_generate_messages_py: CMakeFiles/chatbot_generate_messages_py.dir/build.make
 
 .PHONY : chatbot_generate_messages_py
@@ -84,6 +84,6 @@ CMakeFiles/chatbot_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/chatbot_generate_messages_py.dir/clean
 
 CMakeFiles/chatbot_generate_messages_py.dir/depend:
-	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles/chatbot_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/chatbot/CMakeFiles/chatbot_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/chatbot_generate_messages_py.dir/depend
 

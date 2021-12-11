@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv"
+services_str = "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv"
 pkg_name = "audio_recording"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

@@ -1,11 +1,11 @@
 [  0%] Built target _pepper_interface_generate_messages_check_deps_PepperRequest
-[  0%] Built target _pepper_interface_generate_messages_check_deps_LoadURL
 [  0%] Built target std_msgs_generate_messages_cpp
 [  0%] Built target _pepper_interface_generate_messages_check_deps_WakeUp
+[  0%] Built target _pepper_interface_generate_messages_check_deps_LoadURL
 [  0%] Built target _pepper_interface_generate_messages_check_deps_Talk
-[  0%] Built target _pepper_interface_generate_messages_check_deps_Rest
 [  0%] Built target _pepper_interface_generate_messages_check_deps_ExecuteJS
 [  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _pepper_interface_generate_messages_check_deps_Rest
 [  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_nodejs

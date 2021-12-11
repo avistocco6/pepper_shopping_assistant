@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/audio_recording_generate_messages_lisp"
-  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/common-lisp/ros/audio_recording/srv/VoiceDetection.lisp"
+  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/common-lisp/ros/audio_recording/srv/VoiceDetection.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

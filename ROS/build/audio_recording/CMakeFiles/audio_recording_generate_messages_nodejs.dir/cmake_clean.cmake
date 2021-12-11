@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/audio_recording_generate_messages_nodejs"
-  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js"
+  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/gennodejs/ros/audio_recording/srv/VoiceDetection.js"
 )
 
 # Per-language clean rules from dependency scanning.

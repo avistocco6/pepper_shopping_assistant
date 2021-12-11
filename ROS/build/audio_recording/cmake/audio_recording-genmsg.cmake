@@ -17,9 +17,9 @@ add_custom_target(audio_recording_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv" NAME_WE)
+get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv" NAME_WE)
 add_custom_target(_audio_recording_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "audio_recording" "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv" "std_msgs/Int16MultiArray:std_msgs/MultiArrayDimension:std_msgs/MultiArrayLayout"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "audio_recording" "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv" "std_msgs/Int16MultiArray:std_msgs/MultiArrayDimension:std_msgs/MultiArrayLayout"
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_audio_recording_generate_messages_check_deps_${_filename}
 
 ### Generating Services
 _generate_srv_cpp(audio_recording
-  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv"
+  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/audio_recording
@@ -49,7 +49,7 @@ add_custom_target(audio_recording_generate_messages_cpp
 add_dependencies(audio_recording_generate_messages audio_recording_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv" NAME_WE)
+get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv" NAME_WE)
 add_dependencies(audio_recording_generate_messages_cpp _audio_recording_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS audio_recording_generate_messages_c
 
 ### Generating Services
 _generate_srv_eus(audio_recording
-  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv"
+  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/audio_recording
@@ -82,7 +82,7 @@ add_custom_target(audio_recording_generate_messages_eus
 add_dependencies(audio_recording_generate_messages audio_recording_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv" NAME_WE)
+get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv" NAME_WE)
 add_dependencies(audio_recording_generate_messages_eus _audio_recording_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS audio_recording_generate_messages_e
 
 ### Generating Services
 _generate_srv_lisp(audio_recording
-  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv"
+  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/audio_recording
@@ -115,7 +115,7 @@ add_custom_target(audio_recording_generate_messages_lisp
 add_dependencies(audio_recording_generate_messages audio_recording_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv" NAME_WE)
+get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv" NAME_WE)
 add_dependencies(audio_recording_generate_messages_lisp _audio_recording_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS audio_recording_generate_messages_l
 
 ### Generating Services
 _generate_srv_nodejs(audio_recording
-  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv"
+  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/audio_recording
@@ -148,7 +148,7 @@ add_custom_target(audio_recording_generate_messages_nodejs
 add_dependencies(audio_recording_generate_messages audio_recording_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv" NAME_WE)
+get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv" NAME_WE)
 add_dependencies(audio_recording_generate_messages_nodejs _audio_recording_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS audio_recording_generate_messages_n
 
 ### Generating Services
 _generate_srv_py(audio_recording
-  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv"
+  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/audio_recording
@@ -181,7 +181,7 @@ add_custom_target(audio_recording_generate_messages_py
 add_dependencies(audio_recording_generate_messages audio_recording_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv" NAME_WE)
+get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording/srv/VoiceDetection.srv" NAME_WE)
 add_dependencies(audio_recording_generate_messages_py _audio_recording_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
