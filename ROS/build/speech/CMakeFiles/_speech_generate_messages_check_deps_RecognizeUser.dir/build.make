@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech
+CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech
+CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech
 
 # Utility rule file for _speech_generate_messages_check_deps_RecognizeUser.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/spe
 include CMakeFiles/_speech_generate_messages_check_deps_RecognizeUser.dir/progress.make
 
 CMakeFiles/_speech_generate_messages_check_deps_RecognizeUser:
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv std_msgs/Int16MultiArray:std_msgs/MultiArrayDimension:std_msgs/MultiArrayLayout
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv std_msgs/Int16MultiArray:std_msgs/MultiArrayDimension:std_msgs/MultiArrayLayout
 
 _speech_generate_messages_check_deps_RecognizeUser: CMakeFiles/_speech_generate_messages_check_deps_RecognizeUser
 _speech_generate_messages_check_deps_RecognizeUser: CMakeFiles/_speech_generate_messages_check_deps_RecognizeUser.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_speech_generate_messages_check_deps_RecognizeUser.dir/clean:
 .PHONY : CMakeFiles/_speech_generate_messages_check_deps_RecognizeUser.dir/clean
 
 CMakeFiles/_speech_generate_messages_check_deps_RecognizeUser.dir/depend:
-	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/_speech_generate_messages_check_deps_RecognizeUser.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/_speech_generate_messages_check_deps_RecognizeUser.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_speech_generate_messages_check_deps_RecognizeUser.dir/depend
 

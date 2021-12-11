@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/speech_generate_messages_lisp"
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp"
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/SpeechRequest.lisp"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

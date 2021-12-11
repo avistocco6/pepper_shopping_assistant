@@ -7,10 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface'
-export PYTHONPATH="/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/pepper_interface'
+export PYTHONPATH="/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface:$ROS_PACKAGE_PATH"

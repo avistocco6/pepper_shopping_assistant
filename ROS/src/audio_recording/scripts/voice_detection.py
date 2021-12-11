@@ -5,39 +5,61 @@ import numpy as np
 
 import time
 import speech_recognition as sr
+from audio_recording.srv import *
 
-AUDIO_DEVICE = 4
-print("VOICE_DETECTION: Initialization...")
+class VoiceDetectionServer:
+    AUDIO_DEVICE = 4
 
-pub = rospy.Publisher('voice_data', Int16MultiArray, queue_size=10)
-rospy.init_node('voice_detection', anonymous=True)
+    def __init__(self):
+        print("VOICE_DETECTION: Initialization...")
+        # Initialize a Recognizer
+        self.r = sr.Recognizer()
+        # Audio source
+        self.m = sr.Microphone(device_index=self.AUDIO_DEVICE,sample_rate=16000)
 
-# this is called from the background thread
-def callback(recognizer, audio):
-    data = np.frombuffer(audio.get_raw_data(), dtype=np.int16)
-    data_to_send = Int16MultiArray()
-    data_to_send.data = data
-    
-    print("SPEECH_HANDLER: Voice detected")
-    pub.publish(data_to_send)
-    print("SPEECH_HANDLER: Message sent")
+        self.service_response = Int16MultiArray()
 
-# Initialize a Recognizer
-r = sr.Recognizer()
+    def handle_service(self, req):
+        # start listening in the background
+        # `stop_listening` is now a function that, when called, stops background listening
+        print("VOICE_DETECTION: Recording...")
+        stop_listening = self.r.listen_in_background(self.m, self.listen_callback)
 
-# Audio source
-m = sr.Microphone(device_index=AUDIO_DEVICE,sample_rate=16000)
+        self.service_response = None
+        while self.service_response is None:
+            #time.sleep(0.050)
+            continue
 
-# Calibration within the environment
-# we only need to calibrate once, before we start listening
-print("VOICE_DETECTION: Calibrating...")
-with m as source:
-    r.adjust_for_ambient_noise(source,duration=3)  
-print("VOICE_DETECTION: Calibration finished")
+        stop_listening()
+        return self.service_response
 
-# start listening in the background
-# `stop_listening` is now a function that, when called, stops background listening
-print("VOICE_DETECTION: Recording...")
-stop_listening = r.listen_in_background(m, callback)
+    # this is called from the background thread
+    def listen_callback(self, recognizer, audio):
+        data = np.frombuffer(audio.get_raw_data(), dtype=np.int16)
+        self.service_response = Int16MultiArray()
+        self.service_response.data = data
+        
+        print("SPEECH_HANDLER: Voice detected")
+        print("SPEECH_HANDLER: Message sent")
 
-rospy.spin()
+    def run(self):
+        rospy.init_node('voice_detection', anonymous=True)
+
+        # Calibration within the environment
+        # we only need to calibrate once, before we start listening
+        print("VOICE_DETECTION: Calibrating...")
+        with self.m as source:
+            self.r.adjust_for_ambient_noise(source,duration=3)  
+        print("VOICE_DETECTION: Calibration finished")
+
+        rospy.Service("voice_detection", VoiceDetection, self.handle_service)
+
+        rospy.spin()
+
+
+if __name__ == "__main__":
+    try:
+        node = VoiceDetectionServer()
+        node.run()
+    except rospy.ROSInterruptException:
+        pass

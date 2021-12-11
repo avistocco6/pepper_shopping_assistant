@@ -1,0 +1,1 @@
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/common-lisp/ros/audio_recording/srv/_package_VoiceDetection.lisp

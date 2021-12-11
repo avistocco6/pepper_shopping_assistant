@@ -1,0 +1,31 @@
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _audio_recording_generate_messages_check_deps_VoiceDetection[0m
+[  0%] Built target _audio_recording_generate_messages_check_deps_VoiceDetection
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target audio_recording_generate_messages_eus[0m
+[ 14%] [34m[1mGenerating EusLisp code from audio_recording/VoiceDetection.srv[0m
+[ 28%] [34m[1mGenerating EusLisp manifest code for audio_recording[0m
+[ 28%] Built target audio_recording_generate_messages_eus
+[35m[1mScanning dependencies of target audio_recording_generate_messages_py[0m
+[ 42%] [34m[1mGenerating Python code from SRV audio_recording/VoiceDetection[0m
+[ 57%] [34m[1mGenerating Python srv __init__.py for audio_recording[0m
+[ 57%] Built target audio_recording_generate_messages_py
+[35m[1mScanning dependencies of target audio_recording_generate_messages_nodejs[0m
+[ 71%] [34m[1mGenerating Javascript code from audio_recording/VoiceDetection.srv[0m
+[ 71%] Built target audio_recording_generate_messages_nodejs
+[35m[1mScanning dependencies of target audio_recording_generate_messages_cpp[0m
+[ 85%] [34m[1mGenerating C++ code from audio_recording/VoiceDetection.srv[0m
+[ 85%] Built target audio_recording_generate_messages_cpp
+[35m[1mScanning dependencies of target audio_recording_generate_messages_lisp[0m
+[100%] [34m[1mGenerating Lisp code from audio_recording/VoiceDetection.srv[0m
+[100%] Built target audio_recording_generate_messages_lisp
+[35m[1mScanning dependencies of target audio_recording_generate_messages[0m
+[100%] Built target audio_recording_generate_messages

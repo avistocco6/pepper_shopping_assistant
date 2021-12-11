@@ -9,4 +9,6 @@
     (:file "_package_RecognizeUser" :depends-on ("_package"))
     (:file "Speech2Text" :depends-on ("_package_Speech2Text"))
     (:file "_package_Speech2Text" :depends-on ("_package"))
+    (:file "SpeechRequest" :depends-on ("_package_SpeechRequest"))
+    (:file "_package_SpeechRequest" :depends-on ("_package"))
   ))

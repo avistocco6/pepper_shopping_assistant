@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "pepper_interface: 0 messages, 5 services")
+message(STATUS "pepper_interface: 0 messages, 6 services")
 
 set(MSG_I_FLAGS "-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
@@ -17,29 +17,34 @@ add_custom_target(pepper_interface_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv" NAME_WE)
 add_custom_target(_pepper_interface_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pepper_interface" "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pepper_interface" "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv" ""
 )
 
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv" NAME_WE)
 add_custom_target(_pepper_interface_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pepper_interface" "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pepper_interface" "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv" ""
 )
 
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv" NAME_WE)
 add_custom_target(_pepper_interface_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pepper_interface" "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pepper_interface" "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv" ""
 )
 
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv" NAME_WE)
 add_custom_target(_pepper_interface_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pepper_interface" "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pepper_interface" "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv" ""
 )
 
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv" NAME_WE)
 add_custom_target(_pepper_interface_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pepper_interface" "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pepper_interface" "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv" ""
+)
+
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv" NAME_WE)
+add_custom_target(_pepper_interface_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pepper_interface" "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv" ""
 )
 
 #
@@ -51,31 +56,37 @@ add_custom_target(_pepper_interface_generate_messages_check_deps_${_filename}
 
 ### Generating Services
 _generate_srv_cpp(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_cpp(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_cpp(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_cpp(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_cpp(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pepper_interface
+)
+_generate_srv_cpp(pepper_interface
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pepper_interface
@@ -93,15 +104,17 @@ add_custom_target(pepper_interface_generate_messages_cpp
 add_dependencies(pepper_interface_generate_messages pepper_interface_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_cpp _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_cpp _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_cpp _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_cpp _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv" NAME_WE)
+add_dependencies(pepper_interface_generate_messages_cpp _pepper_interface_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_cpp _pepper_interface_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -116,31 +129,37 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pepper_interface_generate_messages_
 
 ### Generating Services
 _generate_srv_eus(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_eus(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_eus(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_eus(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_eus(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pepper_interface
+)
+_generate_srv_eus(pepper_interface
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pepper_interface
@@ -158,15 +177,17 @@ add_custom_target(pepper_interface_generate_messages_eus
 add_dependencies(pepper_interface_generate_messages pepper_interface_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_eus _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_eus _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_eus _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_eus _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv" NAME_WE)
+add_dependencies(pepper_interface_generate_messages_eus _pepper_interface_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_eus _pepper_interface_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -181,31 +202,37 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pepper_interface_generate_messages_
 
 ### Generating Services
 _generate_srv_lisp(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_lisp(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_lisp(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_lisp(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_lisp(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pepper_interface
+)
+_generate_srv_lisp(pepper_interface
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pepper_interface
@@ -223,15 +250,17 @@ add_custom_target(pepper_interface_generate_messages_lisp
 add_dependencies(pepper_interface_generate_messages pepper_interface_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_lisp _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_lisp _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_lisp _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_lisp _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv" NAME_WE)
+add_dependencies(pepper_interface_generate_messages_lisp _pepper_interface_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_lisp _pepper_interface_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -246,31 +275,37 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pepper_interface_generate_messages_
 
 ### Generating Services
 _generate_srv_nodejs(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_nodejs(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_nodejs(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_nodejs(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_nodejs(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pepper_interface
+)
+_generate_srv_nodejs(pepper_interface
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pepper_interface
@@ -288,15 +323,17 @@ add_custom_target(pepper_interface_generate_messages_nodejs
 add_dependencies(pepper_interface_generate_messages pepper_interface_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_nodejs _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_nodejs _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_nodejs _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_nodejs _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv" NAME_WE)
+add_dependencies(pepper_interface_generate_messages_nodejs _pepper_interface_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_nodejs _pepper_interface_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -311,31 +348,37 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS pepper_interface_generate_messages_
 
 ### Generating Services
 _generate_srv_py(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_py(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_py(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_py(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pepper_interface
 )
 _generate_srv_py(pepper_interface
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pepper_interface
+)
+_generate_srv_py(pepper_interface
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pepper_interface
@@ -353,15 +396,17 @@ add_custom_target(pepper_interface_generate_messages_py
 add_dependencies(pepper_interface_generate_messages pepper_interface_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_py _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/LoadURL.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_py _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Talk.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_py _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/ExecuteJS.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_py _pepper_interface_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/Rest.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/PepperRequest.srv" NAME_WE)
+add_dependencies(pepper_interface_generate_messages_py _pepper_interface_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface/srv/WakeUp.srv" NAME_WE)
 add_dependencies(pepper_interface_generate_messages_py _pepper_interface_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

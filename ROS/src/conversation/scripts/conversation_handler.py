@@ -2,6 +2,10 @@
 
 import rospy
 from chatbot.srv import Dialogue, DialogueResponse
+from pepper_interface.srv import *
+from audio_recording.srv import *
+from speech.srv import *
+
 from std_msgs.msg import String
 
 class ChatbotInterface:
@@ -50,16 +54,36 @@ class ChatbotInterface:
         # Initialize node
         rospy.init_node('dialogue_interface')
 
-        # Publisher for messages topic
-        self.pub = rospy.Publisher('pepper_response', String, queue_size=10)
+        voice_detection = rospy.ServiceProxy('voice_detection', VoiceDetection)
+        speech_request = rospy.ServiceProxy('speech_request', SpeechRequest)
+        dialogue = rospy.ServiceProxy('dialogue', Dialogue)
+        pepper_request = rospy.ServiceProxy('pepper_request', PepperRequest)
 
-        # Subscribe to messages topic
-        rospy.Subscriber('messages', String, self.callback ,queue_size=1)
+        rospy.wait_for_service("voice_detection")
+        rospy.wait_for_service("speech_request")
+        #rospy.wait_for_service("dialogue")
+        #rospy.wait_for_service("pepper_request")
 
-        print("CONVERSATION_HANDLER: spinning...")
+        while True:
+            # request VoiceDetection service
+            res = voice_detection()
+            print("VOICE DETECTION service requested")
 
-        # spin() simply keeps python from exiting until this node is stopped
-        rospy.spin()
+            # request SpeechRequest service
+            res = speech_request(res.audio)
+            user = res.user
+            message = res.message
+            print("SPEECH REQUEST service requested")
+
+            # request Dialogue service
+            if message is "":
+                continue
+            #answer = dialogue(message, user)
+            print("DIALOGUE service requested")
+
+            # request PepperRequest service
+            #res = pepper_request(answer.request, answer.text)
+            print("PEPPER REQUEST service requested")
 
 
     def __init__(self):

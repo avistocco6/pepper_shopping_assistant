@@ -43,39 +43,49 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech
+CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech
+CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech
 
 # Utility rule file for speech_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include CMakeFiles/speech_generate_messages_lisp.dir/progress.make
 
-CMakeFiles/speech_generate_messages_lisp: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp
-CMakeFiles/speech_generate_messages_lisp: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp
+CMakeFiles/speech_generate_messages_lisp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp
+CMakeFiles/speech_generate_messages_lisp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/SpeechRequest.lisp
+CMakeFiles/speech_generate_messages_lisp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp
 
 
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from speech/RecognizeUser.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from speech/RecognizeUser.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv
 
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from speech/Speech2Text.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/SpeechRequest.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/SpeechRequest.lisp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/SpeechRequest.lisp: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/SpeechRequest.lisp: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/SpeechRequest.lisp: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from speech/SpeechRequest.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv
+
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from speech/Speech2Text.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv
 
 speech_generate_messages_lisp: CMakeFiles/speech_generate_messages_lisp
-speech_generate_messages_lisp: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp
-speech_generate_messages_lisp: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp
+speech_generate_messages_lisp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/RecognizeUser.lisp
+speech_generate_messages_lisp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/SpeechRequest.lisp
+speech_generate_messages_lisp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/common-lisp/ros/speech/srv/Speech2Text.lisp
 speech_generate_messages_lisp: CMakeFiles/speech_generate_messages_lisp.dir/build.make
 
 .PHONY : speech_generate_messages_lisp
@@ -90,6 +100,6 @@ CMakeFiles/speech_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/speech_generate_messages_lisp.dir/clean
 
 CMakeFiles/speech_generate_messages_lisp.dir/depend:
-	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/speech_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/speech_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/speech_generate_messages_lisp.dir/depend
 

@@ -1,1 +1,1 @@
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/share/conversation/cmake/conversationConfig-version.cmake
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/share/conversation/cmake/conversationConfig-version.cmake

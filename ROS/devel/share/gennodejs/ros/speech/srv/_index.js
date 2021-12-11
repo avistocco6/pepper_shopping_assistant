@@ -1,1 +1,1 @@
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/gennodejs/ros/speech/srv/_index.js
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/share/gennodejs/ros/speech/srv/_index.js

@@ -6,5 +6,5 @@
   <node pkg="pepper_interface" type="rest.py" name="rest" required="true" args="--ip=$(arg nao_ip) --port=$(arg nao_port)" output="screen" />
   <node pkg="pepper_interface" type="tablet.py" name="tablet" required="true" args="--ip=$(arg nao_ip) --port=$(arg nao_port)" output="screen" />
   <node pkg="pepper_interface" type="text2speech.py" name="text2speech" required="true" args="--ip=$(arg nao_ip) --port=$(arg nao_port)" output="screen" />
-  <node pkg="pepper_interface" type="pepper_controller.py" name="pepper_controller" required="true" output="screen" />
+  <node pkg="pepper_interface" type="pepper_handler.py" name="pepper_handler" required="true" output="screen" />
 </launch>

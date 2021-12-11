@@ -1,0 +1,1 @@
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/SpeechRequestRequest.h

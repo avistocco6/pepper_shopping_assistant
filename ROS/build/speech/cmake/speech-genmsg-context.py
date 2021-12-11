@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv;/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv"
+services_str = "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv;/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv;/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv"
 pkg_name = "speech"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

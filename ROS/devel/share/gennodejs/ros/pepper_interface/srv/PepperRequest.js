@@ -1,0 +1,1 @@
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/pepper_interface/share/gennodejs/ros/pepper_interface/srv/PepperRequest.js

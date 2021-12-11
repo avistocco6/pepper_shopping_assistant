@@ -4,8 +4,7 @@ import rospy
 from std_msgs.msg import Int16MultiArray
 from std_msgs.msg import String
 
-from speech.srv import RecognizeUser
-from speech.srv import Speech2Text
+from speech.srv import *
 
 class SpeechInterface:
 
@@ -19,30 +18,30 @@ class SpeechInterface:
         self.pub.publish(message)
 
 
-    def callback(self, data):
+    def handle_service(self, req):
  
         # Wait for speech recognize user service
         rospy.wait_for_service('recognize_user')
         recognize_user = rospy.ServiceProxy('recognize_user', RecognizeUser)
-        user = recognize_user(data).user
+        user = recognize_user(req.audio).user
 
         # Wait for speech2text service
         rospy.wait_for_service('speech2text')
         speech2text = rospy.ServiceProxy('speech2text', Speech2Text)
-        message = speech2text(data).text
+        message = speech2text(req.audio).text
         print("SPEECH_HANDLER: message to send -> " + str(message))
-        if message != "":
-            self.send_message(user, message)
+
+        resp = SpeechRequestResponse()
+        resp.user = user
+        resp.message = message
+        return resp
 
 
     def run(self):
         rospy.init_node('speech_handler', anonymous=True)
 
-        # Publish to message topic
-        self.pub = rospy.Publisher('messages', String, queue_size=5)
-
-        # Subscribe to voice data topic
-        rospy.Subscriber("voice_data",Int16MultiArray, self.callback)
+        # Initialize the service
+        rospy.Service("speech_request", SpeechRequest, self.handle_service)
 
         # spin() simply keeps python from exiting until this node is stopped
         rospy.spin()

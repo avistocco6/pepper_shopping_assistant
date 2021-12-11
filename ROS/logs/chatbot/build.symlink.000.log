@@ -1,81 +1,81 @@
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/chatbot-srv.asd
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/_package_Dialogue.lisp
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/_package.lisp
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/Dialogue.lisp
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbotConfig.cmake
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbot-msg-extras.cmake
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbotConfig-version.cmake
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbot-msg-paths.cmake
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/chatbot/manifest.l
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/chatbot/srv/Dialogue.l
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/_index.js
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/srv/_index.js
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/srv/Dialogue.js
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/Dialogue.h
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/DialogueRequest.h
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/DialogueResponse.h
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/chatbot.pc
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/__init__.py
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/srv/__init__.py
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/cmake.lock, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./cmake.lock)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/__init__.py, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/__init__.py)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/__init__.py, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/srv/__init__.py)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/pkgconfig/chatbot.pc, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/chatbot.pc)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/chatbot/cmake/chatbotConfig.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbotConfig.cmake)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/chatbot/cmake/chatbot-msg-extras.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbot-msg-extras.cmake)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/chatbot/cmake/chatbot-msg-paths.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbot-msg-paths.cmake)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/chatbot/cmake/chatbotConfig-version.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbotConfig-version.cmake)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/manifest.l, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/chatbot/manifest.l)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/srv/Dialogue.l, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/chatbot/srv/Dialogue.l)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/gennodejs/ros/chatbot/_index.js, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/_index.js)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/gennodejs/ros/chatbot/srv/Dialogue.js, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/srv/Dialogue.js)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/gennodejs/ros/chatbot/srv/_index.js, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/srv/_index.js)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/chatbot-srv.asd, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/chatbot-srv.asd)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/Dialogue.lisp, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/Dialogue.lisp)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/_package_Dialogue.lisp, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/_package_Dialogue.lisp)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/_package.lisp, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/_package.lisp)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/include/chatbot/DialogueResponse.h, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/DialogueResponse.h)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/include/chatbot/DialogueRequest.h, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/DialogueRequest.h)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/include/chatbot/Dialogue.h, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/Dialogue.h)
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/__init__.py
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/__init__.py
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/srv/__init__.py
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/chatbot.pc
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbotConfig.cmake
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbot-msg-extras.cmake
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbot-msg-paths.cmake
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbotConfig-version.cmake
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/chatbot/manifest.l
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/chatbot/srv/Dialogue.l
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/_index.js
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/srv/Dialogue.js
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/srv/_index.js
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/chatbot-srv.asd
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/Dialogue.lisp
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/_package_Dialogue.lisp
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/_package.lisp
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/DialogueResponse.h
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/DialogueRequest.h
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/Dialogue.h
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/cmake.lock, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/./cmake.lock)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/chatbot-srv.asd, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/chatbot-srv.asd)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/_package_Dialogue.lisp, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/_package_Dialogue.lisp)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/_package.lisp, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/_package.lisp)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/common-lisp/ros/chatbot/srv/Dialogue.lisp, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/Dialogue.lisp)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/chatbot/cmake/chatbotConfig.cmake, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbotConfig.cmake)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/chatbot/cmake/chatbot-msg-extras.cmake, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbot-msg-extras.cmake)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/chatbot/cmake/chatbotConfig-version.cmake, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbotConfig-version.cmake)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/chatbot/cmake/chatbot-msg-paths.cmake, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbot-msg-paths.cmake)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/manifest.l, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/chatbot/manifest.l)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/roseus/ros/chatbot/srv/Dialogue.l, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/chatbot/srv/Dialogue.l)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/gennodejs/ros/chatbot/_index.js, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/_index.js)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/gennodejs/ros/chatbot/srv/_index.js, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/srv/_index.js)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/share/gennodejs/ros/chatbot/srv/Dialogue.js, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/srv/Dialogue.js)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/include/chatbot/Dialogue.h, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/Dialogue.h)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/include/chatbot/DialogueRequest.h, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/DialogueRequest.h)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/include/chatbot/DialogueResponse.h, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/DialogueResponse.h)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/pkgconfig/chatbot.pc, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/chatbot.pc)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/__init__.py, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/__init__.py)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/lib/python2.7/dist-packages/chatbot/srv/__init__.py, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/srv/__init__.py)
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/chatbot-srv.asd
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/_package_Dialogue.lisp
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/srv/__init__.py
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/_package.lisp
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/chatbot.pc
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/Dialogue.lisp
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbotConfig.cmake
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbotConfig.cmake
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbot-msg-extras.cmake
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbot-msg-extras.cmake
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbot-msg-paths.cmake
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbotConfig-version.cmake
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbotConfig-version.cmake
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/chatbot/cmake/chatbot-msg-paths.cmake
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/chatbot/manifest.l
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/chatbot/manifest.l
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/chatbot/srv/Dialogue.l
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/roseus/ros/chatbot/srv/Dialogue.l
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/_index.js
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/_index.js
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/srv/Dialogue.js
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/srv/_index.js
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/srv/_index.js
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/gennodejs/ros/chatbot/srv/Dialogue.js
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/chatbot-srv.asd
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/Dialogue.h
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/Dialogue.lisp
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/DialogueRequest.h
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/_package_Dialogue.lisp
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/DialogueResponse.h
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp/ros/chatbot/srv/_package.lisp
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/chatbot.pc
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/DialogueResponse.h
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/__init__.py
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/DialogueRequest.h
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/srv/_Dialogue.py
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/include/chatbot/Dialogue.h
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages/chatbot/srv/__init__.py
 Already unlinked: {}

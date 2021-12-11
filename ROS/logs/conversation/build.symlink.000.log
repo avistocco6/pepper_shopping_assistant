@@ -1,13 +1,13 @@
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig-version.cmake
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig.cmake
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/conversation.pc
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/cmake.lock, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./cmake.lock)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/lib/pkgconfig/conversation.pc, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/conversation.pc)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/share/conversation/cmake/conversationConfig-version.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig-version.cmake)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/share/conversation/cmake/conversationConfig.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig.cmake)
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/conversation.pc
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/conversation.pc
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig-version.cmake
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig.cmake
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/cmake.lock, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/./cmake.lock)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/share/conversation/cmake/conversationConfig-version.cmake, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig-version.cmake)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/share/conversation/cmake/conversationConfig.cmake, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig.cmake)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/conversation/lib/pkgconfig/conversation.pc, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/conversation.pc)
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig-version.cmake
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig-version.cmake
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig.cmake
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/conversation/cmake/conversationConfig.cmake
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/conversation.pc
 Already unlinked: {}

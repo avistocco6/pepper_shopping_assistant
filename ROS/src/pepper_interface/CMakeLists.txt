@@ -62,6 +62,7 @@ add_service_files(
   Rest.srv
   Talk.srv
   WakeUp.srv
+  PepperRequest.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -168,7 +169,7 @@ catkin_install_python(PROGRAMS
   scripts/text2speech.py
   scripts/tablet.py
   scripts/rest.py
-  scripts/pepper_controller.py
+  scripts/pepper_handler.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

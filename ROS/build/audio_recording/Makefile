@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording
+CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/audio_recording
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording
+CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,28 +68,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -101,6 +79,17 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # Special rule for the target test
 test:
@@ -135,11 +124,22 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/audio_recording/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -168,6 +168,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named audio_recording_genpy
+
+# Build rule for target.
+audio_recording_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 audio_recording_genpy
+.PHONY : audio_recording_genpy
+
+# fast build rule for target.
+audio_recording_genpy/fast:
+	$(MAKE) -f CMakeFiles/audio_recording_genpy.dir/build.make CMakeFiles/audio_recording_genpy.dir/build
+.PHONY : audio_recording_genpy/fast
+
+#=============================================================================
+# Target rules for targets named audio_recording_generate_messages_py
+
+# Build rule for target.
+audio_recording_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 audio_recording_generate_messages_py
+.PHONY : audio_recording_generate_messages_py
+
+# fast build rule for target.
+audio_recording_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/audio_recording_generate_messages_py.dir/build.make CMakeFiles/audio_recording_generate_messages_py.dir/build
+.PHONY : audio_recording_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named audio_recording_generate_messages_nodejs
+
+# Build rule for target.
+audio_recording_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 audio_recording_generate_messages_nodejs
+.PHONY : audio_recording_generate_messages_nodejs
+
+# fast build rule for target.
+audio_recording_generate_messages_nodejs/fast:
+	$(MAKE) -f CMakeFiles/audio_recording_generate_messages_nodejs.dir/build.make CMakeFiles/audio_recording_generate_messages_nodejs.dir/build
+.PHONY : audio_recording_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named audio_recording_genlisp
+
+# Build rule for target.
+audio_recording_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 audio_recording_genlisp
+.PHONY : audio_recording_genlisp
+
+# fast build rule for target.
+audio_recording_genlisp/fast:
+	$(MAKE) -f CMakeFiles/audio_recording_genlisp.dir/build.make CMakeFiles/audio_recording_genlisp.dir/build
+.PHONY : audio_recording_genlisp/fast
+
+#=============================================================================
 # Target rules for targets named clean_test_results
 
 # Build rule for target.
@@ -181,6 +233,45 @@ clean_test_results/fast:
 .PHONY : clean_test_results/fast
 
 #=============================================================================
+# Target rules for targets named audio_recording_generate_messages_cpp
+
+# Build rule for target.
+audio_recording_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 audio_recording_generate_messages_cpp
+.PHONY : audio_recording_generate_messages_cpp
+
+# fast build rule for target.
+audio_recording_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/audio_recording_generate_messages_cpp.dir/build.make CMakeFiles/audio_recording_generate_messages_cpp.dir/build
+.PHONY : audio_recording_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named audio_recording_generate_messages_lisp
+
+# Build rule for target.
+audio_recording_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 audio_recording_generate_messages_lisp
+.PHONY : audio_recording_generate_messages_lisp
+
+# fast build rule for target.
+audio_recording_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/audio_recording_generate_messages_lisp.dir/build.make CMakeFiles/audio_recording_generate_messages_lisp.dir/build
+.PHONY : audio_recording_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named doxygen
+
+# Build rule for target.
+doxygen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 doxygen
+.PHONY : doxygen
+
+# fast build rule for target.
+doxygen/fast:
+	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
+.PHONY : doxygen/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -192,6 +283,19 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 std_msgs_generate_messages_cpp/fast:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named _audio_recording_generate_messages_check_deps_VoiceDetection
+
+# Build rule for target.
+_audio_recording_generate_messages_check_deps_VoiceDetection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _audio_recording_generate_messages_check_deps_VoiceDetection
+.PHONY : _audio_recording_generate_messages_check_deps_VoiceDetection
+
+# fast build rule for target.
+_audio_recording_generate_messages_check_deps_VoiceDetection/fast:
+	$(MAKE) -f CMakeFiles/_audio_recording_generate_messages_check_deps_VoiceDetection.dir/build.make CMakeFiles/_audio_recording_generate_messages_check_deps_VoiceDetection.dir/build
+.PHONY : _audio_recording_generate_messages_check_deps_VoiceDetection/fast
 
 #=============================================================================
 # Target rules for targets named run_tests
@@ -220,19 +324,6 @@ download_extra_data/fast:
 .PHONY : download_extra_data/fast
 
 #=============================================================================
-# Target rules for targets named std_msgs_generate_messages_eus
-
-# Build rule for target.
-std_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_eus
-.PHONY : std_msgs_generate_messages_eus
-
-# fast build rule for target.
-std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
-.PHONY : std_msgs_generate_messages_eus/fast
-
-#=============================================================================
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -244,6 +335,19 @@ tests: cmake_check_build_system
 tests/fast:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
 .PHONY : tests/fast
+
+#=============================================================================
+# Target rules for targets named audio_recording_gennodejs
+
+# Build rule for target.
+audio_recording_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 audio_recording_gennodejs
+.PHONY : audio_recording_gennodejs
+
+# fast build rule for target.
+audio_recording_gennodejs/fast:
+	$(MAKE) -f CMakeFiles/audio_recording_gennodejs.dir/build.make CMakeFiles/audio_recording_gennodejs.dir/build
+.PHONY : audio_recording_gennodejs/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
@@ -272,6 +376,19 @@ std_msgs_generate_messages_nodejs/fast:
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named audio_recording_generate_messages_eus
+
+# Build rule for target.
+audio_recording_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 audio_recording_generate_messages_eus
+.PHONY : audio_recording_generate_messages_eus
+
+# fast build rule for target.
+audio_recording_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/audio_recording_generate_messages_eus.dir/build.make CMakeFiles/audio_recording_generate_messages_eus.dir/build
+.PHONY : audio_recording_generate_messages_eus/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
 
 # Build rule for target.
@@ -285,17 +402,56 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named doxygen
+# Target rules for targets named std_msgs_generate_messages_eus
 
 # Build rule for target.
-doxygen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 doxygen
-.PHONY : doxygen
+std_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_eus
+.PHONY : std_msgs_generate_messages_eus
 
 # fast build rule for target.
-doxygen/fast:
-	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-.PHONY : doxygen/fast
+std_msgs_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
+.PHONY : std_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named audio_recording_generate_messages
+
+# Build rule for target.
+audio_recording_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 audio_recording_generate_messages
+.PHONY : audio_recording_generate_messages
+
+# fast build rule for target.
+audio_recording_generate_messages/fast:
+	$(MAKE) -f CMakeFiles/audio_recording_generate_messages.dir/build.make CMakeFiles/audio_recording_generate_messages.dir/build
+.PHONY : audio_recording_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named audio_recording_gencpp
+
+# Build rule for target.
+audio_recording_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 audio_recording_gencpp
+.PHONY : audio_recording_gencpp
+
+# fast build rule for target.
+audio_recording_gencpp/fast:
+	$(MAKE) -f CMakeFiles/audio_recording_gencpp.dir/build.make CMakeFiles/audio_recording_gencpp.dir/build
+.PHONY : audio_recording_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named audio_recording_geneus
+
+# Build rule for target.
+audio_recording_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 audio_recording_geneus
+.PHONY : audio_recording_geneus
+
+# fast build rule for target.
+audio_recording_geneus/fast:
+	$(MAKE) -f CMakeFiles/audio_recording_geneus.dir/build.make CMakeFiles/audio_recording_geneus.dir/build
+.PHONY : audio_recording_geneus/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -356,22 +512,34 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... clean_test_results"
+	@echo "... install"
 	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... audio_recording_genpy"
+	@echo "... audio_recording_generate_messages_py"
+	@echo "... audio_recording_generate_messages_nodejs"
+	@echo "... audio_recording_genlisp"
+	@echo "... clean_test_results"
+	@echo "... audio_recording_generate_messages_cpp"
+	@echo "... install/local"
+	@echo "... audio_recording_generate_messages_lisp"
+	@echo "... doxygen"
 	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... _audio_recording_generate_messages_check_deps_VoiceDetection"
 	@echo "... run_tests"
 	@echo "... download_extra_data"
-	@echo "... std_msgs_generate_messages_eus"
-	@echo "... rebuild_cache"
 	@echo "... tests"
+	@echo "... audio_recording_gennodejs"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... install"
-	@echo "... std_msgs_generate_messages_py"
-	@echo "... test"
-	@echo "... doxygen"
-	@echo "... install/local"
 	@echo "... list_install_components"
+	@echo "... audio_recording_generate_messages_eus"
+	@echo "... std_msgs_generate_messages_py"
+	@echo "... std_msgs_generate_messages_eus"
+	@echo "... audio_recording_generate_messages"
+	@echo "... audio_recording_gencpp"
+	@echo "... rebuild_cache"
+	@echo "... audio_recording_geneus"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"

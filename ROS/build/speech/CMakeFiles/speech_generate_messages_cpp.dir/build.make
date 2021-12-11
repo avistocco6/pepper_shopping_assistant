@@ -43,43 +43,55 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech
+CMAKE_SOURCE_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech
+CMAKE_BINARY_DIR = /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech
 
 # Utility rule file for speech_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include CMakeFiles/speech_generate_messages_cpp.dir/progress.make
 
-CMakeFiles/speech_generate_messages_cpp: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h
-CMakeFiles/speech_generate_messages_cpp: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h
+CMakeFiles/speech_generate_messages_cpp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h
+CMakeFiles/speech_generate_messages_cpp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/SpeechRequest.h
+CMakeFiles/speech_generate_messages_cpp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h
 
 
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from speech/RecognizeUser.srv"
-	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech && /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from speech/RecognizeUser.srv"
+	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech && /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from speech/Speech2Text.srv"
-	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech && /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/SpeechRequest.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/SpeechRequest.h: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/SpeechRequest.h: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/SpeechRequest.h: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/SpeechRequest.h: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/SpeechRequest.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/SpeechRequest.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from speech/SpeechRequest.srv"
+	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech && /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech -e /opt/ros/melodic/share/gencpp/cmake/..
+
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h: /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h: /opt/ros/melodic/share/std_msgs/msg/Int16MultiArray.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h: /opt/ros/melodic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h: /opt/ros/melodic/share/std_msgs/msg/MultiArrayLayout.msg
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from speech/Speech2Text.srv"
+	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech && /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p speech -o /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech -e /opt/ros/melodic/share/gencpp/cmake/..
 
 speech_generate_messages_cpp: CMakeFiles/speech_generate_messages_cpp
-speech_generate_messages_cpp: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h
-speech_generate_messages_cpp: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h
+speech_generate_messages_cpp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/RecognizeUser.h
+speech_generate_messages_cpp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/SpeechRequest.h
+speech_generate_messages_cpp: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech/include/speech/Speech2Text.h
 speech_generate_messages_cpp: CMakeFiles/speech_generate_messages_cpp.dir/build.make
 
 .PHONY : speech_generate_messages_cpp
@@ -94,6 +106,6 @@ CMakeFiles/speech_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/speech_generate_messages_cpp.dir/clean
 
 CMakeFiles/speech_generate_messages_cpp.dir/depend:
-	cd /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech /home/alfonso/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/speech_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech /home/angelo/Desktop/pepper_shopping_assistant/ROS/build/speech/CMakeFiles/speech_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/speech_generate_messages_cpp.dir/depend
 

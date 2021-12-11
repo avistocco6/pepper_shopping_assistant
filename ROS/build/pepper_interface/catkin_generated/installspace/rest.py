@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/python2
 from naoqi import ALProxy
 from optparse import OptionParser
-from srv import *
+from pepper_interface.srv import *
 import rospy
 
-class Rest:
+class RestServer:
 
     def __init__(self, ip, port):
         self.ip = ip
@@ -12,7 +12,7 @@ class Rest:
         self.motion_proxy = ALProxy("ALMotion", ip, port)
         self.posture_proxy = ALProxy("ALRobotPosture", ip, port)
 
-    def rest(self, *args):
+    def handle_service(self, *args):
         print("REST")
         try:
             self.motion_proxy.rest()
@@ -26,8 +26,8 @@ class Rest:
 
     def start(self):
         rospy.init_node("rest")
-        self.rest()    
-        rospy.Service("rest", Rest, self.rest)
+        # self.rest()    
+        rospy.Service("rest", Rest, self.handle_service)
         rospy.spin()
 
 if __name__ == "__main__":
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     (options, args) = parser.parse_args()
 
     try:
-        node = Rest(options.ip, int(options.port))
+        node = RestServer(options.ip, int(options.port))
         node.start()
     except rospy.ROSInterruptException:
         pass

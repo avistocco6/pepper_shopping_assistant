@@ -3,7 +3,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech}
+: ${_CATKIN_SETUP_DIR:=/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/speech}
 CATKIN_SETUP_UTIL_ARGS="--extend --local"
 . "$_CATKIN_SETUP_DIR/setup.sh"
 unset CATKIN_SETUP_UTIL_ARGS

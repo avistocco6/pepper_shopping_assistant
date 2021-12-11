@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "speech: 0 messages, 2 services")
+message(STATUS "speech: 0 messages, 3 services")
 
 set(MSG_I_FLAGS "-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
@@ -17,14 +17,19 @@ add_custom_target(speech_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv" NAME_WE)
 add_custom_target(_speech_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "speech" "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv" "std_msgs/Int16MultiArray:std_msgs/MultiArrayDimension:std_msgs/MultiArrayLayout"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "speech" "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv" "std_msgs/Int16MultiArray:std_msgs/MultiArrayDimension:std_msgs/MultiArrayLayout"
 )
 
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv" NAME_WE)
 add_custom_target(_speech_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "speech" "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv" "std_msgs/Int16MultiArray:std_msgs/MultiArrayDimension:std_msgs/MultiArrayLayout"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "speech" "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv" "std_msgs/Int16MultiArray:std_msgs/MultiArrayDimension:std_msgs/MultiArrayLayout"
+)
+
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv" NAME_WE)
+add_custom_target(_speech_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "speech" "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv" "std_msgs/Int16MultiArray:std_msgs/MultiArrayDimension:std_msgs/MultiArrayLayout"
 )
 
 #
@@ -36,13 +41,19 @@ add_custom_target(_speech_generate_messages_check_deps_${_filename}
 
 ### Generating Services
 _generate_srv_cpp(speech
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/speech
 )
 _generate_srv_cpp(speech
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/speech
+)
+_generate_srv_cpp(speech
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/speech
@@ -60,9 +71,11 @@ add_custom_target(speech_generate_messages_cpp
 add_dependencies(speech_generate_messages speech_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv" NAME_WE)
 add_dependencies(speech_generate_messages_cpp _speech_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv" NAME_WE)
+add_dependencies(speech_generate_messages_cpp _speech_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv" NAME_WE)
 add_dependencies(speech_generate_messages_cpp _speech_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -77,13 +90,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS speech_generate_messages_cpp)
 
 ### Generating Services
 _generate_srv_eus(speech
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/speech
 )
 _generate_srv_eus(speech
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/speech
+)
+_generate_srv_eus(speech
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/speech
@@ -101,9 +120,11 @@ add_custom_target(speech_generate_messages_eus
 add_dependencies(speech_generate_messages speech_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv" NAME_WE)
 add_dependencies(speech_generate_messages_eus _speech_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv" NAME_WE)
+add_dependencies(speech_generate_messages_eus _speech_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv" NAME_WE)
 add_dependencies(speech_generate_messages_eus _speech_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -118,13 +139,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS speech_generate_messages_eus)
 
 ### Generating Services
 _generate_srv_lisp(speech
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/speech
 )
 _generate_srv_lisp(speech
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/speech
+)
+_generate_srv_lisp(speech
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/speech
@@ -142,9 +169,11 @@ add_custom_target(speech_generate_messages_lisp
 add_dependencies(speech_generate_messages speech_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv" NAME_WE)
 add_dependencies(speech_generate_messages_lisp _speech_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv" NAME_WE)
+add_dependencies(speech_generate_messages_lisp _speech_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv" NAME_WE)
 add_dependencies(speech_generate_messages_lisp _speech_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -159,13 +188,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS speech_generate_messages_lisp)
 
 ### Generating Services
 _generate_srv_nodejs(speech
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/speech
 )
 _generate_srv_nodejs(speech
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/speech
+)
+_generate_srv_nodejs(speech
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/speech
@@ -183,9 +218,11 @@ add_custom_target(speech_generate_messages_nodejs
 add_dependencies(speech_generate_messages speech_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv" NAME_WE)
 add_dependencies(speech_generate_messages_nodejs _speech_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv" NAME_WE)
+add_dependencies(speech_generate_messages_nodejs _speech_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv" NAME_WE)
 add_dependencies(speech_generate_messages_nodejs _speech_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -200,13 +237,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS speech_generate_messages_nodejs)
 
 ### Generating Services
 _generate_srv_py(speech
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/speech
 )
 _generate_srv_py(speech
-  "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv"
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/speech
+)
+_generate_srv_py(speech
+  "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Int16MultiArray.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayDimension.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/MultiArrayLayout.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/speech
@@ -224,9 +267,11 @@ add_custom_target(speech_generate_messages_py
 add_dependencies(speech_generate_messages speech_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/RecognizeUser.srv" NAME_WE)
 add_dependencies(speech_generate_messages_py _speech_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv" NAME_WE)
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/SpeechRequest.srv" NAME_WE)
+add_dependencies(speech_generate_messages_py _speech_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/angelo/Desktop/pepper_shopping_assistant/ROS/src/speech/srv/Speech2Text.srv" NAME_WE)
 add_dependencies(speech_generate_messages_py _speech_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

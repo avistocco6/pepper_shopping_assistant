@@ -1,13 +1,13 @@
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/shopping_list/cmake/shopping_listConfig-version.cmake
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/shopping_list/cmake/shopping_listConfig.cmake
-Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/shopping_list.pc
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/shopping_list/cmake.lock, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./cmake.lock)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/shopping_list/lib/pkgconfig/shopping_list.pc, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/shopping_list.pc)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/shopping_list/share/shopping_list/cmake/shopping_listConfig-version.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/shopping_list/cmake/shopping_listConfig-version.cmake)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/shopping_list/share/shopping_list/cmake/shopping_listConfig.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/shopping_list/cmake/shopping_listConfig.cmake)
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/shopping_list.pc
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/shopping_list.pc
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/shopping_list/cmake/shopping_listConfig-version.cmake
+Symlinking /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/shopping_list/cmake/shopping_listConfig.cmake
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/shopping_list/cmake.lock, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/./cmake.lock)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/shopping_list/share/shopping_list/cmake/shopping_listConfig-version.cmake, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/shopping_list/cmake/shopping_listConfig-version.cmake)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/shopping_list/share/shopping_list/cmake/shopping_listConfig.cmake, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/shopping_list/cmake/shopping_listConfig.cmake)
+Cleaning: (/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/shopping_list/lib/pkgconfig/shopping_list.pc, /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/shopping_list.pc)
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/shopping_list/cmake/shopping_listConfig-version.cmake
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/shopping_list/cmake/shopping_listConfig-version.cmake
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/shopping_list/cmake/shopping_listConfig.cmake
 Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/shopping_list/cmake/shopping_listConfig.cmake
+Unlinking: /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/shopping_list.pc
 Already unlinked: {}
