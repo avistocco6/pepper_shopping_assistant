@@ -3,21 +3,38 @@ from naoqi import ALProxy
 from optparse import OptionParser
 from pepper_interface.srv import *
 import rospy
+import qi
 
 class Text2SpeechServer:
 
     def __init__(self, ip, port):
         self.ip = ip
         self.port = port
-        self.tts = ALProxy("ALTextToSpeech", ip, port)
+        self.session = qi.Session()
+        self.connect()
+
+    def connect(self):
+        """
+        Connects the proxy server
+        """
+        self.session = self.session.connect("tcp://" + str(self.ip) + ":" + str(self.port))
+        self.tts = self.session.service("ALTextToSpeech")
+
+    def is_connected(self):
+        """
+        True if proxy server are already connected
+        """
+        return self.tts.state() == "ready"
 
     def handle_service(self, msg):
         print("TALK: " + str(msg.text))
+        while not self.is_connected():
+            self.connect()
+
         try:
             self.tts.say(msg.text)
         except:
-            self.tts = ALProxy("ALTextToSpeech", self.ip, self.port)
-            self.tts.say(msg.text)
+            return "NACK"
         return "ACK"
     
     def start(self):
