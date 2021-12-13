@@ -62,7 +62,7 @@ slots:
     type: text
     influence_conversation: false
   last_IDs:
-    type: list
+    type: list 
     influence_conversation: false
 
 forms:
