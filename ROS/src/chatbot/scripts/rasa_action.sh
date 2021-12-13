@@ -1,7 +1,12 @@
 #!/bin/bash
 
-BOT_DIR="/home/alfonso/Desktop/pepper_shopping_assistant/RASA/pepper_shopping_chatbot"
+SCRIPT_PATH="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+BOT_DIR="$SCRIPT_PATH/../../../../RASA/pepper_shopping_chatbot"
 
+
+echo "================"
+echo $BOT_DIR
+echo "================"
 cd $BOT_DIR
 
 rasa run actions

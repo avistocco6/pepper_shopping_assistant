@@ -1,0 +1,68 @@
+[roslaunch][INFO] 2021-12-13 07:32:05,336: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2021-12-13 07:32:05,351: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2021-12-13 07:32:05,351: roslaunch starting with args ['/opt/ros/melodic/bin/roslaunch', 'conversation', 'conversation.launch']
+[roslaunch][INFO] 2021-12-13 07:32:05,351: roslaunch env is {'ROS_DISTRO': 'melodic', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/19175648_fa4e_40a9_b808_2b59f4ae372e', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'GJS_DEBUG_OUTPUT': 'stderr', 'WINDOWPATH': '2', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'XDG_SESSION_TYPE': 'x11', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/common-lisp', 'QT_IM_MODULE': 'ibus', 'LOGNAME': 'alfonso', 'XDG_SEAT': 'seat0', 'HOME': '/home/alfonso', 'XDG_VTNR': '2', 'PATH': '/opt/ros/melodic/bin:/home/alfonso/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'ROS_PACKAGE_PATH': '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/audio_recording:/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/chatbot:/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/conversation:/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/pepper_interface:/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/shopping_list:/home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/speech:/opt/ros/melodic/share', 'CMAKE_PREFIX_PATH': '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel:/opt/ros/melodic', 'DISPLAY': ':0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_SESSION_DESKTOP': 'ubuntu', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'ROS_LOG_FILENAME': 'log/d3786d0a-5c29-11ec-a272-000c2948334d/roslaunch-ubuntu-11783.log', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1921,unix/ubuntu:/tmp/.ICE-unix/1921', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ROS_HOME': '', 'LD_LIBRARY_PATH': '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib:/opt/ros/melodic/lib', 'QT4_IM_MODULE': 'xim', 'CLUTTER_IM_MODULE': 'xim', 'TEXTDOMAIN': 'im-config', 'IM_CONFIG_PHASE': '2', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'SSH_AGENT_PID': '1998', 'ROS_PYTHON_VERSION': '2', 'USERNAME': 'alfonso', 'LANG': 'en_US.UTF-8', 'ROS_VERSION': '1', 'GTK_IM_MODULE': 'ibus', 'PYTHONPATH': '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages:/home/alfonso/Desktop/pepper_shopping_assistant/ROS/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'VTE_VERSION': '5202', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'GDMSESSION': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'PKG_CONFIG_PATH': '/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_ID': '2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/usr/bin/gnome-terminal', 'GTK_MODULES': 'gail:atk-bridge', 'DYLD_LIBRARY_PATH': ':/home/alfonso/Desktop/pepper_shopping_assistant/ROS/pynaoqi-python2.7-2.5.7.1-linux64/lib', 'DESKTOP_SESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GNOME_TERMINAL_SERVICE': ':1.293', 'OLDPWD': '/home/alfonso/Desktop/pepper_shopping_assistant', 'SHLVL': '2', 'PWD': '/home/alfonso/Desktop/pepper_shopping_assistant/ROS', 'ROS_MASTER_URI': 'http://localhost:11311', 'COLORTERM': 'truecolor', 'XDG_MENU_PREFIX': 'gnome-', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USER': 'alfonso'}
+[roslaunch][INFO] 2021-12-13 07:32:05,351: starting in server mode
+[roslaunch.parent][INFO] 2021-12-13 07:32:05,351: starting roslaunch parent run
+[roslaunch][INFO] 2021-12-13 07:32:05,352: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2021-12-13 07:32:05,530: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2021-12-13 07:32:05,530: loading config file /home/alfonso/Desktop/pepper_shopping_assistant/ROS/src/conversation/launch/conversation.launch
+[roslaunch][INFO] 2021-12-13 07:32:05,531: Added node of type [conversation/conversation_handler.py] in namespace [/]
+[roslaunch][INFO] 2021-12-13 07:32:05,531: ... selected machine [] for node of type [conversation/conversation_handler.py]
+[roslaunch.pmon][INFO] 2021-12-13 07:32:05,531: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2021-12-13 07:32:05,531: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2021-12-13 07:32:05,533: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2021-12-13 07:32:05,533: starting parent XML-RPC server
+[roslaunch.server][INFO] 2021-12-13 07:32:05,533: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2021-12-13 07:32:05,533: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2021-12-13 07:32:05,534: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-13 07:32:05,534: Started XML-RPC server [http://ubuntu:45095/]
+[xmlrpc][INFO] 2021-12-13 07:32:05,535: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2021-12-13 07:32:05,554: started roslaunch server http://ubuntu:45095/
+[roslaunch.parent][INFO] 2021-12-13 07:32:05,554: ... parent XML-RPC server started
+[roslaunch][INFO] 2021-12-13 07:32:05,554: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2021-12-13 07:32:05,555: auto-starting new master
+[roslaunch][INFO] 2021-12-13 07:32:05,555: create_master_process: rosmaster, /opt/ros/melodic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2021-12-13 07:32:05,555: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2021-12-13 07:32:05,555: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2021-12-13 07:32:05,555: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2021-12-13 07:32:05,555: process[master]: starting os process
+[roslaunch][INFO] 2021-12-13 07:32:05,555: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=log/d3786d0a-5c29-11ec-a272-000c2948334d/master.log']]
+[roslaunch][INFO] 2021-12-13 07:32:05,555: process[master]: cwd will be []
+[roslaunch][ERROR] 2021-12-13 07:32:05,571: OSError(2, No such file or directory)
+[roslaunch][ERROR] 2021-12-13 07:32:05,571: RLException: Roslaunch got a 'No such file or directory' error while attempting to run:
+
+rosmaster --core -p 11311 -w 3 __log:=log/d3786d0a-5c29-11ec-a272-000c2948334d/master.log
+
+Please make sure that all the executables in this command exist and have
+executable permission. This is often caused by a bad launch-prefix.
+[roslaunch][ERROR] 2021-12-13 07:32:05,571: The traceback for the exception was written to the log file
+[roslaunch][ERROR] 2021-12-13 07:32:05,571: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/__init__.py", line 332, in main
+    p.start()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 300, in start
+    self.runner.launch()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/launch.py", line 662, in launch
+    self._setup()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/launch.py", line 637, in _setup
+    launched = self._launch_master()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/launch.py", line 407, in _launch_master
+    success = p.start()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/nodeprocess.py", line 328, in start
+    executable permission. This is often caused by a bad launch-prefix."""%(e.strerror, ' '.join(self.args)))
+FatalProcessLaunch: Roslaunch got a 'No such file or directory' error while attempting to run:
+
+rosmaster --core -p 11311 -w 3 __log:=log/d3786d0a-5c29-11ec-a272-000c2948334d/master.log
+
+Please make sure that all the executables in this command exist and have
+executable permission. This is often caused by a bad launch-prefix.
+
+[roslaunch.pmon][INFO] 2021-12-13 07:32:05,571: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 139737718380288)>
+[roslaunch.pmon][INFO] 2021-12-13 07:32:05,633: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 139737718380288)>
+[roslaunch.pmon][INFO] 2021-12-13 07:32:05,634: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 139737718380288)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f173933fa50>]
+[roslaunch.pmon][INFO] 2021-12-13 07:32:05,641: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2021-12-13 07:32:05,642: [master] killing on exit
+[roslaunch.pmon][INFO] 2021-12-13 07:32:05,642: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2021-12-13 07:32:05,642: ProcessMonitor exit: pmon has shutdown
+[rospy.core][INFO] 2021-12-13 07:32:05,691: signal_shutdown [atexit]

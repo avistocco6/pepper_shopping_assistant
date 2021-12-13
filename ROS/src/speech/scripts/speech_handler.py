@@ -42,6 +42,7 @@ class SpeechInterface:
 
         # Initialize the service
         rospy.Service("speech_request", SpeechRequest, self.handle_service)
+        print("SPEECH_HANDLER: Server is UP")
 
         # spin() simply keeps python from exiting until this node is stopped
         rospy.spin()

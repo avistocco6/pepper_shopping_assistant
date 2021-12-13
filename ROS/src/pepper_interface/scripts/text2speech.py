@@ -34,6 +34,8 @@ class Text2SpeechServer:
 
         try:
             self.tts.say(msg.text)
+            # ev = qi.async(tts.say, msg.text)
+            # ev.value()
         except:
             return "NACK"
         return "ACK"
@@ -41,6 +43,7 @@ class Text2SpeechServer:
     def start(self):
         rospy.init_node("text2speech")
         rospy.Service('tts', Talk, self.handle_service)
+        
         rospy.spin()
 
 if __name__ == "__main__":

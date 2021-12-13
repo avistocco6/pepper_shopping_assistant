@@ -63,6 +63,7 @@ class VoiceDetectionServer:
         print("VOICE_DETECTION: Calibration finished")
 
         rospy.Service("voice_detection", VoiceDetection, self.handle_service)
+        print("AUDIO RECORDING: Server is UP")
 
         rospy.spin()
 

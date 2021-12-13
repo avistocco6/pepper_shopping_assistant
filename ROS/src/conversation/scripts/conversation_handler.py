@@ -62,7 +62,7 @@ class ChatbotInterface:
         rospy.wait_for_service("voice_detection")
         rospy.wait_for_service("speech_request")
         rospy.wait_for_service("dialogue")
-        #rospy.wait_for_service("pepper_request")
+        rospy.wait_for_service("pepper_request")
 
         while True:
             # request VoiceDetection service
@@ -82,7 +82,7 @@ class ChatbotInterface:
             print("DIALOGUE service requested")
 
             # request PepperRequest service
-            #res = pepper_request(answer.request, answer.text)
+            res = pepper_request(answer.request, answer.text)
             print("PEPPER REQUEST service requested")
 
 
