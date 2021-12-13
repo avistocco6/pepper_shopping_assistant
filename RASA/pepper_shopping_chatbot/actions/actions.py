@@ -43,7 +43,7 @@ def save_user_and_id(tracker):
 
             # associate last and current ids to current user
             if last_IDs is not None:
-                for id in list(last_IDs):
+                for id in last_IDs:
                     data[id] = user
             if sender_ID is not None:
                 data[sender_ID] = user
@@ -317,6 +317,9 @@ class ActionMapUser(Action):
 
 
         sender_ID = tracker.get_slot("ID")
+        if sender_ID is None:
+            sender_ID = 0   # for testing
+
         user = None
 
         try:
@@ -330,17 +333,18 @@ class ActionMapUser(Action):
         except Exception as e:
             pass
 
+        last_IDs = None
         if user is None:
             # Remember ids to associate them to the same person when she gives her name
             last_IDs = tracker.get_slot("last_IDs")
-            if last_IDs is None:
-                last_IDs = list()
+            if last_IDs != None:
+                if sender_ID not in last_IDs:
+                    last_IDs.append(sender_ID)
             else:
-                last_IDs = list(last_IDs)
-            last_IDs.append(sender_ID)
-            SlotSet("last_IDs", last_IDs)
+                last_IDs = list()
+                last_IDs.append(sender_ID)
+            #dispatcher.utter_message(text = f"last ids: {last_IDs}")
 
-        #dispatcher.utter_message(text = f"Mapped user: {user} - id: {sender_ID}")
+        #dispatcher.utter_message(text = f"curr id: {sender_ID}")
         
-        #return [SlotSet("curr_id", None), SlotSet("last_id", last_id), SlotSet("user", user)]
-        return [SlotSet("user", user)]
+        return [SlotSet("user", user), SlotSet("last_IDs", last_IDs)]
