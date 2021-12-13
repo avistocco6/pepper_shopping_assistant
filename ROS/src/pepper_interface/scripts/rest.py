@@ -3,22 +3,41 @@ from naoqi import ALProxy
 from optparse import OptionParser
 from pepper_interface.srv import *
 import rospy
+import qi
 
 class RestServer:
 
     def __init__(self, ip, port):
         self.ip = ip
         self.port = port
-        self.motion_proxy = ALProxy("ALMotion", ip, port)
-        self.posture_proxy = ALProxy("ALRobotPosture", ip, port)
+        self.session = qi.Session()
+        self.connect()
+
+    def connect(self):
+        """
+        Connects the proxy server
+        """
+        self.session = self.session.connect("tcp://" + str(self.ip) + ":" + str(self.port))
+        self.motion_proxy = self.session.service("ALMotion")
+        self.posture_proxy = self.session.service("ALRobotPosture")
+
+    def is_connected(self):
+        """
+        True if proxy server are already connected
+        """
+        return self.motion_proxy.state() == "ready" and self.posture_proxy.state() == "ready"
+
 
     def handle_service(self, *args):
         print("REST")
+        while not self.is_connected():
+            self.connect()
+
         try:
             self.motion_proxy.rest()
         except:
-            self.motion_proxy = ALProxy("ALMotion", self.ip, self.port)
-            self.motion_proxy.rest()
+            return "NACK"
+        
         return "ACK"   
 
     def stand(self, *args):
