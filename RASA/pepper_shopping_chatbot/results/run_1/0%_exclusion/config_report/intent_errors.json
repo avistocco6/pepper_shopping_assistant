@@ -1,0 +1,50 @@
+[
+  {
+    "text": "let me see what you listed",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.17374311764223893
+    }
+  },
+  {
+    "text": "delete the [meat]](item)",
+    "intent": "remove",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.2874262928833646
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7047920465038662
+    }
+  },
+  {
+    "text": "write down half dozen courgette",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5831776500750674
+    }
+  },
+  {
+    "text": "i need one pack of dental floss",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.47538344788495174
+    }
+  },
+  {
+    "text": "i need a pizza",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.37730120381779186
+    }
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "text": "log me out please",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.22212930275661397
+    }
+  },
+  {
+    "text": "log me out",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.18059512888755516
+    }
+  },
+  {
+    "text": "not today",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3016269213344723
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3458261111935494
+    }
+  },
+  {
+    "text": "i'm off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4823142846968183
+    }
+  },
+  {
+    "text": "delete the [meat]](item)",
+    "intent": "remove",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.2889220269722275
+    }
+  },
+  {
+    "text": "mark down two banana",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5500983047405595
+    }
+  },
+  {
+    "text": "insert three bottle of toilet gel",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6187794837988357
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6467731193725804
+    }
+  },
+  {
+    "text": "can",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.34149182779995846
+    }
+  }
+]

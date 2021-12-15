@@ -1,0 +1,130 @@
+[
+  {
+    "text": "logout",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.16614558065710763
+    }
+  },
+  {
+    "text": "log out",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.14213463821136835
+    }
+  },
+  {
+    "text": "no{\"entity\": \"yes_no_answer\", \"value\": \"deny\"}",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.284190532243305
+    }
+  },
+  {
+    "text": "no{\"entity\": \"yes_no_answer\", \"value\": \"deny\"} this does not work for me\\t",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.1515601153308686
+    }
+  },
+  {
+    "text": "let me see what you listed",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.1446568886463441
+    }
+  },
+  {
+    "text": "please show me",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.14383119505533762
+    }
+  },
+  {
+    "text": "bye for now",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.17304163270282627
+    }
+  },
+  {
+    "text": "i'm off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.29039233033798956
+    }
+  },
+  {
+    "text": "see you",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.163035592840125
+    }
+  },
+  {
+    "text": "thanks bot",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.18859419428554114
+    }
+  },
+  {
+    "text": "remove the chocolate",
+    "intent": "remove",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.3020403307818657
+    }
+  },
+  {
+    "text": "i am Christopher",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.23058618924592394
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.21734192696784968
+    }
+  },
+  {
+    "text": "i need one pack of dental floss",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.35351391576009056
+    }
+  },
+  {
+    "text": "mark 5 biscuits packs",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.626562669502891
+    }
+  },
+  {
+    "text": "baking powder",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.5652922317243226
+    }
+  }
+]

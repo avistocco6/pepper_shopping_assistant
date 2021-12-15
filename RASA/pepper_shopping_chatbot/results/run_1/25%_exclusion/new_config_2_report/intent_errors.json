@@ -1,0 +1,50 @@
+[
+  {
+    "text": "let me see what you listed",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "empty",
+      "confidence": 0.5559192299842834
+    }
+  },
+  {
+    "text": "i'm off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9955109357833862
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.9978844523429871
+    }
+  },
+  {
+    "text": "green beans",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9853484630584717
+    }
+  },
+  {
+    "text": "yogurt",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "logout",
+      "confidence": 0.6021110415458679
+    }
+  },
+  {
+    "text": "deny",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9974725842475891
+    }
+  }
+]
