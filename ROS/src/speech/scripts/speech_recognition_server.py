@@ -86,6 +86,8 @@ def handle_service(req):
     return str(id_label)
 
 def main():
+    global ID
+
     # Inizialize node
     rospy.init_node("speech_recognition_server")
 
@@ -104,6 +106,10 @@ def main():
             print(os.getcwd())
     print(y)
 
+    if len(y) == 0:
+        ID = 1
+    else:
+        ID = max(y) + 1
     
     # spin() keeps Python from exiting until node is shutdown
     rospy.spin()
