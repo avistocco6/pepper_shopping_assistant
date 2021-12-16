@@ -1,0 +1,226 @@
+[
+  {
+    "text": "we'll speak soon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.22679083049297333
+    }
+  },
+  {
+    "text": "i want to change user",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3608877658843994
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.7134524583816528
+    }
+  },
+  {
+    "text": "dishwasher detergent tabs",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.8748875260353088
+    }
+  },
+  {
+    "text": "dental floss",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.741309404373169
+    }
+  },
+  {
+    "text": "two",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.6801382899284363
+    }
+  },
+  {
+    "text": "open sesame",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.32728031277656555
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4551246762275696
+    }
+  },
+  {
+    "text": "i'm off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9789772629737854
+    }
+  },
+  {
+    "text": "greetings",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999421238899231
+    }
+  },
+  {
+    "text": "no",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.36675408482551575
+    }
+  },
+  {
+    "text": "ounce",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "logout",
+      "confidence": 0.30538707971572876
+    }
+  },
+  {
+    "text": "good",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5669311285018921
+    }
+  },
+  {
+    "text": "not today",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.20366349816322327
+    }
+  },
+  {
+    "text": "gotta go",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.4507961869239807
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6159026622772217
+    }
+  },
+  {
+    "text": "revelio",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999839067459106
+    }
+  },
+  {
+    "text": "goodnight",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.6035082936286926
+    }
+  },
+  {
+    "text": "yogurt",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "logout",
+      "confidence": 0.3934664726257324
+    }
+  },
+  {
+    "text": "green beans",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5840806365013123
+    }
+  },
+  {
+    "text": "disinfectant cleaner",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.7053002715110779
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.37002629041671753
+    }
+  },
+  {
+    "text": "deny",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8386879563331604
+    }
+  },
+  {
+    "text": "extra virgin olive oil",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.9685509204864502
+    }
+  },
+  {
+    "text": "french fries",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.7508100271224976
+    }
+  },
+  {
+    "text": "stain remover",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.9787684679031372
+    }
+  },
+  {
+    "text": "eight",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7551579475402832
+    }
+  },
+  {
+    "text": "let me see what you listed",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "logout",
+      "confidence": 0.22886960208415985
+    }
+  }
+]
