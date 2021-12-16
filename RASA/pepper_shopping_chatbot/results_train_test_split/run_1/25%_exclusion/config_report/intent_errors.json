@@ -1,0 +1,58 @@
+[
+  {
+    "text": "show",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2830754237711032
+    }
+  },
+  {
+    "text": "bye for now",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.19795293060003408
+    }
+  },
+  {
+    "text": "bye!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.28247475255191556
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5538070506223757
+    }
+  },
+  {
+    "text": "add eleven jalapeno",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5803304588077218
+    }
+  },
+  {
+    "text": "pack",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.8007099444752235
+    }
+  },
+  {
+    "text": "jar",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.6175749894980963
+    }
+  }
+]

@@ -1,10 +1,10 @@
 [
   {
-    "text": "logut",
+    "text": "log me out",
     "intent": "logout",
     "intent_prediction": {
       "name": "show",
-      "confidence": 0.45799345477364833
+      "confidence": 0.28275890197568126
     }
   },
   {
@@ -12,7 +12,7 @@
     "intent": "logout",
     "intent_prediction": {
       "name": "show",
-      "confidence": 0.45799345477364833
+      "confidence": 0.3887671417080876
     }
   },
   {
@@ -20,39 +20,23 @@
     "intent": "deny",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.3441393475505219
+      "confidence": 0.30657943823560385
     }
   },
   {
     "text": "do you have something else",
     "intent": "deny",
     "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.2236708740067585
+      "name": "show",
+      "confidence": 0.17172934927314742
     }
   },
   {
-    "text": "i need one pack of dental floss",
-    "intent": "insert",
+    "text": "open sesame",
+    "intent": "show",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.49797280597053306
-    }
-  },
-  {
-    "text": "add seven bell pepper",
-    "intent": "insert",
-    "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.7128954353983713
-    }
-  },
-  {
-    "text": "bottle",
-    "intent": "inform",
-    "intent_prediction": {
-      "name": "insert",
-      "confidence": 0.8855947913016898
+      "confidence": 0.5283481972762106
     }
   },
   {
@@ -60,7 +44,7 @@
     "intent": "inform",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.5759509241177668
+      "confidence": 0.6319366610228337
     }
   }
 ]

@@ -1,0 +1,66 @@
+[
+  {
+    "text": "logut",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.45799345477364833
+    }
+  },
+  {
+    "text": "logou",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.45799345477364833
+    }
+  },
+  {
+    "text": "not today",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3441393475505219
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2236708740067585
+    }
+  },
+  {
+    "text": "i need one pack of dental floss",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.49797280597053306
+    }
+  },
+  {
+    "text": "add seven bell pepper",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7128954353983713
+    }
+  },
+  {
+    "text": "bottle",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.8855947913016898
+    }
+  },
+  {
+    "text": "Melody",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5759509241177668
+    }
+  }
+]

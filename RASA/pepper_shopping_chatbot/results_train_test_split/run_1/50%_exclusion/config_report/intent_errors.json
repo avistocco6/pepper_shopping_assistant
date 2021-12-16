@@ -1,0 +1,74 @@
+[
+  {
+    "text": "log me out",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.20229422108735973
+    }
+  },
+  {
+    "text": "logout",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.27702250459761035
+    }
+  },
+  {
+    "text": "bye for now",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.22837240144372553
+    }
+  },
+  {
+    "text": "bye!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.30129416809095266
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.43310879307427785
+    }
+  },
+  {
+    "text": "cheers",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4885665138534903
+    }
+  },
+  {
+    "text": "hi Mister",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.47309980934501383
+    }
+  },
+  {
+    "text": "add eleven jalapeno",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.41140628228693127
+    }
+  },
+  {
+    "text": "pack",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.9025062110999822
+    }
+  }
+]

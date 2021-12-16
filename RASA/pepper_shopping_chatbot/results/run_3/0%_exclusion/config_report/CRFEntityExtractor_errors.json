@@ -1,0 +1,606 @@
+[
+  {
+    "text": "goodnight",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.4161858778608103,
+        "value": "goodnight",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i'm off",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.566629389107581,
+        "value": "off",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "can you please remove chips?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "value": "chips",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hello",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.39063069546615004,
+        "value": "hello",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "write down a quarter kg of yeast",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "0.25",
+        "entity": "quantity"
+      },
+      {
+        "start": 21,
+        "end": 23,
+        "value": "kilogram",
+        "entity": "uom"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "yeast",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.9680251722585393,
+        "value": "yeast",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "insert 12 oz of cake",
+    "entities": [
+      {
+        "start": 7,
+        "end": 9,
+        "value": "12",
+        "entity": "quantity"
+      },
+      {
+        "start": 10,
+        "end": 12,
+        "value": "ounce",
+        "entity": "uom"
+      },
+      {
+        "start": 16,
+        "end": 20,
+        "value": "cake",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 7,
+        "end": 9,
+        "confidence_entity": 0.5097238832672264,
+        "value": "12",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "item",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.9777399422257216,
+        "value": "cake",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "write down half dozen courgette",
+    "entities": [
+      {
+        "start": 11,
+        "end": 21,
+        "value": "6",
+        "entity": "quantity"
+      },
+      {
+        "start": 22,
+        "end": 31,
+        "value": "zucchini",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.7635814064474402,
+        "value": "0.5",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 16,
+        "end": 31,
+        "confidence_entity": 0.4604259397151072,
+        "value": "dozen courgette",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "add one jar of beetroot(item)",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "1",
+        "entity": "quantity"
+      },
+      {
+        "start": 8,
+        "end": 11,
+        "value": "jar",
+        "entity": "uom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.9956789529177851,
+        "value": "1",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "uom",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.9940552615572654,
+        "value": "jar",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "item",
+        "start": 15,
+        "end": 29,
+        "confidence_entity": 0.5204567776075599,
+        "value": "beetroot(item)",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "a quarter",
+    "entities": [
+      {
+        "start": 2,
+        "end": 9,
+        "value": "quarter",
+        "entity": "quantity"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.632196417847897,
+        "value": "a quarter",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "ounce",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "ounce",
+        "entity": "uom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.5843246107706328,
+        "value": "ounce",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pasta",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "pasta",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.6415825771840984,
+        "value": "pasta",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "jar",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "jar",
+        "entity": "uom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.458913112174094,
+        "value": "jar",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "yes",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "yes",
+        "entity": "yes_no_answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.6684397310748159,
+        "value": "confirm",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "zucchini",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "zucchini",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.5129961712508287,
+        "value": "zucchini",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "soup",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "soup",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.4592362588935853,
+        "value": "soup",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "yogurt",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "yogurt",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.6422873435827183,
+        "value": "yogurt",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "green beans",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "green beans",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.5045214044456527,
+        "value": "green",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "item",
+        "start": 6,
+        "end": 11,
+        "confidence_entity": 0.8918597766260828,
+        "value": "beans",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "chips",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "chips",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.5164676348120425,
+        "value": "chips",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pack",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "pack",
+        "entity": "uom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5076248792063044,
+        "value": "pack",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pint",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "pint",
+        "entity": "uom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.7153039288916704,
+        "value": "pint",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "litre",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "litre",
+        "entity": "uom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.6867513519044725,
+        "value": "litre",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Oliver",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Oliver",
+        "entity": "user"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.6601135326517816,
+        "value": "Oliver",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "five",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "five",
+        "entity": "quantity"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5119385106189254,
+        "value": "5",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "prawn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "prawn",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.5001416480178776,
+        "value": "prawn",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Shannon",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Shannon",
+        "entity": "user"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.49738650657539274,
+        "value": "Shannon",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "confirm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "confirm",
+        "entity": "yes_no_answer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.8047603952854229,
+        "value": "confirm",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

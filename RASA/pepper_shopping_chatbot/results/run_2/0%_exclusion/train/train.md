@@ -1,450 +1,450 @@
 ## intent:logout
-- logout
-- log out
-- log me out
+- i want to change user
 - log me out please
+- logut
+- logout
 
 ## intent:deny
-- no{"entity": "yes_no_answer", "value": "deny"} thank you
-- nope{"entity": "yes_no_answer", "value": "deny"}
-- no{"entity": "yes_no_answer", "value": "deny"}
-- no{"entity": "yes_no_answer", "value": "deny"} thanks
-- uh no{"entity": "yes_no_answer", "value": "deny"}
+- no{"entity": "yes_no_answer", "value": "deny"} this does not work for me\t
 - n{"entity": "yes_no_answer", "value": "deny"}
+- nope{"entity": "yes_no_answer", "value": "deny"}
+- uh no{"entity": "yes_no_answer", "value": "deny"}
+- no{"entity": "yes_no_answer", "value": "deny"}
+- no{"entity": "yes_no_answer", "value": "deny"} thank you
 
 ## intent:affirm
+- ok{"entity": "yes_no_answer", "value": "confirm"}
+- yeah{"entity": "yes_no_answer", "value": "confirm"}
+- okay{"entity": "yes_no_answer", "value": "confirm"}
 - definitely{"entity": "yes_no_answer", "value": "confirm"}
 - for sure{"entity": "yes_no_answer", "value": "confirm"}
-- absolutely{"entity": "yes_no_answer", "value": "confirm"}
-- ok{"entity": "yes_no_answer", "value": "confirm"}
+- y{"entity": "yes_no_answer", "value": "confirm"}
 - yes{"entity": "yes_no_answer", "value": "confirm"} sure
-- okay{"entity": "yes_no_answer", "value": "confirm"}
-- yeah{"entity": "yes_no_answer", "value": "confirm"}
 
 ## intent:show
-- open sesame
-- show me
 - lets check it
-- revelio
-- show
-- please show me
 - let me see what you listed
+- show
+- revelio
+- let's check
+- please show me
+- show me
 
 ## intent:empty
-- empty
+- pls empty the list
 - pls empty list
 - can you please empty the list?
+- empty my list
+- please empty my list
 - empty list
 - please empty list
 - empty the list
-- can you empty my list?
-- please empty my list
 
 ## intent:goodbye
-- i'm off
-- see you later
-- bye bot
-- bye for now
-- catch you later
 - bye!
-- goodbye friend
-- have a nice day
-- see you
-- goodbye
+- catch you later
+- bye for now
 - we'll speak soon
+- have a nice day
+- bye bot
+- goodbye friend
+- goodbye
+- see you later alligator
+- i'm off
+- bye
 
 ## intent:thankyou
-- thanks bot
-- thanks a lot
-- ok thanks!
-- cool, thanks
-- thanks for the help
-- thanks a bunch for everything
-- perfect thank you
+- cheers
 - cool thank you
 - thanks
-- amazing, thanks
-- thank you so much
-- cheers
+- perfect thank you
 - good
+- thanks a lot
+- perfect
+- thanks bot
+- thank you so much
+- cool, thanks
+- thanks for that
+- ok thanks!
+- thanks for the help
 
 ## intent:remove
-- delete the [meat]](item)
-- can you delete the [strawberry](item)?
-- can you delete the [cherry](item)?
-- can you delete the [apple](item)?
-- can you please remove [pepper](item)?
-- can you please remove [courgette]{"entity": "item", "value": "zucchini"}?
-- remove [floss]{"entity": "item", "value": "dental floss"}
-- delete the [bread](item)
-- can you please remove [chips](item)?
-- delete the [mango](item)
-- can you please delete [curry](item)?
-- can you please delete the [hamburger](item)?
-- delete [mayo]{"entity": "item", "value": "mayonnaise"}
-- delete [jalapeno]{"entity": "item", "value": "red pepper"}
-- remove [wine](item)
-- remove the [water](item)
+- can you delete [ketchup](item)?
 - can you delete [french fries](item)?
+- remove [sugar](item)
+- delete the [meat]](item)
+- can you please delete the [pineapple](item)?
+- delete [mayo]{"entity": "item", "value": "mayonnaise"}
+- delete the [mango](item)
+- delete [jalapeno]{"entity": "item", "value": "red pepper"}
+- remove the [water](item)
+- remove [floss]{"entity": "item", "value": "dental floss"}
+- remove the [chocolate]{"entity": "item", "value": "dental floss"}
+- remove the [spinach](item)
+- can you delete the [apple](item)?
+- can you please remove [chips](item)?
+- can you please delete the [hamburger](item)?
 - can you please delete [raisins](item)?
-- delete [salt](item)
+- can you please delete [curry](item)?
+- remove [wine](item)
+- can you please remove [courgette]{"entity": "item", "value": "zucchini"}?
 
 ## intent:greet
-- i am [Regina](user)
-- my name's [Natasha](user)
-- i am [Ashley](user)
-- my name is [Cora](user)
-- hello robot
-- i am [Carol](user)
-- hey bot
-- hello everybody
-- hi pal!
-- i am [Christopher](user)
-- i'm [Melody](user)
+- i am [Derek](user)
 - my name is [Edna](user)
-- hi
-- hello, i'm [Normian](user)
+- hello, it's [Freddie](user)
+- i am [Bev](user)
+- i am [Christopher](user)
 - my name's [Billie](user)
 - i am [Richard](user)
-- my name is [Conrad](user)
-- i'm [Morgan](user)
-- it's [Gerald](user)
-- i'm [Edward](user)
-- it's [Wilhelmina](user)
-- my name is [Roberta](user)
-- my name's [Marilyn](user)
-- it is [Bobbie](user)
-- hello, it's [Francis](user)
-- i'm [Taylor](user)
-- my name's [Alexandra](user)
-- hey
-- my name's [Matilda](user)
-- i'm [Alberta](user)
-- i'm [Martha](user)
-- hello, it's [Freddie](user)
 - hello is anybody there
-- it's [Glen](user)
-- hi there
-- hi, my name is [Alonzo](user)
-- hi Mister
-- it is [Blair](user)
-- i am [Philippa](user)
-- i am [Derek](user)
-- i'm [Ernest](user)
-- hi folks
 - my name is [Gabriel](user)
-- i am [Clare](user)
-- hi bot
+- i am [Benjamin](user)
+- i'm [Ernest](user)
+- my name's [Natasha](user)
+- i'm [Emma](user)
+- hi again
+- it's [William](user)
+- i am [Regina](user)
+- hello robot
+- hello, i'm [Normian](user)
+- my name's [Matilda](user)
+- hi, my name's [Bennie](user)
+- it's [Nicholas](user)
+- my name's [Marilyn](user)
+- i am [Philippa](user)
+- hi, my name's [Joanna](user)
+- hello everybody
+- i am [Carol](user)
 - good morning
+- my name's [Alexandra](user)
+- it is [Bobbie](user)
+- i am [Ashley](user)
+- it is [Blair](user)
+- hello, it's [Francis](user)
 - greetings
-- hello, it's [Olivia](user)
+- i'm [Emily](user)
+- i'm [Melody](user)
+- it's [Wilhelmina](user)
+- i'm [Taylor](user)
+- it's [Glen](user)
+- i'm [Martha](user)
+- i am [Clare](user)
+- i'm [Dennis](user)
+- i'm [Morgan](user)
+- hi Mister
 - hello
+- hi
+- hi, my name is [Valerie](user)
+- hi folks
+- hey
+- my name's [Alberta](user)
 
 ## intent:insert
-- insert [sugar](item)
-- write down [2](quantity) [apple pie](item)
-- add [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [crackers](item)
-- add [1](quantity) [pack](uom) [raspberries](item)
-- insert [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [paper towels](item)
-- insert [cookies]{"entity": "item", "value": "biscuits"}
-- can you add [10](quantity) [bisquits]{"entity": "item", "value": "biscuits"}?
-- can u add [1](quantity) [bottle](uom) of [body scrub](item)?
-- i need [one]{"entity": "quantity", "value": "1"} [bottles]{"entity": "uom", "value": "bottle"} of [wine](item)
-- i need [a]{"entity": "quantity", "value": "1"} [pizza](item)
-- [4](quantity) [packs]{"entity": "uom", "value": "pack"} of [rice](item)
-- add [two]{"entity": "quantity", "value": "2"} [packs]{"entity": "uom", "value": "pack"} of [napkins](item)
-- write down [two]{"entity": "quantity", "value": "2"} [jars]{"entity": "uom", "value": "jar"} of [red beet]{"entity": "item", "value": "beetroot"}
-- i need [3](quantity) [kilogram](uom) [potatoes](item)
-- add [six]{"entity": "quantity", "value": "6"} [cans]{"entity": "uom", "value": "can"} of [lentils](item)
-- add [four]{"entity": "quantity", "value": "4"} [brownies](item)
-- add [6](quantity) [donuts](item)
-- add [couple]{"entity": "quantity", "value": "2"} [deodorant](item)
-- can u add [three](quantity) [bottle](uom) of [glass cleaner](item)?
-- can you pls add [1](quantity) [kg]{"entity": "uom", "value": "kilogram"} of [cookies]{"entity": "item", "value": "biscuits"}?
-- write down a [quarter]{"entity": "quantity", "value": "0.25"} [kg]{"entity": "uom", "value": "kilogram"} of [yeast](item)
-- mark down [two]{"entity": "quantity", "value": "2"} [banana](item)
-- add [eleven]{"entity": "quantity", "value": "11"} [jalapeno](item)
-- add [a]{"entity": "quantity", "value": "1"} [bottle](uom) [mouthwash](item)
-- add [donuts](item)
-- insert [1](quantity) [carpet cleaner](item)
-- can you pls add [two]{"entity": "quantity", "value": "2"} [pack](uom) of [crackers](item)?
-- [2](quantity) [bottle](uom) of [extra virgin olive oil](item)
-- write down [1](quantity) [marmellade]{"entity": "item", "value": "jam"} [jar](uom)
-- insert [three]{"entity": "quantity", "value": "3"} [bottle](uom) of [toilet gel](item)
-- add [2](quantity) [liters]{"entity": "uom", "value": "litre"} of [orange juice](item)
-- insert [2](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [bleach](item)
-- i need [1](quantity) [bottle](uom) of [wine](item)
-- mark down [2](quantity) [banana](item)
-- write down [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [toilet paper](item)
-- can you please add [a]{"entity": "quantity", "value": "1"} [pack](uom) of [trash bags](item)?
-- write down [1](quantity) [pack](uom) of [dishwasher detergent tabs](item)
-- [3](quantity) [packs]{"entity": "uom", "value": "pack"} of [cereal](item)
-- insert [12](quantity) [oz]{"entity": "uom", "value": "ounce"} of [cake](item)
-- add [a dozen]{"entity": "quantity", "value": "12"} [aubergine]{"entity": "item", "value": "eggplant"}
-- write down [1/4]{"entity": "quantity", "value": "0.25"} [kilos]{"entity": "uom", "value": "kilogram"} of [baking soda](item)
-- mark [5](quantity) [biscuits](item) [packs]{"entity": "uom", "value": "pack"}
-- insert [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [stain remover](item)
-- can u pls add [three]{"entity": "quantity", "value": "3"} [kilos]{"entity": "uom", "value": "kilogram"} of [peach](item)?
-- i need [two]{"entity": "quantity", "value": "2"} [bottles]{"entity": "uom", "value": "bottle"} of [milk](item)
-- mark down [0.5](quantity) [kilogram](uom) of [bread](item)
-- write down [half dozen]{"entity": "quantity", "value": "6"} [courgette]{"entity": "item", "value": "zucchini"}
-- add [a]{"entity": "quantity", "value": "1"} [meat pie](item)
-- add [one]{"entity": "quantity", "value": "1"} [papaya](item)
-- add [ten]{"entity": "quantity", "value": "10"} [cupcakes](item)
-- can u pls add [2] [disinfectant cleaner](item)
-- add [one]{"entity": "quantity", "value": "1"} [jar](uom) of beetroot(item)
 - can you add [a]{"entity": "quantity", "value": "1"} [disinfectant cleaner](item)?
-- can u add [a dozen]{"entity": "quantity", "value": "12"} [egg](item)
+- mark down [0.5](quantity) [kilogram](uom) of [bread](item)
+- can you pls add [1](quantity) [kg]{"entity": "uom", "value": "kilogram"} of [cookies]{"entity": "item", "value": "biscuits"}?
+- add [couple]{"entity": "quantity", "value": "2"} [deodorant](item)
+- write down [two]{"entity": "quantity", "value": "2"} [jars]{"entity": "uom", "value": "jar"} of [red beet]{"entity": "item", "value": "beetroot"}
+- can you add [10](quantity) [bisquits]{"entity": "item", "value": "biscuits"}?
+- [2](quantity) [egg](item)
+- i need [two]{"entity": "quantity", "value": "2"} [bottles]{"entity": "uom", "value": "bottle"} of [milk](item)
+- add [1](quantity) [pack](uom) [raspberries](item)
+- write down [2](quantity) [apple pie](item)
+- i need [1](quantity) [bottle](uom) of [wine](item)
+- [2](quantity) [bottle](uom) of [extra virgin olive oil](item)
+- add [a]{"entity": "quantity", "value": "1"} [can](uom) of [tuna](item)
 - i need [6](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [water](item)
 - add [a couple]{"entity": "quantity", "value": "2"} of [apple pie](item)
-- add [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [whipped cream](item)
+- can u add [three](quantity) [bottle](uom) of [glass cleaner](item)?
+- mark down [5](quantity) [biscuits](item) [packs]{"entity": "uom", "value": "pack"}
+- write down a [quarter]{"entity": "quantity", "value": "0.25"} [kg]{"entity": "uom", "value": "kilogram"} of [yeast](item)
+- [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [salt](item)
+- insert [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [stain remover](item)
+- i need [one]{"entity": "quantity", "value": "1"} [bottles]{"entity": "uom", "value": "bottle"} of [wine](item)
+- add [donuts](item)
+- write down [half dozen]{"entity": "quantity", "value": "6"} [courgette]{"entity": "item", "value": "zucchini"}
 - can you pls add [1/2]{"entity": "quantity", "value": "0.5"} [watermelon](item)
-- i need [2](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [milk](item)
-- mark [0.5](quantity) [kilogram](uom) of [bread](item)
+- mark [5](quantity) [biscuits](item) [packs]{"entity": "uom", "value": "pack"}
+- add [twelve]{"entity": "quantity", "value": "12"} [cupcakes](item)
+- mark down [two]{"entity": "quantity", "value": "2"} [banana](item)
+- add [6](quantity) [donuts](item)
+- add [a]{"entity": "quantity", "value": "1"} [meat pie](item)
+- [4](quantity) [packs]{"entity": "uom", "value": "pack"} of [rice](item)
+- insert [12](quantity) [oz]{"entity": "uom", "value": "ounce"} of [cake](item)
 - can you please add [one]{"entity": "quantity", "value": "1"} [pack](uom) of [beard trimmer](item)
+- write down [1](quantity) [pack](uom) of [dishwasher detergent tabs](item)
+- insert [cookies]{"entity": "item", "value": "biscuits"}
+- add [2](quantity) [liters]{"entity": "uom", "value": "litre"} of [orange juice](item)
+- add [one]{"entity": "quantity", "value": "1"} [papaya](item)
 - add [2](quantity) [cream cheese](item)
+- i need [3](quantity) [kilogram](uom) [potatoes](item)
+- add [one]{"entity": "quantity", "value": "1"} [jar](uom) of beetroot(item)
+- add [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [whipped cream](item)
+- insert [three]{"entity": "quantity", "value": "3"} [bottle](uom) of [toilet gel](item)
+- insert [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [paper towels](item)
+- can you pls add [two]{"entity": "quantity", "value": "2"} [pack](uom) of [crackers](item)?
+- i need [a]{"entity": "quantity", "value": "1"} [pizza](item)
+- add [marmellade]{"entity": "item", "value": "jam"} [jar](uom)
+- can u pls add [2] [disinfectant cleaner](item)
+- add [four]{"entity": "quantity", "value": "4"} [brownies](item)
+- add [ten]{"entity": "quantity", "value": "10"} [cupcakes](item)
+- add [a]{"entity": "quantity", "value": "1"} [bottle](uom) [mouthwash](item)
+- [3](quantity) [packs]{"entity": "uom", "value": "pack"} of [cereal](item)
+- can you please add [a]{"entity": "quantity", "value": "1"} [pack](uom) of [trash bags](item)?
+- add [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [crackers](item)
+- mark down [2](quantity) [banana](item)
+- can you please add [1](quantity) [body scrub](item)
+- insert [5](quantity) [ounce](uom) of [baking powder](item)
+- insert [2](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [bleach](item)
+- add [two]{"entity": "quantity", "value": "2"} [packs]{"entity": "uom", "value": "pack"} of [napkins](item)
+- i need [2](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [milk](item)
+- mark [2](quantity) [banana](item)
+- add [seven]{"entity": "quantity", "value": "7"} [bell pepper](item)
+- write down [four]{"entity": "quantity", "value": "4"} [packs]{"entity": "uom", "value": "pack"} of [flour](item)
+- add [a dozen]{"entity": "quantity", "value": "12"} [aubergine]{"entity": "item", "value": "eggplant"}
 
 ## intent:inform
-- [Isabel](user)
-- [Jordan](user)
-- [extra virgin olive oil](item)
-- [Albert](user)
-- [tuna](item)
-- [Nathan](user)
-- [cucumber](item)
-- [Gail](user)
-- [glass cleaner](item)
-- [Cecil](user)
-- [Frederic](user)
-- [Danielle](user)
-- [can](uom)
-- [prawn](item)
-- [Norma](user)
-- [eggplant](item)
-- [Jude](user)
-- [Emma](user)
-- [Dale](user)
-- [red pepper](item)
-- [Nathalie](user)
-- [yeast](item)
-- [Olivia](user)
-- [Melvin](user)
-- [lamb](item)
-- [donut](item)
-- [Richard](user)
-- [apple pie](item)
-- [Cis](user)
-- [paprika](item)
-- [watermelon](item)
-- [nine](quantity)
-- [pickles](item)
-- [six](quantity)
-- [ounce](uom)
-- [prosciutto](item)
-- [cake](item)
-- [Gabriel](user)
-- [toothpicks](item)
-- [Edward](user)
-- [stain remover](item)
-- [twelve](quantity)
-- [Marion](user)
-- [Casey](user)
-- [Dennis](user)
-- [Stephanie](user)
-- [peanut butter](item)
 - [Ernest](user)
-- [beer](item)
-- [Payton](user)
-- [Marilyn](user)
-- [Lee](user)
-- [cream cheese](item)
-- [bacon](item)
-- [dental floss](item)
-- [Andrea](user)
-- [Ash](user)
-- [Robert](user)
-- [Anthony](user)
-- [Sandy](user)
-- [Dorian](user)
-- [papaya](item)
-- [Ernestine](user)
-- [hand soap](item)
-- [toilet paper](item)
-- [sugar](item)
-- [ketchup](item)
-- [avocado](item)
-- [Sheldon](user)
-- [Angel](user)
-- [Louis](user)
-- [peach](item)
-- [Jem](user)
-- [honey](item)
-- [Matilda](user)
-- [Charlie](user)
-- [Derek](user)
-- [Alexandra](user)
-- [Ruben](user)
-- [Melanie](user)
-- [orange juice](item)
-- [eight](quantity)
-- [Philip](user)
-- [onion](item)
-- [coke](item)
-- [Theresa](user)
-- [Theodora](user)
-- [Jessica](user)
-- [Victor](user)
-- [raspberry](item)
-- [squid](item)
-- [Joanna](user)
-- [cabbage](item)
-- [pack](uom)
-- [Miranda](user)
+- [beans](item)
+- [Kim](user)
+- [gram](uom)
+- [Alonzo](user)
+- [mouthwash](item)
+- [bell pepper](item)
 - [Kit](user)
 - [Valentine](user)
-- [banana](item)
-- [Courtney](user)
-- [kilogram](uom)
-- [Regina](user)
-- [barbeque sauce](item)
-- [wine](item)
-- [Stephan](user)
-- [half](quantity)
-- [egg](item)
-- [Connie](user)
-- [baking powder](item)
-- [Norman](user)
-- [Bobbie](user)
-- [toothpaste](item)
-- [Veronica](user)
-- [lemon](item)
-- [Kelly](user)
-- [Alonzo](user)
-- [two](quantity)
-- [potato](item)
-- [Charles](user)
-- [cupcake](item)
-- [litre](uom)
-- [Stacey](user)
-- [Gerald](user)
-- [Bernice](user)
-- [mayonnaise](item)
-- [Cora](user)
-- [salmon](item)
-- [chips](item)
-- [Ruby](user)
-- [Ashley](user)
-- [Francis](user)
-- [biscuits](item)
-- [Lindsay](user)
-- [Clare](user)
-- [Morgan](user)
-- [meat pie](item)
-- [Eugenia](user)
-- [Clem](user)
-- [Lona](user)
-- [Christine](user)
-- [Freddie](user)
-- [no](yes_no_answer)
-- [ice cream](item)
-- [Patricia](user)
-- [Glen](user)
-- [yogurt](item)
-- [pear](item)
-- [one](quantity)
-- [lobster](item)
-- [confirm](yes_no_answer)
-- [Benjamina](user)
-- [ham](item)
-- [Bev](user)
-- [Oliver](user)
-- [cherry](item)
-- [deodorant](item)
-- [soup](item)
-- [Gabby](user)
-- [jar](uom)
-- [Melinda](user)
-- [french fries](item)
-- [brownie](item)
-- [Theodore](user)
-- [flour](item)
-- [William](user)
-- [Leslie](user)
-- [Bertie](user)
-- [four](quantity)
-- [Daniel](user)
-- [Matthew](user)
-- [beef](item)
-- [orange](item)
-- [yes](yes_no_answer)
-- [Blair](user)
-- [Joseph](user)
-- [bell pepper](item)
-- [Wilhelmina](user)
-- [Carol](user)
-- [Lincoln](user)
-- [crab](item)
-- [pint](uom)
-- [Michelle](user)
-- [zucchini](item)
-- [Cory](user)
-- [deny](yes_no_answer)
-- [Victoria](user)
-- [chicken](item)
-- [Christopher](user)
-- [Gilbert](user)
-- [salt](item)
-- [ten](quantity)
-- [pumpkin](item)
-- [mouthwash](item)
-- [pasta](item)
-- [butter](item)
-- [John](user)
-- [disinfectant cleaner](item)
-- [Raquel](user)
-- [Linda](user)
-- [Jackie](user)
-- a [quarter](quantity)
-- [Jacqueline](user)
-- [gram](uom)
-- [Sydney](user)
-- [Evelyn](user)
+- [cereal](item)
 - [Eric](user)
-- [pepper](item)
-- [Judith](user)
-- [water](item)
-- [five](quantity)
-- [Daryl](user)
-- [Hilary](user)
-- [pork](item)
-- [Frederica](user)
-- [Geraldine](user)
-- [Nicholas](user)
-- [Charlotte](user)
-- [Lonnie](user)
-- [Jamie](user)
-- [Samuel](user)
-- [mango](item)
-- [lentils](item)
-- [Maxine](user)
-- [Darcy](user)
-- [Samantha](user)
-- [Kim](user)
-- [Patrick](user)
-- [Bernie](user)
-- [baking soda](item)
-- [jam](item)
-- [Constance](user)
-- [Roberta](user)
-- [Jack](user)
-- [pizza](item)
-- [eleven](quantity)
-- [Melissa](user)
-- [cinnamon](item)
+- [toothpicks](item)
 - [Maximilian](user)
-- [Jody](user)
-- [Michael](user)
+- [Jem](user)
+- [Roberta](user)
+- [shampoo](item)
+- [soup](item)
+- [Alexis](user)
+- [Victoria](user)
+- [Freddie](user)
+- [mango](item)
+- [Frederica](user)
+- [Ruby](user)
+- [garlic](item)
+- [Samantha](user)
+- [Marilyn](user)
+- [Jude](user)
+- [Danielle](user)
+- [avocado](item)
+- [Robert](user)
+- [peanut butter](item)
+- [mayonnaise](item)
+- [Hilary](user)
+- [Martin](user)
+- [Veronica](user)
+- [Theodore](user)
+- [Emma](user)
+- [Cis](user)
+- [brownie](item)
+- [raspberry](item)
+- [onion](item)
+- [Daniel](user)
+- [Raquel](user)
+- [whipped cream](item)
+- [donut](item)
+- [Stephan](user)
+- [Maxine](user)
+- [Jackie](user)
+- [cheese](item)
+- [Christopher](user)
+- [Lee](user)
+- [Jordan](user)
+- [cinnamon](item)
+- [Jacqueline](user)
+- [lentils](item)
+- [Melissa](user)
+- [Martha](user)
+- [Bev](user)
+- [Edna](user)
+- [Katherine](user)
+- [deodorant](item)
+- [bottle](uom)
+- [pizza](item)
+- [Ruben](user)
+- [Winfield](user)
+- [Gabrielle](user)
+- [grapes](item)
+- [litre](uom)
+- [coke](item)
+- [duck](item)
+- [Dennis](user)
+- [hamburger](item)
+- [Albert](user)
+- [eight](quantity)
+- [Philip](user)
+- [Michelle](user)
+- [Louis](user)
+- [hand soap](item)
+- a [quarter](quantity)
+- [Stephanie](user)
+- [Oliver](user)
+- [twelve](quantity)
+- [chips](item)
+- [jam](item)
+- [Darcy](user)
+- [Theodora](user)
+- [one](quantity)
+- [Cora](user)
+- [Bobbie](user)
+- [crackers](item)
+- [pint](uom)
+- [Isabel](user)
+- [Bertie](user)
+- [beef](item)
+- [Connie](user)
+- [sugar](item)
+- [Shannon](user)
+- [four](quantity)
+- [Olivia](user)
+- [Patricia](user)
+- [salmon](item)
+- [Richard](user)
+- [Courtney](user)
+- [Anthony](user)
+- [Alexandra](user)
+- [Daryl](user)
+- [confirm](yes_no_answer)
+- [banana](item)
+- [pack](uom)
+- [Samuel](user)
+- [Gilbert](user)
+- [Clare](user)
+- [ice cream](item)
+- [tomato](item)
+- [Eugenia](user)
+- [tuna](item)
+- [orange juice](item)
+- [pasta](item)
+- [Benjamin](user)
+- [beetroot](item)
+- [pear](item)
+- [Ash](user)
+- [pickles](item)
+- [Miranda](user)
+- [curry](item)
+- [tea](item)
+- [Charles](user)
+- [butter](item)
+- [Leslie](user)
+- [Izzy](user)
+- [dishwasher detergent tabs](item)
+- [Conrad](user)
+- [Jack](user)
+- [paper towels](item)
+- [three](quantity)
+- [five](quantity)
+- [baking powder](item)
+- [cream cheese](item)
+- [Matthew](user)
+- [Derek](user)
+- [eleven](quantity)
+- [stain remover](item)
+- [ten](quantity)
+- [extra virgin olive oil](item)
+- [John](user)
+- [Erika](user)
+- [Lincoln](user)
+- [biscuits](item)
+- [cabbage](item)
+- [Gabriel](user)
+- [potato](item)
+- [Ernestine](user)
+- [salad](item)
+- [Payton](user)
+- [eggplant](item)
+- [Randolph](user)
+- [Sandy](user)
+- [Norman](user)
+- [lemon](item)
+- [zucchini](item)
+- [Bernice](user)
+- [Philippa](user)
+- [Dorian](user)
+- [Cory](user)
+- [french fries](item)
+- [disinfectant cleaner](item)
+- [water](item)
+- [wine](item)
+- [apple pie](item)
+- [yeast](item)
+- [Francis](user)
+- [no](yes_no_answer)
+- [dish soap](item)
+- [Melanie](user)
+- [Christine](user)
+- [Bernie](user)
+- [Charlotte](user)
+- [Norma](user)
+- [Nicole](user)
+- [Vincent](user)
+- [red pepper](item)
+- [Natasha](user)
+- [watermelon](item)
+- [Clem](user)
+- [squid](item)
+- [Wilhelmina](user)
 - [Bennie](user)
+- [salsa](item)
+- [Linda](user)
+- [dental floss](item)
+- [Angel](user)
+- [Theresa](user)
+- [honey](item)
+- [Judith](user)
+- [kilogram](uom)
+- [Michael](user)
+- [cupcake](item)
+- [raisins](item)
+- [Geraldine](user)
+- [can](uom)
+- [Glen](user)
+- [Jessica](user)
+- [orange](item)
+- [Catia](user)
+- [Alberta](user)
+- [Jamie](user)
+- [apple](item)
+- [glass cleaner](item)
+- [Regina](user)
+- [mussel](item)
+- [Eugene](user)
+- [half](quantity)
+- [Marion](user)
+- [Nathan](user)
+- [meat pie](item)
+- [six](quantity)
+- [papaya](item)
+- [Jody](user)
+- [egg](item)
+- [mustard](item)
+- [peach](item)
+- [Gabby](user)
+- [pork](item)
+- [Frederic](user)
+- [Gail](user)
+- [baking soda](item)
+- [Kelly](user)
+- [Emily](user)
+- [Cecil](user)
+- [pepperoni](item)
+- [pepper](item)
+- [cake](item)
+- [Billie](user)
+- [ham](item)
+- [Bernard](user)
+- [basil](item)
+- [ounce](uom)
+- [rice](item)
+- [yes](yes_no_answer)
+- [Nathalie](user)
 
 ## synonym:0.25
 - quarter

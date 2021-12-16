@@ -1,18 +1,18 @@
 [
   {
-    "text": "logut",
+    "text": "log me out",
     "intent": "logout",
     "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.37129404108033887
+      "name": "show",
+      "confidence": 0.24808989617826205
     }
   },
   {
     "text": "logou",
     "intent": "logout",
     "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.37129404108033887
+      "name": "show",
+      "confidence": 0.3506949987408849
     }
   },
   {
@@ -20,31 +20,23 @@
     "intent": "deny",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.296913124523334
+      "confidence": 0.28351853370480257
     }
   },
   {
     "text": "do you have something else",
     "intent": "deny",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.227366093728852
+      "name": "goodbye",
+      "confidence": 0.24766260388579497
     }
   },
   {
-    "text": "add seven bell pepper",
-    "intent": "insert",
+    "text": "open sesame",
+    "intent": "show",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.6357641115560719
-    }
-  },
-  {
-    "text": "bottle",
-    "intent": "inform",
-    "intent_prediction": {
-      "name": "insert",
-      "confidence": 0.7288834004326361
+      "confidence": 0.47711262613103095
     }
   },
   {
@@ -52,7 +44,15 @@
     "intent": "inform",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.4903409988356693
+      "confidence": 0.5162074270080963
+    }
+  },
+  {
+    "text": "deny",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.32029427942800565
     }
   }
 ]

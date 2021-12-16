@@ -1,134 +1,134 @@
 ## intent:logout
+- logut
 - log me out
-- logout
 
 ## intent:deny
-- no{"entity": "yes_no_answer", "value": "deny"} this does not work for me\t
-- n{"entity": "yes_no_answer", "value": "deny"}
+- nope{"entity": "yes_no_answer", "value": "deny"}
+- no{"entity": "yes_no_answer", "value": "deny"}
 
 ## intent:affirm
+- definitely{"entity": "yes_no_answer", "value": "confirm"}
 - okay{"entity": "yes_no_answer", "value": "confirm"}
-- yes{"entity": "yes_no_answer", "value": "confirm"} yes{"entity": "yes_no_answer", "value": "confirm"} yes{"entity": "yes_no_answer", "value": "confirm"}
 
 ## intent:show
-- let's check
-- show
+- let me check
+- please show me
 
 ## intent:empty
-- can you empty my list?
-- empty
+- can you please empty the list?
+- pls empty list
 
 ## intent:goodbye
 - bye for now
-- bye!
-- bye bot
+- goodbye friend
+- bye
 
 ## intent:thankyou
-- cheers
-- thanks for that
+- thanks for the help
+- thank you
 - amazing, thanks
 
 ## intent:remove
-- can you delete the [strawberry](item)?
-- can you please remove [courgette]{"entity": "item", "value": "zucchini"}?
-- remove the [water](item)
-- can you please remove [chips](item)?
-- can you delete the [apple](item)?
+- remove [sugar](item)
+- can you please delete [curry](item)?
+- can you please delete the [pineapple](item)?
+- delete [jalapeno]{"entity": "item", "value": "red pepper"}
+- delete the [bread](item)
 
 ## intent:greet
-- it's [Glen](user)
-- i'm [Emily](user)
+- i'm [Morgan](user)
+- i'm [Taylor](user)
+- hello, it's [Freddie](user)
+- i am [Christopher](user)
+- i am [Carol](user)
+- hello, i'm [Normian](user)
+- i am [Derek](user)
 - i am [Bev](user)
-- it is [Blair](user)
-- hello, it's [Olivia](user)
-- my name is [Conrad](user)
-- hello is anybody there
-- my name is [Gabriel](user)
-- my name is [Cora](user)
-- it's [Wilhelmina](user)
 - i'm [Ernest](user)
+- it's [William](user)
+- my name's [Natasha](user)
 - my name is [Ernest](user)
-- hi Mister
+- i am [Benjamin](user)
 
 ## intent:insert
-- add [1](quantity) [pack](uom) [raspberries](item)
-- add [2](quantity) [cream cheese](item)
-- [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [salt](item)
-- add [eleven]{"entity": "quantity", "value": "11"} [jalapeno](item)
-- i need [6](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [water](item)
-- add [six]{"entity": "quantity", "value": "6"} [cans]{"entity": "uom", "value": "can"} of [lentils](item)
-- can u pls add [1](quantity) [melon](item)?
+- write down [1](quantity) [marmellade]{"entity": "item", "value": "jam"} [jar](uom)
+- can you please add [1](quantity) [body scrub](item)
 - add [6](quantity) [donuts](item)
-- mark [0.5](quantity) [kilogram](uom) of [bread](item)
-- add [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [crackers](item)
-- can u pls add [2] [disinfectant cleaner](item)
-- i need [3](quantity) [kilogram](uom) [potatoes](item)
-- add [2](quantity) [packs]{"entity": "uom", "value": "pack"} of [whipped cream](item)
+- insert [three]{"entity": "quantity", "value": "3"} [bottle](uom) of [toilet gel](item)
+- write down a [quarter]{"entity": "quantity", "value": "0.25"} [kg]{"entity": "uom", "value": "kilogram"} of [yeast](item)
+- insert [cookies]{"entity": "item", "value": "biscuits"}
+- can you pls add [two]{"entity": "quantity", "value": "2"} [pack](uom) of [crackers](item)?
 - add [a]{"entity": "quantity", "value": "1"} [meat pie](item)
-- add [donuts](item)
+- add [2](quantity) [cream cheese](item)
+- can you please add [a]{"entity": "quantity", "value": "1"} [pack](uom) of [trash bags](item)?
+- add [a]{"entity": "quantity", "value": "1"} [can](uom) of [tuna](item)
+- [2](quantity) [egg](item)
+- write down [four]{"entity": "quantity", "value": "4"} [packs]{"entity": "uom", "value": "pack"} of [flour](item)
+- write down [2](quantity) [apple pie](item)
+- can u add [a dozen]{"entity": "quantity", "value": "12"} [egg](item)
 
 ## intent:inform
-- [Lona](user)
-- [coke](item)
-- [Judith](user)
-- [soup](item)
-- [pumpkin](item)
-- [beans](item)
-- [Jack](user)
+- [nine](quantity)
+- [Leslie](user)
+- [honey](item)
+- [Francis](user)
+- [Angel](user)
+- [orange](item)
+- [green beans](item)
+- [Theresa](user)
+- [cupcake](item)
+- [Oliver](user)
+- [ham](item)
+- [Bernice](user)
+- [Matilda](user)
+- [Cis](user)
+- [Sydney](user)
+- [Edward](user)
+- [meat pie](item)
+- [ice cream](item)
 - [whipped cream](item)
-- [Morgan](user)
-- [Sheldon](user)
-- [beef](item)
-- [Blair](user)
-- [squid](item)
-- [Carol](user)
-- [Emma](user)
-- [water](item)
-- [kilogram](uom)
-- [french fries](item)
-- [Raquel](user)
-- [William](user)
-- [Melissa](user)
-- [papaya](item)
-- [disinfectant cleaner](item)
-- [biscuits](item)
-- [Lincoln](user)
-- [chicken](item)
-- [pear](item)
-- [Clem](user)
-- [chips](item)
-- [raisins](item)
-- [pack](uom)
-- [garlic](item)
-- [brownie](item)
-- [Frederic](user)
-- [eggplant](item)
-- [mussel](item)
-- [lentils](item)
-- [Clare](user)
-- [Marilyn](user)
-- [pasta](item)
-- [Lee](user)
-- [butter](item)
-- [Robert](user)
-- [nut](item)
-- [Darcy](user)
-- [Maximilian](user)
-- [Kelly](user)
-- [tuna](item)
+- [confirm](yes_no_answer)
 - [Gabriel](user)
-- [Benjamin](user)
-- [eight](quantity)
-- [jar](uom)
+- [Sandy](user)
+- [Ashley](user)
+- [Randolph](user)
+- [Richard](user)
+- [Katherine](user)
 - [lobster](item)
-- [Jordan](user)
-- [Daryl](user)
-- [Ash](user)
-- [beer](item)
-- [Michelle](user)
-- [Isabel](user)
-- [avocado](item)
-- [Alonzo](user)
+- [Alberta](user)
+- [four](quantity)
+- [Conrad](user)
+- [Norma](user)
+- [Vincent](user)
+- [Benjamina](user)
+- [Martha](user)
+- [Cory](user)
+- [curry](item)
+- [Gilbert](user)
+- [Valentine](user)
+- [Danielle](user)
+- [Patrick](user)
+- [stain remover](item)
+- [cereal](item)
+- [Winfield](user)
+- [one](quantity)
+- [Nathalie](user)
+- [prawn](item)
+- [dental floss](item)
+- [Joseph](user)
+- [cheese](item)
+- [Melissa](user)
+- [lamb](item)
+- [paper towels](item)
+- [Judith](user)
+- [Melody](user)
+- [Dorian](user)
+- [glass cleaner](item)
+- [deny](yes_no_answer)
+- [dish soap](item)
+- [Louis](user)
+- [bell pepper](item)
+- [Daniel](user)
 
 ## synonym:0.25
 - quarter

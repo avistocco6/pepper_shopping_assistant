@@ -1,0 +1,210 @@
+[
+  {
+    "text": "logou",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6276834557009185
+    }
+  },
+  {
+    "text": "log me out please",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.20159229209743648
+    }
+  },
+  {
+    "text": "nope{\"entity\": \"yes_no_answer\", \"value\": \"deny\"}",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.16203344069120398
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.21036459291691095
+    }
+  },
+  {
+    "text": "definitely{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"}",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.15266944360991852
+    }
+  },
+  {
+    "text": "ok{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"}",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.15266944360991852
+    }
+  },
+  {
+    "text": "show me",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.19872578442554353
+    }
+  },
+  {
+    "text": "open sesame",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5259302280774837
+    }
+  },
+  {
+    "text": "empty the list",
+    "intent": "empty",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.2248296494192759
+    }
+  },
+  {
+    "text": "please empty the list",
+    "intent": "empty",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.21786329117255634
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2922847187661052
+    }
+  },
+  {
+    "text": "goodnight",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.3151751241540131
+    }
+  },
+  {
+    "text": "i'm off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.3114819959863635
+    }
+  },
+  {
+    "text": "ok thanks!",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.21656425731085754
+    }
+  },
+  {
+    "text": "thanks a bunch for everything",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.24144741850275572
+    }
+  },
+  {
+    "text": "cool thank you",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.17857854430746103
+    }
+  },
+  {
+    "text": "remove the water",
+    "intent": "remove",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.22831215081252543
+    }
+  },
+  {
+    "text": "it is Blair",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.369849064931781
+    }
+  },
+  {
+    "text": "insert cookies",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.2888272585303531
+    }
+  },
+  {
+    "text": "write down half dozen courgette",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.49807271081369336
+    }
+  },
+  {
+    "text": "add twelve cupcakes",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6198384031732875
+    }
+  },
+  {
+    "text": "a quarter",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.44508857379046307
+    }
+  },
+  {
+    "text": "ounce",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.6087849877919699
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4158842374607034
+    }
+  },
+  {
+    "text": "pack",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.5175804500204679
+    }
+  },
+  {
+    "text": "litre",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.5317416561494323
+    }
+  }
+]

@@ -1,18 +1,10 @@
 [
   {
-    "text": "logut",
-    "intent": "logout",
-    "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.41898116073563424
-    }
-  },
-  {
     "text": "logou",
     "intent": "logout",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.41898116073563424
+      "confidence": 0.6920930900488858
     }
   },
   {
@@ -20,55 +12,63 @@
     "intent": "deny",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.3301553202728567
+      "confidence": 0.3776851005073947
     }
   },
   {
     "text": "do you have something else",
     "intent": "deny",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.19727919620353285
+      "name": "inform",
+      "confidence": 0.19728033468419945
     }
   },
   {
-    "text": "bye",
-    "intent": "goodbye",
+    "text": "open sesame",
+    "intent": "show",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.45024298145247243
+      "name": "inform",
+      "confidence": 0.6696965561606938
     }
   },
   {
-    "text": "cheers bro",
-    "intent": "thankyou",
+    "text": "lets check",
+    "intent": "show",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.5512569106891579
+      "name": "inform",
+      "confidence": 0.2121282468023158
     }
   },
   {
-    "text": "mark down 5 biscuits packs",
+    "text": "can you please remove pepper?",
+    "intent": "remove",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.34316968687566757
+    }
+  },
+  {
+    "text": "hey bot",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2629656835984388
+    }
+  },
+  {
+    "text": "add eleven jalapeno",
     "intent": "insert",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.4704623341646878
+      "confidence": 0.48538352153063036
     }
   },
   {
-    "text": "2 egg",
-    "intent": "insert",
+    "text": "toilet paper",
+    "intent": "inform",
     "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.5507494563980406
-    }
-  },
-  {
-    "text": "add seven bell pepper",
-    "intent": "insert",
-    "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.5977888433695552
+      "name": "insert",
+      "confidence": 0.4967630390077392
     }
   },
   {
@@ -76,7 +76,7 @@
     "intent": "inform",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.24390701287195743
+      "confidence": 0.34189875486364213
     }
   }
 ]

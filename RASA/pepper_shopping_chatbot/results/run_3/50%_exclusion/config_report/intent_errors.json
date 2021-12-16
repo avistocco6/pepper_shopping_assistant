@@ -1,0 +1,74 @@
+[
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.27531844473471184
+    }
+  },
+  {
+    "text": "open sesame",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.475662828873087
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.30887752783543515
+    }
+  },
+  {
+    "text": "i'm off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3028147379970105
+    }
+  },
+  {
+    "text": "insert cookies",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.5571782508323281
+    }
+  },
+  {
+    "text": "a quarter",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.6288700843703224
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5599586368336779
+    }
+  },
+  {
+    "text": "pack",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.8150783469689474
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.22900240849800657
+    }
+  }
+]

@@ -1,10 +1,10 @@
 [
   {
-    "text": "logut",
+    "text": "log me out",
     "intent": "logout",
     "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.2654526750898828
+      "name": "insert",
+      "confidence": 0.22285809115725796
     }
   },
   {
@@ -12,7 +12,7 @@
     "intent": "logout",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.2654526750898828
+      "confidence": 0.34443065590672434
     }
   },
   {
@@ -20,87 +20,47 @@
     "intent": "deny",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.31717518019275
+      "confidence": 0.29575013249287807
     }
   },
   {
     "text": "do you have something else",
     "intent": "deny",
     "intent_prediction": {
-      "name": "remove",
-      "confidence": 0.16884477514635562
-    }
-  },
-  {
-    "text": "y{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"}",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.16233503617691483
+      "name": "insert",
+      "confidence": 0.24079262310056668
     }
   },
   {
     "text": "yes{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"} yes{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"} yes{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"}",
     "intent": "affirm",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.16233504988576206
+      "name": "insert",
+      "confidence": 0.17657923151983942
     }
   },
   {
-    "text": "let me check",
-    "intent": "show",
-    "intent_prediction": {
-      "name": "remove",
-      "confidence": 0.190295024335323
-    }
-  },
-  {
-    "text": "let's check",
-    "intent": "show",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.18588904185630786
-    }
-  },
-  {
-    "text": "please empty the list",
-    "intent": "empty",
-    "intent_prediction": {
-      "name": "remove",
-      "confidence": 0.23059975470628968
-    }
-  },
-  {
-    "text": "gotta go",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.2512093330856714
-    }
-  },
-  {
-    "text": "see you later alligator",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.20378471686587865
-    }
-  },
-  {
-    "text": "thanks for that",
-    "intent": "thankyou",
+    "text": "absolutely{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"}",
+    "intent": "affirm",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.1991509042453288
+      "confidence": 0.17657923400726908
     }
   },
   {
-    "text": "cheers bro",
-    "intent": "thankyou",
+    "text": "open sesame",
+    "intent": "show",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.30294985461277957
+      "name": "inform",
+      "confidence": 0.6620526486650933
+    }
+  },
+  {
+    "text": "lets check",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.21438811923202358
     }
   },
   {
@@ -108,39 +68,63 @@
     "intent": "thankyou",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.17154341663434275
+      "confidence": 0.2598782939299469
     }
   },
   {
-    "text": "remove the chocolate",
+    "text": "amazing, thanks",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3497973018954382
+    }
+  },
+  {
+    "text": "thanks a bunch for everything",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.19815949441080763
+    }
+  },
+  {
+    "text": "can you delete the cherry?",
     "intent": "remove",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.23368159911087552
+      "confidence": 0.25997828009732565
     }
   },
   {
-    "text": "remove sugar",
-    "intent": "remove",
-    "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.30479691993773744
-    }
-  },
-  {
-    "text": "add twelve cupcakes",
+    "text": "write down 1/4 kilos of baking soda",
     "intent": "insert",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.4694791164782649
+      "confidence": 0.4292038792748118
     }
   },
   {
-    "text": "add seven bell pepper",
+    "text": "add eleven jalapeno",
     "intent": "insert",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.552338611788883
+      "confidence": 0.596721592017914
+    }
+  },
+  {
+    "text": "mark 0.5 kilogram of bread",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5252307131590884
+    }
+  },
+  {
+    "text": "toilet paper",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.47099030991541296
     }
   },
   {
@@ -148,7 +132,23 @@
     "intent": "inform",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.33650505139534914
+      "confidence": 0.43586176936906434
+    }
+  },
+  {
+    "text": "two",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.384266325124027
+    }
+  },
+  {
+    "text": "deny",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.19388551414661379
     }
   }
 ]

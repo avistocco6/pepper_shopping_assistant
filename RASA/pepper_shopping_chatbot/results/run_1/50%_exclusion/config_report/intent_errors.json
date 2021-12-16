@@ -1,18 +1,26 @@
 [
   {
+    "text": "logut",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.37116811611066447
+    }
+  },
+  {
     "text": "log me out",
     "intent": "logout",
     "intent_prediction": {
       "name": "show",
-      "confidence": 0.20229422108735973
+      "confidence": 0.19139667327655344
     }
   },
   {
-    "text": "logout",
-    "intent": "logout",
+    "text": "can you please empty the list?",
+    "intent": "empty",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.27702250459761035
+      "name": "remove",
+      "confidence": 0.2233222863857857
     }
   },
   {
@@ -20,55 +28,79 @@
     "intent": "goodbye",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.22837240144372553
+      "confidence": 0.22978902415079847
     }
   },
   {
-    "text": "bye!",
+    "text": "goodbye friend",
     "intent": "goodbye",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.30129416809095266
+      "confidence": 0.4078880819069403
     }
   },
   {
-    "text": "bye bot",
+    "text": "bye",
     "intent": "goodbye",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.43310879307427785
+      "confidence": 0.41588073476521364
     }
   },
   {
-    "text": "cheers",
-    "intent": "thankyou",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.4885665138534903
-    }
-  },
-  {
-    "text": "hi Mister",
-    "intent": "greet",
-    "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.47309980934501383
-    }
-  },
-  {
-    "text": "add eleven jalapeno",
+    "text": "insert three bottle of toilet gel",
     "intent": "insert",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.41140628228693127
+      "confidence": 0.7989145034251603
     }
   },
   {
-    "text": "pack",
+    "text": "insert cookies",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.4605416220396454
+    }
+  },
+  {
+    "text": "2 egg",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8468502846967471
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.38740465992812145
+    }
+  },
+  {
+    "text": "one",
     "intent": "inform",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.9025062110999822
+      "confidence": 0.24869132564254023
+    }
+  },
+  {
+    "text": "Melody",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.46616147283479153
+    }
+  },
+  {
+    "text": "deny",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.31109028669823485
     }
   }
 ]

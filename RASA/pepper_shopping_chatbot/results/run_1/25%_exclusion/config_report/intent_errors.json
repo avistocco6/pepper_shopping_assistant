@@ -1,58 +1,66 @@
 [
   {
-    "text": "show",
-    "intent": "show",
+    "text": "logut",
+    "intent": "logout",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.2830754237711032
+      "name": "show",
+      "confidence": 0.3541814338272901
     }
   },
   {
-    "text": "bye for now",
+    "text": "can you please empty the list?",
+    "intent": "empty",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.22881779500243457
+    }
+  },
+  {
+    "text": "goodbye friend",
     "intent": "goodbye",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.19795293060003408
+      "confidence": 0.3831661432576809
     }
   },
   {
-    "text": "bye!",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "thankyou",
-      "confidence": 0.28247475255191556
-    }
-  },
-  {
-    "text": "bye bot",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.5538070506223757
-    }
-  },
-  {
-    "text": "add eleven jalapeno",
+    "text": "insert three bottle of toilet gel",
     "intent": "insert",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.5803304588077218
+      "confidence": 0.6677070278832665
     }
   },
   {
-    "text": "pack",
+    "text": "confirm",
     "intent": "inform",
     "intent_prediction": {
-      "name": "insert",
-      "confidence": 0.8007099444752235
+      "name": "show",
+      "confidence": 0.43743415308011707
     }
   },
   {
-    "text": "jar",
+    "text": "one",
     "intent": "inform",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.6175749894980963
+      "confidence": 0.2743672281483161
+    }
+  },
+  {
+    "text": "Melody",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4988651924472776
+    }
+  },
+  {
+    "text": "deny",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.40061164169722313
     }
   }
 ]
