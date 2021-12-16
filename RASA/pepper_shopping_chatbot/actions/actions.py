@@ -41,6 +41,7 @@ def save_user_and_id(tracker):
             last_IDs = tracker.get_slot("last_IDs")
             sender_ID = tracker.get_slot("ID")
 
+            user = user.lower()
             # associate last and current ids to current user
             if last_IDs is not None:
                 for id in last_IDs:
