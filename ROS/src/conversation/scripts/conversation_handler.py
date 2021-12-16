@@ -8,7 +8,7 @@ from speech.srv import *
 
 from std_msgs.msg import String
 
-class ChatbotInterface:
+class ConversationHandler:
 
     def send_pepper_request(self, service, parameter):
         """
@@ -92,7 +92,7 @@ class ChatbotInterface:
 
 def main():
     # Creates the interface
-    chatbot_interface = ChatbotInterface()
+    chatbot_interface =ConversationHandler()
     chatbot_interface.run()
 
 if __name__ == '__main__':

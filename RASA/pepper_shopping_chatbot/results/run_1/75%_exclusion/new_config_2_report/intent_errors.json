@@ -1,106 +1,122 @@
 [
   {
-    "text": "let me see what you listed",
+    "text": "no{\"entity\": \"yes_no_answer\", \"value\": \"deny\"} this does not work for me\\t",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9767328500747681
+    }
+  },
+  {
+    "text": "n{\"entity\": \"yes_no_answer\", \"value\": \"deny\"}",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9919938445091248
+    }
+  },
+  {
+    "text": "show",
     "intent": "show",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.35674113035202026
-    }
-  },
-  {
-    "text": "please show me",
-    "intent": "show",
-    "intent_prediction": {
-      "name": "remove",
-      "confidence": 0.6070898771286011
-    }
-  },
-  {
-    "text": "i'm off",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.9956720471382141
-    }
-  },
-  {
-    "text": "good morning",
-    "intent": "greet",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.6987102031707764
+      "confidence": 0.6576566100120544
     }
   },
   {
-    "text": "hey bot",
-    "intent": "greet",
+    "text": "cheers",
+    "intent": "thankyou",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.9579699039459229
+      "name": "inform",
+      "confidence": 0.9999891519546509
     }
   },
   {
-    "text": "Roberta",
-    "intent": "inform",
+    "text": "remove the water",
+    "intent": "remove",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.9366251826286316
+      "confidence": 0.30712512135505676
     }
   },
   {
-    "text": "twelve",
+    "text": "add a meat pie",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4566550552845001
+    }
+  },
+  {
+    "text": "beef",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6781717538833618
+    }
+  },
+  {
+    "text": "kilogram",
     "intent": "inform",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.9735568165779114
+      "confidence": 0.4848100543022156
     }
   },
   {
-    "text": "peanut butter",
-    "intent": "inform",
-    "intent_prediction": {
-      "name": "logout",
-      "confidence": 0.4000903069972992
-    }
-  },
-  {
-    "text": "sugar",
+    "text": "french fries",
     "intent": "inform",
     "intent_prediction": {
       "name": "remove",
-      "confidence": 0.9854152798652649
+      "confidence": 0.9967901706695557
     }
   },
   {
-    "text": "donut",
+    "text": "biscuits",
     "intent": "inform",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.5268597602844238
+      "confidence": 0.9885337352752686
     }
   },
   {
-    "text": "bottle",
+    "text": "pack",
     "intent": "inform",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.9864470362663269
+      "confidence": 0.9643734097480774
     }
   },
   {
-    "text": "deny",
+    "text": "brownie",
     "intent": "inform",
     "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.29070279002189636
+      "name": "insert",
+      "confidence": 0.9987982511520386
     }
   },
   {
-    "text": "cream cheese",
+    "text": "mussel",
     "intent": "inform",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.49638664722442627
+      "name": "greet",
+      "confidence": 0.6182366013526917
+    }
+  },
+  {
+    "text": "Benjamin",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9924992322921753
+    }
+  },
+  {
+    "text": "eight",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9936022758483887
     }
   }
 ]

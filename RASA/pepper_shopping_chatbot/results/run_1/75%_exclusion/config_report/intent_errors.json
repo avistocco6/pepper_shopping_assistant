@@ -1,130 +1,146 @@
 [
   {
-    "text": "logout",
+    "text": "log me out",
     "intent": "logout",
     "intent_prediction": {
       "name": "remove",
-      "confidence": 0.16614558065710763
+      "confidence": 0.17490346386125236
     }
   },
   {
-    "text": "log out",
+    "text": "logout",
     "intent": "logout",
     "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.14213463821136835
-    }
-  },
-  {
-    "text": "no{\"entity\": \"yes_no_answer\", \"value\": \"deny\"}",
-    "intent": "deny",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.284190532243305
+      "name": "show",
+      "confidence": 0.1431273473703545
     }
   },
   {
     "text": "no{\"entity\": \"yes_no_answer\", \"value\": \"deny\"} this does not work for me\\t",
     "intent": "deny",
     "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.17575172044615964
+    }
+  },
+  {
+    "text": "n{\"entity\": \"yes_no_answer\", \"value\": \"deny\"}",
+    "intent": "deny",
+    "intent_prediction": {
       "name": "affirm",
-      "confidence": 0.1515601153308686
+      "confidence": 0.2741355195476287
     }
   },
   {
-    "text": "let me see what you listed",
+    "text": "let's check",
     "intent": "show",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.1446568886463441
+      "name": "remove",
+      "confidence": 0.16916059430992528
     }
   },
   {
-    "text": "please show me",
+    "text": "show",
     "intent": "show",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.14383119505533762
+      "name": "inform",
+      "confidence": 0.16802367389243436
+    }
+  },
+  {
+    "text": "can you empty my list?",
+    "intent": "empty",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.221327818752398
     }
   },
   {
     "text": "bye for now",
     "intent": "goodbye",
     "intent_prediction": {
-      "name": "thankyou",
-      "confidence": 0.17304163270282627
-    }
-  },
-  {
-    "text": "i'm off",
-    "intent": "goodbye",
-    "intent_prediction": {
       "name": "greet",
-      "confidence": 0.29039233033798956
+      "confidence": 0.17670216494192728
     }
   },
   {
-    "text": "see you",
+    "text": "bye!",
     "intent": "goodbye",
     "intent_prediction": {
       "name": "thankyou",
-      "confidence": 0.163035592840125
+      "confidence": 0.26717703550128674
     }
   },
   {
-    "text": "thanks bot",
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2601307115397618
+    }
+  },
+  {
+    "text": "cheers",
     "intent": "thankyou",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.18859419428554114
+      "name": "greet",
+      "confidence": 0.3014141552725757
     }
   },
   {
-    "text": "remove the chocolate",
+    "text": "remove the water",
     "intent": "remove",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.3020403307818657
+      "confidence": 0.46889343223120666
     }
   },
   {
-    "text": "i am Christopher",
+    "text": "it's Wilhelmina",
     "intent": "greet",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.23058618924592394
+      "confidence": 0.23509927591797772
     }
   },
   {
-    "text": "good morning",
+    "text": "hi Mister",
     "intent": "greet",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.21734192696784968
+      "confidence": 0.39897879244689677
     }
   },
   {
-    "text": "i need one pack of dental floss",
+    "text": "add eleven jalapeno",
     "intent": "insert",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.35351391576009056
+      "confidence": 0.5408889088424206
     }
   },
   {
-    "text": "mark 5 biscuits packs",
-    "intent": "insert",
-    "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.626562669502891
-    }
-  },
-  {
-    "text": "baking powder",
+    "text": "kilogram",
     "intent": "inform",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.5652922317243226
+      "confidence": 0.8261989067319826
+    }
+  },
+  {
+    "text": "chips",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.5176557993180461
+    }
+  },
+  {
+    "text": "pack",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.8237343679788536
     }
   }
 ]

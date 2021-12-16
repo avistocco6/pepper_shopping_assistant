@@ -1,82 +1,66 @@
 [
   {
-    "text": "log me out please",
+    "text": "logut",
     "intent": "logout",
     "intent_prediction": {
       "name": "show",
-      "confidence": 0.22212930275661397
+      "confidence": 0.45799345477364833
     }
   },
   {
-    "text": "log me out",
+    "text": "logou",
     "intent": "logout",
     "intent_prediction": {
       "name": "show",
-      "confidence": 0.18059512888755516
+      "confidence": 0.45799345477364833
     }
   },
   {
     "text": "not today",
     "intent": "deny",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.3016269213344723
-    }
-  },
-  {
-    "text": "bye bot",
-    "intent": "goodbye",
-    "intent_prediction": {
       "name": "greet",
-      "confidence": 0.3458261111935494
+      "confidence": 0.3441393475505219
     }
   },
   {
-    "text": "i'm off",
-    "intent": "goodbye",
+    "text": "do you have something else",
+    "intent": "deny",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.4823142846968183
+      "name": "inform",
+      "confidence": 0.2236708740067585
     }
   },
   {
-    "text": "delete the [meat]](item)",
-    "intent": "remove",
-    "intent_prediction": {
-      "name": "insert",
-      "confidence": 0.2889220269722275
-    }
-  },
-  {
-    "text": "mark down two banana",
+    "text": "i need one pack of dental floss",
     "intent": "insert",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.5500983047405595
+      "confidence": 0.49797280597053306
     }
   },
   {
-    "text": "insert three bottle of toilet gel",
+    "text": "add seven bell pepper",
     "intent": "insert",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.6187794837988357
+      "confidence": 0.7128954353983713
     }
   },
   {
-    "text": "yes",
-    "intent": "inform",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.6467731193725804
-    }
-  },
-  {
-    "text": "can",
+    "text": "bottle",
     "intent": "inform",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.34149182779995846
+      "confidence": 0.8855947913016898
+    }
+  },
+  {
+    "text": "Melody",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5759509241177668
     }
   }
 ]

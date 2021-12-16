@@ -1,50 +1,18 @@
 [
   {
-    "text": "let me see what you listed",
-    "intent": "show",
+    "text": "cheers",
+    "intent": "thankyou",
     "intent_prediction": {
-      "name": "empty",
-      "confidence": 0.37956053018569946
+      "name": "inform",
+      "confidence": 0.999997615814209
     }
   },
   {
-    "text": "i'm off",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.9972177147865295
-    }
-  },
-  {
-    "text": "good morning",
-    "intent": "greet",
-    "intent_prediction": {
-      "name": "thankyou",
-      "confidence": 0.9964337944984436
-    }
-  },
-  {
-    "text": "hey bot",
-    "intent": "greet",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.7896227240562439
-    }
-  },
-  {
-    "text": "i need a pizza",
-    "intent": "insert",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.9783532619476318
-    }
-  },
-  {
-    "text": "green beans",
+    "text": "french fries",
     "intent": "inform",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.22153091430664062
+      "name": "remove",
+      "confidence": 0.5045714974403381
     }
   },
   {
@@ -52,7 +20,31 @@
     "intent": "inform",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.999678909778595
+      "confidence": 0.9996554255485535
+    }
+  },
+  {
+    "text": "pack",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.957076370716095
+    }
+  },
+  {
+    "text": "brownie",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.7405357360839844
+    }
+  },
+  {
+    "text": "eight",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "logout",
+      "confidence": 0.5709008574485779
     }
   }
 ]

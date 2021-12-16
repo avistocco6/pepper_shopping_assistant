@@ -4,23 +4,31 @@
     "intent": "deny",
     "intent_prediction": {
       "name": "goodbye",
-      "confidence": 0.9245485663414001
+      "confidence": 0.9884677529335022
     }
   },
   {
-    "text": "i'm off",
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9813442826271057
+    }
+  },
+  {
+    "text": "gotta go",
     "intent": "goodbye",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.9971226453781128
+      "name": "thankyou",
+      "confidence": 0.9167277812957764
     }
   },
   {
-    "text": "greetings",
-    "intent": "greet",
+    "text": "green beans",
+    "intent": "inform",
     "intent_prediction": {
-      "name": "inform",
-      "confidence": 1.0
+      "name": "greet",
+      "confidence": 0.6877644062042236
     }
   }
 ]

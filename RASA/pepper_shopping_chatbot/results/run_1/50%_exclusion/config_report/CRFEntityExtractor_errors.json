@@ -1,429 +1,171 @@
 [
   {
-    "text": "logout",
+    "text": "let's check",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 6,
+        "end": 11,
+        "confidence_entity": 0.8290403056562078,
+        "value": "check",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5980619748712542,
+        "value": "show",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "empty",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.7198247171582309,
+        "value": "empty",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "cheers",
     "entities": [],
     "predicted_entities": [
       {
         "entity": "user",
         "start": 0,
         "end": 6,
-        "confidence_entity": 0.45205327953555546,
-        "value": "logout",
+        "confidence_entity": 0.6323288492924578,
+        "value": "cheers",
         "extractor": "CRFEntityExtractor"
       }
     ]
   },
   {
-    "text": "remove the chocolate",
+    "text": "can you please remove chips?",
     "entities": [
-      {
-        "start": 11,
-        "end": 20,
-        "value": "dental floss",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "delete mayo",
-    "entities": [
-      {
-        "start": 7,
-        "end": 11,
-        "value": "mayonnaise",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 7,
-        "end": 11,
-        "confidence_entity": 0.5707186198261746,
-        "value": "mayonnaise",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "delete the mango",
-    "entities": [
-      {
-        "start": 11,
-        "end": 16,
-        "value": "mango",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 11,
-        "end": 16,
-        "confidence_entity": 0.5245303085363039,
-        "value": "mango",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "i am Christopher",
-    "entities": [
-      {
-        "start": 5,
-        "end": 16,
-        "value": "Christopher",
-        "entity": "user"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "i am Benjamin",
-    "entities": [
-      {
-        "start": 5,
-        "end": 13,
-        "value": "Benjamin",
-        "entity": "user"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "can u pls add three kilos of peach?",
-    "entities": [
-      {
-        "start": 14,
-        "end": 19,
-        "value": "3",
-        "entity": "quantity"
-      },
-      {
-        "start": 20,
-        "end": 25,
-        "value": "kilogram",
-        "entity": "uom"
-      },
-      {
-        "start": 29,
-        "end": 34,
-        "value": "peach",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "item",
-        "start": 29,
-        "end": 34,
-        "confidence_entity": 0.9446320415533963,
-        "value": "peach",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "write down half dozen courgette",
-    "entities": [
-      {
-        "start": 11,
-        "end": 21,
-        "value": "6",
-        "entity": "quantity"
-      },
       {
         "start": 22,
-        "end": 31,
-        "value": "zucchini",
+        "end": 27,
+        "value": "chips",
         "entity": "item"
       }
     ],
-    "predicted_entities": [
-      {
-        "entity": "item",
-        "start": 22,
-        "end": 31,
-        "confidence_entity": 0.5268389150449008,
-        "value": "zucchini",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
+    "predicted_entities": []
   },
   {
-    "text": "write down 1/4 kilos of baking soda",
+    "text": "can u pls add [2] disinfectant cleaner",
     "entities": [
       {
-        "start": 11,
-        "end": 14,
-        "value": "0.25",
-        "entity": "quantity"
-      },
-      {
-        "start": 15,
-        "end": 20,
-        "value": "kilogram",
-        "entity": "uom"
-      },
-      {
-        "start": 24,
-        "end": 35,
-        "value": "baking soda",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "item",
-        "start": 24,
-        "end": 35,
-        "confidence_entity": 0.8561147966226702,
-        "value": "baking soda",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "write down a quarter kg of yeast",
-    "entities": [
-      {
-        "start": 13,
-        "end": 20,
-        "value": "0.25",
-        "entity": "quantity"
-      },
-      {
-        "start": 21,
-        "end": 23,
-        "value": "kilogram",
-        "entity": "uom"
-      },
-      {
-        "start": 27,
-        "end": 32,
-        "value": "yeast",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "item",
-        "start": 27,
-        "end": 32,
-        "confidence_entity": 0.9790383487557781,
-        "value": "yeast",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "write down two jars of red beet",
-    "entities": [
-      {
-        "start": 11,
-        "end": 14,
-        "value": "2",
-        "entity": "quantity"
-      },
-      {
-        "start": 15,
-        "end": 19,
-        "value": "jar",
-        "entity": "uom"
-      },
-      {
-        "start": 23,
-        "end": 31,
-        "value": "beetroot",
+        "start": 18,
+        "end": 38,
+        "value": "disinfectant cleaner",
         "entity": "item"
       }
     ],
     "predicted_entities": [
       {
         "entity": "quantity",
-        "start": 11,
-        "end": 14,
-        "confidence_entity": 0.7918728349811982,
+        "start": 15,
+        "end": 16,
+        "confidence_entity": 0.6154705882629521,
         "value": "2",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
+        "extractor": "CRFEntityExtractor"
       },
       {
-        "entity": "uom",
-        "start": 15,
-        "end": 19,
-        "confidence_entity": 0.7265036198003413,
-        "value": "jar",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
+        "entity": "item",
+        "start": 18,
+        "end": 38,
+        "confidence_entity": 0.9266942985337996,
+        "value": "disinfectant cleaner",
+        "extractor": "CRFEntityExtractor"
       }
     ]
   },
   {
-    "text": "add a dozen aubergine",
+    "text": "coke",
     "entities": [
       {
-        "start": 4,
-        "end": 11,
-        "value": "12",
-        "entity": "quantity"
-      },
-      {
-        "start": 12,
-        "end": 21,
-        "value": "eggplant",
+        "start": 0,
+        "end": 4,
+        "value": "coke",
         "entity": "item"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "quantity",
-        "start": 4,
+        "entity": "user",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.8257203781796412,
+        "value": "coke",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "soup",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "soup",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5626679848794461,
+        "value": "soup",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pumpkin",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "pumpkin",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.6584904216113888,
+        "value": "pumpkin",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "beans",
+    "entities": [
+      {
+        "start": 0,
         "end": 5,
-        "confidence_entity": 0.6088265577131826,
-        "value": "1",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
-        "entity": "item",
-        "start": 12,
-        "end": 21,
-        "confidence_entity": 0.5534029487574217,
-        "value": "eggplant",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "i need a pizza",
-    "entities": [
-      {
-        "start": 7,
-        "end": 8,
-        "value": "1",
-        "entity": "quantity"
-      },
-      {
-        "start": 9,
-        "end": 14,
-        "value": "pizza",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "item",
-        "start": 9,
-        "end": 14,
-        "confidence_entity": 0.588586075635655,
-        "value": "pizza",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "add marmellade jar",
-    "entities": [
-      {
-        "start": 4,
-        "end": 14,
-        "value": "jam",
-        "entity": "item"
-      },
-      {
-        "start": 15,
-        "end": 18,
-        "value": "jar",
-        "entity": "uom"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "quantity",
-        "start": 4,
-        "end": 14,
-        "confidence_entity": 0.7205466616839813,
-        "value": "jam",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
-        "entity": "uom",
-        "start": 15,
-        "end": 18,
-        "confidence_entity": 0.7758047931515295,
-        "value": "jar",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "mark 5 biscuits packs",
-    "entities": [
-      {
-        "start": 5,
-        "end": 6,
-        "value": "5",
-        "entity": "quantity"
-      },
-      {
-        "start": 7,
-        "end": 15,
-        "value": "biscuits",
-        "entity": "item"
-      },
-      {
-        "start": 16,
-        "end": 21,
-        "value": "pack",
-        "entity": "uom"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "quantity",
-        "start": 5,
-        "end": 6,
-        "confidence_entity": 0.6513616134667298,
-        "value": "5",
-        "extractor": "CRFEntityExtractor"
-      },
-      {
-        "entity": "item",
-        "start": 7,
-        "end": 21,
-        "confidence_entity": 0.4541831162618044,
-        "value": "biscuits packs",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "lentils",
-    "entities": [
-      {
-        "start": 0,
-        "end": 7,
-        "value": "lentils",
+        "value": "beans",
         "entity": "item"
       }
     ],
@@ -431,83 +173,20 @@
       {
         "entity": "user",
         "start": 0,
-        "end": 7,
-        "confidence_entity": 0.4540979308095726,
-        "value": "lentils",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "toothpaste",
-    "entities": [
-      {
-        "start": 0,
-        "end": 10,
-        "value": "toothpaste",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 0,
-        "end": 10,
-        "confidence_entity": 0.5179965956760312,
-        "value": "toothpaste",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "Conrad",
-    "entities": [
-      {
-        "start": 0,
-        "end": 6,
-        "value": "Conrad",
-        "entity": "user"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "item",
-        "start": 0,
-        "end": 6,
-        "confidence_entity": 0.4879558508014231,
-        "value": "Conrad",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "green beans",
-    "entities": [
-      {
-        "start": 0,
-        "end": 11,
-        "value": "green beans",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "item",
-        "start": 6,
-        "end": 11,
-        "confidence_entity": 0.5547250954941738,
+        "end": 5,
+        "confidence_entity": 0.5801868120005536,
         "value": "beans",
         "extractor": "CRFEntityExtractor"
       }
     ]
   },
   {
-    "text": "wine",
+    "text": "beef",
     "entities": [
       {
         "start": 0,
         "end": 4,
-        "value": "wine",
+        "value": "beef",
         "entity": "item"
       }
     ],
@@ -516,179 +195,8 @@
         "entity": "user",
         "start": 0,
         "end": 4,
-        "confidence_entity": 0.5962180118049352,
-        "value": "wine",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "brownie",
-    "entities": [
-      {
-        "start": 0,
-        "end": 7,
-        "value": "brownie",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 0,
-        "end": 7,
-        "confidence_entity": 0.9400466997398673,
-        "value": "brownie",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "pizza",
-    "entities": [
-      {
-        "start": 0,
-        "end": 5,
-        "value": "pizza",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 0,
-        "end": 5,
-        "confidence_entity": 0.49576666427871774,
-        "value": "pizza",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "Sheldon",
-    "entities": [
-      {
-        "start": 0,
-        "end": 7,
-        "value": "Sheldon",
-        "entity": "user"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "item",
-        "start": 0,
-        "end": 7,
-        "confidence_entity": 0.5514866239733416,
-        "value": "Sheldon",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "twelve",
-    "entities": [
-      {
-        "start": 0,
-        "end": 6,
-        "value": "twelve",
-        "entity": "quantity"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 0,
-        "end": 6,
-        "confidence_entity": 0.4922054401115139,
-        "value": "12",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "peanut butter",
-    "entities": [
-      {
-        "start": 0,
-        "end": 13,
-        "value": "peanut butter",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "item",
-        "start": 7,
-        "end": 13,
-        "confidence_entity": 0.8284706685134697,
-        "value": "butter",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "yogurt",
-    "entities": [
-      {
-        "start": 0,
-        "end": 6,
-        "value": "yogurt",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 0,
-        "end": 6,
-        "confidence_entity": 0.5302237723153163,
-        "value": "yogurt",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "sugar",
-    "entities": [
-      {
-        "start": 0,
-        "end": 5,
-        "value": "sugar",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 0,
-        "end": 5,
-        "confidence_entity": 0.5332483385836138,
-        "value": "sugar",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "paprika",
-    "entities": [
-      {
-        "start": 0,
-        "end": 7,
-        "value": "paprika",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 0,
-        "end": 7,
-        "confidence_entity": 0.6304864064986095,
-        "value": "paprika",
+        "confidence_entity": 0.6145074414545384,
+        "value": "beef",
         "extractor": "CRFEntityExtractor"
       }
     ]
@@ -708,8 +216,422 @@
         "entity": "user",
         "start": 0,
         "end": 5,
-        "confidence_entity": 0.5358188105803953,
+        "confidence_entity": 0.6316896120469968,
         "value": "squid",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "water",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "water",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.3781844206932015,
+        "value": "water",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "kilogram",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "kilogram",
+        "entity": "uom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.5437192122204052,
+        "value": "kilogram",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "papaya",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "papaya",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.6184069588860494,
+        "value": "papaya",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "chicken",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "chicken",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.7083831348398428,
+        "value": "chicken",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pear",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "pear",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.561424482544691,
+        "value": "pear",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "chips",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "chips",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.7759182143952579,
+        "value": "chips",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pack",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "pack",
+        "entity": "uom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5432663286918419,
+        "value": "pack",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "garlic",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "garlic",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.6913648894188876,
+        "value": "garlic",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "brownie",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "brownie",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.8763324858114969,
+        "value": "brownie",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "eggplant",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "eggplant",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.565266624346512,
+        "value": "eggplant",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "mussel",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "mussel",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.5737003743162775,
+        "value": "mussel",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "lentils",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "lentils",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.6302393590095688,
+        "value": "lentils",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pasta",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "pasta",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.6625815103739423,
+        "value": "pasta",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "butter",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "butter",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.39869047840222893,
+        "value": "butter",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "nut",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "nut",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.5113910584073663,
+        "value": "nut",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "tuna",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "tuna",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.8442773027169247,
+        "value": "tuna",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "eight",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "eight",
+        "entity": "quantity"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.6316896120469968,
+        "value": "8",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "jar",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "jar",
+        "entity": "uom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.4269619664620924,
+        "value": "jar",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "lobster",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "lobster",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "beer",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "beer",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.39855218843635454,
+        "value": "beer",
         "extractor": "CRFEntityExtractor"
       }
     ]
@@ -729,161 +651,8 @@
         "entity": "user",
         "start": 0,
         "end": 7,
-        "confidence_entity": 0.5358188105803953,
+        "confidence_entity": 0.6316896120469968,
         "value": "avocado",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "four",
-    "entities": [
-      {
-        "start": 0,
-        "end": 4,
-        "value": "four",
-        "entity": "quantity"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 0,
-        "end": 4,
-        "confidence_entity": 0.41793498281429564,
-        "value": "4",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "gram",
-    "entities": [
-      {
-        "start": 0,
-        "end": 4,
-        "value": "gram",
-        "entity": "uom"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 0,
-        "end": 4,
-        "confidence_entity": 0.44498864670443705,
-        "value": "gram",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "bottle",
-    "entities": [
-      {
-        "start": 0,
-        "end": 6,
-        "value": "bottle",
-        "entity": "uom"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 0,
-        "end": 6,
-        "confidence_entity": 0.7172098613302108,
-        "value": "bottle",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "three",
-    "entities": [
-      {
-        "start": 0,
-        "end": 5,
-        "value": "three",
-        "entity": "quantity"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 0,
-        "end": 5,
-        "confidence_entity": 0.431752585017759,
-        "value": "3",
-        "extractor": "CRFEntityExtractor",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "nut",
-    "entities": [
-      {
-        "start": 0,
-        "end": 3,
-        "value": "nut",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 0,
-        "end": 3,
-        "confidence_entity": 0.5358188105803953,
-        "value": "nut",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "deny",
-    "entities": [
-      {
-        "start": 0,
-        "end": 4,
-        "value": "deny",
-        "entity": "yes_no_answer"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 0,
-        "end": 4,
-        "confidence_entity": 0.5979836499820144,
-        "value": "deny",
-        "extractor": "CRFEntityExtractor"
-      }
-    ]
-  },
-  {
-    "text": "peach",
-    "entities": [
-      {
-        "start": 0,
-        "end": 5,
-        "value": "peach",
-        "entity": "item"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 0,
-        "end": 5,
-        "confidence_entity": 0.5009713906812263,
-        "value": "peach",
         "extractor": "CRFEntityExtractor"
       }
     ]

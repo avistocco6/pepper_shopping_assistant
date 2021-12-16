@@ -1,0 +1,245 @@
+[
+  {
+    "text": "see you later alligator",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 14,
+        "end": 23,
+        "confidence_entity": 0.9880450367927551,
+        "value": "alligator",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cheers bro",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9992730021476746,
+        "value": "bro",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "remove the chocolate",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "dental floss",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hi again",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 3,
+        "end": 8,
+        "confidence_entity": 0.36252689361572266,
+        "value": "again",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "insert 5 ounce of baking powder",
+    "entities": [
+      {
+        "start": 7,
+        "end": 8,
+        "value": "5",
+        "entity": "quantity"
+      },
+      {
+        "start": 9,
+        "end": 14,
+        "value": "ounce",
+        "entity": "uom"
+      },
+      {
+        "start": 18,
+        "end": 31,
+        "value": "baking powder",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 7,
+        "end": 8,
+        "confidence_entity": 0.9999523162841797,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "item",
+        "start": 18,
+        "end": 31,
+        "confidence_entity": 0.9996613264083862,
+        "value": "baking powder",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "add a can of tuna",
+    "entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "value": "1",
+        "entity": "quantity"
+      },
+      {
+        "start": 6,
+        "end": 9,
+        "value": "can",
+        "entity": "uom"
+      },
+      {
+        "start": 13,
+        "end": 17,
+        "value": "tuna",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.5325087308883667,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.9996728897094727,
+        "value": "tuna",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "green beans",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "green beans",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.7909941077232361,
+        "value": "green",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "uom",
+        "start": 6,
+        "end": 11,
+        "confidence_entity": 0.504984438419342,
+        "value": "beans",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "garlic",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "garlic",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9296372532844543,
+        "value": "garlic",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "grapes",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "grapes",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "uom",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9312040209770203,
+        "value": "grapes",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mussel",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "mussel",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "melon",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "melon",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.8302182555198669,
+        "value": "melon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

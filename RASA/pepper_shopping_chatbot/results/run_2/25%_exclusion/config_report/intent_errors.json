@@ -1,18 +1,18 @@
 [
   {
-    "text": "log me out please",
+    "text": "logut",
     "intent": "logout",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.23289073158453547
+      "name": "inform",
+      "confidence": 0.37129404108033887
     }
   },
   {
-    "text": "log me out",
+    "text": "logou",
     "intent": "logout",
     "intent_prediction": {
-      "name": "show",
-      "confidence": 0.17667418843203414
+      "name": "inform",
+      "confidence": 0.37129404108033887
     }
   },
   {
@@ -20,47 +20,39 @@
     "intent": "deny",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.22036130844658186
+      "confidence": 0.296913124523334
     }
   },
   {
-    "text": "i'm off",
-    "intent": "goodbye",
+    "text": "do you have something else",
+    "intent": "deny",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.3832519379584141
+      "name": "show",
+      "confidence": 0.227366093728852
     }
   },
   {
-    "text": "mark down two banana",
+    "text": "add seven bell pepper",
     "intent": "insert",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.5713119710481579
+      "confidence": 0.6357641115560719
     }
   },
   {
-    "text": "insert three bottle of toilet gel",
-    "intent": "insert",
+    "text": "bottle",
+    "intent": "inform",
     "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.533582140764505
+      "name": "insert",
+      "confidence": 0.7288834004326361
     }
   },
   {
-    "text": "yes",
+    "text": "Melody",
     "intent": "inform",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.48383663842644886
-    }
-  },
-  {
-    "text": "can",
-    "intent": "inform",
-    "intent_prediction": {
-      "name": "remove",
-      "confidence": 0.33853858987505286
+      "confidence": 0.4903409988356693
     }
   }
 ]

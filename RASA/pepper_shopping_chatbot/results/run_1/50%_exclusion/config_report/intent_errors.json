@@ -1,90 +1,74 @@
 [
   {
+    "text": "log me out",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.20229422108735973
+    }
+  },
+  {
     "text": "logout",
     "intent": "logout",
     "intent_prediction": {
       "name": "show",
-      "confidence": 0.5802198884081947
+      "confidence": 0.27702250459761035
     }
   },
   {
-    "text": "log out",
-    "intent": "logout",
-    "intent_prediction": {
-      "name": "show",
-      "confidence": 0.26021881714097317
-    }
-  },
-  {
-    "text": "no{\"entity\": \"yes_no_answer\", \"value\": \"deny\"}",
-    "intent": "deny",
-    "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.35456959355933004
-    }
-  },
-  {
-    "text": "let me see what you listed",
-    "intent": "show",
-    "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.21574071475581
-    }
-  },
-  {
-    "text": "i'm off",
+    "text": "bye for now",
     "intent": "goodbye",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.3646921292321843
+      "confidence": 0.22837240144372553
     }
   },
   {
-    "text": "delete the [meat]](item)",
-    "intent": "remove",
+    "text": "bye!",
+    "intent": "goodbye",
     "intent_prediction": {
-      "name": "insert",
-      "confidence": 0.17944013445803392
+      "name": "greet",
+      "confidence": 0.30129416809095266
     }
   },
   {
-    "text": "remove the chocolate",
-    "intent": "remove",
+    "text": "bye bot",
+    "intent": "goodbye",
     "intent_prediction": {
-      "name": "insert",
-      "confidence": 0.33409167421447244
+      "name": "greet",
+      "confidence": 0.43310879307427785
     }
   },
   {
-    "text": "good morning",
+    "text": "cheers",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4885665138534903
+    }
+  },
+  {
+    "text": "hi Mister",
     "intent": "greet",
     "intent_prediction": {
-      "name": "thankyou",
-      "confidence": 0.2657106116398873
+      "name": "inform",
+      "confidence": 0.47309980934501383
     }
   },
   {
-    "text": "write down half dozen courgette",
+    "text": "add eleven jalapeno",
     "intent": "insert",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.46233886084705267
+      "confidence": 0.41140628228693127
     }
   },
   {
-    "text": "i need a pizza",
-    "intent": "insert",
-    "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.2726629882688291
-    }
-  },
-  {
-    "text": "bottle",
+    "text": "pack",
     "intent": "inform",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.5820224569710704
+      "confidence": 0.9025062110999822
     }
   }
 ]

@@ -1,0 +1,326 @@
+[
+  {
+    "text": "see you later alligator",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 14,
+        "end": 23,
+        "confidence_entity": 0.6794588565826416,
+        "value": "alligator",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cheers bro",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9620405435562134,
+        "value": "cheers",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "item",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9987578392028809,
+        "value": "bro",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "remove the chocolate",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "dental floss",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hi again",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 3,
+        "end": 8,
+        "confidence_entity": 0.7380125522613525,
+        "value": "again",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "add a can of tuna",
+    "entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "value": "1",
+        "entity": "quantity"
+      },
+      {
+        "start": 6,
+        "end": 9,
+        "value": "can",
+        "entity": "uom"
+      },
+      {
+        "start": 13,
+        "end": 17,
+        "value": "tuna",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.839585542678833,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.9997935891151428,
+        "value": "tuna",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you please add 1 body scrub",
+    "entities": [
+      {
+        "start": 19,
+        "end": 20,
+        "value": "1",
+        "entity": "quantity"
+      },
+      {
+        "start": 21,
+        "end": 31,
+        "value": "body scrub",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 19,
+        "end": 20,
+        "confidence_entity": 0.9974657297134399,
+        "value": "1",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "item",
+        "start": 26,
+        "end": 31,
+        "confidence_entity": 0.8139553070068359,
+        "value": "scrub",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cereal",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "cereal",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.748756468296051,
+        "value": "cereal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "shampoo",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "shampoo",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "green beans",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "green beans",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 6,
+        "end": 11,
+        "confidence_entity": 0.7951284050941467,
+        "value": "beans",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "garlic",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "garlic",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.978484034538269,
+        "value": "garlic",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mussel",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "mussel",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dish soap",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "dish soap",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9835841059684753,
+        "value": "dish",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "melon",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "melon",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9792219996452332,
+        "value": "melon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "beetroot",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "beetroot",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "basil",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "basil",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.6205573678016663,
+        "value": "basil",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "beans",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "beans",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.43140047788619995,
+        "value": "beans",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

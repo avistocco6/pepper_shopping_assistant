@@ -1,41 +1,44 @@
 {
+  "thankyou": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3,
+    "confused_with": {
+      "inform": 1
+    }
+  },
   "insert": {
-    "precision": 0.8333333333333334,
-    "recall": 1.0,
-    "f1-score": 0.9090909090909091,
+    "precision": 0.7777777777777778,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.8484848484848485,
     "support": 15,
+    "confused_with": {
+      "inform": 1
+    }
+  },
+  "greet": {
+    "precision": 0.8125,
+    "recall": 1.0,
+    "f1-score": 0.896551724137931,
+    "support": 13,
     "confused_with": {}
   },
-  "affirm": {
+  "remove": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 5,
+    "confused_with": {
+      "greet": 1
+    }
+  },
+  "logout": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 2,
     "confused_with": {}
-  },
-  "remove": {
-    "precision": 0.7142857142857143,
-    "recall": 1.0,
-    "f1-score": 0.8333333333333333,
-    "support": 5,
-    "confused_with": {}
-  },
-  "deny": {
-    "precision": 0.6666666666666666,
-    "recall": 1.0,
-    "f1-score": 0.8,
-    "support": 2,
-    "confused_with": {}
-  },
-  "show": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 2,
-    "confused_with": {
-      "remove": 1,
-      "goodbye": 1
-    }
   },
   "empty": {
     "precision": 1.0,
@@ -44,60 +47,59 @@
     "support": 2,
     "confused_with": {}
   },
-  "logout": {
-    "precision": 0.6666666666666666,
+  "goodbye": {
+    "precision": 0.6,
     "recall": 1.0,
-    "f1-score": 0.8,
+    "f1-score": 0.7499999999999999,
+    "support": 3,
+    "confused_with": {}
+  },
+  "show": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "inform": 1
+    }
+  },
+  "affirm": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
     "support": 2,
     "confused_with": {}
   },
-  "goodbye": {
-    "precision": 0.5,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.5714285714285715,
-    "support": 3,
+  "deny": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
     "confused_with": {
-      "greet": 1
-    }
-  },
-  "thankyou": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "greet": {
-    "precision": 0.8461538461538461,
-    "recall": 0.8461538461538461,
-    "f1-score": 0.8461538461538461,
-    "support": 13,
-    "confused_with": {
-      "inform": 1,
-      "goodbye": 1
+      "affirm": 2
     }
   },
   "inform": {
-    "precision": 0.9814814814814815,
-    "recall": 0.8688524590163934,
-    "f1-score": 0.9217391304347826,
+    "precision": 0.9454545454545454,
+    "recall": 0.8524590163934426,
+    "f1-score": 0.8965517241379309,
     "support": 61,
     "confused_with": {
-      "insert": 3,
-      "show": 1
+      "insert": 4,
+      "greet": 2
     }
   },
-  "accuracy": 0.8818181818181818,
+  "accuracy": 0.8636363636363636,
   "macro avg": {
-    "precision": 0.7462352462352463,
-    "recall": 0.8528793610760824,
-    "f1-score": 0.7892496173128585,
+    "precision": 0.7668847566574839,
+    "recall": 0.7956780923994039,
+    "f1-score": 0.7568110572812767,
     "support": 110
   },
   "weighted avg": {
-    "precision": 0.891895141895142,
-    "recall": 0.8818181818181818,
-    "f1-score": 0.881303663398525,
+    "precision": 0.8700172176308538,
+    "recall": 0.8636363636363636,
+    "f1-score": 0.8580796998195117,
     "support": 110
   }
 }

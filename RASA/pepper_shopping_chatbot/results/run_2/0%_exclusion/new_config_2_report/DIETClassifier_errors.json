@@ -1,86 +1,86 @@
 [
   {
-    "text": "goodbye friend",
+    "text": "see you later alligator",
     "entities": [],
     "predicted_entities": [
       {
-        "entity": "item",
-        "start": 8,
-        "end": 14,
-        "confidence_entity": 0.9432328939437866,
-        "value": "friend",
+        "entity": "user",
+        "start": 14,
+        "end": 23,
+        "confidence_entity": 0.9701818227767944,
+        "value": "alligator",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "delete mayo",
+    "text": "cheers bro",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9812132716178894,
+        "value": "bro",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "remove the chocolate",
     "entities": [
       {
-        "start": 7,
-        "end": 11,
-        "value": "mayonnaise",
+        "start": 11,
+        "end": 20,
+        "value": "dental floss",
         "entity": "item"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "hi Mister",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "user",
-        "start": 3,
-        "end": 9,
-        "confidence_entity": 0.9999182224273682,
-        "value": "Mister",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "greetings",
+    "text": "hi again",
     "entities": [],
     "predicted_entities": [
       {
         "entity": "item",
-        "start": 0,
-        "end": 9,
-        "confidence_entity": 0.8693363666534424,
-        "value": "greetings",
+        "start": 3,
+        "end": 8,
+        "confidence_entity": 0.3395742177963257,
+        "value": "again",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "write down a quarter kg of yeast",
+    "text": "add a can of tuna",
     "entities": [
       {
-        "start": 13,
-        "end": 20,
-        "value": "0.25",
+        "start": 4,
+        "end": 5,
+        "value": "1",
         "entity": "quantity"
       },
       {
-        "start": 21,
-        "end": 23,
-        "value": "kilogram",
+        "start": 6,
+        "end": 9,
+        "value": "can",
         "entity": "uom"
       },
       {
-        "start": 27,
-        "end": 32,
-        "value": "yeast",
+        "start": 13,
+        "end": 17,
+        "value": "tuna",
         "entity": "item"
       }
     ],
     "predicted_entities": [
       {
         "entity": "quantity",
-        "start": 11,
-        "end": 12,
-        "confidence_entity": 0.9229460954666138,
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.9376236200332642,
         "value": "1",
         "extractor": "DIETClassifier",
         "processors": [
@@ -88,56 +88,93 @@
         ]
       },
       {
-        "entity": "quantity",
-        "start": 13,
-        "end": 20,
-        "confidence_entity": 0.998211145401001,
-        "value": "0.25",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
-        "entity": "uom",
-        "start": 21,
-        "end": 23,
-        "confidence_entity": 0.9997360110282898,
-        "value": "kilogram",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
         "entity": "item",
-        "start": 27,
-        "end": 32,
-        "confidence_entity": 0.9936079978942871,
-        "value": "yeast",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.9999246597290039,
+        "value": "tuna",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "yes",
+    "text": "mustard",
     "entities": [
       {
         "start": 0,
-        "end": 3,
-        "value": "yes",
-        "entity": "yes_no_answer"
+        "end": 7,
+        "value": "mustard",
+        "entity": "item"
       }
     ],
-    "predicted_entities": []
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.5044954419136047,
+        "value": "mustard",
+        "extractor": "DIETClassifier"
+      }
+    ]
   },
   {
-    "text": "pear",
+    "text": "green beans",
     "entities": [
       {
         "start": 0,
-        "end": 4,
-        "value": "pear",
+        "end": 11,
+        "value": "green beans",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.6310219764709473,
+        "value": "green",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "uom",
+        "start": 6,
+        "end": 11,
+        "confidence_entity": 0.6008674502372742,
+        "value": "beans",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "garlic",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "garlic",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9869977235794067,
+        "value": "garlic",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "grapes",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "grapes",
         "entity": "item"
       }
     ],
@@ -145,51 +182,42 @@
       {
         "entity": "uom",
         "start": 0,
-        "end": 4,
-        "confidence_entity": 0.3946755528450012,
-        "value": "pear",
+        "end": 6,
+        "confidence_entity": 0.965965986251831,
+        "value": "grapes",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "can",
+    "text": "beetroot",
     "entities": [
       {
         "start": 0,
-        "end": 3,
-        "value": "can",
-        "entity": "uom"
+        "end": 8,
+        "value": "beetroot",
+        "entity": "item"
       }
     ],
-    "predicted_entities": [
-      {
-        "entity": "item",
-        "start": 0,
-        "end": 3,
-        "confidence_entity": 0.751591145992279,
-        "value": "can",
-        "extractor": "DIETClassifier"
-      }
-    ]
+    "predicted_entities": []
   },
   {
-    "text": "gram",
+    "text": "tea",
     "entities": [
       {
         "start": 0,
-        "end": 4,
-        "value": "gram",
-        "entity": "uom"
+        "end": 3,
+        "value": "tea",
+        "entity": "item"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "item",
+        "entity": "quantity",
         "start": 0,
-        "end": 4,
-        "confidence_entity": 0.9950775504112244,
-        "value": "gram",
+        "end": 3,
+        "confidence_entity": 0.5629796981811523,
+        "value": "tea",
         "extractor": "DIETClassifier"
       }
     ]

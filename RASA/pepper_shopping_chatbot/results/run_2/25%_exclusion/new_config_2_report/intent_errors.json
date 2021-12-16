@@ -1,0 +1,58 @@
+[
+  {
+    "text": "not today",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9518144726753235
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9295780658721924
+    }
+  },
+  {
+    "text": "gotta go",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7636146545410156
+    }
+  },
+  {
+    "text": "bottle",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.8767544031143188
+    }
+  },
+  {
+    "text": "shampoo",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.9157695770263672
+    }
+  },
+  {
+    "text": "dishwasher detergent tabs",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.850445032119751
+    }
+  },
+  {
+    "text": "dish soap",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.502692461013794
+    }
+  }
+]

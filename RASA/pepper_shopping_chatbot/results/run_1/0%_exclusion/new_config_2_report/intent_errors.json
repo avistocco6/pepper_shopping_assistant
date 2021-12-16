@@ -1,66 +1,18 @@
 [
   {
-    "text": "let me see what you listed",
-    "intent": "show",
-    "intent_prediction": {
-      "name": "empty",
-      "confidence": 0.6115060448646545
-    }
-  },
-  {
-    "text": "i'm off",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.9993377327919006
-    }
-  },
-  {
-    "text": "good morning",
-    "intent": "greet",
-    "intent_prediction": {
-      "name": "thankyou",
-      "confidence": 0.9970865249633789
-    }
-  },
-  {
-    "text": "green beans",
+    "text": "eight",
     "intent": "inform",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.9958531856536865
+      "name": "goodbye",
+      "confidence": 0.9997260570526123
     }
   },
   {
-    "text": "disinfectant cleaner",
+    "text": "avocado",
     "intent": "inform",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.9089733362197876
-    }
-  },
-  {
-    "text": "yogurt",
-    "intent": "inform",
-    "intent_prediction": {
-      "name": "thankyou",
-      "confidence": 0.7033470869064331
-    }
-  },
-  {
-    "text": "bottle",
-    "intent": "inform",
-    "intent_prediction": {
-      "name": "insert",
-      "confidence": 0.8195585012435913
-    }
-  },
-  {
-    "text": "deny",
-    "intent": "inform",
-    "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.9964829683303833
+      "confidence": 0.3114362061023712
     }
   }
 ]
