@@ -158,9 +158,9 @@ responses:
   - text: "Can you repeat?"
 
   utter_ask_yes_no_answer:
-  - text: "Do you want to confirm?"
-  - text: "Confirm?"
-  - text: "Are you sure?"
+  - text: "The item is yet in your list. I will update it. Do you want to confirm?"
+  - text: "The item is yet in your list. I will update it. Confirm?"
+  - text: "The item is yet in your list. I will update it. Are you sure?"
 
   utter_custom_message:
   - custom:

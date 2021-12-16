@@ -101,7 +101,6 @@ class ActionSubmitInsert(Action):
 
                 # Check if name exists. If so, ask to user if he want to update it
                 if item in data and tracker.get_slot("yes_no_answer") is None:
-                    dispatcher.utter_message(text = f"{item} is yet in your list. I will update it.")
                     return  [ActiveLoop("enforce_yes_no_form")]
 
                 # Save item

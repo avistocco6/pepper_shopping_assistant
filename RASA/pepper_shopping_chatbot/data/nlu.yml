@@ -501,6 +501,39 @@ nlu:
     - [3]{"entity": "quantity", "value": "3"} [packs]{"entity": "uom", "value": "pack"} of [cereal](item)
     - [4]{"entity": "quantity", "value": "4"} [packs]{"entity": "uom", "value": "pack"} of [rice](item)
     - [2]{"entity": "quantity", "value": "2"} [bottle](uom) of [extra virgin olive oil]{"entity": "item", "value": "extra virgin olive oil"}
+    - add [12]{"entity": "quantity", "value": "twelve"} [cupcakes]{"entity": "item", "value": "cupcake"} to the list 
+    - add [a]{"entity": "quantity", "value": "one"} [bottle](uom) [mouthwash](item) to the list
+    - add [two](quantity) [liters]{"entity": "uom", "value": "litre"} of [orange juice](item) to the list 
+    - add [six](quantity) [donuts]{"entity": "item", "value": "donut"} to the list
+    - add [4]{"entity": "quantity", "value": "four"} [brownies]{"entity": "item", "value": "brownie"} to the list
+    - add [a]{"entity": "quantity", "value": "one"} [can](uom) of [tuna](item) to the list
+    - insert [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [tissues](item) in the list
+    - insert [twelve](quantity) [oz]{"entity": "uom", "value": "ounce"} of [cake](item) in the list
+    - insert [five](quantity) [ounce](uom) of [baking powder](item) in the list
+    - insert [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [stain remover](item) in the list
+    - insert [two](quantity) [bottles]{"entity": "uom", "value": "bottle"} of [bleach](item) in the list
+    - insert [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [paper towels](item) in the list
+    - insert [3]{"entity": "quantity", "value": "three"} [bottle](uom) of [toilet gel](item) in the list
+    - insert [one](quantity) [carpet cleaner](item) in the list
+    - can you add [ten](quantity) [bisquits]{"entity": "item", "value": "biscuits"} to the list?
+    - can you add [a]{"entity": "quantity", "value": "one"} [disinfectant cleaner](item) to the list?
+    - can u add [one](quantity) [bottle](uom) of [body scrub](item) to the list?
+    - can you pls add [one](quantity) [kg]{"entity": "uom", "value": "kilogram"} of [cookies]{"entity": "item", "value": "biscuits"} to the list?
+    - can you pls add [1/2]{"entity": "quantity", "value": "half"} [watermelon](item) to the list
+    - can u pls add [two] [disinfectant cleaner](item) to the list
+    - add to the list [one](quantity) [pack](uom) [raspberries]{"entity": "item", "value": "raspberry"}
+    - add to the list [1]{"entity": "quantity", "value": "one"} [papaya](item)
+    - add to the list [6]{"entity": "quantity", "value": "six"} [cans]{"entity": "uom", "value": "can"} of [lentils](item)
+    - add to the list [7]{"entity": "quantity", "value": "seven"} [bell pepper](item)
+    - mark down [2]{"entity": "quantity", "value": "two"} [banana](item) in the list
+    - mark [two]{"entity": "quantity", "value": "two"}  [banana](item) in the list
+    - mark down [five]{"entity": "quantity", "value": "five"} [biscuits](item) [packs]{"entity": "uom", "value": "pack"} on the list
+    - mark [five]{"entity": "quantity", "value": "five"} [biscuits](item) [packs]{"entity": "uom", "value": "pack"} on the list
+    - mark down [half]{"entity": "quantity", "value": "half"} [kilogram]{"entity": "uom", "value": "kilogram"} of [bread](item) on the list
+    - mark [half]{"entity": "quantity", "value": "half"} [kilogram]{"entity": "uom", "value": "kilogram"} of [bread](item) on the list
+    - add [10]{"entity": "quantity", "value": "ten"} [cupcakes]{"entity": "item", "value": "cupcake"} in the list 
+    - add [a]{"entity": "quantity", "value": "one"} [meat pie](item) in the list
+    - add [two](quantity) [packs]{"entity": "uom", "value": "pack"} of [crackers](item) in the list
 - intent: remove
   examples: |
     - remove [wine](item)
@@ -528,6 +561,22 @@ nlu:
     - can you please delete [curry](item)?
     - can you please delete the [pineapple](item)?
     - can you please delete the [hamburger](item)?
+    - can you please remove [courgette]{"entity": "item", "value": "zucchini"} from the list?
+    - can you please remove [chips](item) from the list?
+    - can you please remove [pepper](item) from the list? 
+    - delete [mayo]{"entity": "item", "value": "mayonnaise"} from the list 
+    - delete [jalapeno]{"entity": "item", "value": "red pepper"} from the list
+    - delete [salt](item) from the list
+    - delete the [bread](item) from the list
+    - delete the [meat]](item) from the list
+    - delete the [mango](item) from the list
+    - remove [floss]{"entity": "item", "value": "dental floss"} from the list
+    - can you please remove [courgette]{"entity": "item", "value": "zucchini"} from the list?
+    - delete [mayo]{"entity": "item", "value": "mayonnaise"} 
+    - delete [jalapeno]{"entity": "item", "value": "red pepper"} from the list
+    - can you delete [french fries](item) from the list?
+    - can you please delete [raisins](item) from the list?
+    - can you please delete [curry](item) from the list?
 - intent: show
   examples: |
     - let me see what you listed
@@ -539,7 +588,21 @@ nlu:
     - show
     - please show me
     - open sesame
-    - revelio
+    - show me the list 
+    - let me see the list 
+    - let me check the list
+    - let's check the list 
+    - lets check the list 
+    - show me the list
+    - show the list
+    - please show me my list
+    - let me see my list 
+    - let me check my list
+    - let's check my list 
+    - lets check my list 
+    - show me my list
+    - show my list
+    - please show me my list
 - intent: empty
   examples: |
     - empty the list
