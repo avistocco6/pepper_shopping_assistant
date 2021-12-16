@@ -1,0 +1,82 @@
+[
+  {
+    "text": "logut",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.41898116073563424
+    }
+  },
+  {
+    "text": "logou",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.41898116073563424
+    }
+  },
+  {
+    "text": "not today",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3301553202728567
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.19727919620353285
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.45024298145247243
+    }
+  },
+  {
+    "text": "cheers bro",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5512569106891579
+    }
+  },
+  {
+    "text": "mark down 5 biscuits packs",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4704623341646878
+    }
+  },
+  {
+    "text": "2 egg",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5507494563980406
+    }
+  },
+  {
+    "text": "add seven bell pepper",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5977888433695552
+    }
+  },
+  {
+    "text": "Melody",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.24390701287195743
+    }
+  }
+]

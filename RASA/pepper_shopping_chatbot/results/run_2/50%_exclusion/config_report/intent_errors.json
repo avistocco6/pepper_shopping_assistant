@@ -1,0 +1,82 @@
+[
+  {
+    "text": "logou",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6920930900488858
+    }
+  },
+  {
+    "text": "not today",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3776851005073947
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.19728033468419945
+    }
+  },
+  {
+    "text": "open sesame",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6696965561606938
+    }
+  },
+  {
+    "text": "lets check",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2121282468023158
+    }
+  },
+  {
+    "text": "can you please remove pepper?",
+    "intent": "remove",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.34316968687566757
+    }
+  },
+  {
+    "text": "hey bot",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2629656835984388
+    }
+  },
+  {
+    "text": "add eleven jalapeno",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.48538352153063036
+    }
+  },
+  {
+    "text": "toilet paper",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.4967630390077392
+    }
+  },
+  {
+    "text": "Melody",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.34189875486364213
+    }
+  }
+]

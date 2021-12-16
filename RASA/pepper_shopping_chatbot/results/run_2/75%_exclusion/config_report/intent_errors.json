@@ -1,0 +1,154 @@
+[
+  {
+    "text": "log me out",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.22285809115725796
+    }
+  },
+  {
+    "text": "logou",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.34443065590672434
+    }
+  },
+  {
+    "text": "not today",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.29575013249287807
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.24079262310056668
+    }
+  },
+  {
+    "text": "yes{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"} yes{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"} yes{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"}",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.17657923151983942
+    }
+  },
+  {
+    "text": "absolutely{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"}",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.17657923400726908
+    }
+  },
+  {
+    "text": "open sesame",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6620526486650933
+    }
+  },
+  {
+    "text": "lets check",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.21438811923202358
+    }
+  },
+  {
+    "text": "thank you",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.2598782939299469
+    }
+  },
+  {
+    "text": "amazing, thanks",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3497973018954382
+    }
+  },
+  {
+    "text": "thanks a bunch for everything",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.19815949441080763
+    }
+  },
+  {
+    "text": "can you delete the cherry?",
+    "intent": "remove",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.25997828009732565
+    }
+  },
+  {
+    "text": "write down 1/4 kilos of baking soda",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4292038792748118
+    }
+  },
+  {
+    "text": "add eleven jalapeno",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.596721592017914
+    }
+  },
+  {
+    "text": "mark 0.5 kilogram of bread",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5252307131590884
+    }
+  },
+  {
+    "text": "toilet paper",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.47099030991541296
+    }
+  },
+  {
+    "text": "Melody",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.43586176936906434
+    }
+  },
+  {
+    "text": "two",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.384266325124027
+    }
+  },
+  {
+    "text": "deny",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.19388551414661379
+    }
+  }
+]

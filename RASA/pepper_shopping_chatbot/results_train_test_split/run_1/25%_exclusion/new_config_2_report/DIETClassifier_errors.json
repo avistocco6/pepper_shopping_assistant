@@ -1,0 +1,247 @@
+[
+  {
+    "text": "can you please remove chips?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "value": "chips",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hi Mister",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 3,
+        "end": 9,
+        "confidence_entity": 0.9982776641845703,
+        "value": "Mister",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "add eleven jalapeno",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "11",
+        "entity": "quantity"
+      },
+      {
+        "start": 11,
+        "end": 19,
+        "value": "jalapeno",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.9994211196899414,
+        "value": "11",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "uom",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.8564440011978149,
+        "value": "red pepper",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "can u pls add [2] disinfectant cleaner",
+    "entities": [
+      {
+        "start": 18,
+        "end": 38,
+        "value": "disinfectant cleaner",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 14,
+        "end": 16,
+        "confidence_entity": 0.9999403953552246,
+        "value": "[2",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "item",
+        "start": 18,
+        "end": 38,
+        "confidence_entity": 0.9998294115066528,
+        "value": "disinfectant cleaner",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i need 3 kilogram potatoes",
+    "entities": [
+      {
+        "start": 7,
+        "end": 8,
+        "value": "3",
+        "entity": "quantity"
+      },
+      {
+        "start": 9,
+        "end": 17,
+        "value": "kilogram",
+        "entity": "uom"
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "value": "potatoes",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 7,
+        "end": 8,
+        "confidence_entity": 0.9999356269836426,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "uom",
+        "start": 9,
+        "end": 26,
+        "confidence_entity": 0.8013337254524231,
+        "value": "kilogram potatoes",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "soup",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "soup",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "yes_no_answer",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.32058119773864746,
+        "value": "soup",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "garlic",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "garlic",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9565500020980835,
+        "value": "garlic",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "lentils",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "lentils",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.7588308453559875,
+        "value": "lentils",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nut",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "nut",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "yes_no_answer",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.51907879114151,
+        "value": "nut",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "eight",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "eight",
+        "entity": "quantity"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "lobster",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "lobster",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

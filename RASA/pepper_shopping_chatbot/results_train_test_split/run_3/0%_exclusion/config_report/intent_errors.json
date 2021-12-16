@@ -1,0 +1,66 @@
+[
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.17963060243717213
+    }
+  },
+  {
+    "text": "see you",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.3868774603786668
+    }
+  },
+  {
+    "text": "delete the [meat]](item)",
+    "intent": "remove",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.23628199026656216
+    }
+  },
+  {
+    "text": "insert three bottle of toilet gel",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6287041502830012
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.4078518570485279
+    }
+  },
+  {
+    "text": "Melody",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5547321415879096
+    }
+  },
+  {
+    "text": "one",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.3234764578923346
+    }
+  },
+  {
+    "text": "deny",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.24356455386636505
+    }
+  }
+]

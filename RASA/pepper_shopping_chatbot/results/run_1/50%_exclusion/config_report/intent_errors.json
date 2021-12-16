@@ -1,90 +1,106 @@
 [
   {
-    "text": "logout",
+    "text": "logut",
     "intent": "logout",
     "intent_prediction": {
       "name": "show",
-      "confidence": 0.5802198884081947
+      "confidence": 0.37116811611066447
     }
   },
   {
-    "text": "log out",
+    "text": "log me out",
     "intent": "logout",
     "intent_prediction": {
       "name": "show",
-      "confidence": 0.26021881714097317
+      "confidence": 0.19139667327655344
     }
   },
   {
-    "text": "no{\"entity\": \"yes_no_answer\", \"value\": \"deny\"}",
-    "intent": "deny",
+    "text": "can you please empty the list?",
+    "intent": "empty",
     "intent_prediction": {
-      "name": "affirm",
-      "confidence": 0.35456959355933004
+      "name": "remove",
+      "confidence": 0.2233222863857857
     }
   },
   {
-    "text": "let me see what you listed",
-    "intent": "show",
-    "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.21574071475581
-    }
-  },
-  {
-    "text": "i'm off",
+    "text": "bye for now",
     "intent": "goodbye",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.3646921292321843
+      "confidence": 0.22978902415079847
     }
   },
   {
-    "text": "delete the [meat]](item)",
-    "intent": "remove",
+    "text": "goodbye friend",
+    "intent": "goodbye",
     "intent_prediction": {
-      "name": "insert",
-      "confidence": 0.17944013445803392
+      "name": "greet",
+      "confidence": 0.4078880819069403
     }
   },
   {
-    "text": "remove the chocolate",
-    "intent": "remove",
+    "text": "bye",
+    "intent": "goodbye",
     "intent_prediction": {
-      "name": "insert",
-      "confidence": 0.33409167421447244
+      "name": "greet",
+      "confidence": 0.41588073476521364
     }
   },
   {
-    "text": "good morning",
-    "intent": "greet",
-    "intent_prediction": {
-      "name": "thankyou",
-      "confidence": 0.2657106116398873
-    }
-  },
-  {
-    "text": "write down half dozen courgette",
+    "text": "insert three bottle of toilet gel",
     "intent": "insert",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.46233886084705267
+      "confidence": 0.7989145034251603
     }
   },
   {
-    "text": "i need a pizza",
+    "text": "insert cookies",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.4605416220396454
+    }
+  },
+  {
+    "text": "2 egg",
     "intent": "insert",
     "intent_prediction": {
       "name": "inform",
-      "confidence": 0.2726629882688291
+      "confidence": 0.8468502846967471
     }
   },
   {
-    "text": "bottle",
+    "text": "confirm",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.38740465992812145
+    }
+  },
+  {
+    "text": "one",
     "intent": "inform",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.5820224569710704
+      "confidence": 0.24869132564254023
+    }
+  },
+  {
+    "text": "Melody",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.46616147283479153
+    }
+  },
+  {
+    "text": "deny",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.31109028669823485
     }
   }
 ]

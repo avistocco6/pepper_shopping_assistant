@@ -1,0 +1,50 @@
+[
+  {
+    "text": "cheers",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.999997615814209
+    }
+  },
+  {
+    "text": "french fries",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.5045714974403381
+    }
+  },
+  {
+    "text": "disinfectant cleaner",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.9996554255485535
+    }
+  },
+  {
+    "text": "pack",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.957076370716095
+    }
+  },
+  {
+    "text": "brownie",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.7405357360839844
+    }
+  },
+  {
+    "text": "eight",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "logout",
+      "confidence": 0.5709008574485779
+    }
+  }
+]

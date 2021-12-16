@@ -1,0 +1,66 @@
+{
+  "quantity": {
+    "precision": 0.8571428571428571,
+    "recall": 0.631578947368421,
+    "f1-score": 0.7272727272727273,
+    "support": 19,
+    "confused_with": {
+      "user": 4,
+      "uom": 1
+    }
+  },
+  "item": {
+    "precision": 0.9117647058823529,
+    "recall": 0.6326530612244898,
+    "f1-score": 0.746987951807229,
+    "support": 49,
+    "confused_with": {
+      "user": 12
+    }
+  },
+  "user": {
+    "precision": 0.6363636363636364,
+    "recall": 0.9767441860465116,
+    "f1-score": 0.7706422018348624,
+    "support": 43,
+    "confused_with": {
+      "item": 1
+    }
+  },
+  "yes_no_answer": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "user": 2
+    }
+  },
+  "uom": {
+    "precision": 0.9090909090909091,
+    "recall": 0.7692307692307693,
+    "f1-score": 0.8333333333333333,
+    "support": 13,
+    "confused_with": {
+      "user": 3
+    }
+  },
+  "micro avg": {
+    "precision": 0.76,
+    "recall": 0.753968253968254,
+    "f1-score": 0.7569721115537849,
+    "support": 126
+  },
+  "macro avg": {
+    "precision": 0.6628724216959511,
+    "recall": 0.6020413927740383,
+    "f1-score": 0.6156472428496305,
+    "support": 126
+  },
+  "weighted avg": {
+    "precision": 0.7947936750457758,
+    "recall": 0.753968253968254,
+    "f1-score": 0.7491392021346702,
+    "support": 126
+  }
+}

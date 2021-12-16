@@ -1,0 +1,98 @@
+[
+  {
+    "text": "log me out please",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.2676268387176237
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.22824236712365945
+    }
+  },
+  {
+    "text": "open sesame",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4677319749100392
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3846842406603828
+    }
+  },
+  {
+    "text": "i'm off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4740097411070709
+    }
+  },
+  {
+    "text": "insert cookies",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.6829987095347613
+    }
+  },
+  {
+    "text": "write down half dozen courgette",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5266778951306735
+    }
+  },
+  {
+    "text": "a quarter",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.40617377954783324
+    }
+  },
+  {
+    "text": "jar",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.868852518279017
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7656251307539708
+    }
+  },
+  {
+    "text": "pack",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.7971534336423242
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.43894401572022135
+    }
+  }
+]

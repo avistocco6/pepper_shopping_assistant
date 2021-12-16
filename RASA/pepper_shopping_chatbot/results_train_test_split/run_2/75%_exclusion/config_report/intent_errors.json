@@ -1,0 +1,154 @@
+[
+  {
+    "text": "logut",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2654526750898828
+    }
+  },
+  {
+    "text": "logou",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2654526750898828
+    }
+  },
+  {
+    "text": "not today",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.31717518019275
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.16884477514635562
+    }
+  },
+  {
+    "text": "y{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"}",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.16233503617691483
+    }
+  },
+  {
+    "text": "yes{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"} yes{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"} yes{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"}",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.16233504988576206
+    }
+  },
+  {
+    "text": "let me check",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.190295024335323
+    }
+  },
+  {
+    "text": "let's check",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.18588904185630786
+    }
+  },
+  {
+    "text": "please empty the list",
+    "intent": "empty",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.23059975470628968
+    }
+  },
+  {
+    "text": "gotta go",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.2512093330856714
+    }
+  },
+  {
+    "text": "see you later alligator",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.20378471686587865
+    }
+  },
+  {
+    "text": "thanks for that",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.1991509042453288
+    }
+  },
+  {
+    "text": "cheers bro",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.30294985461277957
+    }
+  },
+  {
+    "text": "thank you",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.17154341663434275
+    }
+  },
+  {
+    "text": "remove the chocolate",
+    "intent": "remove",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.23368159911087552
+    }
+  },
+  {
+    "text": "remove sugar",
+    "intent": "remove",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.30479691993773744
+    }
+  },
+  {
+    "text": "add twelve cupcakes",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4694791164782649
+    }
+  },
+  {
+    "text": "add seven bell pepper",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.552338611788883
+    }
+  },
+  {
+    "text": "Melody",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.33650505139534914
+    }
+  }
+]

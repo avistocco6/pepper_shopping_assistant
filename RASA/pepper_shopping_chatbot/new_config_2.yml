@@ -6,13 +6,18 @@ pipeline:
   - name: SpacyNLP
     model: "en_core_web_md"
   - name: WhitespaceTokenizer
+<<<<<<< HEAD
 # - name: RegexFeaturizer
+=======
+#  - name: RegexFeaturizer
+>>>>>>> 75c19200ad25fed683c9f2adf956c03ac86fb17c
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
     analyzer: "char_wb"
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
+    epochs: 50
   - name: EntitySynonymMapper
   - name: FallbackClassifier
     threshold: 0.3

@@ -1,58 +1,66 @@
 [
   {
-    "text": "logout",
+    "text": "logut",
     "intent": "logout",
     "intent_prediction": {
       "name": "show",
-      "confidence": 0.49185244728580013
+      "confidence": 0.3541814338272901
     }
   },
   {
-    "text": "log out",
-    "intent": "logout",
+    "text": "can you please empty the list?",
+    "intent": "empty",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.22881779500243457
+    }
+  },
+  {
+    "text": "goodbye friend",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3831661432576809
+    }
+  },
+  {
+    "text": "insert three bottle of toilet gel",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6677070278832665
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "inform",
     "intent_prediction": {
       "name": "show",
-      "confidence": 0.3199930005256906
+      "confidence": 0.43743415308011707
     }
   },
   {
-    "text": "let me see what you listed",
-    "intent": "show",
-    "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.19725031385415687
-    }
-  },
-  {
-    "text": "delete the [meat]](item)",
-    "intent": "remove",
+    "text": "one",
+    "intent": "inform",
     "intent_prediction": {
       "name": "insert",
-      "confidence": 0.22704493908386442
+      "confidence": 0.2743672281483161
     }
   },
   {
-    "text": "good morning",
-    "intent": "greet",
+    "text": "Melody",
+    "intent": "inform",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.6220221759769221
+      "name": "greet",
+      "confidence": 0.4988651924472776
     }
   },
   {
-    "text": "write down half dozen courgette",
-    "intent": "insert",
+    "text": "deny",
+    "intent": "inform",
     "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.5422384483902397
-    }
-  },
-  {
-    "text": "write down two jars of red beet",
-    "intent": "insert",
-    "intent_prediction": {
-      "name": "inform",
-      "confidence": 0.47338245010690094
+      "name": "deny",
+      "confidence": 0.40061164169722313
     }
   }
 ]

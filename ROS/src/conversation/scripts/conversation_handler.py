@@ -8,7 +8,7 @@ from speech.srv import *
 
 from std_msgs.msg import String
 
-class ChatbotInterface:
+class ConversationHandler:
 
     def send_pepper_request(self, service, parameter):
         """
@@ -56,13 +56,13 @@ class ChatbotInterface:
 
         voice_detection = rospy.ServiceProxy('voice_detection', VoiceDetection)
         speech_request = rospy.ServiceProxy('speech_request', SpeechRequest)
-        dialogue = rospy.ServiceProxy('dialogue', Dialogue)
-        pepper_request = rospy.ServiceProxy('pepper_request', PepperRequest)
+        #dialogue = rospy.ServiceProxy('dialogue', Dialogue)
+        #pepper_request = rospy.ServiceProxy('pepper_request', PepperRequest)
 
         rospy.wait_for_service("voice_detection")
         rospy.wait_for_service("speech_request")
-        rospy.wait_for_service("dialogue")
-        rospy.wait_for_service("pepper_request")
+        #rospy.wait_for_service("dialogue")
+        #rospy.wait_for_service("pepper_request")
 
         while True:
             # request VoiceDetection service
@@ -76,14 +76,14 @@ class ChatbotInterface:
             print("SPEECH REQUEST service requested")
 
             # request Dialogue service
-            if message is "":
-                continue
-            answer = dialogue(message, user)
-            print("DIALOGUE service requested")
+            # if message is "":
+            #     continue
+            # answer = dialogue(message, user)
+            # print("DIALOGUE service requested")
 
-            # request PepperRequest service
-            res = pepper_request(answer.request, answer.text)
-            print("PEPPER REQUEST service requested")
+            # # request PepperRequest service
+            # res = pepper_request(answer.request, answer.text)
+            # print("PEPPER REQUEST service requested")
 
 
     def __init__(self):
@@ -92,7 +92,7 @@ class ChatbotInterface:
 
 def main():
     # Creates the interface
-    chatbot_interface = ChatbotInterface()
+    chatbot_interface =ConversationHandler()
     chatbot_interface.run()
 
 if __name__ == '__main__':
