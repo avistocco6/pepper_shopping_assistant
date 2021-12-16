@@ -6,6 +6,7 @@ import threading
 import rospy
 import ctypes
 import time
+import os
 
 class PepperHandler:
 
@@ -95,6 +96,8 @@ class PepperHandler:
         if request == "talk":
             result = self.pepper_text2speech(parameter)
         elif request == "load_url":
+            # parameter is json file
+            URL = os.getcwd() + "../../../webapp/index.html"
             result = self.pepper_load_url(parameter)
         elif request == "execute_js":
             result = self.pepper_execute_js(parameter)
