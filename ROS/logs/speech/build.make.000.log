@@ -34,12 +34,12 @@
 [ 64%] [34m[1mGenerating Python code from SRV speech/RecognizeUser[0m
 [ 70%] [34m[1mGenerating Python code from SRV speech/SpeechRequest[0m
 [ 76%] [34m[1mGenerating Python code from SRV speech/Speech2Text[0m
+[ 82%] [34m[1mGenerating Python srv __init__.py for speech[0m
+[ 82%] Built target speech_generate_messages_py
 [35m[1mScanning dependencies of target speech_generate_messages_nodejs[0m
-[ 82%] [34m[1mGenerating Javascript code from speech/RecognizeUser.srv[0m
-[ 88%] [34m[1mGenerating Javascript code from speech/SpeechRequest.srv[0m
-[ 94%] [34m[1mGenerating Python srv __init__.py for speech[0m
+[ 88%] [34m[1mGenerating Javascript code from speech/RecognizeUser.srv[0m
+[ 94%] [34m[1mGenerating Javascript code from speech/SpeechRequest.srv[0m
 [100%] [34m[1mGenerating Javascript code from speech/Speech2Text.srv[0m
 [100%] Built target speech_generate_messages_nodejs
-[100%] Built target speech_generate_messages_py
 [35m[1mScanning dependencies of target speech_generate_messages[0m
 [100%] Built target speech_generate_messages

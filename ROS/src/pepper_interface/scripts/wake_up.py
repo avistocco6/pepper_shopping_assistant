@@ -10,8 +10,11 @@ class WakeUpServer:
     def __init__(self, ip, port):
         self.ip = ip
         self.port = port
-        self.session = qi.Session()
-        self.connect()
+
+        self.motion_proxy = ALProxy("ALMotion", ip, port)
+        self.posture_proxy = ALProxy("ALRobotPosture", ip, port)
+        # self.session = qi.Session()
+        # self.connect()
 
     def connect(self):
         """
@@ -29,14 +32,17 @@ class WakeUpServer:
 
     def handle_service(self, *args):
         print("\n\nWakeUP\n\n")
-        while not self.is_connected():
-            self.connect()
+        # while not self.is_connected():
+        #     self.connect()
 
         try:
             self.motion_proxy.wakeUp()
             self.stand() 
         except:
-            return "NACK"    
+            self.motion_proxy = ALProxy("ALMotion", self.ip, self.port)
+            self.posture_proxy = ALProxy("ALRobotPosture", self.ip, self.port) 
+            self.motion_proxy.wakeUp()
+            self.stand()  
 
         return "ACK"   
 

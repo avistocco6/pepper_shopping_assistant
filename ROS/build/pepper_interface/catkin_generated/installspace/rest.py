@@ -10,8 +10,11 @@ class RestServer:
     def __init__(self, ip, port):
         self.ip = ip
         self.port = port
-        self.session = qi.Session()
-        self.connect()
+
+        self.motion_proxy = ALProxy("ALMotion", ip, port)
+        self.posture_proxy = ALProxy("ALRobotPosture", ip, port)
+        #self.session = qi.Session()
+        #self.connect()
 
     def connect(self):
         """
@@ -30,8 +33,8 @@ class RestServer:
 
     def handle_service(self, *args):
         print("REST")
-        while not self.is_connected():
-            self.connect()
+        # while not self.is_connected():
+        #     self.connect()
 
         try:
             self.motion_proxy.rest()

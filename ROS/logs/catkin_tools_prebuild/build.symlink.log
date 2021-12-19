@@ -10,37 +10,3 @@ Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/./_setup_ut
 Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
 Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
 Symlinking /home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/catkin_tools_prebuild.pc
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/catkin_tools_prebuild/cmake.lock, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./cmake.lock)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/catkin_tools_prebuild/setup.zsh, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./setup.zsh)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/catkin_tools_prebuild/local_setup.sh, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./local_setup.sh)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/catkin_tools_prebuild/setup.sh, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./setup.sh)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/catkin_tools_prebuild/local_setup.bash, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./local_setup.bash)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/catkin_tools_prebuild/_setup_util.py, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./_setup_util.py)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/catkin_tools_prebuild/local_setup.zsh, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./local_setup.zsh)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/catkin_tools_prebuild/env.sh, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./env.sh)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/catkin_tools_prebuild/setup.bash, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./setup.bash)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/catkin_tools_prebuild.pc)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
-Cleaning: (/home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./setup.zsh
-Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./local_setup.sh
-Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./setup.sh
-Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./local_setup.bash
-Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./_setup_util.py
-Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./local_setup.zsh
-Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./env.sh
-Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/./setup.bash
-Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/lib/pkgconfig/catkin_tools_prebuild.pc
-Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
-Already unlinked: {}
-Unlinking: /home/angelo/Desktop/pepper_shopping_assistant/ROS/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
-Already unlinked: {}

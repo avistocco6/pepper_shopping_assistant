@@ -10,8 +10,10 @@ class TabletServer:
     def __init__(self, ip, port):
         self.ip = ip
         self.port = port
-        self.session = qi.Session()
-        self.connect()
+
+        self.tablet_proxy = ALProxy("ALTabletService", ip, port)
+        #self.session = qi.Session()
+        #self.connect()
 
     def connect(self):
         """
@@ -29,8 +31,8 @@ class TabletServer:
 
     def load_url(self, msg):
         print("LoadURL: " + msg.URL)
-        while not self.is_connected():
-            self.connect()
+        # while not self.is_connected():
+        #     self.connect()
 
         try:
             self.tablet_proxy.showWebview(msg.URL)

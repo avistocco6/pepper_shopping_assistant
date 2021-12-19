@@ -6,12 +6,12 @@ import requests
 
 
 def set_rasa_ID_slot(ID):
-    slot_url = 'http://localhost:5002/conversations/DEFAULT/tracker/events'
+    slot_url = 'http://localhost:5002/conversations/bot/tracker/events'
 
     message = {
         "event": "slot",
         "name": "ID",
-        "value": ID
+        "value": str(ID)
     }
 
     return requests.post(slot_url, json=message)
@@ -30,7 +30,7 @@ def handle_service(req):
 
     # Pack the message to send
     message = {
-        "sender": "DEFAULT", #user,
+        "sender": "bot", #user,
         "message": message
     }
 

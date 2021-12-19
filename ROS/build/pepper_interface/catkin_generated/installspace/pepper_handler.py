@@ -6,6 +6,7 @@ import threading
 import rospy
 import ctypes
 import time
+import os
 
 class PepperHandler:
 
@@ -14,7 +15,7 @@ class PepperHandler:
         self.pepper_waked_up = False
         self.running_rest_thread = None
 
-    def pepper_wake_up():
+    def pepper_wake_up(self):
         """Invokes wakeup service"""
         rospy.wait_for_service("wakeup")
         try:
@@ -24,7 +25,7 @@ class PepperHandler:
         except:
             return "NACK"
 
-    def pepper_rest():
+    def pepper_rest(self):
         """Invokes rest service"""
         rospy.wait_for_service("rest")
         try:
@@ -34,17 +35,21 @@ class PepperHandler:
         except:
             return "NACK"
 
-    def pepper_text2speech(text):
+    def pepper_text2speech(self,text):
         """Invokes text to speech service"""
+        print("----> text is " + str(text))        
         rospy.wait_for_service("tts")
+        print("----> service waited ")
         try:
-            tts = rospy.ServiceProxy("tts", Talk)
+            tts = rospy.ServiceProxy("tts", Talk)            
+            print("----> proxy initialized")
             resp = tts(text)
+            print("----> service requested")
             return resp.ack
         except:
             return "NACK"
 
-    def pepper_load_url(URL):
+    def pepper_load_url(self,URL):
         """Invokes load url service"""
         rospy.wait_for_service("load_url")
         try:
@@ -54,7 +59,7 @@ class PepperHandler:
         except:
             return "NACK"
 
-    def pepper_execute_js(js):
+    def pepper_execute_js(self,js):
         """Invokes execute js service"""
         rospy.wait_for_service("execute_js")
         try:
@@ -75,8 +80,9 @@ class PepperHandler:
             print("Waked up")
             result = self.pepper_wake_up()
             if result != "ACK":
+                pass
                 # Error
-                return result
+                #return result
             self.pepper_waked_up = True
 
         # Check if there are running threads
@@ -86,15 +92,18 @@ class PepperHandler:
             self.running_rest_thread.join()
 
         # Rest pepper if he doesn't receive a request for 1 min
-        self.stop_rest_thread = False
-        self.running_rest_thread = threading.Thread(target = rest_after_60sec,
-                            args = (lambda: self.stop_rest, time.time()))
-        self.running_rest_thread.start()
-        print("Rest thread started")
+        # self.stop_rest_thread = False
+        # self.running_rest_thread = threading.Thread(target = rest_after_60sec,
+        #                     args = (lambda: self.stop_rest, time.time()))
+        # self.running_rest_thread.start()
+        # print("Rest thread started")
 
+        print("Received request: " + str(request))
         if request == "talk":
             result = self.pepper_text2speech(parameter)
         elif request == "load_url":
+            # parameter is json file
+            URL = os.getcwd() + "../../../webapp/index.html"
             result = self.pepper_load_url(parameter)
         elif request == "execute_js":
             result = self.pepper_execute_js(parameter)

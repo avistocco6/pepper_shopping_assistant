@@ -7,7 +7,7 @@ import time
 import speech_recognition as sr
 from audio_recording.srv import *
 
-AUDIO_DEVICE = 4
+AUDIO_DEVICE = 6
 class VoiceDetectionServer:
 
     def __init__(self, source):

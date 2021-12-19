@@ -11,15 +11,18 @@ class Text2SpeechServer:
     def __init__(self, ip, port):
         self.ip = ip
         self.port = port
-        self.session = qi.Session()
-        self.connect()
+
+        self.tts = ALProxy("ALTextToSpeech", ip, port)
+        #self.session = qi.Session()
+        #self.connect()
 
     def connect(self):
         """
         Connects the proxy server
         """
         self.session = self.session.connect("tcp://" + str(self.ip) + ":" + str(self.port))
-        self.tts = self.session.service("ALTextToSpeech")
+        
+        # self.tts = self.session.service("ALTextToSpeech")
 
     def is_connected(self):
         """
@@ -29,15 +32,17 @@ class Text2SpeechServer:
 
     def handle_service(self, msg):
         print("TALK: " + str(msg.text))
-        while not self.is_connected():
-            self.connect()
+        # while not self.is_connected():
+        #     self.connect()
 
         try:
             self.tts.say(msg.text)
             # ev = qi.async(tts.say, msg.text)
             # ev.value()
         except:
-            return "NACK"
+            self.tts = ALProxy("ALTextToSpeech", self.ip, self.port)
+            self.tts.say(msg.text)
+
         return "ACK"
     
     def start(self):
