@@ -1,0 +1,18 @@
+{
+    "apple": {
+        "quantity": "1",
+        "uom": "kilogram"
+    },
+    "pizza": {
+        "quantity": "2",
+        "uom": null
+    },
+    "popes": {
+        "quantity": "2",
+        "uom": null
+    },
+    "number poster": {
+        "quantity": "2",
+        "uom": "kilogram"
+    }
+}

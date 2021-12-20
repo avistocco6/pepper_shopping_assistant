@@ -4,6 +4,7 @@ from optparse import OptionParser
 from pepper_interface.srv import *
 import rospy
 import qi
+from time import sleep
 
 class WakeUpServer:
 
@@ -44,6 +45,8 @@ class WakeUpServer:
             self.motion_proxy.wakeUp()
             self.stand()  
 
+        sleep(5)
+
         return "ACK"   
 
     def stand(self, *args):
@@ -51,8 +54,8 @@ class WakeUpServer:
 
     def start(self):
         rospy.init_node("wake_up")
-        # self.wakeup()
-        # self.stand()        
+        #self.wakeup()
+        #self.stand()
         rospy.Service("wakeup", WakeUp, self.handle_service)
         rospy.spin()
 

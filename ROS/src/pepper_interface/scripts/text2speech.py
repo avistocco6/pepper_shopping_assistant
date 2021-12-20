@@ -4,6 +4,7 @@ from optparse import OptionParser
 from pepper_interface.srv import *
 import rospy
 import qi
+from time import sleep
 # import threading as th
 
 class Text2SpeechServer:
@@ -37,11 +38,13 @@ class Text2SpeechServer:
 
         try:
             self.tts.say(msg.text)
+            sleep(5)
             # ev = qi.async(tts.say, msg.text)
             # ev.value()
         except:
             self.tts = ALProxy("ALTextToSpeech", self.ip, self.port)
             self.tts.say(msg.text)
+            sleep(5)
 
         return "ACK"
     

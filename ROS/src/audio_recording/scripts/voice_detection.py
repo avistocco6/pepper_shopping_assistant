@@ -59,7 +59,7 @@ class VoiceDetectionServer:
         # Calibration within the environment
         # we only need to calibrate once, before we start listening
         print("VOICE_DETECTION: Calibrating...")
-        self.r.adjust_for_ambient_noise(self.m,duration=3)  
+        self.r.adjust_for_ambient_noise(self.m,duration=60)  
         print("VOICE_DETECTION: Calibration finished")
 
         rospy.Service("voice_detection", VoiceDetection, self.handle_service)
