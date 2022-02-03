@@ -7,6 +7,7 @@ import rospy
 import ctypes
 import time
 import os
+import time
 
 class PepperHandler:
 
@@ -103,8 +104,28 @@ class PepperHandler:
             result = self.pepper_text2speech(parameter)
         elif request == "load_url":
             # parameter is json file
-            URL = os.getcwd() + "../../../webapp/index.html"
-            result = self.pepper_load_url(parameter)
+            # AV - TO BE TESTED>>>
+            URL = "https://avistocco6.github.io/shopping_list_webview/"
+            result = self.pepper_load_url(URL)
+            time.sleep(3)
+
+            script = """
+                $.getJSON(%s, function(data) {
+                    let staticHtml = $("#list-item-template").html();
+
+                    $.each( data, function( key, val ) {
+                        let row = staticHtml;
+                        row = row.replace(/{Name}/ig, key);
+                        row = row.replace(/{UOM}/ig, val.uom);
+                        row = row.replace(/{Quantity}/ig, val.quantity);
+                        $('#list-rows').append(row);
+                    });
+                });
+            """ % parameter
+
+            result = self.pepper_execute_js(script)
+
+            # AV - TO BE TESTED <<<
         elif request == "execute_js":
             result = self.pepper_execute_js(parameter)
         else:
