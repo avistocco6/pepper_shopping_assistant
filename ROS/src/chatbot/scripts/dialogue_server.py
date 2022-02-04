@@ -3,6 +3,7 @@ from chatbot.srv import Dialogue, DialogueResponse
 
 import rospy
 import requests
+import json
 
 
 def set_rasa_ID_slot(ID):
@@ -43,7 +44,12 @@ def handle_service(req):
     response.text     = ""
 
     # Fill the service response
-    for i in r.json():
+    print("DEBUG ", r.json())
+    msg = r.json()[0]
+    if "custom" in msg:
+        msg = msg["custom"].json()
+        print("DEBUG ", msg)
+    for i in msg:
         response.request += str(i["request"]) if "request" in i else "talk"
         response.text    += str(i["text"])
 

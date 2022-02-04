@@ -217,9 +217,11 @@ class ActionSubmitShow(Action):
         except:
             return_msg = self.ERROR_MESSAGE
 
-        dispatcher.utter_message(
-            request = "load_url",
-            text = return_msg
+        dispatcher.utter_custom_json(
+            {
+                "request" : "load_url",
+                "text" : return_msg
+            }
         )
 
         return [SlotSet("item", None), SlotSet("quantity", None), SlotSet("uom", None)]

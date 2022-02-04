@@ -57,14 +57,14 @@ class ConversationHandler:
         voice_detection = rospy.ServiceProxy('voice_detection', VoiceDetection)
         speech_request = rospy.ServiceProxy('speech_request', SpeechRequest)
         dialogue = rospy.ServiceProxy('dialogue', Dialogue)
-        pepper_request = rospy.ServiceProxy('pepper_request', PepperRequest)
+        #pepper_request = rospy.ServiceProxy('pepper_request', PepperRequest)
 
         rospy.wait_for_service("voice_detection")
         rospy.wait_for_service("speech_request")
         rospy.wait_for_service("dialogue")
-        rospy.wait_for_service("pepper_request")
+        #rospy.wait_for_service("pepper_request")
 
-        pepper_request("", None)
+        #pepper_request("", None)
         print("CONVERSATION_HANDLER: System ready")
 
         while True:
@@ -85,7 +85,7 @@ class ConversationHandler:
             print("DIALOGUE service requested")
 
             # request PepperRequest service
-            res = pepper_request(answer.request, answer.text)
+            #res = pepper_request(answer.request, answer.text)
             print("PEPPER REQUEST service requested")
 
 

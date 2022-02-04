@@ -1,0 +1,4 @@
+<launch>
+    <arg name="node_start_delay" default="100.0" />  
+    <node pkg="chatbot" name="dialogue_server" type="dialogue_server.py" output="screen" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' "/>
+</launch>
