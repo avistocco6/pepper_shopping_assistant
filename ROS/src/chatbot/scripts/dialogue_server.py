@@ -44,12 +44,9 @@ def handle_service(req):
     response.text     = ""
 
     # Fill the service response
-    print("DEBUG ", r.json())
-    msg = r.json()[0]
-    if "custom" in msg:
-        msg = msg["custom"].json()
-        print("DEBUG ", msg)
-    for i in msg:
+    for i in r.json():
+        if "custom" in i:
+            i = i["custom"]
         response.request += str(i["request"]) if "request" in i else "talk"
         response.text    += str(i["text"])
 

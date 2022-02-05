@@ -2,12 +2,12 @@
 import rospy
 from std_msgs.msg import Int16MultiArray
 import numpy as np
+from optparse import OptionParser
 
 import time
 import speech_recognition as sr
 from audio_recording.srv import *
 
-AUDIO_DEVICE = 2
 CALIBRATION_TIME = 10
 
 class VoiceDetectionServer:
@@ -71,7 +71,13 @@ class VoiceDetectionServer:
 
 
 if __name__ == "__main__":
+
+    parser = OptionParser()
+    parser.add_option("--audio_device", dest="audio_device", default=2)
+    (options, args) = parser.parse_args()
+
     try:
+        AUDIO_DEVICE = int(options.audio_device)
         mic = sr.Microphone(device_index=AUDIO_DEVICE,sample_rate=16000)
         with mic as source:
             node = VoiceDetectionServer(source)
