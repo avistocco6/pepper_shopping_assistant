@@ -4,7 +4,7 @@ cd ROS
 source devel/setup.bash
 
 echo "Running audio_recording nodes...\r"
-gnome-terminal --tab -- roslaunch audio_recording audio_recording.launch audio_device:=$1
+gnome-terminal --tab -- roslaunch audio_recording audio_recording.launch audio_id:=$1
 sleep 5
 echo "Running speech nodes...\r"
 gnome-terminal --tab -- roslaunch speech speech.launch
@@ -16,4 +16,4 @@ echo "Running conversation nodes...\r"
 gnome-terminal --tab -- roslaunch conversation conversation.launch
 sleep 1
 echo "Running pepper nodes\r"
-gnome-terminal --tab -- roslaunch pepper_interface pepper_interface_init.launch ip:=$2
+gnome-terminal --tab -- roslaunch pepper_interface pepper_interface_init.launch nao_ip:=$2
