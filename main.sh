@@ -19,4 +19,4 @@ echo "Running conversation nodes...\r"
 gnome-terminal --tab -- roslaunch conversation conversation.launch
 sleep 1
 echo "Running pepper nodes\r"
-gnome-terminal --tab -- roslaunch pepper_interface pepper_interface_init.launch ip:=$2
+gnome-terminal --tab -- roslaunch pepper_interface pepper_interface_init.launch nao_ip:=$2
