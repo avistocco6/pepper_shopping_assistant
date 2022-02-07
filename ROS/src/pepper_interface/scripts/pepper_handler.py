@@ -8,6 +8,7 @@ import ctypes
 import time
 import os
 import time
+import json
 
 class PepperHandler:
 
@@ -70,6 +71,42 @@ class PepperHandler:
         except:
             return "NACK"
 
+    def pepper_use_tablet(self, parameter):
+        URL = "https://avistocco6.github.io/shopping_list_webview/"
+        result = self.pepper_load_url(URL)
+        time.sleep(3)
+
+        script = """
+            data = JSON.parse(%s)
+            let staticHtml = $("#list-item-template").html();
+
+            $.each( data, function( key, val ) {
+                let row = staticHtml;
+                row = row.replace(/{Name}/ig, key);
+                row = row.replace(/{UOM}/ig, val.uom);
+                row = row.replace(/{Quantity}/ig, val.quantity);
+                $('#list-rows').append(row);
+            });
+        """ % parameter
+
+        result = self.pepper_execute_js(script)
+
+        return result
+
+    def pepper_say_list(self, parameter):
+        dic = json.loads(parameter)
+        s = ""
+        for item in dic:
+            print(dic[item])
+            s += str(dic[item]["quantity"])
+            s += " "
+            s += str(dic[item]["uom"]) if dic[item]["uom"] else ""
+            s += " of " if dic[item]["uom"] else ""
+            s += str(item)
+            s += ", "
+
+        return self.pepper_text2speech(s)
+
     def handle_service(self, data):
         """Perform requested pepper request"""
         request = data.request
@@ -104,28 +141,9 @@ class PepperHandler:
             result = self.pepper_text2speech(parameter)
         elif request == "load_url":
             # parameter is json file
-            # AV - TO BE TESTED>>>
-            URL = "https://avistocco6.github.io/shopping_list_webview/"
-            result = self.pepper_load_url(URL)
-            time.sleep(3)
+            result = self.pepper_use_tablet(parameter)
+            #result = self.pepper_say_list(parameter)
 
-            script = """
-                $.getJSON(%s, function(data) {
-                    let staticHtml = $("#list-item-template").html();
-
-                    $.each( data, function( key, val ) {
-                        let row = staticHtml;
-                        row = row.replace(/{Name}/ig, key);
-                        row = row.replace(/{UOM}/ig, val.uom);
-                        row = row.replace(/{Quantity}/ig, val.quantity);
-                        $('#list-rows').append(row);
-                    });
-                });
-            """ % parameter
-
-            result = self.pepper_execute_js(script)
-
-            # AV - TO BE TESTED <<<
         elif request == "execute_js":
             result = self.pepper_execute_js(parameter)
         else:
