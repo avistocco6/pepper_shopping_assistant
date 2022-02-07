@@ -4,7 +4,7 @@ cd ROS
 source devel/setup.bash
 
 echo "Running audio_recording nodes...\r"
-gnome-terminal --tab -- roslaunch audio_recording audio_recording.launch audio_device:=$1
+gnome-terminal --tab -- roslaunch audio_recording audio_recording.launch audio_id:=$1
 sleep 5
 echo "Running speech nodes...\r"
 gnome-terminal --tab -- roslaunch speech speech.launch
