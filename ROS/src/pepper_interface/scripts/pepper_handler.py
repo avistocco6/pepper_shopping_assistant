@@ -83,7 +83,10 @@ class PepperHandler:
             $.each( data, function( key, val ) {
                 let row = staticHtml;
                 row = row.replace(/{Name}/ig, key);
-                row = row.replace(/{UOM}/ig, val.uom);
+                if(val.uom != null)
+                    row = row.replace(/{UOM}/ig, val.uom);
+                else
+                    row = row.replace(/{UOM}/ig, "");
                 row = row.replace(/{Quantity}/ig, val.quantity);
                 $('#list-rows').append(row);
             });
