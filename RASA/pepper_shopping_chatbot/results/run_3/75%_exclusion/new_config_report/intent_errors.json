@@ -1,0 +1,82 @@
+[
+  {
+    "text": "logout",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.23436476290225983
+    }
+  },
+  {
+    "text": "uh no{\"entity\": \"yes_no_answer\", \"value\": \"deny\"}",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.2904013991355896
+    }
+  },
+  {
+    "text": "empty",
+    "intent": "empty",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.3361760675907135
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.22814612090587616
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.33035552501678467
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5274645090103149
+    }
+  },
+  {
+    "text": "perfect",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.37988176941871643
+    }
+  },
+  {
+    "text": "open sesame",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9527382254600525
+    }
+  },
+  {
+    "text": "a quarter",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.7826607823371887
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.27035728096961975
+    }
+  }
+]

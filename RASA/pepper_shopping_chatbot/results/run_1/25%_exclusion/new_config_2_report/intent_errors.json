@@ -1,0 +1,26 @@
+[
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6516825556755066
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5475901365280151
+    }
+  },
+  {
+    "text": "sugar",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.6981930732727051
+    }
+  }
+]

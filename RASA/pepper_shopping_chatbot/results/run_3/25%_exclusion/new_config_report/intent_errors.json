@@ -1,0 +1,66 @@
+[
+  {
+    "text": "logout",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.22926083207130432
+    }
+  },
+  {
+    "text": "not today",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.41749921441078186
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.5170570015907288
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.33528274297714233
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9083732962608337
+    }
+  },
+  {
+    "text": "open sesame",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.906557023525238
+    }
+  },
+  {
+    "text": "a quarter",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.9819599390029907
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8750892877578735
+    }
+  }
+]

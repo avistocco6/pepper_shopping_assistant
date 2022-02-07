@@ -1,0 +1,82 @@
+[
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.3950543999671936
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.49467942118644714
+    }
+  },
+  {
+    "text": "cheers",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.28081566095352173
+    }
+  },
+  {
+    "text": "let me see what you listed",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.1987299621105194
+    }
+  },
+  {
+    "text": "hi Mister",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7824724316596985
+    }
+  },
+  {
+    "text": "pack",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.897761881351471
+    }
+  },
+  {
+    "text": "can",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.21956442296504974
+    }
+  },
+  {
+    "text": "bottle",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.5326882004737854
+    }
+  },
+  {
+    "text": "one",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.3197472393512726
+    }
+  },
+  {
+    "text": "dishwasher detergent tabs",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.5944736003875732
+    }
+  }
+]

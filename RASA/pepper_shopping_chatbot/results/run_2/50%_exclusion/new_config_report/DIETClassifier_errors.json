@@ -1,0 +1,213 @@
+[
+  {
+    "text": "thanks a bunch for everything",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 7,
+        "end": 8,
+        "confidence_entity": 0.8597350716590881,
+        "value": "one",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cheers",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.40458011627197266,
+        "value": "cheers",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hi Mister",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 3,
+        "end": 9,
+        "confidence_entity": 0.9835931658744812,
+        "value": "Mister",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "insert 2 packs of paper towels",
+    "entities": [
+      {
+        "start": 7,
+        "end": 8,
+        "value": "2",
+        "entity": "quantity"
+      },
+      {
+        "start": 9,
+        "end": 14,
+        "value": "pack",
+        "entity": "uom"
+      },
+      {
+        "start": 18,
+        "end": 30,
+        "value": "paper towels",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 7,
+        "end": 8,
+        "confidence_entity": 0.9989338517189026,
+        "value": "two",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "uom",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.9982794523239136,
+        "value": "pack",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.42210397124290466,
+        "value": "towels",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "add a can of tuna to the list",
+    "entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "value": "one",
+        "entity": "quantity"
+      },
+      {
+        "start": 6,
+        "end": 9,
+        "value": "can",
+        "entity": "uom"
+      },
+      {
+        "start": 13,
+        "end": 17,
+        "value": "tuna",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.8371771574020386,
+        "value": "one",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.9925225377082825,
+        "value": "tuna",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "insert two packs of paper towels in the list",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "two",
+        "entity": "quantity"
+      },
+      {
+        "start": 11,
+        "end": 16,
+        "value": "pack",
+        "entity": "uom"
+      },
+      {
+        "start": 20,
+        "end": 32,
+        "value": "paper towels",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.7737353444099426,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "uom",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9982908368110657,
+        "value": "pack",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.6842307448387146,
+        "value": "towels",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "can",
+        "entity": "uom"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

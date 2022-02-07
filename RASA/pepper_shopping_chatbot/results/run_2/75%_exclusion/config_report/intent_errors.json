@@ -1,0 +1,82 @@
+[
+  {
+    "text": "logout",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.37272989997899103
+    }
+  },
+  {
+    "text": "pls empty list",
+    "intent": "empty",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.2281077961257329
+    }
+  },
+  {
+    "text": "empty my list",
+    "intent": "empty",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.27539845199765384
+    }
+  },
+  {
+    "text": "i'm off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.31304818273262747
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.32308898498397537
+    }
+  },
+  {
+    "text": "insert three bottle of toilet gel",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.46778962190557116
+    }
+  },
+  {
+    "text": "2 bottle of extra virgin olive oil",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5931916006291255
+    }
+  },
+  {
+    "text": "a quarter",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.6072576865650726
+    }
+  },
+  {
+    "text": "deny",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.21798690660499087
+    }
+  },
+  {
+    "text": "can",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.32609747549179696
+    }
+  }
+]

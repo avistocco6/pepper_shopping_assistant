@@ -1,0 +1,58 @@
+[
+  {
+    "text": "uh no{\"entity\": \"yes_no_answer\", \"value\": \"deny\"}",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.49405160546302795
+    }
+  },
+  {
+    "text": "not today",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3540627658367157
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3482459783554077
+    }
+  },
+  {
+    "text": "perfect",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.3500806391239166
+    }
+  },
+  {
+    "text": "open sesame",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7713854312896729
+    }
+  },
+  {
+    "text": "a quarter",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.28768521547317505
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.46763578057289124
+    }
+  }
+]

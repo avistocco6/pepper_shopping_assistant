@@ -1,0 +1,26 @@
+[
+  {
+    "text": "deny",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6743366718292236
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3401205539703369
+    }
+  },
+  {
+    "text": "disinfectant cleaner",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.6630317568778992
+    }
+  }
+]

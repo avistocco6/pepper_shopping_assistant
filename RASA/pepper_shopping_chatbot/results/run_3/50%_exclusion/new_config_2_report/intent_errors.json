@@ -1,0 +1,66 @@
+[
+  {
+    "text": "log me out",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.36375513672828674
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.31187641620635986
+    }
+  },
+  {
+    "text": "gotta go",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.3929503560066223
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2602858543395996
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.5971783399581909
+    }
+  },
+  {
+    "text": "paper towels",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.18692438304424286
+    }
+  },
+  {
+    "text": "twelve",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.8944511413574219
+    }
+  },
+  {
+    "text": "stain remover",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.9664334058761597
+    }
+  }
+]

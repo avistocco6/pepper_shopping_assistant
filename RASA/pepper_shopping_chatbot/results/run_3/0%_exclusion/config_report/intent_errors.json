@@ -1,0 +1,58 @@
+[
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2074493956648523
+    }
+  },
+  {
+    "text": "not today",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.21169332065215293
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.34076927555641506
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.2724312456151681
+    }
+  },
+  {
+    "text": "insert three bottle of toilet gel",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5035796407843036
+    }
+  },
+  {
+    "text": "mark down two banana",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5996456943791701
+    }
+  },
+  {
+    "text": "Melody",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5963042021062358
+    }
+  }
+]

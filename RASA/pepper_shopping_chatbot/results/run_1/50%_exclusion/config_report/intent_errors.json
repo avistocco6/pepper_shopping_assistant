@@ -1,0 +1,98 @@
+[
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4235420536512291
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.48754176473285316
+    }
+  },
+  {
+    "text": "show",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2796480922621388
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6266632120898393
+    }
+  },
+  {
+    "text": "i need one bottles of wine",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.38785554915514453
+    }
+  },
+  {
+    "text": "add seven bell pepper",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6146079419004876
+    }
+  },
+  {
+    "text": "Melody",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.34522889639458126
+    }
+  },
+  {
+    "text": "kilogram",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.9475597164325037
+    }
+  },
+  {
+    "text": "Kit",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.6522213844267756
+    }
+  },
+  {
+    "text": "cake",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.5744837914482294
+    }
+  },
+  {
+    "text": "jar",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.5084675941787576
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.27417240834533285
+    }
+  }
+]

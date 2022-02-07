@@ -60,7 +60,6 @@ def handle_service(req):
         
         # Matching
         id_label = dist2id(cos_dist, y, TH, mode='avg')    
-        
 
     # If the voice is unknown it adds it to the database
     if len(X) == 0 or id_label is None:

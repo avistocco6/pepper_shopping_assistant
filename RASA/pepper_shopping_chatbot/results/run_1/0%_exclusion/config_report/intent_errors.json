@@ -1,0 +1,66 @@
+[
+  {
+    "text": "log me out",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.34578936466606536
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.35408580090408803
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7426508108007591
+    }
+  },
+  {
+    "text": "add seven bell pepper",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6063410664814629
+    }
+  },
+  {
+    "text": "Melody",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.49768416694947093
+    }
+  },
+  {
+    "text": "kilogram",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.6315030459360197
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.32030056590358164
+    }
+  },
+  {
+    "text": "toilet paper",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.6693274633851748
+    }
+  }
+]

@@ -1,0 +1,351 @@
+[
+  {
+    "text": "thanks a bunch for everything",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 7,
+        "end": 8,
+        "confidence_entity": 0.5295692086219788,
+        "value": "one",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hi Mister",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 3,
+        "end": 9,
+        "confidence_entity": 0.9440593123435974,
+        "value": "Mister",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "insert 3 bottle of toilet gel in the list",
+    "entities": [
+      {
+        "start": 7,
+        "end": 8,
+        "value": "three",
+        "entity": "quantity"
+      },
+      {
+        "start": 9,
+        "end": 15,
+        "value": "bottle",
+        "entity": "uom"
+      },
+      {
+        "start": 19,
+        "end": 29,
+        "value": "toilet gel",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 7,
+        "end": 8,
+        "confidence_entity": 0.999527096748352,
+        "value": "three",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "uom",
+        "start": 9,
+        "end": 15,
+        "confidence_entity": 0.9903271794319153,
+        "value": "bottle",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "item",
+        "start": 26,
+        "end": 29,
+        "confidence_entity": 0.34459108114242554,
+        "value": "gel",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can u add one bottle of body scrub to the list?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "value": "one",
+        "entity": "quantity"
+      },
+      {
+        "start": 14,
+        "end": 20,
+        "value": "bottle",
+        "entity": "uom"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "value": "body scrub",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 10,
+        "end": 13,
+        "confidence_entity": 0.8450294137001038,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "uom",
+        "start": 14,
+        "end": 20,
+        "confidence_entity": 0.989509105682373,
+        "value": "bottle",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "item",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.2664031982421875,
+        "value": "scrub",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "add a meat pie",
+    "entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "value": "1",
+        "entity": "quantity"
+      },
+      {
+        "start": 6,
+        "end": 14,
+        "value": "meat pie",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 6,
+        "end": 10,
+        "confidence_entity": 0.785011887550354,
+        "value": "meat",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "item",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.8083363771438599,
+        "value": "pie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "write down half dozen courgette",
+    "entities": [
+      {
+        "start": 11,
+        "end": 21,
+        "value": "6",
+        "entity": "quantity"
+      },
+      {
+        "start": 22,
+        "end": 31,
+        "value": "zucchini",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.7716573476791382,
+        "value": "12",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 22,
+        "end": 31,
+        "confidence_entity": 0.7738730907440186,
+        "value": "zucchini",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "can u add a dozen egg",
+    "entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "12",
+        "entity": "quantity"
+      },
+      {
+        "start": 18,
+        "end": 21,
+        "value": "egg",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 12,
+        "end": 17,
+        "confidence_entity": 0.7496086955070496,
+        "value": "12",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 18,
+        "end": 21,
+        "confidence_entity": 0.4718252718448639,
+        "value": "egg",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can u add 1 bottle of body scrub?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 11,
+        "value": "1",
+        "entity": "quantity"
+      },
+      {
+        "start": 12,
+        "end": 18,
+        "value": "bottle",
+        "entity": "uom"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "value": "body scrub",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 10,
+        "end": 11,
+        "confidence_entity": 0.9989383816719055,
+        "value": "one",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "uom",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.9900932908058167,
+        "value": "bottle",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "add a can of tuna to the list",
+    "entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "value": "one",
+        "entity": "quantity"
+      },
+      {
+        "start": 6,
+        "end": 9,
+        "value": "can",
+        "entity": "uom"
+      },
+      {
+        "start": 13,
+        "end": 17,
+        "value": "tuna",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.5590398907661438,
+        "value": "one",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.86907559633255,
+        "value": "tuna",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "can",
+        "entity": "uom"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

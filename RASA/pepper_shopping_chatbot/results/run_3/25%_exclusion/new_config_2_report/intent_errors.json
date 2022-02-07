@@ -1,0 +1,58 @@
+[
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.3817129135131836
+    }
+  },
+  {
+    "text": "not today",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.20018984377384186
+    }
+  },
+  {
+    "text": "gotta go",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.31119298934936523
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2940238416194916
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.6734700798988342
+    }
+  },
+  {
+    "text": "baking powder",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.9398878812789917
+    }
+  },
+  {
+    "text": "ham",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5440288186073303
+    }
+  }
+]

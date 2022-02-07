@@ -1,0 +1,90 @@
+[
+  {
+    "text": "uh no{\"entity\": \"yes_no_answer\", \"value\": \"deny\"}",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.24157780408859253
+    }
+  },
+  {
+    "text": "no{\"entity\": \"yes_no_answer\", \"value\": \"deny\"}",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2477719783782959
+    }
+  },
+  {
+    "text": "empty",
+    "intent": "empty",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6483820676803589
+    }
+  },
+  {
+    "text": "catch you later",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.5660659074783325
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5301329493522644
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5777950286865234
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.31131240725517273
+    }
+  },
+  {
+    "text": "kilogram",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.48476383090019226
+    }
+  },
+  {
+    "text": "Emily",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8187640309333801
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6281132698059082
+    }
+  },
+  {
+    "text": "mouthwash",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.523248016834259
+    }
+  }
+]

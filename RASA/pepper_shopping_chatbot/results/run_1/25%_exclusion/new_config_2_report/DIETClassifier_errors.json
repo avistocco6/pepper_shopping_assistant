@@ -1,0 +1,318 @@
+[
+  {
+    "text": "delete the [meat]](item) from the list",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 12,
+        "end": 23,
+        "confidence_entity": 0.991273820400238,
+        "value": "meat]](item",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "good morning",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.800136923789978,
+        "value": "morning",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can u pls add [two] disinfectant cleaner to the list",
+    "entities": [
+      {
+        "start": 20,
+        "end": 40,
+        "value": "disinfectant cleaner",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.9983946681022644,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 20,
+        "end": 40,
+        "confidence_entity": 0.9988798499107361,
+        "value": "disinfectant cleaner",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i need 6 bottles of water",
+    "entities": [
+      {
+        "start": 7,
+        "end": 8,
+        "value": "6",
+        "entity": "quantity"
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "value": "bottle",
+        "entity": "uom"
+      },
+      {
+        "start": 20,
+        "end": 25,
+        "value": "water",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 7,
+        "end": 8,
+        "confidence_entity": 0.999458372592926,
+        "value": "six",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "uom",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.9994687438011169,
+        "value": "bottle",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "write down two jars of red beet",
+    "entities": [
+      {
+        "start": 11,
+        "end": 14,
+        "value": "2",
+        "entity": "quantity"
+      },
+      {
+        "start": 15,
+        "end": 19,
+        "value": "jar",
+        "entity": "uom"
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "value": "beetroot",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.9986286163330078,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "uom",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.9811211228370667,
+        "value": "jar",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 27,
+        "end": 31,
+        "confidence_entity": 0.6821483969688416,
+        "value": "beetroot",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "insert 1 carpet cleaner",
+    "entities": [
+      {
+        "start": 7,
+        "end": 8,
+        "value": "1",
+        "entity": "quantity"
+      },
+      {
+        "start": 9,
+        "end": 23,
+        "value": "carpet cleaner",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 7,
+        "end": 8,
+        "confidence_entity": 0.9996486902236938,
+        "value": "one",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9991992115974426,
+        "value": "cleaner",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "add couple deodorant",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "2",
+        "entity": "quantity"
+      },
+      {
+        "start": 11,
+        "end": 20,
+        "value": "deodorant",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.9814498424530029,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "user",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.8092836141586304,
+        "value": "deodorant",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "deodorant",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "deodorant",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.8322889804840088,
+        "value": "deodorant",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "red pepper",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "red pepper",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.5569155812263489,
+        "value": "pepper",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "pint",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "pint",
+        "entity": "uom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9563577771186829,
+        "value": "pint",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "confirm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "confirm",
+        "entity": "yes_no_answer"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

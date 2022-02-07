@@ -1,0 +1,94 @@
+{
+  "affirm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "empty": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "show": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "remove": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 38,
+    "confused_with": {}
+  },
+  "thankyou": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "insert": {
+    "precision": 0.9910714285714286,
+    "recall": 1.0,
+    "f1-score": 0.9955156950672646,
+    "support": 111,
+    "confused_with": {}
+  },
+  "inform": {
+    "precision": 1.0,
+    "recall": 0.9966887417218543,
+    "f1-score": 0.9983416252072967,
+    "support": 302,
+    "confused_with": {
+      "insert": 1
+    }
+  },
+  "logout": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 63,
+    "confused_with": {}
+  },
+  "accuracy": 0.9983471074380166,
+  "macro avg": {
+    "precision": 0.9991883116883117,
+    "recall": 0.9996989765201686,
+    "f1-score": 0.9994415745704146,
+    "support": 605
+  },
+  "weighted avg": {
+    "precision": 0.99836186540732,
+    "recall": 0.9983471074380166,
+    "f1-score": 0.998349442917471,
+    "support": 605
+  }
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "text": "have a nice day",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.7524237632751465,
+        "value": "one",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "open sesame",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.8638285398483276,
+        "value": "sesame",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "add a can of tuna",
+    "entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "value": "1",
+        "entity": "quantity"
+      },
+      {
+        "start": 6,
+        "end": 9,
+        "value": "can",
+        "entity": "uom"
+      },
+      {
+        "start": 13,
+        "end": 17,
+        "value": "tuna",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.7718572020530701,
+        "value": "one",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.9934675097465515,
+        "value": "tuna",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a quarter",
+    "entities": [
+      {
+        "start": 2,
+        "end": 9,
+        "value": "quarter",
+        "entity": "quantity"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.7064273953437805,
+        "value": "one",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "confirm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "confirm",
+        "entity": "yes_no_answer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ash",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "Ash",
+        "entity": "user"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.40374889969825745,
+        "value": "Ash",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kit",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "Kit",
+        "entity": "user"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "deodorant",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "deodorant",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.45703089237213135,
+        "value": "deodorant",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

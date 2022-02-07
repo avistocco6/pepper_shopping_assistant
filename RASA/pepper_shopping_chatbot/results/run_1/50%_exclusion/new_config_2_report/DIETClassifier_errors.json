@@ -1,0 +1,433 @@
+[
+  {
+    "text": "delete jalapeno from the list",
+    "entities": [
+      {
+        "start": 7,
+        "end": 15,
+        "value": "red pepper",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "good morning",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.5609567165374756,
+        "value": "morning",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can u pls add [two] disinfectant cleaner to the list",
+    "entities": [
+      {
+        "start": 20,
+        "end": 40,
+        "value": "disinfectant cleaner",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.9986168146133423,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 20,
+        "end": 40,
+        "confidence_entity": 0.998940646648407,
+        "value": "disinfectant cleaner",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i need one bottles of wine",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "1",
+        "entity": "quantity"
+      },
+      {
+        "start": 11,
+        "end": 18,
+        "value": "bottle",
+        "entity": "uom"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "value": "wine",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9987888932228088,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "uom",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.9980049729347229,
+        "value": "bottle",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "quantity",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.9247608184814453,
+        "value": "wine",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "write down two jars of red beet",
+    "entities": [
+      {
+        "start": 11,
+        "end": 14,
+        "value": "2",
+        "entity": "quantity"
+      },
+      {
+        "start": 15,
+        "end": 19,
+        "value": "jar",
+        "entity": "uom"
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "value": "beetroot",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.9987300038337708,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "uom",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.6207606196403503,
+        "value": "jar",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i need one pack of dental floss",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "1",
+        "entity": "quantity"
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "value": "pack",
+        "entity": "uom"
+      },
+      {
+        "start": 19,
+        "end": 31,
+        "value": "dental floss",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9987913966178894,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "uom",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.9982897639274597,
+        "value": "pack",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "item",
+        "start": 26,
+        "end": 31,
+        "confidence_entity": 0.9965865612030029,
+        "value": "dental floss",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "add six cans of lentils",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "6",
+        "entity": "quantity"
+      },
+      {
+        "start": 8,
+        "end": 12,
+        "value": "can",
+        "entity": "uom"
+      },
+      {
+        "start": 16,
+        "end": 23,
+        "value": "lentils",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "uom",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.973543107509613,
+        "value": "can",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9992337226867676,
+        "value": "lentils",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "insert 2 packs of paper towels",
+    "entities": [
+      {
+        "start": 7,
+        "end": 8,
+        "value": "2",
+        "entity": "quantity"
+      },
+      {
+        "start": 9,
+        "end": 14,
+        "value": "pack",
+        "entity": "uom"
+      },
+      {
+        "start": 18,
+        "end": 30,
+        "value": "paper towels",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "quantity",
+        "start": 7,
+        "end": 8,
+        "confidence_entity": 0.999214768409729,
+        "value": "two",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "uom",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.999093770980835,
+        "value": "pack",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "item",
+        "start": 18,
+        "end": 23,
+        "confidence_entity": 0.5499498248100281,
+        "value": "paper",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "red pepper",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "red pepper",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.9003721475601196,
+        "value": "pepper",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "pint",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "pint",
+        "entity": "uom"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9336005449295044,
+        "value": "pint",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "confirm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "confirm",
+        "entity": "yes_no_answer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "toilet paper",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "toilet paper",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.7613376975059509,
+        "value": "paper",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "paper towels",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "paper towels",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "item",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.8652679324150085,
+        "value": "paper",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "wine",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "wine",
+        "entity": "item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.7875235676765442,
+        "value": "wine",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

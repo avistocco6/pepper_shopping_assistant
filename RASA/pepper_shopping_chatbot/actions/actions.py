@@ -37,7 +37,7 @@ def save_user_and_id(tracker):
             except:
                 data = dict()
 
-            user = tracker.get_slot("user")
+            user = tracker.get_slot("user").lower()
             last_IDs = tracker.get_slot("last_IDs")
             sender_ID = tracker.get_slot("ID")
 
@@ -74,7 +74,7 @@ class ActionSubmitInsert(Action):
         return_msg = ""
         try:
             # Open file
-            user = tracker.get_slot("user")
+            user = tracker.get_slot("user").lower()
             if tracker.get_slot("user") is None:
                 user = "DEFAULT"
             filename = PATH + user + "_shopping_list.json"
@@ -94,7 +94,7 @@ class ActionSubmitInsert(Action):
                 except:
                     data = dict()
                 # Define item to save
-                item = tracker.get_slot("item")
+                item = tracker.get_slot("item").lower()
                 quantity = tracker.get_slot("quantity")
                 uom = tracker.get_slot("uom")
                 new_item = { "quantity" : quantity, "uom" : uom }
@@ -145,7 +145,7 @@ class ActionSubmitRemove(Action):
         return_msg = ""
         try:
             # Open file
-            user = tracker.get_slot("user")
+            user = tracker.get_slot("user").lower()
             if tracker.get_slot("user") is None:
                 user = "DEFAULT"
             filename = PATH + user + "_shopping_list.json"
@@ -155,7 +155,7 @@ class ActionSubmitRemove(Action):
                 data = json.load(f)
                 
                 # Remove item
-                item = tracker.get_slot("item")
+                item = tracker.get_slot("item").lower()
                 if item in data:
                     del data[item]
 
@@ -298,7 +298,7 @@ class ActionSubmitLogout(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        self.user = tracker.get_slot("user")
+        self.user = tracker.get_slot("user").lower()
         #if self.user is not None:
         #    logout_message = "Bye bye " + self.user + "!"
         #    dispatcher.utter_message(text = logout_message)

@@ -1,0 +1,170 @@
+[
+  {
+    "text": "logout",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.6348556015339317
+    }
+  },
+  {
+    "text": "uh no{\"entity\": \"yes_no_answer\", \"value\": \"deny\"}",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.2230722510496943
+    }
+  },
+  {
+    "text": "not today",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.32235888942909857
+    }
+  },
+  {
+    "text": "definitely{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"}",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3459622227837331
+    }
+  },
+  {
+    "text": "yes{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"} yes{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"} yes{\"entity\": \"yes_no_answer\", \"value\": \"confirm\"}",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3459622202986955
+    }
+  },
+  {
+    "text": "empty",
+    "intent": "empty",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.23704653507165901
+    }
+  },
+  {
+    "text": "empty the list",
+    "intent": "empty",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.19216704920841385
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thankyou",
+      "confidence": 0.20594682575039688
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.41506265831024397
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.42750995529906083
+    }
+  },
+  {
+    "text": "perfect",
+    "intent": "thankyou",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2978955365705307
+    }
+  },
+  {
+    "text": "open sesame",
+    "intent": "show",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7761545231802277
+    }
+  },
+  {
+    "text": "it's Wilhelmina",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.33823599689146167
+    }
+  },
+  {
+    "text": "2 bottle of extra virgin olive oil",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5653045206927969
+    }
+  },
+  {
+    "text": "write down half dozen courgette",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5780906940323004
+    }
+  },
+  {
+    "text": "i need one bottles of wine",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.40868144446275906
+    }
+  },
+  {
+    "text": "a quarter",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.4985675516941631
+    }
+  },
+  {
+    "text": "dental floss",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.5779408027925971
+    }
+  },
+  {
+    "text": "confirm",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "remove",
+      "confidence": 0.20822736862346236
+    }
+  },
+  {
+    "text": "Kit",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.7101648583730713
+    }
+  },
+  {
+    "text": "ounce",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.5290330417284431
+    }
+  }
+]

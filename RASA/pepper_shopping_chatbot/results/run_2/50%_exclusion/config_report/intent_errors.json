@@ -1,0 +1,66 @@
+[
+  {
+    "text": "i'm off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.30680588641180084
+    }
+  },
+  {
+    "text": "see you",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.36392233843998734
+    }
+  },
+  {
+    "text": "bye bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.28759946297269073
+    }
+  },
+  {
+    "text": "insert three bottle of toilet gel",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5617248773565299
+    }
+  },
+  {
+    "text": "2 bottle of extra virgin olive oil",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5814480184343033
+    }
+  },
+  {
+    "text": "a quarter",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.6215445686262779
+    }
+  },
+  {
+    "text": "deny",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.44158424565261933
+    }
+  },
+  {
+    "text": "can",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.5974482797331201
+    }
+  }
+]

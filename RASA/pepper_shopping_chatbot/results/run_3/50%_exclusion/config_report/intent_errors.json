@@ -1,0 +1,82 @@
+[
+  {
+    "text": "log out",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.28746979589023086
+    }
+  },
+  {
+    "text": "log me out",
+    "intent": "logout",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.2589688404905904
+    }
+  },
+  {
+    "text": "do you have something else",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "show",
+      "confidence": 0.19553776111771662
+    }
+  },
+  {
+    "text": "not today",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.263787533008129
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.40371789889203086
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3262525262628134
+    }
+  },
+  {
+    "text": "mark down two banana",
+    "intent": "insert",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5801875462945354
+    }
+  },
+  {
+    "text": "paper towels",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.558696450157245
+    }
+  },
+  {
+    "text": "toilet paper",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "insert",
+      "confidence": 0.6477980176361191
+    }
+  },
+  {
+    "text": "Melody",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7192297140330088
+    }
+  }
+]
