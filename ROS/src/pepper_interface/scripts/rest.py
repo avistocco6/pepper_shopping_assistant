@@ -13,8 +13,6 @@ class RestServer:
 
         self.motion_proxy = ALProxy("ALMotion", ip, port)
         self.posture_proxy = ALProxy("ALRobotPosture", ip, port)
-        #self.session = qi.Session()
-        #self.connect()
 
     def connect(self):
         """
@@ -33,8 +31,6 @@ class RestServer:
 
     def handle_service(self, *args):
         print("REST")
-        # while not self.is_connected():
-        #     self.connect()
 
         try:
             self.motion_proxy.rest()
@@ -54,8 +50,7 @@ class RestServer:
             self.posture_proxy.goToPosture("StandInit", 0.5)
 
     def start(self):
-        rospy.init_node("rest")
-        # self.rest()    
+        rospy.init_node("rest") 
         rospy.Service("rest", Rest, self.handle_service)
         rospy.spin()
 

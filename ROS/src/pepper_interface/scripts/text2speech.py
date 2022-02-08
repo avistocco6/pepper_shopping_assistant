@@ -5,7 +5,6 @@ from pepper_interface.srv import *
 import rospy
 import qi
 from time import sleep
-# import threading as th
 
 class Text2SpeechServer:
 
@@ -14,16 +13,12 @@ class Text2SpeechServer:
         self.port = port
 
         self.tts = ALProxy("ALTextToSpeech", ip, port)
-        #self.session = qi.Session()
-        #self.connect()
 
     def connect(self):
         """
         Connects the proxy server
         """
         self.session = self.session.connect("tcp://" + str(self.ip) + ":" + str(self.port))
-        
-        # self.tts = self.session.service("ALTextToSpeech")
 
     def is_connected(self):
         """
@@ -33,14 +28,10 @@ class Text2SpeechServer:
 
     def handle_service(self, msg):
         print("TALK: " + str(msg.text))
-        # while not self.is_connected():
-        #     self.connect()
 
         try:
             self.tts.say(msg.text)
             sleep(5)
-            # ev = qi.async(tts.say, msg.text)
-            # ev.value()
         except:
             self.tts = ALProxy("ALTextToSpeech", self.ip, self.port)
             self.tts.say(msg.text)

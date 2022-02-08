@@ -14,8 +14,6 @@ class WakeUpServer:
 
         self.motion_proxy = ALProxy("ALMotion", ip, port)
         self.posture_proxy = ALProxy("ALRobotPosture", ip, port)
-        # self.session = qi.Session()
-        # self.connect()
 
     def connect(self):
         """
@@ -33,8 +31,6 @@ class WakeUpServer:
 
     def handle_service(self, *args):
         print("\n\nWakeUP\n\n")
-        # while not self.is_connected():
-        #     self.connect()
 
         try:
             self.motion_proxy.wakeUp()
@@ -54,8 +50,6 @@ class WakeUpServer:
 
     def start(self):
         rospy.init_node("wake_up")
-        #self.wakeup()
-        #self.stand()
         rospy.Service("wakeup", WakeUp, self.handle_service)
         rospy.spin()
 

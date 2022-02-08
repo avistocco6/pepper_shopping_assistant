@@ -22,14 +22,10 @@ class VoiceDetectionServer:
 
     def handle_service(self, req):
         # start listening in the background
-        # `stop_listening` is now a function that, when called, stops background listening
         print("VOICE_DETECTION: Recording...")
 
         self.service_response = None
 
-        # #stop_listening = self.r.listen_in_background(self.m, self.listen_callback)
-        # with self.m as source:
-        #     self.r.adjust_for_ambient_noise(source)
         print("VOICE_DETECTION: Trying to listen")
         self.audio = self.r.listen(self.m)
         data = np.frombuffer(self.audio.get_raw_data(), dtype=np.int16)
@@ -39,11 +35,6 @@ class VoiceDetectionServer:
         print("SPEECH_HANDLER: Voice detected")
         print("SPEECH_HANDLER: Message sent")
 
-        # while self.service_response is None:
-        #     #time.sleep(0.050)
-        #     continue
-
-        # stop_listening()
         return self.service_response
 
     # this is called from the background thread

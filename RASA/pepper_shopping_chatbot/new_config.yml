@@ -4,9 +4,9 @@ language: en
 
 pipeline:
   - name: SpacyNLP
-  - name: SpacyTokenizer
-  - name: SpacyFeaturizer
-  - name: RegexFeaturizer
+    model: "en_core_web_md"
+  - name: WhitespaceTokenizer
+#  - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
     analyzer: "char_wb"
@@ -15,14 +15,20 @@ pipeline:
   - name: DIETClassifier
     epochs: 50
   - name: EntitySynonymMapper
-  - name: ResponseSelector
-    epochs: 100
+  - name: FallbackClassifier
+    threshold: 0.3
+    ambiguity_threshold: 0.1
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/ra
 policies:
-  - name: MemoizationPolicy
-  - name: RulePolicy
-  - name: TEDPolicy
-    max_history: 10
-    epochs: 50
+- name: MemoizationPolicy
+- name: TEDPolicy
+  max history: 10
+  epochs: 50
+  number of transformer layers:
+    text: 2
+    action text: 2
+    label action text: 2
+    dialogue: 2
+- name: RulePolicy

@@ -57,8 +57,6 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
-  ExecuteJS.srv
-  LoadURL.srv
   Rest.srv
   Talk.srv
   WakeUp.srv
@@ -167,7 +165,6 @@ include_directories(
 catkin_install_python(PROGRAMS
   scripts/wake_up.py
   scripts/text2speech.py
-  scripts/tablet.py
   scripts/rest.py
   scripts/pepper_handler.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}

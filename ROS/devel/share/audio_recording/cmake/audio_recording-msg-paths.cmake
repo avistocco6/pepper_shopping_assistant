@@ -1,1 +1,0 @@
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/share/audio_recording/cmake/audio_recording-msg-paths.cmake

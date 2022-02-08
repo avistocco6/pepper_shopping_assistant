@@ -219,7 +219,7 @@ class ActionSubmitShow(Action):
 
         dispatcher.utter_custom_json(
             {
-                "request" : "load_url",
+                "request" : "show",
                 "text" : return_msg
             }
         )

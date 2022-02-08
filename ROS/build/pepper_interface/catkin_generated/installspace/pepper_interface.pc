@@ -1,8 +1,0 @@
-prefix=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/install
-
-Name: pepper_interface
-Description: Description of pepper_interface
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime

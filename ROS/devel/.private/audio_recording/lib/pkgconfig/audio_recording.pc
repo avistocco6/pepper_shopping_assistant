@@ -1,8 +1,0 @@
-prefix=/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording
-
-Name: audio_recording
-Description: Description of audio_recording
-Version: 0.0.0
-Cflags: -I/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/audio_recording/include
-Libs: -L${prefix}/lib 
-Requires: 

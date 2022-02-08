@@ -1,1 +1,0 @@
-/home/alfonso/Desktop/pepper_shopping_assistant/ROS/devel/.private/chatbot/include/chatbot/Dialogue.h
